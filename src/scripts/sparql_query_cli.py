@@ -1,30 +1,56 @@
 import click
-from SPARQLWrapper import SPARQLWrapper, JSON
+import sparql_dataframe
+import pandas as pd
+import re
+
+# using sparql_dataframe and pandas because they handle special characters in the output very nicely
+
+# hopefully won't need these now
+max_cell_val_length = 999_999
+replacement_value = f"value omitted because length exceeds {max_cell_val_length} characters"
 
 
-def convert_to_tsv(results):
-    """ Convert query results to TSV format. """
+# def replace_whitespace(text):
+#     """Replaces all stretches combining newline, carriage return, or tab characters
+#     with a single whitespace character.
+#
+#     Args:
+#       text: The text to be modified.
+#
+#     Returns:
+#       The modified text with whitespace stretches collapsed.
+#     """
+#     return re.sub(r"[\\n\r\t]+", " ", text)
+
+
+def convert_to_dataframe(results):
+    """ Convert query results to a pandas DataFrame. """
+    data = []
     # Extract variable names (headers)
-    headers = results["head"]["vars"]
-    # Print headers
-    print("\t".join(headers))
-    # Print each row of results
-    for result in results["results"]["bindings"]:
-        row = [result[var]['value'] if var in result else "" for var in headers]
-        print("\t".join(row))
+    headers = results.columns
+    # Extract each row of results
+    for index, row in results.iterrows():
+        new_row = {}
+        for header in headers:
+            value = row[header]
+            if isinstance(value, str) and len(value) > max_cell_val_length:
+                value = replacement_value
+            new_row[header] = value
+        data.append(new_row)
+    return pd.DataFrame(data)
 
 
 @click.command()
-@click.option('--query-file', type=click.File('r'), required=True, help='File containing the SPARQL query.')
+@click.option('--query-file', type=click.Path(exists=True), required=True, help='File containing the SPARQL query.')
 @click.option('--endpoint', required=True, help='URL of the SPARQL endpoint.')
-def main(query_file, endpoint):
-    """ Execute a SPARQL query from a file against a specified endpoint and output results in TSV format. """
-    query = query_file.read()
-    sparql = SPARQLWrapper(endpoint)
-    sparql.setQuery(query)
-    sparql.setReturnFormat(JSON)
-    results = sparql.query().convert()
-    convert_to_tsv(results)
+@click.option('--output-file', required=True, help='Output CSV file name.')
+def main(query_file, endpoint, output_file):
+    """ Execute a SPARQL query from a file against a specified endpoint and output results in CSV format. """
+    with open(query_file, 'r') as file:
+        query = file.read()
+    df = sparql_dataframe.get(endpoint, query)
+    df = convert_to_dataframe(df)
+    df.to_csv(output_file, index=False)
 
 
 if __name__ == "__main__":

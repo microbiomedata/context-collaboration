@@ -1,0 +1,414 @@
+ENVO:00000428 ! biome
+ENVO:00000446 ! terrestrial biome
+ENVO:00000889 ! large river delta biome
+ENVO:00000890 ! small river biome
+ENVO:00000891 ! large freshwater lake biome
+ENVO:00000893 ! xeric basin biome
+ENVO:00002030 ! aquatic biome
+ENVO:01000004 ! concentration basin mediterranean sea biome
+ENVO:01000020 ! estuarine biome
+ENVO:01000022 ! marine salt marsh biome
+ENVO:01000023 ! marine pelagic biome
+ENVO:01000024 ! marine benthic biome
+ENVO:01000025 ! marine neritic benthic zone biome
+ENVO:01000027 ! marine abyssal zone biome
+ENVO:01000028 ! marine hadal zone biome
+ENVO:01000030 ! marine hydrothermal vent biome
+ENVO:01000032 ! neritic pelagic zone biome
+ENVO:01000034 ! oceanic sea surface microlayer biome
+ENVO:01000035 ! oceanic epipelagic zone biome
+ENVO:01000036 ! oceanic mesopelagic zone biome
+ENVO:01000037 ! oceanic bathypelagic zone biome
+ENVO:01000038 ! oceanic abyssopelagic zone biome
+ENVO:01000039 ! oceanic hadal pelagic zone biome
+ENVO:01000040 ! oceanic benthopelagic zone biome
+ENVO:01000041 ! neritic sea surface microlayer biome
+ENVO:01000046 ! marginal sea biome
+ENVO:01000047 ! mediterranean sea biome
+ENVO:01000048 ! ocean biome
+ENVO:01000051 ! marine black smoker biome
+ENVO:01000052 ! marine white smoker biome
+ENVO:01000053 ! marine ultramafic hydrothermal vent biome
+ENVO:01000054 ! marine basaltic hydrothermal vent biome
+ENVO:01000123 ! marine sponge reef biome
+ENVO:01000127 ! marine cold seep biome
+ENVO:01000128 ! dilution basin mediterranean sea biome
+ENVO:01000174 ! forest biome
+ENVO:01000175 ! woodland biome
+ENVO:01000177 ! grassland biome
+ENVO:01000178 ! savanna biome
+ENVO:01000179 ! desert biome
+ENVO:01000180 ! tundra biome
+ENVO:01000181 ! mangrove biome
+ENVO:01000182 ! temperate desert biome
+ENVO:01000183 ! tropical desert biome
+ENVO:01000184 ! subtropical desert biome
+ENVO:01000185 ! montane desert biome
+ENVO:01000186 ! polar desert biome
+ENVO:01000189 ! temperate savanna biome
+ENVO:01000190 ! flooded savanna biome
+ENVO:01000191 ! subtropical grassland biome
+ENVO:01000192 ! tropical grassland biome
+ENVO:01000193 ! temperate grassland biome
+ENVO:01000194 ! montane grassland biome
+ENVO:01000195 ! flooded grassland biome
+ENVO:01000196 ! coniferous forest biome
+ENVO:01000197 ! broadleaf forest biome
+ENVO:01000198 ! mixed forest biome
+ENVO:01000200 ! tropical broadleaf forest biome
+ENVO:01000201 ! subtropical broadleaf forest biome
+ENVO:01000208 ! mediterranean woodland biome
+ENVO:01000209 ! subtropical coniferous forest biome
+ENVO:01000210 ! tropical coniferous forest biome
+ENVO:01000211 ! temperate coniferous forest biome
+ENVO:01000212 ! temperate mixed forest biome
+ENVO:01000213 ! subtropical shrubland biome
+ENVO:01000215 ! temperate shrubland biome
+ENVO:01000216 ! montane shrubland biome
+ENVO:01000218 ! xeric shrubland biome
+ENVO:01000219 ! anthropogenic terrestrial biome
+ENVO:01000220 ! tropical woodland biome
+ENVO:01000221 ! temperate woodland biome
+ENVO:01000222 ! subtropical woodland biome
+ENVO:01000223 ! montane savanna biome
+ENVO:01000224 ! mediterranean grassland biome
+ENVO:01000225 ! subtropical dry broadleaf forest biome
+ENVO:01000228 ! tropical moist broadleaf forest biome
+ENVO:01000229 ! mediterranean savanna biome
+ENVO:01000245 ! cropland biome
+ENVO:01000246 ! village biome
+ENVO:01000247 ! rangeland biome
+ENVO:01000249 ! urban biome
+ENVO:01000252 ! freshwater lake biome
+ENVO:01000253 ! freshwater river biome
+ENVO:01000339 ! polar biome
+ENVO:01000854 ! tropical marine coral reef biome
+ENVO:01000856 ! temperate marginal sea biome
+ENVO:01000857 ! temperate mediterranean sea biome
+ENVO:01000859 ! tropical marine upwelling biome
+ENVO:01000860 ! temperate marine upwelling biome
+ENVO:01001230 ! tropical marginal sea biome
+ENVO:01001369 ! tidal mangrove shrubland
+ENVO:01001505 ! alpine tundra biome
+ENVO:01001798 ! tropical mixed forest biome
+ENVO:01001830 ! tropical biome
+ENVO:01001832 ! subtropical biome
+ENVO:01001834 ! subpolar biome
+ENVO:01001835 ! alpine biome
+ENVO:01001837 ! subalpine biome
+ENVO:01001838 ! arid biome
+ENVO:03605008 ! freshwater stream biome
+ENVO:00000043 ! wetland area
+ENVO:00000106 ! grassland area
+ENVO:00000112 ! area of tundra
+ENVO:00000120 ! oil palm plantation
+ENVO:00000159 ! sugar plantation
+ENVO:00000161 ! banana plantation
+ENVO:00000162 ! tea plantation
+ENVO:00000172 ! sandy desert
+ENVO:00000173 ! rocky desert
+ENVO:00000183 ! stony desert
+ENVO:00000261 ! savanna
+ENVO:00000262 ! steppe
+ENVO:00000266 ! pasture
+ENVO:00000288 ! cotton plantation
+ENVO:00000301 ! chaparral area
+ENVO:00000447 ! marine biome
+ENVO:00000873 ! freshwater biome
+ENVO:00000887 ! large river biome
+ENVO:00000888 ! large river headwater biome
+ENVO:00000889 ! large river delta biome
+ENVO:00000892 ! small freshwater lake biome
+ENVO:00005788 ! rubber plantation soil
+ENVO:01000026 ! marine bathyal zone biome
+ENVO:01000029 ! marine reef biome
+ENVO:01000033 ! oceanic pelagic zone biome
+ENVO:01000042 ! neritic epipelagic zone biome
+ENVO:01000043 ! neritic mesopelagic zone biome
+ENVO:01000045 ! epeiric sea biome
+ENVO:01000049 ! marine coral reef biome
+ENVO:01000050 ! marine subtidal rocky reef biome
+ENVO:01000176 ! shrubland biome
+ENVO:01000179 ! desert biome
+ENVO:01000184 ! subtropical desert biome
+ENVO:01000186 ! polar desert biome
+ENVO:01000187 ! subtropical savanna biome
+ENVO:01000188 ! tropical savanna biome
+ENVO:01000189 ! temperate savanna biome
+ENVO:01000199 ! mediterranean forest biome
+ENVO:01000202 ! temperate broadleaf forest biome
+ENVO:01000214 ! tropical shrubland biome
+ENVO:01000217 ! mediterranean shrubland biome
+ENVO:01000221 ! temperate woodland biome
+ENVO:01000226 ! subtropical moist broadleaf forest biome
+ENVO:01000227 ! tropical dry broadleaf forest biome
+ENVO:01000229 ! mediterranean savanna biome
+ENVO:01000242 ! desert scrubland
+ENVO:01000248 ! dense settlement biome
+ENVO:01000250 ! subpolar coniferous forest biome
+ENVO:01000382 ! cold desert
+ENVO:01000385 ! temperate deciduous broadleaf forest
+ENVO:01000390 ! temperate mixed needleleaf forest
+ENVO:01000399 ! tropical needleleaf forest
+ENVO:01000653 ! slum
+ENVO:01000705 ! soil degradation
+ENVO:01000743 ! land consumption process
+ENVO:01000752 ! area of barren land
+ENVO:01000763 ! rural settlement
+ENVO:01000816 ! area of deciduous forest
+ENVO:01000848 ! flower strip
+ENVO:01000849 ! flower-rich field margin strip
+ENVO:01000855 ! area of mixed forest
+ENVO:01000858 ! marine upwelling biome
+ENVO:01000869 ! area of scrub
+ENVO:01000887 ! area of sedge- and forb-dominated herbaceous vegetation
+ENVO:01000888 ! area of gramanoid or herbaceous vegetation
+ENVO:01000889 ! area of lichen-dominated vegetation
+ENVO:01000894 ! area of emergent herbaceous wetland
+ENVO:01000947 ! ecotone
+ENVO:01000957 ! double tree line ecotone
+ENVO:01001135 ! desert planet
+ENVO:01001200 ! anthropised terrestrial environmental zone
+ENVO:01001269 ! area of developed space
+ENVO:01001357 ! desert
+ENVO:01001360 ! Paramo
+ENVO:01001370 ! tundra ecosystem
+ENVO:01001371 ! alpine tundra ecosystem
+ENVO:01001380 ! neritic mussel reef
+ENVO:01001381 ! oceanic mussel reef
+ENVO:01001386 ! mussel reef
+ENVO:01001389 ! neritic mussel bed
+ENVO:01001429 ! land conversion process
+ENVO:01001430 ! agricultural land conversion process
+ENVO:01001499 ! active agri-ecosystem management process
+ENVO:01001505 ! alpine tundra biome
+ENVO:01001634 ! agricultural landscape diversification process
+ENVO:01001637 ! agricultural specialisation process
+ENVO:01001831 ! temperate biome
+ENVO:01001833 ! mediterranean biome
+ENVO:01001836 ! montane biome
+ENVO:02500001 ! desertification
+ENVO:02500005 ! land degradation
+ENVO:02500044 ! urban pollution
+ENVO:03400001 ! area of alpine tundra
+ENVO:03501237 ! game reserve
+ENVO:03600044 ! organic farm
+ENVO:00000078 ! farm
+ENVO:00000097 ! desert area
+ENVO:00000107 ! heath
+ENVO:00000109 ! woodland area
+ENVO:00000111 ! forested area
+ENVO:00000115 ! orchard
+ENVO:00000116 ! vineyard
+ENVO:00000117 ! plantation
+ENVO:00000118 ! coconut plantation
+ENVO:00000156 ! desert oasis
+ENVO:00000160 ! sisal plantation
+ENVO:00000163 ! coffee plantation
+ENVO:00000164 ! rubber plantation
+ENVO:00000193 ! olive grove
+ENVO:00000218 ! black smoker
+ENVO:00000260 ! prairie
+ENVO:00000296 ! rice field
+ENVO:00000300 ! scrubland area
+ENVO:00002261 ! forest soil
+ENVO:00005746 ! savanna soil
+ENVO:00005750 ! grassland soil
+ENVO:00005751 ! jungle soil
+ENVO:00005769 ! mountain forest soil
+ENVO:00005770 ! beech forest soil
+ENVO:00005772 ! orchard soil
+ENVO:00005773 ! pasture soil
+ENVO:00005777 ! steppe soil
+ENVO:00005783 ! leafy wood soil
+ENVO:00005784 ! spruce forest soil
+ENVO:00005787 ! eucalyptus forest soil
+ENVO:00005795 ! marine mud
+ENVO:01000057 ! marine algal bloom
+ENVO:01000122 ! marine hydrothermal vent
+ENVO:01000129 ! marine hydrothermal vent chimney
+ENVO:01000175 ! woodland biome
+ENVO:01000178 ! savanna biome
+ENVO:01000180 ! tundra biome
+ENVO:01000182 ! temperate desert biome
+ENVO:01000183 ! tropical desert biome
+ENVO:01000185 ! montane desert biome
+ENVO:01000188 ! tropical savanna biome
+ENVO:01000190 ! flooded savanna biome
+ENVO:01000208 ! mediterranean woodland biome
+ENVO:01000210 ! tropical coniferous forest biome
+ENVO:01000220 ! tropical woodland biome
+ENVO:01000222 ! subtropical woodland biome
+ENVO:01000223 ! montane savanna biome
+ENVO:01000237 ! coastal scrubland
+ENVO:01000257 ! white smoker
+ENVO:01000383 ! temperate evergreen needleleaf forest
+ENVO:01000384 ! tropical lowland evergreen broadleaf rain forest
+ENVO:01000386 ! temperate deciduous needleleaf forest
+ENVO:01000387 ! tropical deciduous broadleaf forest
+ENVO:01000388 ! tropical semi-deciduous broadleaf forest
+ENVO:01000389 ! temperate mixed broadleaf forest
+ENVO:01000391 ! tropical semi-evergreen moist broadleaf forest
+ENVO:01000397 ! temperate broadleaf evergreen forest
+ENVO:01000772 ! rural area
+ENVO:01000843 ! area of evergreen forest
+ENVO:01000847 ! hair ice
+ENVO:01000861 ! area of dwarf scrub
+ENVO:01000883 ! area of developed open space
+ENVO:01000884 ! area of developed space with low usage intensity
+ENVO:01000885 ! area of developed space with medium usage intensity
+ENVO:01000886 ! area of developed space with high usage intensity
+ENVO:01000890 ! area of moss-dominated vegetation
+ENVO:01000891 ! area of pastureland or hayfields
+ENVO:01000892 ! area of cropland
+ENVO:01000893 ! area of woody wetland
+ENVO:01000948 ! polar tree-line ecotone
+ENVO:01000953 ! tree line ecotone
+ENVO:01000954 ! alpine tree line ecotone
+ENVO:01000955 ! desert tree line ecotone
+ENVO:01000956 ! desert-alpine tree line ecotone
+ENVO:01001199 ! terrestrial environmental zone
+ENVO:01001207 ! ranch
+ENVO:01001208 ! swamp area
+ENVO:01001246 ! agricultural process
+ENVO:01001248 ! animal husbandry
+ENVO:01001268 ! urban stormwater
+ENVO:01001270 ! rural stormwater
+ENVO:01001289 ! brush fire
+ENVO:01001293 ! bush area
+ENVO:01001304 ! oasis
+ENVO:01001305 ! vegetated area
+ENVO:01001369 ! tidal mangrove shrubland
+ENVO:01001382 ! area of attached mussel assemblages
+ENVO:01001383 ! area of attached Modiolus assemblages
+ENVO:01001385 ! Bathymodiolus-dominated oceanic mussel reef
+ENVO:01001388 ! oceanic mussel bed
+ENVO:01001390 ! Bathymodiolus-dominated oceanic mussel bed
+ENVO:01001625 ! polar tundra ecosystem
+ENVO:01001633 ! agricultural pollution
+ENVO:01001729 ! nautical squall
+ENVO:02000138 ! mangrove biome soil
+ENVO:03400002 ! area of polar tundra
+ENVO:03501120 ! dairy farm
+ENVO:03501236 ! business park
+ENVO:2000005 ! freshwater algal bloom
+ENVO:00000043 ! wetland area
+ENVO:00000115 ! orchard
+ENVO:00000116 ! vineyard
+ENVO:00000117 ! plantation
+ENVO:00000120 ! oil palm plantation
+ENVO:00000159 ! sugar plantation
+ENVO:00000160 ! sisal plantation
+ENVO:00000161 ! banana plantation
+ENVO:00000162 ! tea plantation
+ENVO:00000163 ! coffee plantation
+ENVO:00000164 ! rubber plantation
+ENVO:00000172 ! sandy desert
+ENVO:00000173 ! rocky desert
+ENVO:00000193 ! olive grove
+ENVO:00000260 ! prairie
+ENVO:00000261 ! savanna
+ENVO:00000262 ! steppe
+ENVO:00000266 ! pasture
+ENVO:00000288 ! cotton plantation
+ENVO:00000296 ! rice field
+ENVO:00000300 ! scrubland area
+ENVO:00000301 ! chaparral area
+ENVO:00000888 ! large river headwater biome
+ENVO:00000889 ! large river delta biome
+ENVO:00002261 ! forest soil
+ENVO:00005746 ! savanna soil
+ENVO:00005750 ! grassland soil
+ENVO:00005751 ! jungle soil
+ENVO:00005769 ! mountain forest soil
+ENVO:00005770 ! beech forest soil
+ENVO:00005772 ! orchard soil
+ENVO:00005773 ! pasture soil
+ENVO:00005777 ! steppe soil
+ENVO:00005783 ! leafy wood soil
+ENVO:00005784 ! spruce forest soil
+ENVO:00005787 ! eucalyptus forest soil
+ENVO:00005788 ! rubber plantation soil
+ENVO:00005795 ! marine mud
+ENVO:01000210 ! tropical coniferous forest biome
+ENVO:01000237 ! coastal scrubland
+ENVO:01000242 ! desert scrubland
+ENVO:01000382 ! cold desert
+ENVO:01000383 ! temperate evergreen needleleaf forest
+ENVO:01000384 ! tropical lowland evergreen broadleaf rain forest
+ENVO:01000385 ! temperate deciduous broadleaf forest
+ENVO:01000386 ! temperate deciduous needleleaf forest
+ENVO:01000387 ! tropical deciduous broadleaf forest
+ENVO:01000389 ! temperate mixed broadleaf forest
+ENVO:01000390 ! temperate mixed needleleaf forest
+ENVO:01000391 ! tropical semi-evergreen moist broadleaf forest
+ENVO:01000653 ! slum
+ENVO:01000752 ! area of barren land
+ENVO:01000763 ! rural settlement
+ENVO:01000787 ! wildfire
+ENVO:01000791 ! forest fire
+ENVO:01000816 ! area of deciduous forest
+ENVO:01000843 ! area of evergreen forest
+ENVO:01000861 ! area of dwarf scrub
+ENVO:01000869 ! area of scrub
+ENVO:01000883 ! area of developed open space
+ENVO:01000884 ! area of developed space with low usage intensity
+ENVO:01000885 ! area of developed space with medium usage intensity
+ENVO:01000886 ! area of developed space with high usage intensity
+ENVO:01000887 ! area of sedge- and forb-dominated herbaceous vegetation
+ENVO:01000888 ! area of gramanoid or herbaceous vegetation
+ENVO:01000889 ! area of lichen-dominated vegetation
+ENVO:01000891 ! area of pastureland or hayfields
+ENVO:01000892 ! area of cropland
+ENVO:01000894 ! area of emergent herbaceous wetland
+ENVO:01001199 ! terrestrial environmental zone
+ENVO:01001200 ! anthropised terrestrial environmental zone
+ENVO:01001207 ! ranch
+ENVO:01001208 ! swamp area
+ENVO:01001247 ! agronomic process
+ENVO:01001268 ! urban stormwater
+ENVO:01001269 ! area of developed space
+ENVO:01001270 ! rural stormwater
+ENVO:01001290 ! bush fire
+ENVO:01001291 ! pasture fire
+ENVO:01001292 ! land fire
+ENVO:01001304 ! oasis
+ENVO:01001305 ! vegetated area
+ENVO:01001380 ! neritic mussel reef
+ENVO:01001381 ! oceanic mussel reef
+ENVO:01001382 ! area of attached mussel assemblages
+ENVO:01001383 ! area of attached Modiolus assemblages
+ENVO:01001385 ! Bathymodiolus-dominated oceanic mussel reef
+ENVO:01001386 ! mussel reef
+ENVO:01001388 ! oceanic mussel bed
+ENVO:01001389 ! neritic mussel bed
+ENVO:01001390 ! Bathymodiolus-dominated oceanic mussel bed
+ENVO:02500044 ! urban pollution
+ENVO:03000131 ! grass fire
+ENVO:03400001 ! area of alpine tundra
+ENVO:03400002 ! area of polar tundra
+ENVO:03501237 ! game reserve
+ENVO:03600044 ! organic farm
+ENVO:00000078 ! farm
+ENVO:00000097 ! desert area
+ENVO:00000106 ! grassland area
+ENVO:00000107 ! heath
+ENVO:00000109 ! woodland area
+ENVO:00000111 ! forested area
+ENVO:00000112 ! area of tundra
+ENVO:00000118 ! coconut plantation
+ENVO:00000156 ! desert oasis
+ENVO:00000183 ! stony desert
+ENVO:01000388 ! tropical semi-deciduous broadleaf forest
+ENVO:01000397 ! temperate broadleaf evergreen forest
+ENVO:01000399 ! tropical needleleaf forest
+ENVO:01000772 ! rural area
+ENVO:01000848 ! flower strip
+ENVO:01000849 ! flower-rich field margin strip
+ENVO:01000855 ! area of mixed forest
+ENVO:01000890 ! area of moss-dominated vegetation
+ENVO:01000893 ! area of woody wetland
+ENVO:01001293 ! bush area
+ENVO:01001369 ! tidal mangrove shrubland
+ENVO:03501120 ! dairy farm
+ENVO:03501236 ! business park
