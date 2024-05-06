@@ -1,3 +1,7 @@
+.idea/
+assets/large_outputs/
+
+# from cookiecutter
 /docs/
 /project/docs/
 /tmp/

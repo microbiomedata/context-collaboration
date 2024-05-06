@@ -5,7 +5,9 @@ description = "Resources for data-driven and collaboratively refined mappings be
 authors = ["Mark Andrew Miller <MAM@lbl.gov>"]
 license = "MIT"
 readme = "README.md"
-include = ["README.md", "src/context_collaboration/schema", "project"]
+#include = ["README.md", "src/context_collaboration/schema", "project"]
+include = ["README.md", "src/scripts", "src/context_collaboration/schema", "project"]
+
 
 [tool.poetry.dependencies]
 python = "^3.9"
@@ -28,3 +30,7 @@ build-backend = "poetry_dynamic_versioning.backend"
 
 [tool.poetry.extras]
 docs = ["linkml", "mkdocs-material"]
+
+[tool.poetry.scripts]
+sparql-query-cli = "scripts.sparql_query_cli:main"
+
