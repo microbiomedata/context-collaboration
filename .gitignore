@@ -1,5 +1,6 @@
 .idea/
 assets/large_outputs/
+local/
 
 # from cookiecutter
 /docs/
