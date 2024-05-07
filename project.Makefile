@@ -22,6 +22,16 @@ assets/outputs/sparql/envo_subset_non_host_non_food_env_local_scale_annotations.
 		--endpoint $(NMDC_GRAPHDB_ENVO) \
 		--output-file $@
 
+assets/outputs/sparql/envo_selected_material_entity_relations_pivot_filtered.tsv:
+	$(RUN) python src/scripts/ubergraph_pivot.py \
+		--endpoint "https://ubergraph.apps.renci.org/sparql" \
+		--max-object-usage 100 \
+		--min-col-sparsity 2 \
+		--output-basename "envo_selected_material_entity_relations_pivot" \
+		--output-dir "assets/outputs/sparql/" \
+		--query-file "assets/queries/sparql/envo_relations_pivot.rq"
+
+
 # which runoak
   #/home/mark/.cache/pypoetry/virtualenvs/context-collaboration-meDaFbyk-py3.10/bin/runoak
 
@@ -220,4 +230,9 @@ assets/outputs/sparql/envo_subset_non_host_non_food_env_local_scale_annotations.
   #  validate-mappings              Validates mappings in ontology using...
   #  validate-multiple              Validate multiple ontologies against...
   #  validate-synonyms              Validates synonyms in ontology using...
-  #  viz                            Visualize an ancestor graph using...
+  #  viz
+
+downloads/mixs.yaml:
+	curl --request GET -sL \
+	     --url 'https://raw.githubusercontent.com/GenomicsStandardsConsortium/mixs/main/src/mixs/schema/mixs.yaml'\
+	     --output $@

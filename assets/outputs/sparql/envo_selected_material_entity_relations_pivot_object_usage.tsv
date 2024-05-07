@@ -1,0 +1,3003 @@
+	ols	count
+0	astronomical body part	8730
+1	astronomical object	6541
+2	astronomical body	6424
+3	environmental material	6397
+4	compound astronomical body part	5536
+5	environmental system process	4242
+6	solid astronomical body part	3274
+7	solid environmental material	3194
+8	layer	2751
+9	fluid environmental material	2615
+10	fluid astronomical body part	2539
+11	anthropogenic environmental process	2460
+12	liquid astronomical body part	2342
+13	interface layer	2301
+14	surface layer	2125
+15	solid layer	2017
+16	solid surface layer	1973
+17	surface of an astronomical body	1941
+18	body of liquid	1737
+19	water mass	1732
+20	water body	1724
+21	hydrosphere	1667
+22	land	1604
+23	liquid environmental material	1567
+24	landform	1487
+25	liquid water	1414
+26	technosphere	1286
+27	environmental system	1271
+28	construction	1261
+29	human construction	1255
+30	mass of environmental material	1119
+31	mass of solid material	1091
+32	human-directed construction process	1076
+33	hydrological process	1044
+34	particulate environmental material	1040
+35	ecosystem	973
+36	particle	960
+37	lentic water body	952
+38	marine water body	789
+39	biosphere	787
+40	manufacturing process	765
+41	organic material	750
+42	material transport process	721
+43	material accumulation process	698
+44	environmental system determined by a quality	698
+45	liquid accumulation process	663
+46	water accumulation process	659
+47	terrestrial ecosystem	628
+48	particle of sand	627
+49	mineral material	625
+50	sand	616
+51	clay	610
+52	slope	606
+53	particle of clay	606
+54	silt	598
+55	particle of silt	594
+56	planet	554
+57	pedosphere	546
+58	building	546
+59	biome	539
+60	landmass	515
+61	fluid layer	505
+62	planetary surface	492
+63	surface landform	457
+64	depressed landform	455
+65	planetary landmass	441
+66	manufactured product	435
+67	building part	431
+68	terrestrial biome	406
+69	gaseous environmental material	392
+70	water-holding capacity	390
+71	water-holding capacity of soil	390
+72	soil	380
+73	anthropisation	379
+74	anthropogenic ecosystem conversion process	379
+75	environmental condition	372
+76	saline water	355
+77	saline water body	266
+78	fluid interface layer	257
+79	rock	252
+80	vegetation layer	228
+81	canopy	223
+82	forest ecosystem	222
+83	material transformation process	207
+84	sea water	204
+85	anthropogenic environment	202
+86	forest canopy	196
+87	healthcare facility	195
+88	environmental zone	189
+89	anthropised ecosystem	189
+90	air	188
+91	erosion	187
+92	ice	186
+93	atmospheric layer	181
+94	planetary erosion	175
+95	water ice	174
+96	atmosphere	172
+97	planned environmental usage process	170
+98	geographic feature	161
+99	hydroform	161
+100	terrestrial environmental zone	154
+101	fresh water	153
+102	lotic water body	153
+103	watercourse	151
+104	volcanic eruption	150
+105	channel of a watercourse	148
+106	water flow process	143
+107	coast	140
+108	liquid layer	135
+109	ecosystem process	132
+110	aquatic layer	130
+111	marine environment	129
+112	sediment	128
+113	hospital	128
+114	submerged bed	128
+115	climactic ecological succession	128
+116	ecological succession	128
+117	lake	128
+118	stream	125
+119	soil layer	123
+120	elevated landform	123
+121	soil surface layer	119
+122	fresh water body	115
+123	tropical	114
+124	hydrographic feature	111
+125	vegetated area	111
+126	anthropogenic environmental material	111
+127	planetary structural layer	110
+128	cave	109
+129	anthropogenic terrestrial biome	108
+130	water vapour	106
+131	fluid front	105
+132	wetland ecosystem	104
+133	aquatic ecosystem	103
+134	aquatic biome	98
+135	anthropogenic generation of energy	97
+136	boundary layer	92
+137	cave floor	91
+138	atmospheric boundary layer	91
+139	cave wall	91
+140	subtropical	90
+141	brackish water	90
+142	material congelation process	88
+143	cryoform	87
+144	environmental system determined by an organism	83
+145	marine ecosystem	81
+146	marine biome	79
+147	planetary crust	78
+148	sedimentary rock	76
+149	reef	75
+150	marine reef	72
+151	ice mass	72
+152	fiat part of an astronomical object	72
+153	fluid cline	72
+154	cryosphere	71
+155	marine bed	71
+156	agricultural ecosystem	71
+157	temperate	69
+158	estuarine water	69
+159	desert	67
+160	bank	66
+161	estuary	65
+162	crystal	64
+163	waste role	63
+164	thermolysis	63
+165	fluid surface layer	63
+166	aerosol formation process	63
+167	industrial building	63
+168	hydrocarbon-based environmental material	62
+169	tropical environment	62
+170	glacial process	62
+171	water ice crystal	61
+172	aquatic estuarine layer	61
+173	liquid surface layer	60
+174	glacial erosion process	59
+175	mount	59
+176	cropland ecosystem	59
+177	shore	57
+178	sea coast	57
+179	combustion process	57
+180	forest biome	57
+181	rock-precursor intrusion process	56
+182	meltwater	55
+183	motor	55
+184	ocean	54
+185	material extraction process	52
+186	woodland area	52
+187	cropland biome	52
+188	coastal wetland ecosystem	51
+189	altitudinal condition	51
+190	waste material	51
+191	environmental system determined by a material	50
+192	anthropogenic geographic feature	49
+193	histosol	49
+194	peat soil	48
+195	field	47
+196	spring	47
+197	biofilm material	47
+198	sea floor	46
+199	hospital unit facility	46
+200	oil	45
+201	temperate environment	44
+202	broadleaf forest	44
+203	marine benthic biome	44
+204	tropical forest	43
+205	aerosol	43
+206	commercial building	43
+207	stream channel	42
+208	atmospheric process	42
+209	animal-associated environment	42
+210	bodily fluid material	41
+211	mass of compounded environmental materials	41
+212	tectonic movement	41
+213	environment associated with an animal part or small animal	41
+214	precipitation process	41
+215	plumbing fixture	40
+216	river	39
+217	human settlement	39
+218	marine environmental zone	39
+219	mediterranean	39
+220	usage of an environment for industry	39
+221	brackish estuary	38
+222	glacier	37
+223	vehicle	37
+224	geographic basin	36
+225	grassland ecosystem	36
+226	melting	35
+227	piece of rock	35
+228	toilet fixture	35
+229	liquid air-water interface layer	35
+230	aquatic environment	34
+231	usage of an environment for business	34
+232	farm	34
+233	tundra ecosystem	34
+234	plain	33
+235	enriched soil	33
+236	mountain	33
+237	freshwater stream	33
+238	continental margin	33
+239	fishing	32
+240	transport feature	32
+241	hydrological melting process	32
+242	temperate forest	32
+243	gaseous front	32
+244	igneous rock	32
+245	desublimation process	32
+246	desublimation of water vapour into ice	32
+247	tropical biome	32
+248	continental shelf	31
+249	snow crystal	31
+250	geological fracture	31
+251	weather front	31
+252	frozen land	31
+253	arid	30
+254	petroleum	30
+255	broadleaf forest biome	30
+256	pycnocline	30
+257	water current	30
+258	marine cline	29
+259	dust	29
+260	dense settlement	29
+261	marine current	29
+262	temperate biome	29
+263	tundra biome	28
+264	public infrastructure	28
+265	island	28
+266	icemelt	28
+267	administrative region	28
+268	mine	28
+269	subtropical environment	28
+270	lamp	27
+271	woodland ecosystem	27
+272	building envelope	27
+273	water ice formation process	27
+274	usage of an environment for transportation	26
+275	coal	26
+276	house	26
+277	dense settlement biome	26
+278	biomaterial containment unit	26
+279	domestic building	26
+280	hydrological precipitation process	25
+281	valley	25
+282	area of barren land	25
+283	lava	25
+284	woodland canopy	25
+285	agricultural environmental material	24
+286	frozen soil	24
+287	water-body-derived ice	24
+288	montane	24
+289	chemical engineering process	24
+290	refinement process	24
+291	manure	24
+292	bedrock dissolution	24
+293	protected area	24
+294	desert area	24
+295	pit	24
+296	shoreline	24
+297	needleleaf forest	23
+298	sea ice	23
+299	snow	23
+300	masonry cement	23
+301	tropical broadleaf forest	23
+302	urban biome	22
+303	troposphere	22
+304	pond	22
+305	freezing	21
+306	plantation	21
+307	hill	21
+308	freezing of water into water ice	21
+309	building wall	21
+310	mud	20
+311	solutional cave	20
+312	freshwater ecosystem	20
+313	subtropical biome	20
+314	flooding	20
+315	water surface	20
+316	exterior wall	20
+317	marine layer	19
+318	paraffin lamp	19
+319	coral reef	19
+320	latrine pit	19
+321	mass fluid flow	19
+322	limestone cave	19
+323	area of protected biodiversity	19
+324	advective transport process	19
+325	crater	19
+326	coniferous forest biome	19
+327	biological waste material	19
+328	freshwater biome	18
+329	permafrost	18
+330	littoral zone	18
+331	snowfall	18
+332	mixed forest	18
+333	garden	18
+334	excreta material	18
+335	hypersaline water	18
+336	ash	18
+337	salt material	18
+338	sedimentation in a water body	18
+339	condensation process	18
+340	ecotone	18
+341	agricultural field	18
+342	alpine	18
+343	concrete	18
+344	organic waste material	18
+345	chemical colorant	18
+346	brick material	17
+347	thawing process	17
+348	constructed barrier	17
+349	thermocline	17
+350	material warming process	17
+351	permafrost thawing process	17
+352	swamp ecosystem	17
+353	tree line ecotone	17
+354	underground water	17
+355	constructed pavement	17
+356	masonry unit	17
+357	stream bank	17
+358	lithosphere	17
+359	mass wasting	16
+360	marine littoral zone	16
+361	chemical precipitation process	16
+362	political entity	16
+363	marine neritic benthic zone biome	16
+364	warming of a liquid	16
+365	chemical product	16
+366	warming of a solid	16
+367	ice-bearing permafrost thawing process	16
+368	river bank	16
+369	oceanic front	16
+370	warming of a fluid	16
+371	dry lake	16
+372	freshwater river	16
+373	groundwater	16
+374	animal manure	16
+375	human house	16
+376	landslide process	16
+377	beach	16
+378	aeolian transport process	15
+379	building roof	15
+380	piece of gravel	15
+381	fecal material	15
+382	polar	15
+383	area of tundra	15
+384	piece of furniture	15
+385	karst	15
+386	frost action process	15
+387	tropical broadleaf forest biome	15
+388	cryoturbation of soil	15
+389	room	15
+390	alluvial soil	15
+391	land ice mass	15
+392	intrusion	15
+393	gaseous astronomical body part	14
+394	eutrophic water	14
+395	new ice	14
+396	shop	14
+397	estuarine open water pycnocline	14
+398	latrine	14
+399	dam	14
+400	estuarine coastal pycnocline	14
+401	rock intrusion	14
+402	gravel	14
+403	anthropised terrestrial environmental zone	14
+404	divergent tectonic movement	14
+405	cold front	14
+406	meromictic lake	13
+407	mineral spring	13
+408	magma	13
+409	limestone	13
+410	national geopolitical entity	13
+411	mangrove swamp	13
+412	depositional process	13
+413	chemically enriched sediment	13
+414	sediment surface	13
+415	road	13
+416	motor vehicle	13
+417	warm front	13
+418	fire	13
+419	marine pelagic biome	13
+420	stratosphere	13
+421	cryospheric layer	13
+422	part of a landmass	13
+423	soil texture	12
+424	meteor	12
+425	anatomical entity environment	12
+426	woodland biome	12
+427	new ice formation process	12
+428	wax	12
+429	drift ice mass	12
+430	wood	12
+431	lake layer	12
+432	range of mounts	12
+433	cloud	12
+434	peatland	12
+435	residential building	12
+436	thermokarst	12
+437	atmospheric aerosol	12
+438	structural basin	12
+439	temperate broadleaf forest	12
+440	volcano	12
+441	sludge	12
+442	generation of energy from coal	12
+443	floating ice mass	12
+444	brick	12
+445	ore	12
+446	freshwater lake	12
+447	frost heaving process	12
+448	intertidal zone	12
+449	artificial channel	12
+450	aerosolised liquids	11
+451	soil organic matter	11
+452	subsurface zone of an astronomical body	11
+453	power plant	11
+454	bioreactor	11
+455	freshwater river biome	11
+456	energy	11
+457	usage of an environment for residential activity	11
+458	river channel	11
+459	frazil	11
+460	frost	11
+461	artificial lake	11
+462	sterile water	11
+463	surface layer of a water body	11
+464	desert ecosystem	11
+465	first-order administrative region	10
+466	outhouse	10
+467	restaurant	10
+468	thermokarst depression	10
+469	mediterranean biome	10
+470	pit latrine	10
+471	mining	10
+472	desert biome	10
+473	channel	10
+474	thermosphere	10
+475	container of an intermittent water body	10
+476	hydrothermal vent	10
+477	hypolimnion	10
+478	alkaline water	10
+479	hydrogenous sediment	10
+480	continental slope	10
+481	scrubland area	10
+482	plant matter	10
+483	phreatic zone	10
+484	subtropical forest	10
+485	temperate mixed forest	10
+486	marine sub-littoral zone	10
+487	glass	10
+488	hand tool	10
+489	intensive care unit facility	10
+490	constructed transport system	10
+491	hydrocarbon gas	10
+492	volcanic feature	10
+493	airport	10
+494	tropical moist broadleaf forest	10
+495	mouth	10
+496	temperate broadleaf forest biome	10
+497	medical clinic	10
+498	paddy field	10
+499	sea	10
+500	sediment permeated by saline water	9
+501	continental crust	9
+502	tundra climatic condition	9
+503	reservoir	9
+504	ecozone	9
+505	wildfire	9
+506	planetary subsurface zone	9
+507	ice cap	9
+508	vadose zone	9
+509	conflagration	9
+510	cliff	9
+511	clastic sedimentary rock	9
+512	loam	9
+513	fog	9
+514	sediment permeated by freshwater	9
+515	subpolar	9
+516	thatch	9
+517	marine thermocline	9
+518	glue	9
+519	ditch	9
+520	land fire	9
+521	contaminated water	9
+522	material isosurface	9
+523	animal house	9
+524	mass of gas	9
+525	oligotrophic water	9
+526	tectonic plate	9
+527	mass of fluid	9
+528	grassland area	9
+529	marine hydrothermal vent	9
+530	mesosphere	9
+531	sea ice formation process	9
+532	polymetallic nodule	9
+533	ocean current	9
+534	mixed forest biome	9
+535	human dwelling	9
+536	impact between astronomical bodies	8
+537	estuarine coastal lower water column	8
+538	landslide	8
+539	organically enriched sediment	8
+540	glacial valley	8
+541	estuarine open water upper water column	8
+542	public transit system	8
+543	water ice layer	8
+544	dune	8
+545	igneous intrusion process	8
+546	seamount	8
+547	tropical needleleaf forest	8
+548	rockslide process	8
+549	estuarine coastal upper water column	8
+550	ice floe	8
+551	coastal flooding	8
+552	upwelling	8
+553	inlet	8
+554	impact event	8
+555	watercraft	8
+556	aquifer	8
+557	kerogen	8
+558	gas emission process	8
+559	estuarine open water surface layer	8
+560	planetary atmosphere	8
+561	volcanic cone	8
+562	high osmolarity environment	8
+563	marine water mass	8
+564	holomictic lake	8
+565	shrubland biome	8
+566	anoxic water	8
+567	estuarine coastal surface layer	8
+568	bridge	8
+569	oxic water	8
+570	hypoxic water	8
+571	building floor	8
+572	nuclear reactor	8
+573	canal	8
+574	oceanic pelagic zone biome	8
+575	train	8
+576	vivarium	8
+577	area protected according to IUCN guidelines	8
+578	energy transfer process	8
+579	alluvial plain	7
+580	large river biome	7
+581	estuarine open water lower water column	7
+582	polar environment	7
+583	abyssal plain	7
+584	second-order administrative region	7
+585	coal mine	7
+586	marine eulittoral zone	7
+587	compost	7
+588	sandy beach	7
+589	polling place	7
+590	saline lake	7
+591	metalimnion	7
+592	tropical coniferous forest biome	7
+593	wetland area	7
+594	boulder	7
+595	fossilization of organic material	7
+596	dye	7
+597	forested area	7
+598	planetary photic zone	7
+599	conveyor belt component	7
+600	day care building	7
+601	metallic material	7
+602	iron sheet	7
+603	savanna biome	7
+604	grassland biome	7
+605	frazil ice	7
+606	mass liquid flow	7
+607	tidal flow process	7
+608	intertidal ecosystem	7
+609	middle atmospheric level	7
+610	latrine slab	7
+611	rapid transit system	7
+612	rangeland biome	7
+613	soot	7
+614	uranium ore	7
+615	temperate coniferous forest biome	7
+616	temperate mixed forest biome	7
+617	flood plain	7
+618	tropical moist broadleaf forest biome	7
+619	seep	7
+620	boat	7
+621	airport terminal	7
+622	office	7
+623	contaminated soil	7
+624	material decumulation zone	7
+625	observing system	7
+626	anaerobic sediment	7
+627	paint	6
+628	freshwater wetland ecosystem	6
+629	pack ice mass	6
+630	aerosolised solids	6
+631	fume	6
+632	lantern	6
+633	recycling process	6
+634	biomaterial culturing unit	6
+635	periphytic biofilm	6
+636	animal habitation	6
+637	agricultural soil	6
+638	forest soil	6
+639	flood	6
+640	glacial lake	6
+641	ridge	6
+642	aeroform	6
+643	subtropical broadleaf forest	6
+644	saline environment	6
+645	food shop	6
+646	marine surface current	6
+647	observatory system	6
+648	usage of an environment for community and social services	6
+649	ice decumulation zone	6
+650	material accumulation zone	6
+651	ocean floor	6
+652	utensil	6
+653	mineral deposit	6
+654	coastal inlet	6
+655	humus	6
+656	educational facility	6
+657	chalk	6
+658	tropical marine condition	6
+659	area of perennial ice or snow	6
+660	creosote	6
+661	natural environment	6
+662	area of developed space	6
+663	tectonic plate boundary	6
+664	meadow ecosystem	6
+665	straw	6
+666	mountain range	6
+667	volcanic ash	6
+668	nuclear power reactor	6
+669	pyrolysis	6
+670	subsurface landform	6
+671	stream mouth	6
+672	air mass	6
+673	leachate	6
+674	bare soil	5
+675	paper product	5
+676	smoke	5
+677	underground water body	5
+678	coal ash	5
+679	river mouth	5
+680	melt pond	5
+681	frost heave	5
+682	integumental system environment	5
+683	hygienic food production area	5
+684	ice lead	5
+685	conveyor system	5
+686	ice surface layer	5
+687	institutional building	5
+688	plastic	5
+689	orchard	5
+690	paraffin lantern	5
+691	rural area	5
+692	montane biome	5
+693	conifer woodland	5
+694	peak	5
+695	planktonic material	5
+696	colorant fluid	5
+697	plant litter	5
+698	tuff	5
+699	meander	5
+700	marine hydrothermal vent biome	5
+701	solar panel array	5
+702	research facility	5
+703	hypereutrophic water	5
+704	moraine	5
+705	marine faunal bed	5
+706	area of alpine tundra	5
+707	animal waste material	5
+708	marine reef biome	5
+709	subpolar environment	5
+710	colloidal sediment	5
+711	mesoscale marine eddy	5
+712	factory	5
+713	gaseous surface layer	5
+714	rime	5
+715	drainage basin	5
+716	shrimp pond	5
+717	quicksand	5
+718	crater lake	5
+719	well	5
+720	tephra	5
+721	marine aphotic zone	5
+722	scoria	5
+723	impermeable surface layer	5
+724	pumice	5
+725	ice ablation zone	5
+726	planetary core	5
+727	silica-based glass	5
+728	ice accumulation zone	5
+729	hoar	5
+730	mine tailing	5
+731	geothermally active field	5
+732	slush ice	5
+733	waste treatment plant	5
+734	brine	5
+735	ecoregion	5
+736	material decumulation process	5
+737	mangrove biome	5
+738	asphalt	5
+739	dry lake bed	5
+740	manufacturing equipment	5
+741	mesotrophic water	5
+742	flash flooding	4
+743	low atmospheric level	4
+744	high-elevation mountain	4
+745	natural gas	4
+746	headwater	4
+747	abattoir	4
+748	prison facility	4
+749	delta	4
+750	tropical mixed forest	4
+751	sediment environment	4
+752	riverine flooding	4
+753	bush area	4
+754	geological fault	4
+755	montane forest	4
+756	drumlin	4
+757	mid-elevation mountain	4
+758	refined asphalt	4
+759	high atmospheric level	4
+760	estuarine tidal riverine coastal surface layer	4
+761	resin	4
+762	marine pockmark	4
+763	salt mass	4
+764	gaseous part of an atmosphere	4
+765	animal trap	4
+766	plaster	4
+767	cold seep	4
+768	anchialine pool	4
+769	lava flow	4
+770	amorphous solid	4
+771	burnt brick	4
+772	archipelago	4
+773	unburnt brick	4
+774	tile	4
+775	enrichment culturing unit	4
+776	hummock	4
+777	laboratory environment	4
+778	tunnel	4
+779	fossil fuel power plant	4
+780	freshwater ice	4
+781	flattened elevation	4
+782	tornado	4
+783	mine drainage	4
+784	estuarine tidal riverine open water surface layer	4
+785	rhizosphere	4
+786	transport boat	4
+787	surface water	4
+788	refinery	4
+789	marine tidal flow process	4
+790	equipment frame	4
+791	ice loss process	4
+792	paint thinner	4
+793	doline	4
+794	dry valley	4
+795	volcanic crater	4
+796	anaerobic bioreactor	4
+797	sports facility	4
+798	dacite	4
+799	hydrocarbon gas emission process	4
+800	permafrost methane explosion	4
+801	explosion process	4
+802	scree	4
+803	continental rise	4
+804	saline water environment	4
+805	andesite	4
+806	storm surge process	4
+807	primary cave	4
+808	air conditioning unit	4
+809	sandur	4
+810	conveyor belt	4
+811	pharmacy	4
+812	glacial ice ablation zone	4
+813	aquaculture process	4
+814	occluded front	4
+815	eating utensil	4
+816	lake shore	4
+817	ocean basin	4
+818	terrace	4
+819	container of an intermittent lake	4
+820	igneous intrusion	4
+821	water-based rainfall	4
+822	dairy	4
+823	neritic pelagic zone biome	4
+824	mussel bed	4
+825	allotment garden	4
+826	lake bed	4
+827	hydrothermal fluid	4
+828	open-pit mine	4
+829	marine photic zone	4
+830	fishing gear	4
+831	rubber plantation	4
+832	university campus	4
+833	lithification	4
+834	ecosystem fragmentation process	4
+835	effusive eruption	4
+836	sea shore	4
+837	third-order administrative region	4
+838	sea cliff	4
+839	marine supra-littoral zone	4
+840	marine warm-water sphere	4
+841	marine cold-water sphere	4
+842	marine wind mixed layer	4
+843	endorheic basin	4
+844	rockfall	4
+845	outer space	4
+846	ice cave	4
+847	mediterranean sea biome	4
+848	acidic water	4
+849	impact crater	4
+850	field soil	4
+851	cryoconite deposit	4
+852	subpolar biome	4
+853	freshwater spring	4
+854	bed base	4
+855	glacial ice accumulation zone	4
+856	lignite	4
+857	bed frame	4
+858	mattress	4
+859	meterorite impact	4
+860	freezing rainfall	4
+861	petroleum enriched sediment	4
+862	mussel reef	4
+863	coastal water body	4
+864	mass of biological material	4
+865	polling station	4
+866	biogenous sediment	4
+867	waste water	4
+868	brine channel formation process	4
+869	silage	4
+870	ranch	4
+871	conference venue	4
+872	manure storage space	4
+873	free atmosphere	4
+874	subtropical grassland	4
+875	emergency unit facility	4
+876	concrete masonry unit	4
+877	city	4
+878	usage of an environment for recreation	4
+879	metamorphic rock	4
+880	desalination process	3
+881	fuel oil	3
+882	glacial surface layer	3
+883	farm soil	3
+884	paddy field soil	3
+885	carbon-bearing gas emission process	3
+886	star	3
+887	pingo	3
+888	industrial waste material	3
+889	colloidal suspension	3
+890	dambo	3
+891	gasoline	3
+892	cell culture	3
+893	volcanic arc	3
+894	volcanic field	3
+895	pebble	3
+896	wastewater treatment process	3
+897	pole	3
+898	diesel fuel	3
+899	liquefied hydrocarbon gas	3
+900	grassland soil	3
+901	wastewater treatment plant	3
+902	carbon dioxide emission process	3
+903	dust from plant parts	3
+904	gill tissue material	3
+905	soda-lime glass	3
+906	covered latrine	3
+907	aerosol environment	3
+908	liquid surface of an astronomical body	3
+909	usage of an environment for infrastructure and utilities	3
+910	marine upwelling biome	3
+911	campground	3
+912	eaves	3
+913	fibrous dust	3
+914	marsh	3
+915	alkaline flat	3
+916	continental island	3
+917	subpolar coniferous forest biome	3
+918	brackish water body	3
+919	hatchery	3
+920	skin environment	3
+921	freshwater congelation ice	3
+922	subalpine	3
+923	pipeline network	3
+924	marine sediment	3
+925	bar	3
+926	intermediate lava	3
+927	pitfall trap	3
+928	harbour	3
+929	ice shelf	3
+930	dike	3
+931	park	3
+932	ice lens	3
+933	cloud part	3
+934	animal litter	3
+935	aquarium	3
+936	area of attached faunal communities	3
+937	freshwater lake biome	3
+938	stormwater	3
+939	Taylor column	3
+940	ash cone	3
+941	contaminated sludge	3
+942	subtropical broadleaf forest biome	3
+943	marine tidal flow zone	3
+944	brick exterior wall	3
+945	algal bloom	3
+946	nutricline	3
+947	upper air	3
+948	abandoned fishing gear	3
+949	particulate organic matter	3
+950	switch	3
+951	grocery store	3
+952	volatile astrogeological material	3
+953	long-term care facility	3
+954	merchant vessel	3
+955	passenger train	3
+956	warehouse	3
+957	marginal sea biome	3
+958	explosive eruption	3
+959	polymictic lake	3
+960	powdery snow	3
+961	market	3
+962	bitumous coal	3
+963	processing plant	3
+964	mafic lava	3
+965	respirable suspended particulate matter	3
+966	quarry	3
+967	textile	3
+968	slate	3
+969	ice field	3
+970	safe environment	3
+971	clay loam	3
+972	monomictic lake	3
+973	natural monument	3
+974	active enrichment culturing unit	3
+975	dacitic lava	3
+976	telephone	3
+977	soil horizon	3
+978	embankment dam	3
+979	environmental monitoring area	3
+980	tubular paraffin lantern	3
+981	garden soil	3
+982	upland soil	3
+983	first year ice formation process	3
+984	palsa	3
+985	multiyear ice formation process	3
+986	sub-bitumous coal	3
+987	second year ice formation	3
+988	oceanic crust	3
+989	mudflat	3
+990	area of polar tundra	3
+991	planetary mantle	3
+992	englacial	3
+993	lower montane	3
+994	water-based cloud	3
+995	bubble	3
+996	plant-associated environment	3
+997	dry stream valley	3
+998	volcanic cave	3
+999	ice accumulation process	3
+1000	lake coast	3
+1001	speleothem	3
+1002	swamp forest	3
+1003	sclerophyllous forest	3
+1004	exosphere	3
+1005	upper montane	3
+1006	alpine tree line ecotone	3
+1007	paraffin wax	3
+1008	hydrometeor	3
+1009	ice gain	3
+1010	crustacean farming process	3
+1011	constructed swimming pool	3
+1012	sea ice mass	3
+1013	arable	3
+1014	animal aquaculture process	3
+1015	lake sediment	3
+1016	truck	3
+1017	fast ice	3
+1018	undersea feature	3
+1019	area designated as a nature reserve	2
+1020	area of attached mussel assemblages	2
+1021	digestive tract environment	2
+1022	subway train	2
+1023	stream water	2
+1024	stain	2
+1025	bus	2
+1026	oceanic mussel reef	2
+1027	alpine tundra ecosystem	2
+1028	planetary subsurface environment	2
+1029	plant feed	2
+1030	fjord	2
+1031	thaw hole	2
+1032	office building	2
+1033	wadi	2
+1034	transport hub	2
+1035	delicatessen	2
+1036	fen	2
+1037	village	2
+1038	hot spring	2
+1039	erosionally enriched ice	2
+1040	ambulance	2
+1041	ferry	2
+1042	planktonic kerogen	2
+1043	volcanic crater lake	2
+1044	waterborne particulate matter	2
+1045	woodland clearing	2
+1046	mediterranean forest	2
+1047	aircraft	2
+1048	alkaline spring	2
+1049	acidic spring	2
+1050	subtropical dry broadleaf forest	2
+1051	tropical dry broadleaf forest	2
+1052	booth	2
+1053	stream bed	2
+1054	research station	2
+1055	caldera	2
+1056	poultry manure	2
+1057	scum	2
+1058	tunnel valley	2
+1059	cabinet	2
+1060	kame	2
+1061	environmental monitoring program area	2
+1062	man-made tunnel	2
+1063	calcic spring	2
+1064	trough	2
+1065	gel	2
+1066	sea surface layer	2
+1067	container of an intermittent pond	2
+1068	plume	2
+1069	pasture	2
+1070	anthropogenic contamination feature	2
+1071	montane grassland	2
+1072	colloid suspended in a hydrosphere	2
+1073	flooded grassland	2
+1074	tropical grassland	2
+1075	steppe	2
+1076	cow shed	2
+1077	pasturable land	2
+1078	subtropical moist broadleaf forest	2
+1079	active layer in a cryosphere	2
+1080	tectonic lake	2
+1081	brewery	2
+1082	meteor impact crater	2
+1083	food processing building	2
+1084	child care facility	2
+1085	subtropical shrubland biome	2
+1086	oasis	2
+1087	isothermal surface	2
+1088	motorcycle	2
+1089	subtropical woodland biome	2
+1090	isopycnal surface	2
+1091	spacecraft	2
+1092	isohaline surface	2
+1093	spur	2
+1094	lysocline	2
+1095	ultisol	2
+1096	irrigation canal	2
+1097	canyon	2
+1098	mediterranean grassland	2
+1099	temperate grassland	2
+1100	vinasse	2
+1101	synthetic plastic	2
+1102	depositional island	2
+1103	fairground	2
+1104	dry stream	2
+1105	indoor toilet	2
+1106	facility	2
+1107	steel	2
+1108	sparsely populated settlement	2
+1109	eutrophic lake	2
+1110	informal settlement	2
+1111	subtropical savanna biome	2
+1112	biogas	2
+1113	central-draught lamp	2
+1114	subtropical grassland biome	2
+1115	watershed	2
+1116	coastal flood	2
+1117	wet meadow ecosystem	2
+1118	zoological garden	2
+1119	range of seamounts	2
+1120	earth-filled dam	2
+1121	yard	2
+1122	andosol	2
+1123	glacial ice loss	2
+1124	weapons test site	2
+1125	flower strip	2
+1126	freshwater stream ecosystem	2
+1127	clathrate material	2
+1128	stream pool	2
+1129	alluvial fan	2
+1130	beach sand	2
+1131	biocrust	2
+1132	sulfur spring	2
+1133	warm surface current	2
+1134	biofilter	2
+1135	cold surface current	2
+1136	radioactive sediment	2
+1137	animal feed	2
+1138	compost soil	2
+1139	cosmetic product	2
+1140	glacial ice gain	2
+1141	uranium deposit	2
+1142	sea ice floe	2
+1143	channel of an intermittent stream	2
+1144	polar biome	2
+1145	underground stream	2
+1146	plastisphere	2
+1147	thermokarst lake	2
+1148	drinking water	2
+1149	atmospheric carbon dioxide	2
+1150	kiosk	2
+1151	fine respirable suspended particulate matter	2
+1152	strand swamp	2
+1153	high temperature environment	2
+1154	dome swamp	2
+1155	stream sediment	2
+1156	humid air	2
+1157	young ice	2
+1158	nutricline within a water body	2
+1159	grass silage	2
+1160	strait	2
+1161	coal mine waste material	2
+1162	manufactured cage	2
+1163	whirlpool	2
+1164	marine coral reef biome	2
+1165	area designated for waste storage	2
+1166	flame	2
+1167	ballast tank	2
+1168	feedlot	2
+1169	stream valley	2
+1170	rocky reef	2
+1171	buffer zone	2
+1172	safe environment for living organisms	2
+1173	neutral spring	2
+1174	agricultural waste material	2
+1175	wildlife management area	2
+1176	isthmus	2
+1177	alpine biome	2
+1178	water well	2
+1179	landfill	2
+1180	active anaerobic enrichment culturing unit	2
+1181	fumarole	2
+1182	liquid planetary surface	2
+1183	submerged landform	2
+1184	electric lamp	2
+1185	covered pit latrine	2
+1186	desert tree line ecotone	2
+1187	ice-covered lake	2
+1188	bench	2
+1189	dry toilet fixture	2
+1190	anaerobic sludge	2
+1191	flush toilet fixture	2
+1192	sedimentary intrusion	2
+1193	mineral dust	2
+1194	plant matter fall	2
+1195	aerobic bioreactor	2
+1196	table	2
+1197	area of gramanoid or herbaceous vegetation	2
+1198	raised beach	2
+1199	chemically contaminated sediment	2
+1200	organic matter fall	2
+1201	welding fume	2
+1202	microbial mat	2
+1203	mud exterior wall	2
+1204	oxbow lake	2
+1205	hydraulic fluid	2
+1206	shield volcano	2
+1207	medical instrument	2
+1208	shale	2
+1209	shopping center	2
+1210	savanna	2
+1211	detritus	2
+1212	charcoal	2
+1213	oceanic mussel bed	2
+1214	landslide lake	2
+1215	glacial ice	2
+1216	habitat	2
+1217	car	2
+1218	cleaning agent	2
+1219	poultry litter	2
+1220	fermentation pit	2
+1221	tidal watercourse	2
+1222	utility line	2
+1223	electric power system	2
+1224	aquaduct	2
+1225	coal power plant	2
+1226	chemocline	2
+1227	dryer	2
+1228	intensive care unit	2
+1229	oceanic island	2
+1230	roadside	2
+1231	englacial process	2
+1232	escarpment	2
+1233	archeological site	2
+1234	hill range	2
+1235	cart	2
+1236	thrust fault	2
+1237	dry river valley	2
+1238	glacial ice ablation process	2
+1239	metal contaminated soil	2
+1240	processed tobacco	2
+1241	cut	2
+1242	environmental zone of processual equilibrium	2
+1243	ecological corridor	2
+1244	mussel gill tissue material	2
+1245	treated wood	2
+1246	crater zone	2
+1247	trench	2
+1248	foamy environmental material	2
+1249	impact crater lake	2
+1250	isobaric surface	2
+1251	varnish	2
+1252	acid mine drainage	2
+1253	open eaves	1
+1254	area of deciduous forest	1
+1255	tropical dry broadleaf forest biome	1
+1256	desert pavement	1
+1257	exorheic lake	1
+1258	illuminated biosphere part	1
+1259	organic farm	1
+1260	plant pot	1
+1261	raceway pond	1
+1262	photosphere	1
+1263	nitrogen-oxygen planetary atmosphere	1
+1264	proglacial lake	1
+1265	sodium chloride salt	1
+1266	marginal ice zone front	1
+1267	ultramafic lava	1
+1268	deep ocean current	1
+1269	fountain	1
+1270	surface convergence	1
+1271	tube well	1
+1272	water mass front	1
+1273	subtropical convergence front	1
+1274	slum	1
+1275	boundary current front	1
+1276	equatorial upwelling front	1
+1277	topographic upwelling front	1
+1278	coastal upwelling front	1
+1279	shelf-slope/shelf-break front	1
+1280	farmyard manure	1
+1281	felsic lava	1
+1282	undersea trough	1
+1283	shower curtain	1
+1284	vein	1
+1285	polluted lake	1
+1286	smokeless tobacco	1
+1287	contaminated air	1
+1288	atmospheric column	1
+1289	microfracture	1
+1290	shear fracture	1
+1291	active geological fault	1
+1292	touchscreen	1
+1293	space station	1
+1294	train car	1
+1295	mediterranean savanna biome	1
+1296	area of open water	1
+1297	water tap	1
+1298	tuff cone	1
+1299	geological joint	1
+1300	bagasse	1
+1301	closed eaves	1
+1302	high pressure environment	1
+1303	non-saline aerosol environment	1
+1304	xylene contaminated soil	1
+1305	saline aerosol environment	1
+1306	gold mine	1
+1307	alas	1
+1308	environment determined by a biofilm on a non-saline surface	1
+1309	saline sediment environment	1
+1310	non-saline sediment environment	1
+1311	non-saline planetary subsurface environment	1
+1312	pulp-bleaching waste water	1
+1313	oceanic subsurface zone	1
+1314	self-heating coal mine waste material	1
+1315	soil environment	1
+1316	ria	1
+1317	hypersaline water environment	1
+1318	sterile water environment	1
+1319	geothermal power plant	1
+1320	fungi-associated environment	1
+1321	highly saline water	1
+1322	chromate contaminated soil	1
+1323	borax leachate	1
+1324	arsenic-rich mud	1
+1325	sewage	1
+1326	usage of an environment for defence	1
+1327	kame terrace	1
+1328	monadnock	1
+1329	drumlin field	1
+1330	Nye channel	1
+1331	environment associated with a fungal tissue	1
+1332	environment associated with a plant part or small plant	1
+1333	dirt cone	1
+1334	arete	1
+1335	creosote contaminated soil	1
+1336	raw primary sludge	1
+1337	secondary sludge	1
+1338	biosolids	1
+1339	oil sludge	1
+1340	gold mine drainage	1
+1341	stack	1
+1342	dune soil	1
+1343	environment determined by a biofilm on a saline surface	1
+1344	moderately saline water	1
+1345	slightly saline water	1
+1346	pond water	1
+1347	methane clathrate	1
+1348	tropical marine upwelling biome	1
+1349	outwash fan	1
+1350	subtropical moist broadleaf forest biome	1
+1351	temperate mediterranean sea biome	1
+1352	temperate marginal sea biome	1
+1353	area of mixed forest	1
+1354	tropical marine coral reef biome	1
+1355	marl	1
+1356	oil contaminated soil	1
+1357	area of dwarf scrub	1
+1358	flower-rich field margin strip	1
+1359	natural arch	1
+1360	hair ice	1
+1361	area of evergreen forest	1
+1362	water vapour saturated air	1
+1363	fresh animal manure	1
+1364	distilled water	1
+1365	tap water	1
+1366	temperate marine upwelling biome	1
+1367	turbulent aquatic surface layer	1
+1368	environment determined by a biofilm on a fungal surface	1
+1369	natural lake	1
+1370	environment determined by a biofilm on an animal surface	1
+1371	machair	1
+1372	environment determined by a biofilm on a plant surface	1
+1373	chicken breeding waste material	1
+1374	environment determined by a metazoan secretion	1
+1375	coastal dune	1
+1376	fecal environment	1
+1377	nuclear power plant	1
+1378	fluvisol	1
+1379	adobe	1
+1380	humic lake	1
+1381	hypersaline lake	1
+1382	mediterranean grassland biome	1
+1383	stagnosol	1
+1384	technosol	1
+1385	subtropical dry broadleaf forest biome	1
+1386	hay	1
+1387	overflow structure	1
+1388	clay soil	1
+1389	lateral moraine	1
+1390	podzol	1
+1391	tote bin	1
+1392	supermarket	1
+1393	wrench	1
+1394	livestock house	1
+1395	calf shed	1
+1396	clothes dryer	1
+1397	hangar	1
+1398	listed building	1
+1399	mosque	1
+1400	Kaaba	1
+1401	chapter house	1
+1402	packaging machine	1
+1403	pallet	1
+1404	peeler	1
+1405	pump	1
+1406	squeegee	1
+1407	cupboard	1
+1408	tray	1
+1409	wheel	1
+1410	sewing table	1
+1411	litter	1
+1412	chicken house	1
+1413	barn	1
+1414	sheet of paper	1
+1415	water trough	1
+1416	water tank	1
+1417	broiler	1
+1418	tote bag	1
+1419	regosol	1
+1420	preprocessing plant	1
+1421	lead paint	1
+1422	zinc chloride fume	1
+1423	oil shale	1
+1424	natural wax	1
+1425	aluminum welding fume	1
+1426	vanadium fume	1
+1427	paraffin wax fume	1
+1428	copper ore	1
+1429	platinum ore	1
+1430	gold ore	1
+1431	walk-in clinic	1
+1432	physiotherapy clinic	1
+1433	pain clinic	1
+1434	optometry clinic	1
+1435	framed bed	1
+1436	bituminous sand	1
+1437	oil pipeline network	1
+1438	cellophane	1
+1439	natural-based polymer	1
+1440	cork	1
+1441	baseboard	1
+1442	charcuterie shop	1
+1443	stable bandage	1
+1444	meat processing plant	1
+1445	cheese processing plant	1
+1446	gypsum	1
+1447	chicken manure	1
+1448	vacuum cleaner	1
+1449	swing bridge	1
+1450	erosionally enriched glacial ice	1
+1451	massif	1
+1452	canal head reservoir	1
+1453	biosphere reserve	1
+1454	world heritage site	1
+1455	pyroclastic shield volcano	1
+1456	complex volcano	1
+1457	tuya	1
+1458	brine pool	1
+1459	Ramsar site	1
+1460	clock	1
+1461	pressure lamp	1
+1462	rainwater	1
+1463	sandy clay loam	1
+1464	silty loam	1
+1465	sandy loam	1
+1466	fine sand	1
+1467	loamy sand	1
+1468	double tree line ecotone	1
+1469	desert-alpine tree line ecotone	1
+1470	lichen woodland	1
+1471	polar tree-line ecotone	1
+1472	vegetated hill	1
+1473	continental subsurface zone	1
+1474	fissure water	1
+1475	blue ice	1
+1476	permafrost crater derived from a methane explosion	1
+1477	slab snow	1
+1478	game reserve	1
+1479	suspension bridge	1
+1480	overpass	1
+1481	humpback bridge	1
+1482	footbridge	1
+1483	drawbridge	1
+1484	Bailey bridge	1
+1485	big-box store	1
+1486	desert island	1
+1487	wind farm	1
+1488	skerry	1
+1489	riverfront	1
+1490	business park	1
+1491	atmosphere and water column exposed melt pond	1
+1492	air vent	1
+1493	shopping mall	1
+1494	private prison	1
+1495	polling booth	1
+1496	snow layer	1
+1497	ice fog	1
+1498	freezing fog	1
+1499	agricultural potting mixture	1
+1500	firebreak	1
+1501	subglacial lake	1
+1502	water column exposed melt pond	1
+1503	wood ash	1
+1504	hydraulic cement	1
+1505	constructed monument	1
+1506	face cream product	1
+1507	acidic environment	1
+1508	artificial satellite	1
+1509	alcohol fermentation pit	1
+1510	greenhouse	1
+1511	water filter	1
+1512	buoy	1
+1513	lichen material	1
+1514	crustal fluid	1
+1515	cloud water	1
+1516	industrial park	1
+1517	shredder	1
+1518	oil refinery	1
+1519	photobioreactor	1
+1520	waste stabilization pond	1
+1521	oil mill	1
+1522	aquaculture farm	1
+1523	alkaline environment	1
+1524	ocean acidification	1
+1525	acidification of an aquatic environment	1
+1526	lava field	1
+1527	andesitic volcano	1
+1528	spring water	1
+1529	dacitic volcano	1
+1530	disturbed ecosystem	1
+1531	marine bathyal zone biome	1
+1532	water table	1
+1533	compacted soil	1
+1534	runoff	1
+1535	cis-dichloroethane contaminated sediment	1
+1536	solonetz	1
+1537	vertisol	1
+1538	umbrisol	1
+1539	solonchak	1
+1540	planosol	1
+1541	plinthosol	1
+1542	phaeozem	1
+1543	luvisol	1
+1544	borehole	1
+1545	basalt	1
+1546	unexploded-ordnance dump	1
+1547	volcanic rock	1
+1548	residual water in soil	1
+1549	plutonic rock	1
+1550	xeric basin biome	1
+1551	small freshwater lake biome	1
+1552	feather environment	1
+1553	face skin environment	1
+1554	culturing environment	1
+1555	intestine environment	1
+1556	coke	1
+1557	tidal power plant	1
+1558	ocean thermal power station	1
+1559	lignite power plant	1
+1560	karst cave	1
+1561	pig manure	1
+1562	thermal nuclear reactor	1
+1563	horse manure	1
+1564	small river biome	1
+1565	large river delta biome	1
+1566	large river headwater biome	1
+1567	ravine	1
+1568	mixed grassland	1
+1569	acute care facility	1
+1570	homeless shelter	1
+1571	fire station	1
+1572	university building	1
+1573	school building	1
+1574	conference room	1
+1575	church building	1
+1576	airport transit lounge	1
+1577	airport concourse	1
+1578	building corridor	1
+1579	dairy farm	1
+1580	agricultural experimental station	1
+1581	public transport hub	1
+1582	atmosphere-exposed melt pond	1
+1583	brine channel	1
+1584	salt glacier	1
+1585	cryoconite hole	1
+1586	englacial stream	1
+1587	research nuclear reactor	1
+1588	fast neutron reactor	1
+1589	large freshwater lake biome	1
+1590	arenosol	1
+1591	anthrosol	1
+1592	ferralsol	1
+1593	tannery	1
+1594	bore hole water	1
+1595	quinate enriched soil	1
+1596	L-(+)-tartrate enriched soil	1
+1597	poly-beta-hydroxybutyrate enriched soil	1
+1598	salicylate enriched soil	1
+1599	threonine enriched soil	1
+1600	kynurenate enriched soil	1
+1601	testosterone enriched soil	1
+1602	pantothenate enriched soil	1
+1603	nitisol	1
+1604	gypsisol	1
+1605	alisol	1
+1606	gleysol	1
+1607	lixisol	1
+1608	leptosol	1
+1609	kastanozem	1
+1610	calcisol	1
+1611	durisol	1
+1612	chernozem	1
+1613	cryosol	1
+1614	cambisol	1
+1615	acrisol	1
+1616	albeluvisol	1
+1617	microbialite	1
+1618	public building	1
+1619	halite	1
+1620	driveway	1
+1621	Bathymodiolus-dominated oceanic mussel reef	1
+1622	transvasement	1
+1623	area of attached Modiolus assemblages	1
+1624	neritic mussel reef	1
+1625	hydroelectric reservoir	1
+1626	drinking water reservoir	1
+1627	tidal mangrove shrubland	1
+1628	bone element environment	1
+1629	area of low atmospheric pressure	1
+1630	atmospheric zone	1
+1631	paved parking lot	1
+1632	concrete road	1
+1633	marine hadal zone biome	1
+1634	asphalt road	1
+1635	rural stormwater	1
+1636	irrigation reservoir	1
+1637	vog	1
+1638	saline shrimp pond water	1
+1639	coastal shrimp pond	1
+1640	crop canopy	1
+1641	residual kerogen	1
+1642	humic kerogen	1
+1643	sulfrous kerogen	1
+1644	recalcitrant kerogen	1
+1645	marine abyssal zone biome	1
+1646	flood control reservoir	1
+1647	sapropelic kerogen	1
+1648	volcanic fissure	1
+1649	tenement	1
+1650	skyscraper	1
+1651	orangery	1
+1652	oast house	1
+1653	bottle	1
+1654	latex	1
+1655	residential environment	1
+1656	river bed	1
+1657	intermittent wetland	1
+1658	mountain spur	1
+1659	subglacial volcano	1
+1660	epeiric sea biome	1
+1661	maelstrom	1
+1662	neritic mesopelagic zone biome	1
+1663	neritic epipelagic zone biome	1
+1664	neritic sea surface microlayer biome	1
+1665	oceanic benthopelagic zone biome	1
+1666	oceanic hadal pelagic zone biome	1
+1667	oceanic abyssopelagic zone biome	1
+1668	oceanic bathypelagic zone biome	1
+1669	oceanic mesopelagic zone biome	1
+1670	oceanic epipelagic zone biome	1
+1671	oceanic sea surface microlayer biome	1
+1672	terracette	1
+1673	labile kerogen	1
+1674	amenity lake	1
+1675	neonatal intensive care unit	1
+1676	methane-laden permafrost	1
+1677	pediatric intensive care unit facility	1
+1678	pediatric unit facility	1
+1679	pain management unit facility	1
+1680	orthopaedics unit facility	1
+1681	ophthalmology unit facility	1
+1682	oncology unit facility	1
+1683	occupational therapy unit facility	1
+1684	nutrition and dietetics unit facility	1
+1685	neurology unit facility	1
+1686	nephrology unit facility	1
+1687	neonatal intensive care unit facility	1
+1688	methane-releasing thermokarst lake	1
+1689	physiotherapy unit facility	1
+1690	slush ice layer	1
+1691	shuga	1
+1692	grease ice layer	1
+1693	multiyear ice	1
+1694	second year ice	1
+1695	first year ice	1
+1696	intraglacial lake	1
+1697	ice-encased melt pond	1
+1698	natural nuclear fission reactor	1
+1699	boiler slag	1
+1700	bottom ash	1
+1701	pharmacy unit facility	1
+1702	post-anesthesia care unit facility	1
+1703	tropical marginal sea biome	1
+1704	massage therapy clinic	1
+1705	IUCN protected area with sustainable use of natural resources	1
+1706	refractory astrogeological material	1
+1707	astrogeological gas	1
+1708	suspended sediment	1
+1709	cosmogenous sediment	1
+1710	seasonal marine thermocline	1
+1711	permanent marine thermocline	1
+1712	eastern boundary current	1
+1713	western boundary current	1
+1714	along-front current	1
+1715	ophthalmology clinic	1
+1716	family practice clinic	1
+1717	high dependency unit facility	1
+1718	dental clinic	1
+1719	chiropractic clinic	1
+1720	ribbon lake	1
+1721	clinic	1
+1722	tertiary referral hospital	1
+1723	patient room	1
+1724	urology unit facility	1
+1725	rheumatology unit facility	1
+1726	radiotherapy unit facility	1
+1727	psychiatric intensive care unit facility	1
+1728	psychiatric unit facility	1
+1729	mausoleum	1
+1730	bowling alley	1
+1731	pliofilm	1
+1732	pleural effusion material	1
+1733	orchard soil	1
+1734	muddy soil	1
+1735	roadside soil	1
+1736	arable soil	1
+1737	alpine soil	1
+1738	sea foam	1
+1739	karst field	1
+1740	firn	1
+1741	neve	1
+1742	oronasal secretion material	1
+1743	tear material	1
+1744	vitreous humor material	1
+1745	salt contaminated soil	1
+1746	breast milk material	1
+1747	chyle material	1
+1748	cryopeg	1
+1749	area of seasonal sea ice	1
+1750	frozen lead	1
+1751	water ice surface layer	1
+1752	frost-formed hummock	1
+1753	sea ice hummock	1
+1754	glacier ice field	1
+1755	sea ice field	1
+1756	area of drift ice	1
+1757	pasture soil	1
+1758	peaty paddy field soil	1
+1759	mylar	1
+1760	marine pelagic zone	1
+1761	sphagnum bog	1
+1762	high-level radioactive sediment	1
+1763	agricultural process	1
+1764	marine salt marsh biome	1
+1765	estuarine biome	1
+1766	coastal upwelling	1
+1767	concentration basin mediterranean sea biome	1
+1768	oil well	1
+1769	ocean time series station	1
+1770	botanical garden	1
+1771	dolomite	1
+1772	oceanic zone	1
+1773	steppe soil	1
+1774	marine neritic zone	1
+1775	permanent spring	1
+1776	ephemeral spring	1
+1777	rift lake	1
+1778	fjord lake	1
+1779	periglacial lake	1
+1780	endorheic lake	1
+1781	sinkhole	1
+1782	olive grove	1
+1783	peat swamp	1
+1784	tropical soil	1
+1785	area of sea ice	1
+1786	red clay	1
+1787	siliceous ooze	1
+1788	processing line	1
+1789	atmospheric isobaric surface	1
+1790	sacred site	1
+1791	meromictic pond	1
+1792	marine lake water	1
+1793	marine lake	1
+1794	fermentation starter	1
+1795	experimental forest ecosystem	1
+1796	eutrophic pond	1
+1797	pathogen-suppressive soil	1
+1798	cold room	1
+1799	cay	1
+1800	mariculture process	1
+1801	biological product	1
+1802	physician office	1
+1803	airplane	1
+1804	veterinary facility	1
+1805	hotel	1
+1806	food production high-risk contamination area	1
+1807	food production medium-risk contamination area	1
+1808	food production low-risk contamination area	1
+1809	food prossessing non-production area	1
+1810	open cage mariculture process	1
+1811	food production environmental monitoring zone	1
+1812	ceramic	1
+1813	polar front	1
+1814	anafront	1
+1815	katafront	1
+1816	intertropical front	1
+1817	interstitial fluid material	1
+1818	lymph material	1
+1819	mucus material	1
+1820	synovial fluid material	1
+1821	pus material	1
+1822	sebum material	1
+1823	saliva material	1
+1824	lithia spring	1
+1825	glaze	1
+1826	hoarfrost	1
+1827	depth hoar	1
+1828	volcanic soil	1
+1829	arid biome	1
+1830	subalpine biome	1
+1831	active sulphate-reducing enrichment culturing unit	1
+1832	bubble plume	1
+1833	semi-diurnal marine tidal flow process	1
+1834	blind thrust fault	1
+1835	secondary cold front	1
+1836	neutral occluded front	1
+1837	warm occluded front	1
+1838	cold occluded front	1
+1839	upper front	1
+1840	fly ash	1
+1841	cerebrospinal fluid material	1
+1842	ear wax material	1
+1843	key biodiversity area	1
+1844	tertiary atmosphere	1
+1845	secondary atmosphere	1
+1846	primary atmosphere	1
+1847	freshwater marsh	1
+1848	saline marsh	1
+1849	saline evaporation pond	1
+1850	island arc	1
+1851	pyroclastic cone	1
+1852	site of special scientific interest	1
+1853	hot tub	1
+1854	public road	1
+1855	national wildlife refuge	1
+1856	industrial wastewater	1
+1857	IUCN national park	1
+1858	mid-shelf fronts	1
+1859	tidal mixing front	1
+1860	coastal buoyancy current front	1
+1861	plume front	1
+1862	estuarine front	1
+1863	pelagic isopycnal surface	1
+1864	ephemeral island	1
+1865	pelagic isohaline surface	1
+1866	pelagic isothermal surface	1
+1867	marine lysocline	1
+1868	diatomite	1
+1869	private swimming pool	1
+1870	ophiolites	1
+1871	tropical deciduous broadleaf forest	1
+1872	river plume	1
+1873	mineral horizon	1
+1874	membrane bioreactor	1
+1875	interstitial water	1
+1876	formation fluid	1
+1877	food waste	1
+1878	electrical switch	1
+1879	drinking water treatment plant	1
+1880	drinking water pipeline network	1
+1881	temperate mixed broadleaf forest	1
+1882	tropical semi-deciduous broadleaf forest	1
+1883	temperate deciduous needleleaf forest	1
+1884	water intake	1
+1885	temperate deciduous broadleaf forest	1
+1886	tropical lowland evergreen broadleaf rain forest	1
+1887	temperate evergreen needleleaf forest	1
+1888	talus cave	1
+1889	hydrothermal seep	1
+1890	aquatic natural environment	1
+1891	terrestrial natural environment	1
+1892	lake with a hypoxic hypolimnion	1
+1893	take-out restaurant	1
+1894	food truck	1
+1895	cafeteria	1
+1896	marine nutricline	1
+1897	marine pycnocline	1
+1898	marine chemocline	1
+1899	marine channel	1
+1900	rocky sand	1
+1901	acid dune sand	1
+1902	lake bottom mud	1
+1903	marine sludge	1
+1904	marine mud	1
+1905	water scum	1
+1906	muddy water	1
+1907	red soil	1
+1908	bluegrass field soil	1
+1909	rubber plantation soil	1
+1910	eucalyptus forest soil	1
+1911	lake channel	1
+1912	oceanic gyre	1
+1913	cinder cone	1
+1914	spatter cone	1
+1915	mud volcano	1
+1916	stratovolcano	1
+1917	mid-ocean ridge	1
+1918	kipuka	1
+1919	ford	1
+1920	methane gas emission process	1
+1921	contaminated land	1
+1922	nest of alligator	1
+1923	ice wedge	1
+1924	desert sand	1
+1925	bulk soil	1
+1926	nest of ant	1
+1927	nest of bird	1
+1928	marine oligotrophic desert	1
+1929	marine Taylor column	1
+1930	land bridge	1
+1931	terrigenous sediment	1
+1932	marine streamer	1
+1933	marine anoxic zone	1
+1934	marine oxygen minimum zone	1
+1935	marine downwelling	1
+1936	marine benthic storm	1
+1937	sea grass bed	1
+1938	kelp forest	1
+1939	marine algal bloom	1
+1940	marine basaltic hydrothermal vent biome	1
+1941	marine ultramafic hydrothermal vent biome	1
+1942	marine white smoker biome	1
+1943	marine black smoker biome	1
+1944	marine subtidal rocky reef biome	1
+1945	ocean biome	1
+1946	sound	1
+1947	emulsion	1
+1948	midden	1
+1949	strand crack	1
+1950	ice rise	1
+1951	cyanobacterial bloom	1
+1952	mofetta	1
+1953	blood plasma material	1
+1954	thatched building roof	1
+1955	paraffin oil	1
+1956	composting toilet	1
+1957	glaze ice layer	1
+1958	ionosphere	1
+1959	ozone layer	1
+1960	atmospheric ozone	1
+1961	pour-flush pit latrine	1
+1962	pour-flush toilet fixture	1
+1963	covered pit latrine with slab floor	1
+1964	asbestos building roof	1
+1965	wooden building roof	1
+1966	sheet-iron building roof	1
+1967	compressed biogas	1
+1968	sheet-iron exterior wall	1
+1969	concrete exterior wall	1
+1970	salt dome	1
+1971	unburnt-brick exterior wall	1
+1972	burnt-brick exterior wall	1
+1973	patio	1
+1974	living room	1
+1975	bathroom	1
+1976	indoor kitchen	1
+1977	domestic garden	1
+1978	circalittoral zone	1
+1979	compressed natural gas	1
+1980	flat-wick lamp	1
+1981	clay fermentation pit	1
+1982	alum spring	1
+1983	chyme material	1
+1984	sweat material	1
+1985	aqueous humour material	1
+1986	nesting material	1
+1987	pockmark field	1
+1988	bedclothing	1
+1989	hypodermic needle	1
+1990	area of high atmospheric pressure	1
+1991	radioactive spring	1
+1992	soda spring	1
+1993	salt spring	1
+1994	chalybeate spring	1
+1995	mantle lamp	1
+1996	tropical mixed forest biome	1
+1997	inland sea	1
+1998	freshwater algal bloom	1
+1999	barrier island	1
+2000	microcontinental island	1
+2001	marine mucilage	1
+2002	mouth environment	1
+2003	axilla skin environment	1
+2004	silty clay	1
+2005	sandy clay	1
+2006	silty clay loam	1
+2007	infralittoral zone	1
+2008	freshwater littoral zone	1
+2009	tropical mangrove	1
+2010	bare soil surface layer	1
+2011	tidal creek	1
+2012	discarded fishing gear	1
+2013	drainage canal	1
+2014	natural plastic	1
+2015	manufactured plastisphere	1
+2016	foamed plastic	1
+2017	water column	1
+2018	thermoplastic material	1
+2019	particulate organic nitrogen	1
+2020	particulate organic carbon	1
+2021	navigation canal	1
+2022	active permafrost layer	1
+2023	tropical mixed broadleaf forest	1
+2024	lake water	1
+2025	freshwater stream biome	1
+2026	epixylon	1
+2027	epipsammon	1
+2028	epiphyton	1
+2029	epipelon	1
+2030	epilithon	1
+2031	geyser	1
+2032	step pool	1
+2033	stream run	1
+2034	artificial pond	1
+2035	lost fishing gear	1
+2036	treated wastewater	1
+2037	desalinated water	1
+2038	planetary cryosphere	1
+2039	tropical mixed needleleaf forest	1
+2040	tropical thorn forest	1
+2041	tropical freshwater swamp forest	1
+2042	tropical lower montane forest	1
+2043	tropical upper montane forest	1
+2044	tropical semi-evergreen moist broadleaf forest	1
+2045	temperate mixed needleleaf forest	1
+2046	corn exchange	1
+2047	bunkhouse	1
+2048	public toilet	1
+2049	hillock	1
+2050	violent environment	1
+2051	shady environment	1
+2052	attractive environment	1
+2053	safe environment for human presence	1
+2054	noisy environment	1
+2055	food desert	1
+2056	bike path	1
+2057	public sports field	1
+2058	public park	1
+2059	playground	1
+2060	area of ice cover	1
+2061	snow-covered land	1
+2062	time crystal	1
+2063	water truck	1
+2064	impromptu campground	1
+2065	cotton plantation	1
+2066	cobble sediment	1
+2067	boulder sediment	1
+2068	spit	1
+2069	peninsula	1
+2070	rift valley	1
+2071	chaparral area	1
+2072	rice field	1
+2073	fish hatchery	1
+2074	fish farm	1
+2075	continental divide	1
+2076	graben	1
+2077	horst	1
+2078	butte	1
+2079	hanging valley	1
+2080	polder	1
+2081	quicksand bed	1
+2082	esker	1
+2083	fault escarpment	1
+2084	ocean trench	1
+2085	beaver pond	1
+2086	land-tied island	1
+2087	submarine canyon	1
+2088	abyssal feature	1
+2089	palsa mire	1
+2090	tundra mire	1
+2091	string mire	1
+2092	pebble sediment	1
+2093	granular sediment	1
+2094	sandy sediment	1
+2095	silty sediment	1
+2096	leat	1
+2097	marine sponge reef	1
+2098	marine snow	1
+2099	microbial mat material	1
+2100	carbon dioxide-reducing sediment	1
+2101	sulphate-reducing sediment	1
+2102	iron-reducing sediment	1
+2103	manganese-reducing sediment	1
+2104	marine subtidal rocky reef	1
+2105	marine coral reef deep fore reef	1
+2106	marine coral reef buttress zone	1
+2107	marine coral reef fore reef	1
+2108	marine coral reef crest	1
+2109	marine coral reef back reef	1
+2110	marine coral reef flat zone	1
+2111	nitrate-reducing sediment	1
+2112	hyperthermophilic sediment	1
+2113	thermophilic sediment	1
+2114	mesophilic sediment	1
+2115	marine hydrothermal plume	1
+2116	marine hydrothermal vent chimney	1
+2117	dilution basin mediterranean sea biome	1
+2118	marine cold seep biome	1
+2119	marine sponge reef biome	1
+2120	clay sediment	1
+2121	raised mire	1
+2122	stony desert	1
+2123	coal mine lake sediment	1
+2124	tarn	1
+2125	ultrafine respirable suspended particulate matter	1
+2126	acidic hot spring	1
+2127	extreme high temperature environment	1
+2128	alkaline salt lake	1
+2129	mesophilic sulfur spring	1
+2130	epilimnion	1
+2131	anaerobic mud	1
+2132	artificial harbor	1
+2133	anaerobic stream sediment	1
+2134	polygenetic volcanic field	1
+2135	pseudocrater	1
+2136	penplain	1
+2137	turlough	1
+2138	plateau	1
+2139	liman	1
+2140	live cave	1
+2141	joint-plane cave	1
+2142	crevasse	1
+2143	low tide zone	1
+2144	high tide zone	1
+2145	tidal pool	1
+2146	bajada	1
+2147	blowout	1
+2148	kettle	1
+2149	dune slack	1
+2150	arsenate treated wood	1
+2151	asphalt concrete	1
+2152	alkaline hot spring	1
+2153	cement plaster	1
+2154	lime plaster	1
+2155	nunatak	1
+2156	mound	1
+2157	mesa	1
+2158	levee	1
+2159	rocky desert	1
+2160	sandy desert	1
+2161	river valley	1
+2162	blowhole	1
+2163	atoll	1
+2164	asphalt lake	1
+2165	coffee plantation	1
+2166	tea plantation	1
+2167	banana plantation	1
+2168	sisal plantation	1
+2169	sugar plantation	1
+2170	causeway	1
+2171	peat cut	1
+2172	cirque	1
+2173	anabranch	1
+2174	populated place	1
+2175	gravel field	1
+2176	underground river	1
+2177	underground lake	1
+2178	fishpond	1
+2179	liquefied petroleum gas	1
+2180	temperate shrubland biome	1
+2181	pingo scar	1
+2182	sedimentary stratum	1
+2183	bacteria enriched soil	1
+2184	mountain forest soil	1
+2185	orchid soil	1
+2186	manured soil	1
+2187	limed soil	1
+2188	frozen compost soil	1
+2189	pond soil	1
+2190	humus-rich acidic ash soil	1
+2191	chloropicrin enriched soil	1
+2192	meadow soil	1
+2193	burned soil	1
+2194	alluvial paddy field soil	1
+2195	alluvial swamp soil	1
+2196	lawn soil	1
+2197	amictic lake	1
+2198	fertilized soil	1
+2199	urea enriched soil	1
+2200	sawah soil	1
+2201	jungle soil	1
+2202	dry soil	1
+2203	savanna soil	1
+2204	allotment garden soil	1
+2205	rice straw	1
+2206	bakery	1
+2207	acetamide enriched soil	1
+2208	ethanol enriched soil	1
+2209	skatole enriched soil	1
+2210	beech forest soil	1
+2211	vegetable garden soil	1
+2212	greenhouse soil	1
+2213	heat stressed soil	1
+2214	tobacco warehouse	1
+2215	volcanic dike	1
+2216	stable manure	1
+2217	chalk soil	1
+2218	sake brewery	1
+2219	poultry deep litter	1
+2220	aviation fuel	1
+2221	rye grass silage	1
+2222	currency note	1
+2223	sewage plant	1
+2224	piggery	1
+2225	mushroom compost	1
+2226	warm seep	1
+2227	back-arc basin	1
+2228	water cooling	1
+2229	container of an intermittent saline lake	1
+2230	container of an intermittent oxbow lake	1
+2231	underground irrigation canal	1
+2232	intermittently filled reservoir	1
+2233	wadi mouth	1
+2234	marine terrace	1
+2235	meander neck	1
+2236	spruce forest soil	1
+2237	leafy wood soil	1
+2238	ornithogenic soil	1
+2239	trimethylamine enriched soil	1
+2240	sarcosine enriched soil	1
+2241	bacon curing brine	1
+2242	lost stream	1
+2243	tailings dam	1
+2244	sugarcane vinasse	1
+2245	organic horizon	1
+2246	slurry	1
+2247	saprolite	1
+2248	polluted river	1
+2249	ditch mouth	1
+2250	agricultural terrace	1
+2251	cultivated environment	1
+2252	cold environment	1
+2253	extraterrestrial environment	1
+2254	moatan	1
+2255	freshwater environment	1
+2256	endolithic environment	1
+2257	outcrop	1
+2258	atmospheric Taylor column	1
+2259	crevice	1
+2260	warm polymictic lake	1
+2261	cold polymictic lake	1
+2262	warm monomictic lake	1
+2263	cold monomictic lake	1
+2264	boulder field	1
+2265	arrugado	1
+2266	dimictic lake	1
+2267	geographic sill	1
+2268	tailings pond	1
+2269	road cut	1
+2270	blanket bog	1
+2271	residential backyard	1
+2272	pond bed	1
+2273	anaerobic sludge blanket reactor	1
+2274	thermophilic granular sludge	1
+2275	thermophilic anaerobic methanogenic reactor	1
+2276	aerobic sulfide-oxidizing bioreactor	1
+2277	saline lake sediment	1
+2278	inorganically enriched sediment	1
+2279	pyritic acid mine drainage	1
+2280	oil reservoir	1
+2281	calanque	1
+2282	military training area	1
+2283	nuclear weapons test site	1
+2284	diversionary dam	1
+2285	dry dam	1
+2286	wing dam	1
+2287	check dam	1
+2288	saddle dam	1
+2289	multipurpose dam	1
+2290	talik	1
+2291	waterhole	1
+2292	shingle beach	1
+2293	swale	1
+2294	brackish pond	1
+2295	brackish lake	1
+2296	reservoir bed	1
+2297	calcite hot spring	1
+2298	coarse beach sand	1
+2299	dedicated campground	1
+2300	lava tunnel	1
+2301	bay	1
+2302	dead cave	1
+2303	sand pit quarry	1
+2304	lake surface	1
+2305	heath	1
+2306	cotton dust	1
+2307	grain dust	1
+2308	asbestos dust	1
+2309	clay dust	1
+2310	cement dust	1
+2311	metallic dust	1
+2312	fibrous glass dust	1
+2313	coal dust	1
+2314	sidewalk	1
+2315	bile material	1
+2316	amniotic fluid material	1
+2317	blood material	1
+2318	waterspout	1
+2319	landspout	1
+2320	laboratory facility	1
+2321	haze	1
+2322	kaolin dust	1
+2323	slate dust	1
+2324	talc dust	1
+2325	barium dust	1
+2326	aluminium dust	1
+2327	rapids	1
+2328	mangrove island	1
+2329	lagoon	1
+2330	waterfall	1
+2331	beaver dam	1
+2332	pinnacle	1
+2333	lake inlet	1
+2334	gravel pit	1
+2335	flood control dam	1
+2336	irrigation dam	1
+2337	hydroelectric dam	1
+2338	natural harbor	1
+2339	artificial island	1
+2340	landlocked sea	1
+2341	black smoker	1
+2342	solfatara	1
+2343	hadalpelagic zone	1
+2344	marine mesopelagic zone	1
+2345	marine abyssalpelagic zone	1
+2346	desert oasis	1
+2347	flood meadow ecosystem	1
+2348	sabkha	1
+2349	artificial reef	1
+2350	riffle	1
+2351	snow field	1
+2352	drainage ditch	1
+2353	irrigation ditch	1
+2354	cove	1
+2355	hedge	1
+2356	silica dust	1
+2357	public swimming pool	1
+2358	coastal sea water	1
+2359	flat glass	1
+2360	tiled building roof	1
+2361	pole-reinforced mud exterior wall	1
+2362	straw exterior wall	1
+2363	stone exterior wall	1
+2364	thatched exterior wall	1
+2365	stone building floor	1
+2366	dung building floor	1
+2367	glass building floor	1
+2368	sandy building floor	1
+2369	brick building floor	1
+2370	quartz glass	1
+2371	container glass	1
+2372	saline wetland	1
+2373	marine bathypelagic zone	1
+2374	tidal mudflat	1
+2375	gypsum plaster	1
+2376	ceiling	1
+2377	fence	1
+2378	boundary wall	1
+2379	non-hydraulic cement	1
+2380	Bathymodiolus gill tissue material	1
+2381	lacustrine mudflat	1
+2382	Bathymodiolus-dominated oceanic mussel bed	1
+2383	neritic mussel bed	1
+2384	maar	1
+2385	ground moraine	1
+2386	diapir	1
+2387	batholith	1
+2388	pit latrine with slab floor	1
+2389	chemical toilet fixture	1
+2390	petting zoo	1
+2391	smog	1
+2392	storm surge	1
+2393	slightly stratified estuary	1
+2394	highly stratified estuary	1
+2395	hydromorphic/phreatic dambo	1
+2396	plasma	1
+2397	hydrocarbon flame	1
+2398	illegal informal settlement	1
+2399	public utility line	1
+2400	mesotrophic lake	1
+2401	oligotrophic lake	1
+2402	ocean strait	1
+2403	asthenosphere	1
+2404	solid planetary core	1
+2405	liquid planetary core	1
+2406	inner planetary core	1
+2407	outer planetary core	1
+2408	fluvial dambo	1
+2409	chonolith	1
+2410	drylot	1
+2411	microcosm	1
+2412	mesocosm	1
+2413	pocasin	1
+2414	ventilated improved pit latrine	1
+2415	sea beach	1
+2416	coastal plain	1
+2417	inland cliff	1
+2418	fracking liquid	1
+2419	inverse estuary	1
+2420	saline wedge estuary	1
+2421	naphtha	1
+2422	rock dust	1
+2423	radioactive material	1
+2424	volume of cyanoacrylate	1
+2425	hoar crystal	1
+2426	surface hoar	1
+2427	graupel	1
+2428	poultry hatchery	1
+2429	manure pit	1
+2430	gas well	1
+2431	hydrothermal field	1
+2432	mountain pass	1
+2433	hydrothermally-influenced sediment	1
+2434	cultured organic material	1
+2435	cell culturing unit	1
+2436	wood stain	1
+2437	subpolar grassland	1
+2438	quasi-stationary front	1
+2439	frontal surface of a weather front	1
+2440	open cage mariculture facility	1
+2441	atmospheric frontal zone	1
+2442	soil cryoturbate	1
+2443	light fraction material	1
+2444	heavy fraction material	1
+2445	intermittent estuary	1
+2446	moor	1
+2447	bayou	1
+2448	carr	1
+2449	wooden building floor	1
+2450	compost biofilter	1
+2451	feasting pit site	1
+2452	calcareous ooze	1
+2453	lake island	1
+2454	river island	1
+2455	limestone pavement	1
+2456	wave-cut platform	1
+2457	tombolo	1
+2458	area designated as a national nature reserve	1
+2459	marine park area	1
+2460	area of national forest	1
+2461	concrete building floor	1
+2462	lock	1
+2463	monogenetic volcanic field	1
+2464	river water	1
+2465	continental arc	1
+2466	flash flood	1
+2467	saline pan	1
+2468	confluence	1
+2469	chott	1
+2470	guyot	1
+2471	fissure cave	1
+2472	luminescent paint	1
+2473	turpentine	1
+2474	suspended colloidal sediment	1
+2475	material primarily composed of biogenic carbonates	1
+2476	frost-susceptible soil	1
+2477	gel ink	1
+2478	distributary	1
+2479	supranational geopolitical entity	1
+2480	track	1
+2481	oil palm plantation	1
+2482	planted forest	1
+2483	coconut plantation	1
+2484	vineyard	1
+2485	lacustrine beach	1
+2486	saline hydrographic feature	1
+2487	fault cave	1
+2488	cave system	1
+2489	fourth-order administrative region	1
+2490	bedding-plane cave	1
+2491	solar power station	1
+2492	gas power station	1
+2493	agricultural wastewater treatment plant	1
+2494	industrial wastewate treatment plant	1
+2495	well-mixed estuary	1
+2496	particulate matter in a hydrosphere	1
+2497	ice cave congelation ice	1
+2498	flume	1
+2499	congelation ice in a fresh water body	1
+2500	permafrost congelation ice	1
+2501	congelation sea ice	1
+2502	alpine tundra biome	1
+2503	badland	1
+2504	pharmaceutical ink	1
+2505	polymetallic nodule ecosystem	1
+2506	alluvium	1
+2507	polar tundra ecosystem	1
+2508	glacial bed	1
+2509	glacial summer surface	1
+2510	ice-bearing permafrost	1
+2511	kerosene oil	1
+2512	forest floor	1
+2513	terrestrial ecoregion	1
+2514	hydrogel	1
+2515	rubber cement	1
+2516	carbonate system of ocean water	1
+2517	multiple vortex tornado	1
+2518	fire whirl	1
+2519	public prison	1
+2520	omics observatory system	1
+2521	astronomical observatory system	1
+2522	terrestrial observatory system	1
+2523	marine observatory system	1
+2524	atmospheric observatory system	1
+2525	methyl cellulose paste	1
+2526	permanent hair dye	1
+2527	estuarine tidal riverine coastal lower water column	1
+2528	estuarine tidal riverine coastal upper water column	1
+2529	swamp area	1
+2530	alluvial deposit	1
+2531	alluvial sediment	1
+2532	anaerobic digester sludge	1
+2533	creamery	1
+2534	air filter	1
+2535	fork	1
+2536	community health centre	1
+2537	community service centre	1
+2538	household environment	1
+2539	human nursery	1
+2540	temple	1
+2541	place of worship	1
+2542	day care facility	1
+2543	child care environment	1
+2544	occupational environment	1
+2545	healthcare environment	1
+2546	cup	1
+2547	spoon	1
+2548	cold desert	1
+2549	montane conifer woodland	1
+2550	tropical marine semi-evergreen forest	1
+2551	dry woodland	1
+2552	household waste material	1
+2553	vadose cave	1
+2554	anchialine cave	1
+2555	glacier cave	1
+2556	erosional cave	1
+2557	inflationary cave	1
+2558	granite	1
+2559	marine mesoscale eddy field	1
+2560	autoclaved sand	1
+2561	root matter	1
+2562	dormitory	1
+2563	first nations reserve	1
+2564	insecure housing	1
+2565	temporary residence	1
+2566	single strain cell culture	1
+2567	mock community culture	1
+2568	biogeochemical process	1
+2569	carbon cycling	1
+2570	biogeochemical cycling	1
+2571	motor boat	1
+2572	cooling water	1
+2573	cleanroom	1
+2574	cloud top	1
+2575	cloud base	1
+2576	taxicab	1
+2577	toxic waste	1
+2578	stagnant water	1
+2579	seam surface	1
+2580	conveyor roller	1
+2581	pneumatic conveyor	1
+2582	screw conveyor	1
+2583	bucket conveyor	1
+2584	packaging equipment	1
+2585	belt conveyor system	1
+2586	equipment leg	1
+2587	public-private prison	1
+2588	animal rescue shelter	1
+2589	ground transport	1
+2590	chopstick	1
+2591	maize field	1
+2592	litter layer	1
+2593	potato silage	1
+2594	flooded grassland biome	1
+2595	iron mine	1
+2596	goat manure	1
+2597	letter paper	1
+2598	montane savanna biome	1
+2599	tropical woodland biome	1
+2600	xeric shrubland biome	1
+2601	mediterranean shrubland biome	1
+2602	tropical shrubland biome	1
+2603	subtropical coniferous forest biome	1
+2604	mediterranean woodland biome	1
+2605	motorscooter	1
+2606	mediterranean forest biome	1
+2607	montane grassland biome	1
+2608	herb and fern layer	1
+2609	temperate grassland biome	1
+2610	tropical grassland biome	1
+2611	flooded savanna biome	1
+2612	temperate savanna biome	1
+2613	tropical savanna biome	1
+2614	polar desert biome	1
+2615	montane desert biome	1
+2616	subtropical desert biome	1
+2617	tropical desert biome	1
+2618	temperate desert biome	1
+2619	closed ecological system	1
+2620	rural settlement	1
+2621	uranium mine	1
+2622	iron ore	1
+2623	bicycle	1
+2624	montane shrubland biome	1
+2625	shrub layer	1
+2626	understory	1
+2627	talus slope	1
+2628	hillside	1
+2629	gravelly slope	1
+2630	cypress swamp	1
+2631	cypress strand swamp	1
+2632	cypress dome	1
+2633	deep chlorophyll maximum layer	1
+2634	brackish water environment	1
+2635	sea water environment	1
+2636	rocky slope	1
+2637	haline environment	1
+2638	lime mudstone	1
+2639	mudstone	1
+2640	claystone	1
+2641	siltstone	1
+2642	atmospheric water vapour	1
+2643	white smoker	1
+2644	village biome	1
+2645	pinyon juniper woodland	1
+2646	desert scrubland	1
+2647	juniper woodland	1
+2648	oak woodland	1
+2649	coastal scrubland	1
+2650	caldera lake	1
+2651	meteorite lake	1
+2652	IUCN strict nature reserve	1
+2653	igneous extrusion	1
+2654	fumarole-derived ice tower	1
+2655	bedrock	1
+2656	Mohorovicic discontinuity	1
+2657	regolith	1
+2658	area of perennial snow	1
+2659	area of perennial water ice	1
+2660	sill	1
+2661	phacolith	1
+2662	lopolith	1
+2663	laccolith	1
+2664	stock	1
+2665	clastic dike	1
+2666	riverine flood	1
+2667	IUCN wilderness area	1
+2668	sofa	1
+2669	chair	1
+2670	desk	1
+2671	refrigerator	1
+2672	landline telephone	1
+2673	mobile phone	1
+2674	television set	1
+2675	cassette player	1
+2676	radio device	1
+2677	apiary	1
+2678	candle	1
+2679	battery-powered electric lamp	1
+2680	mouth of liquid discharge conduit	1
+2681	photovoltaic system	1
+2682	domestic solar panel array	1
+2683	area of scrub	1
+2684	nursing home	1
+2685	migration path	1
+2686	mushroom environment	1
+2687	fish processing building	1
+2688	knackery	1
+2689	plumbing drain	1
+2690	animal cage	1
+2691	closed animal house	1
+2692	open animal house	1
+2693	automated teller machine	1
+2694	soil biocrust	1
+2695	geothermally heated river	1
+2696	area of emergent herbaceous wetland	1
+2697	area of woody wetland	1
+2698	area of cropland	1
+2699	area of pastureland or hayfields	1
+2700	area of moss-dominated vegetation	1
+2701	area of lichen-dominated vegetation	1
+2702	area of sedge- and forb-dominated herbaceous vegetation	1
+2703	area of developed space with high usage intensity	1
+2704	area of developed space with medium usage intensity	1
+2705	area of developed space with low usage intensity	1
+2706	area of developed open space	1
+2707	ballast water	1
+2708	puddle of water	1
+2709	cold-blast paraffin lantern	1
+2710	hot-blast paraffin lantern	1
+2711	dead flame paraffin lantern	1
+2712	volcanic crater zone	1
+2713	semi-diurnal marine tidal flow zone	1
+2714	diurnal marine tidal flow zone	1
+2715	marine tidal flow	1
+2716	estuarine tidal riverine open water lower water column	1
+2717	estuarine tidal riverine open water pycnocline	1
+2718	estuarine tidal riverine open water upper water column	1
+2719	estuarine tidal riverine coastal pycnocline	1
+2720	urban stormwater	1
+2721	area designated for human defecation	1
+2722	water-based planetary surface	1
+2723	brown sea ice	1
+2724	algal material	1
+2725	acidic volcanic ash	1
+2726	acidic soil	1
+2727	arable or pasturable land	1
+2728	tended pasturable land	1
+2729	rhizoplane	1
+2730	Bondon cheese environment	1
+2731	cnidarian-associated environment	1
+2732	arable land	1
+2733	environment associated with an aquatic invertebrate	1
+2734	IUCN protected landscape/seascape	1
+2735	ecosystem fragment	1
+2736	IUCN habitat/species management area	1
+2737	IUCN natural monument or feature	1
+2738	glacial equlibrium line	1
+2739	Paramo	1
+2740	medial moraine	1
+2741	climate system	1
+2742	temperate freshwater swamp forest	1
+2743	anthracite	1
+2744	biochar	1
+2745	nest of termite	1
+2746	burrow	1
+2747	area of rocky shore	1
+2748	carbon nanotube enriched soil	1
+2749	UNEP-WCMC class 7 mountain	1
+2750	UNEP-WCMC class 6 mountain	1
+2751	UNEP-WCMC class 5 mountain	1
+2752	UNEP-WCMC class 4 mountain	1
+2753	UNEP-WCMC class 3 mountain	1
+2754	UNEP-WCMC class 2 mountain	1
+2755	UNEP-WCMC class 1 mountain	1
+2756	animal-drawn cart	1
+2757	mist	1
+2758	cloud forest	1
+2759	tropical mountain	1
+2760	temperate mountain	1
+2761	polar mountain	1
+2762	terrestrial mountain	1
+2763	Calyptra habitat	1
+2764	ecological province	1
+2765	abyssal clay	1
+2766	necromass	1
+2767	formal settlement	1
+2768	leisure centre	1
+2769	town hall	1
+2770	lacustrine plain	1
+2771	gasoline exhaust	1
+2772	diesel exhaust	1
+2773	liquefied natural gas	1
+2774	vomit material	1
+2775	ice cap dome	1
+2776	terrarium	1
+2777	somma volcano	1
+2778	dell	1
+2779	rock shelter	1
+2780	backwater	1
+2781	plunge pool	1
+2782	prairie	1
+2783	flood fringe	1
+2784	tectonic plate subduction	1
+2785	floodway	1
+2786	till plain	1
+2787	scroll plane	1
+2788	terminal moraine	1
+2789	polynya	1
+2790	demilitarized zone	1
+2791	paternoster lake	1
+2792	consequent stream	1
+2793	railway	1
+2794	motor oil	1
+2795	automatic transmission fluid	1
+2796	brake fluid	1
+2797	leather dye	1
+2798	paper dye	1
+2799	textile dye	1
+2800	India ink	1
+2801	convergent tectonic movement	1
+2802	planetary manufacturing process	1
+2803	stalagmite	1
+2804	stalactite	1
+2805	subjacent karst	1
+2806	syngenetic karst	1
+2807	polygonal karst	1
+2808	emissions from petroleum combustion	1
+2809	aqueous inkjet printer ink	1
+2810	soy ink	1
+2811	acrylic paint	1
+2812	oil-based paint	1
+2813	vitreous enamel	1
+2814	primer (paint)	1
+2815	oil paint thinner	1
+2816	enamel thinner	1
+2817	acrylic paint medium	1
+2818	doline karst	1
+2819	lacquer	1
+2820	shellac	1
+2821	resin (gum) varnish	1
+2822	degreaser	1
+2823	fountain pen ink	1
+2824	tragacanth	1
+2825	xanthan gum	1
+2826	wood dust	1
+2827	lumber production process	1
+2828	fresh water aquarium	1
+2829	insequent stream	1
+2830	tributary	1
+2831	weir	1
+2832	riverine pothole	1
+2833	intermittent saline evaporation pond	1
+2834	ice cap depression	1
+2835	apron	1
+2836	beach ridge	1
+2837	ice cap ridge	1
+2838	interfluve	1
+2839	cliff cleft	1
+2840	canalized stream	1
+2841	abandoned watercourse	1
+2842	cutoff	1
+2843	canal tunnel	1
+2844	rill	1
+2845	shore lead	1
+2846	flaw lead	1
+2847	rincon	1
+2848	sea-ice lead	1
+2849	friable-frozen soil	1
+2850	plastic-frozen soil	1
+2851	hard-frozen soil	1
+2852	area of pack ice	1
+2853	sawmill	1
+2854	travertine	1
+2855	pier	1
+2856	winter sports facility	1
+2857	saline water aquarium	1
+2858	activated sludge	1
+2859	subsequent stream	1
+2860	oil field production water	1
+2861	resequent stream	1
+2862	oil tank	1
+2863	nitrobenzene enriched sediment	1
+2864	neutral hot spring	1
+2865	naphthalene enriched sediment	1
+2866	intertidal sediment	1
+2867	iron-reducing zone of petroleum contaminated sediment	1
+2868	1,4-dioxane contaminated sludge	1
+2869	hay compost	1
+2870	platinum mine	1
+2871	fossil material	1
+2872	estuarine mud	1
+2873	drilling bore water	1
+2874	ditch water	1
+2875	Superfund site	1
+2876	anaerobic dechlorinating bioreactor	1
+2877	obsequent stream	1
+2878	sea sand	1
+2879	deep marine sediment	1
+2880	oil seep	1
+2881	oil spill	1
+2882	sandstone	1
+2883	urine material	1
+2884	transform tectonic movement	1
+2885	sea cave	1
+2886	movie theater	1
+2887	illegal settlement	1
+2888	non-saline environment	1
+2889	rhizosphere environment	1
+2890	dry river	1
+2891	shower fixture	1
+2892	bathtub fixture	1
+2893	sink fixture	1
+2894	ethnic food shop	1
+2895	legal settlement	1
+2896	agricultural fairground	1
+2897	channel of an intermittent river	1
+2898	wet pitfall trap	1
+2899	dry pitfall trap	1
+2900	primary forest	1
+2901	diurnal marine tidal flow process	1
+2902	food kiosk	1
+2903	carbon dioxide emission	1
+2904	neonatal unit facility	1
+2905	micobiology unit facility	1
+2906	mobile intensive care ambulance	1
+2907	maternity unit facility	1
+2908	intensive care unit room	1
+2909	traumatic intensive care unit facility	1
+2910	surgical intensive care unit facility	1
+2911	haematology unit facility	1
+2912	gynaecology unit facility	1
+2913	geriatric intensive care unit facility	1
+2914	hypereutrophic lake	1
+2915	environment determined by a plant substance	1
+2916	temperate sclerophyllous dry forest	1
+2917	tropical sclerophyllous dry forest	1
+2918	hospice	1
+2919	field hospital	1
+2920	trattoria	1
+2921	steakhouse	1
+2922	greasy spoon	1
+2923	coffeehouse	1
+2924	carvery	1
+2925	brasserie	1
+2926	bistro	1
+2927	door	1
+2928	window	1
+2929	toilet bowl	1
+2930	tissue paper	1
+2931	stainless steel	1
+2932	nurse call button	1
+2933	locker	1
+2934	light switch	1
+2935	door handle	1
+2936	control panel	1
+2937	police station	1
+2938	dry market	1
+2939	wet market	1
+2940	group home facility	1
+2941	assisted living facility	1
+2942	temperate broadleaf evergreen forest	1
+2943	geriatric care unit facility	1
+2944	general surgery unit facility	1
+2945	gastroenterology unit facility	1
+2946	umbrella	1
+2947	polje	1
+2948	carbon monoxide ice	1
+2949	ammonia ice	1
+2950	methane ice	1
+2951	carbon dioxide ice	1
+2952	astrogeological ice	1
+2953	animal manure product	1
+2954	composted animal manure	1
+2955	heat-treated animal manure	1
+2956	bovine dairy liquid manure	1
+2957	feed storage space	1
+2958	forage material	1
+2959	fossil worm burrow	1
+2960	Karman vortex street	1
+2961	rockslide lake	1
+2962	aeolian lake	1
+2963	rift zone	1
+2964	transform plate boundary	1
+2965	convergent plate boundary	1
+2966	divergent plate boundary	1
+2967	lake with an oxic hypolimnion	1
+2968	oxic lake	1
+2969	hypoxic lake	1
+2970	lake with an anoxic hypolimnion	1
+2971	anoxic lake	1
+2972	contaminated animal feed	1
+2973	hide	1
+2974	emergency unit room	1
+2975	bone meal	1
+2976	discharge unit facility	1
+2977	diagnostic imaging unit facility	1
+2978	coronary care unit facility	1
+2979	chaplaincy unit facility	1
+2980	breast screening unit facility	1
+2981	anaesthetics unit facility	1
+2982	clinical patient assessment facility	1
+2983	public subway train	1
+2984	public train	1
+2985	public ferry	1
+2986	public bus	1
+2987	all season road	1
+2988	recreational cruise ship	1
+2989	polytunnel	1
+2990	outdoor environment	1
+2991	supraglacial lake	1
+2992	shallow marine sediment	1
+2993	natural gas processing plant	1
+2994	sugar refinery	1
+2995	petroleum oil refinery	1
+2996	outflow cave	1
+2997	mangrove biome soil	1
+2998	flue gas desulfurization material	1
+2999	surface soil	1
+3000	cloth	1
+3001	temperate woodland biome	1

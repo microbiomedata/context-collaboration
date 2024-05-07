@@ -5,7 +5,7 @@ import re
 
 # using sparql_dataframe and pandas because they handle special characters in the output very nicely
 
-# hopefully won't need these now
+# hopefully we won't need these anymore
 max_cell_val_length = 999_999
 replacement_value = f"value omitted because length exceeds {max_cell_val_length} characters"
 
@@ -23,6 +23,8 @@ replacement_value = f"value omitted because length exceeds {max_cell_val_length}
 #     return re.sub(r"[\\n\r\t]+", " ", text)
 
 
+# not crazy about iterating over rows, making a new list of dicts and then converting that to a dataframe
+# maybe this won't be necessary anymore either
 def convert_to_dataframe(results):
     """ Convert query results to a pandas DataFrame. """
     data = []
