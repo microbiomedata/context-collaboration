@@ -22,6 +22,20 @@ assets/outputs/sparql/envo_subset_non_host_non_food_env_local_scale_annotations.
 		--endpoint $(NMDC_GRAPHDB_ENVO) \
 		--output-file $@
 
+
+assets/outputs/sparql/biome_annotations.csv: assets/queries/sparql/biome_annotations.rq
+	$(RUN) sparql-query-cli \
+		--query-file $<	\
+		--endpoint $(NMDC_GRAPHDB_ENVO) \
+		--output-file $@
+
+
+assets/outputs/sparql/environmental_material_annotations.csv: assets/queries/sparql/environmental_material_annotations.rq
+	$(RUN) sparql-query-cli \
+		--query-file $<	\
+		--endpoint $(NMDC_GRAPHDB_ENVO) \
+		--output-file $@
+
 assets/outputs/sparql/envo_selected_material_entity_relations_pivot_filtered.tsv:
 	$(RUN) python src/scripts/ubergraph_pivot.py \
 		--endpoint "https://ubergraph.apps.renci.org/sparql" \
@@ -236,3 +250,30 @@ downloads/mixs.yaml:
 	curl --request GET -sL \
 	     --url 'https://raw.githubusercontent.com/GenomicsStandardsConsortium/mixs/main/src/mixs/schema/mixs.yaml'\
 	     --output $@
+
+assets/large_outputs/mixs-schemasheets-template.tsv: downloads/mixs.yaml # first four lines are headers
+	$(RUN) linkml2schemasheets-template \
+		--source-path $< \
+		--output-path $@ \
+		 --debug-report-path assets/large_outputs/mixs-schemasheets-template-debug.txt \
+		 --log-file assets/large_outputs/mixs-schemasheets-template-log.txt \
+		 --report-style concise
+	head -n 4 $@ > $@.headers.tsv
+
+assets/large_outputs/mixs-extensions-schemasheets-template.csv: assets/large_outputs/mixs-schemasheets-template.tsv
+	cat $< | $(RUN) schemasheets-template-mixs-extensions-filter  > $@
+
+#src/context_collaboration/schema/context_collaboration.yaml: examples/context_collaboration_template.tsv
+#	$(RUN) schemauto generalize-tsv \
+#		--class-name "LongTable" \
+#		--enum-columns "agent" $< \
+#		--enum-columns "mixs_context_label" \
+#		--enum-columns "mixs_environment_label" \
+#		--enum-threshold 0.5 \
+#		--schema-name "context_collaboration_schema" \
+#		--output $@ \
+
+#examples/context_collaboration_template.yaml: src/context_collaboration/schema/context_collaboration.yaml examples/context_collaboration_template.tsv
+#	$(RUN) linkml-convert \
+#		--output $@ \
+#		--schema $^

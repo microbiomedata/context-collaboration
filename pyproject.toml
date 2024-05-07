@@ -23,6 +23,7 @@ linkml = "^1.3.5"
 mkdocs-material = "^8.2.8"
 mkdocs-mermaid2-plugin = "^0.6.0"
 schemasheets = "^0.1.14"
+quantulum3 = { version = "^0.9", extras = ["classifier"] }
 
 [build-system]
 requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning"]
@@ -33,4 +34,4 @@ docs = ["linkml", "mkdocs-material"]
 
 [tool.poetry.scripts]
 sparql-query-cli = "scripts.sparql_query_cli:main"
-
+schemasheets-template-mixs-extensions-filter = "scripts.schemasheets_template_mixs_extensions_filter:main"

@@ -1,0 +1,6 @@
+ontology_class_slug,ontology_class_label,confidence,comment
+ENVO_01000179,desert biome,1,
+ENVO_01000202,temperate broadleaf forest biome,0.9,"High confidence due to the typical presence of well-developed soil ecosystems, but allowing for slight uncertainty due to potential variations in specific forest types or environmental conditions."
+ENVO_01000246,village biome,0.6,"Moderate confidence as village biomes involve soil interaction due to human settlements and agricultural activities, but acknowledging variability depending on land use practices and infrastructure."
+ENVO_00002030,aquatic biome,1,
+ENVO_01000219,anthropogenic terrestrial biome,0.9,"High confidence as built environments fall under anthropogenic influences, but acknowledging the inclusion of non-built environments within this category."

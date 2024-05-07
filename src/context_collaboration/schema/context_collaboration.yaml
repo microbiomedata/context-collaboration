@@ -1,96 +1,349 @@
----
-id: https://w3id.org/microbiomedata/context-collaboration
-name: context-collaboration
-title: context-collaboration
-description: |-
-  Resources for data-driven and collaboratively refined mappings between ontology classes like ENVO:00002259 ‘agricultural soil’ to MIxS environmental context questions like env_medium, subsetted according to MIxS environmental extensions like Agriculture.
-license: MIT
-see_also:
-  - https://microbiomedata.github.io/context-collaboration
+name: context_collaboration_schema
+description: context_collaboration_schema
+id: https://w3id.org/context_collaboration_schema
 
-prefixes:
-  context_collaboration: https://w3id.org/microbiomedata/context-collaboration/
-  linkml: https://w3id.org/linkml/
-  biolink: https://w3id.org/biolink/
-  schema: http://schema.org/
-  PATO: http://purl.obolibrary.org/obo/PATO_
-  example: https://example.org/
-default_prefix: context_collaboration
-default_range: string
+comments:
+  - This LinkML schema defines the structural aspects of performing subset mappings between environmental extensions in the Minimal Information about any (X) Sequence standard (MIxS) and class terms from ontologies like the Environment Ontology (ENVO)
+  - It can be provided as context for a large language model. Additional files, like the definitions of the EnvO terms and some example mappings will need to be provided too. The LLM should ask for those files if it doesn't think they have been provided.
+  - As the additional files are provided, the LLM should not provide any analytical summary. It should only acknowledge receipt of the data and ask whether there are any more data inputs or whether the first subset mapping should begin.
+  - The MIxS standard defines environmental context questions (fields, parameters) about nucleic acid sequences and the samples they come from. The international sequence databases require submitters to provide answers to those questions. There are some core questions and some questions that are dependent on the environmental extension that the submitter has chosen.
+  - The MIxS environmental extensions are defined in the permissible_values of the mixs_environment_label_enum
+  - Three environmental context questions are defined in the permissible_values of mixs_context_label_enum
+  - Subset mapping is an alignment process of pre-determining sets of ontology terms that are reasonable choices for answering the MIxS environmental context questions, within the scope of a given MIxS environmental extension. The subsets are required because there are so many terms in EnvO and other applicable ontologies that it is difficult for people to choose the right ones unless they are already experts in both environmental science and formal ontology.
+  - LLMs have technical limitation on the amount of contextual input they can accept (in terms of word-like tokens), the maximum number of text tokens that they can emit in a whole conversation, and the maximum number of tokens they can emit in a single response. There may be additional constrains like maximum number of tokens per minute or per day. Because of these limitations, it is essential that the LLM and the human user communicate in an efficient and clearly defined manner. In general, the human user will be responsible for asking questions like "What are all of the EnvO biome terms that could be used to answer the env_broad_scale question in combination in the MIxS Soil environment? The LLM is then responsible for answering that question with the best sensitivity, specificity and relevance possible. The LLM must provide its responses in a format that follows this schema exactly. However, the human user may be responsible for aggregating the responses into a document by copying and pasting output from a webpage or the command line.
+  - The terms that can be used to answer the environmental context questions will come from OWL ontologies, generally from the Open Biological and Biomedical Ontologies Foundry (OBO). The ontology files can be quite large relative to the input token limit, so they should be summarized with files in a tabular format like CSV. The CSV files will inherently loose some of the structural knowledge in the ontology, so it may be useful to show the LLM the SPARQL questions that are used to generate the tables. In general, each row in the tables represents one ontolgy term that might be relevant for some combination of an environmental context question and a environmental extension. Most columns contain textual annotations of the terms that should be used to guide the subset mapping process. There will also be a column for the term's identifiers (usually on the far left) and for a concatenated list of the term's direct superclasses, usually on the far right. The LLM is responsible for inferring the subclass relationships from the provided superclass relationships.
+  - IN this project, we identify ontology terms by the right-hand portion of their IRIs, after the last slash (/) character. We use an underscore (_) as a separator between the prefix and the local identifier, not a colon (:).
+  - The LLM is expected to optimize the relevance of its responses. If there were no output token limit, then the LLM could report all ontology terms that are acceptable answers to some combination of a environmental context question and a environmental extension. On the other hand, the LLM might decide to be very succinct and just list a small number of terms from high in the ontological hierarchy. To obtain the best result, the LLM should descend the hierarchy until it gets to a seed terms from which all subclasses are acceptable responses to the environmental context question/environmental extension constraint. The LLM should then report that seed term
+  - The LLM should not apply any lexical or semantic reasoning of its own about the relatedness of the terms. The superclass assertions in the input should be considered the only knowledge of hierarchy.
+  - The LLM's responses must always include the mapped ontology term's identifier and the term's label, and those pairing must match the pairing in the input data exactly.
+  - This schema provides a comment field for each mapping. The LLM is responsible for filling in a comment if it would show a human user what kind of followup curation they should do. The LLM should not provide any any general background knowledge in the comments.
+  - The schema also provides a required confidence slot (ie field) for all mappings. No formula or ruleset has been determined for confidence scoring yet. The scores should be stepped in 0.1 increments. The LLM should not report mappings for which the score is less than 0.5, ie the LLM is less than 50% sure that the mapping is valid.
+  - The LLM must populate the following fields. confidence, mixs_context_label, mixs_environment_label, ontology_class_label, ontology_class_slug
+  - The LLM may populate comment if it thinks that comment will help the human during curation
+  - The LLM should not bother populating agent or timestamp. The human will take care of that.
 
 imports:
   - linkml:types
-
-classes:
-
-  NamedThing:
-    description: >-
-      A generic grouping for any identifiable entity
-    slots:
-      - id
-      - name
-      - description
-    class_uri: schema:Thing
-
-  Person:
-    is_a: NamedThing
-    description: >-
-      Represents a Person
-    slots:
-      - primary_email
-      - birth_date
-      - age_in_years
-      - vital_status
-    slot_usage:
-      primary_email:
-        pattern: "^\\S+@[\\S+\\.]+\\S+"
-
-  PersonCollection:
-    tree_root: true
-    description: >-
-      A holder for Person objects
-    attributes:
-      entries:
-        range: Person
-        multivalued: true
-        inlined: true
-
-slots:
-  id:
-    identifier: true
-    slot_uri: schema:identifier
-    range: uriorcurie
-    description: A unique identifier for a thing
-  name:
-    slot_uri: schema:name
-    description: A human-readable name for a thing
-  description:
-    slot_uri: schema:description
-    description: A human-readable description for a thing
-  primary_email:
-    slot_uri: schema:email
-    description: The main email address of a person
-  birth_date:
-    slot_uri: schema:birthDate
-    range: date
-    description: Date on which a person is born
-  age_in_years:
-    range: integer
-    description: Number of years since birth
-  vital_status:
-    range: PersonStatus
-    description: living or dead status
-
+prefixes:
+  linkml: https://w3id.org/linkml/
+  context_collaboration_schema: https://w3id.org/context_collaboration_schema
+default_prefix: context_collaboration_schema
 enums:
-  PersonStatus:
+  mixs_context_label_enum:
+    description: Definitions of environmental context questions from the MIxS environmental context labels
+    comments:
+      - These are three questions about where a Biosample came from and what it consists of
+    see_also:
+      - https://github.com/EnvironmentOntology/envo/wiki/Using-ENVO-with-MIxS
     permissible_values:
-      ALIVE:
-        description: the person is living
-        meaning: PATO:0001421
-      DEAD:
-        description: the person is deceased
-        meaning: PATO:0001422
-      UNKNOWN:
-        description: the vital status is not known
-        todos:
-          - map this to an ontology
+      env_broad_scale:
+        description: The major environmental system the sample or specimen came from.
+          The system(s) identified should have a coarse spatial grain, to provide
+          the general environmental context of where the sampling was done (e.g. in
+          the desert or a rainforest). We recommend using subclasses of the EnvO biome
+          class, ENVO_00000428.
+        title: broad-scale environmental context
+      env_local_scale:
+        description: The entity or entities which are in the sample or specimen s
+          local vicinity and which you believe have significant causal influences
+          on your sample or specimen. We recommend using EnvO terms which are of smaller
+          spatial grain than your entry for env_broad_scale. Terms, such as anatomical
+          sites, from other OBO Library ontologies which interoperate with EnvO (e.g.
+          UBERON) are accepted in this field
+        title: local environmental context
+      env_medium:
+        description: The environmental material(s) immediately surrounding the sample
+          or specimen at the time of sampling. We recommend using subclasses of 'environmental
+          material', ENVO_00010483. Terms from other OBO ontologies are permissible
+          as long as they reference mass/volume nouns (e.g. air, water, blood) and
+          not discrete, countable entities (e.g. a tree, a leaf, a table top)
+        title: environmental medium
+  mixs_environment_label_enum:
+    description: MIxS environmental context labels
+    comments:
+      - These are the extensions to the MIxS standard that provide more specific context about where a Biosample came from and what it consists of
+    permissible_values:
+      Agriculture:
+        description: A collection of terms appropriate when sequencing samples obtained
+          in an agricultural environment.  Suitable to capture metadata appropriate
+          to enhance crop productivity and agroecosystem health  with the aim to facilitate
+          research of agricultural microbiomes and their relationships to plant productivity  and
+          sustainable crop production from diverse crop management contexts.
+        annotations:
+          use_cases: Agricultural Microbiomes Research Coordination Network, model cropping
+            and plant systems focused on agricultural plant and soil microbe; microbiome
+            studies in agricultural sites; long-term ecological research in croplands;
+            eDNA in manure samples; describing agricultural microbiome studies
+          mapping_priority: medium_despite_no_template
+        title: agriculture
+      Air:
+        description: A collection of terms appropriate when collecting and sequencing
+          samples obtained from a gaseous environment.
+        annotations:
+          use_cases: bioaerosol samples, pathogen load in urban air, aerosols
+          mapping_priority: high_template_deployed
+        title: air
+      BuiltEnvironment:
+        description: A collection of terms appropriate when collecting samples and
+          sequencing samples obtained in the  built-up environment, which includes
+          terms for surface material, humidity, temperature, moisture and  occupancy
+          type along with specific metadata terms describing the indoor air, building
+          and sample properties.
+        annotations:
+          use_cases: microbiology studies of the built environment, NASA space station
+            sampling, MetaSUB transit system sampling, home, hospitals, office buildings
+          mapping_priority: high_template_deployed
+        title: built environment
+      FoodAnimalAndAnimalFeed:
+        description: A collection of terms appropriate when collecting samples and
+          performing sequencing of samples  obtained from farm animals and their feed.
+        annotations:
+          use_cases: Microbiome of farm animals, their feed, and pet food.
+          mapping_priority: lowest_priority
+        title: food-animal and animal feed
+      FoodFarmEnvironment:
+        description: A collection of terms appropriate when collecting samples and
+          performing sequencing of samples  obtained from the farm environment
+        annotations:
+          use_cases: Microbiome of farm and field crops as well as environmental samples
+            including irrigation, soil amendments, and farm equipment.
+          mapping_priority: lowest_priority
+        title: food-farm environment
+      FoodFoodProductionFacility:
+        description: A collection of terms appropriate when collecting samples and
+          performing sequencing of samples  obtained from food production facilities.
+        annotations:
+          use_cases: Microbiome of food production facilities/factories
+          mapping_priority: lowest_priority
+        title: food-food production facility
+      FoodHumanFoods:
+        description: A collection of terms appropriate when collecting samples and
+          performing sequencing of samples  obtained from human food products.
+        annotations:
+          use_cases: Microbiome of foods intended for human consumption.
+          mapping_priority: lowest_priority
+        title: food-human foods
+      HostAssociated:
+        description: A collection of terms appropriate when collecting samples and
+          sequencing samples  obtained from a non-human host, to examine the host-associated
+          microbiome or genome.
+        annotations:
+          use_cases: elephant fecal matter or cat oral cavity
+          mapping_priority: high_template_deployed
+        title: host-associated
+      HumanAssociated:
+        description: A collection of terms appropriate when collecting samples and
+          sequencing samples  obtained from a person to examine their human-associated
+          microbiome or genome,  that does not have a specific extension (e.g., skin,
+          gut, vaginal).
+        annotations:
+          use_cases: blood samples or biopsy samples.
+          mapping_priority: low_template_pending
+        title: human-associated
+      HumanGut:
+        description: A collection of terms appropriate when collecting samples and
+          sequencing samples  obtained from a person to examine their gut-associated
+          microbiome.
+        annotations:
+          use_cases: human stool or fecal samples, or samples collected directly from
+            the gut.
+          mapping_priority: low_template_pending
+        title: human-gut
+      HumanOral:
+        description: A collection of terms appropriate when collecting samples and
+          sequencing samples  obtained from a person to examine their oral-associated
+          microbiome.
+        annotations:
+          use_cases: mouth swab sampling, dental microbiome samples, microbiome of oral
+            swabs, nasal, mouth, throat, teeth, tongue microbiome studies
+          mapping_priority: low_template_pending
+        title: human-oral
+      HumanSkin:
+        description: A collection of terms appropriate when collecting samples and
+          sequencing samples  obtained from a person to examine their skin-associated
+          microbiome.
+        annotations:
+          use_cases: swab samples taken on a person’s skin surface.
+          mapping_priority: low_template_pending
+        title: human-skin
+      HumanVaginal:
+        description: A collection of terms appropriate when collecting samples and
+          sequencing samples  obtained from a person to examine their vaginal-associated
+          microbiome.
+        annotations:
+          use_cases: vaginal swabbing
+          mapping_priority: low_template_pending
+        title: human-vaginal
+      HydrocarbonResourcesCores:
+        description: A collection of terms appropriate when collecting samples and
+          sequencing samples  obtained from environments pertaining to hydrocarbon
+          resources, specifically core samples.
+        annotations:
+          use_cases: The microbial characterization of hydrocarbon occurrences, defined
+            as the natural and artificial environmental features that are rich in
+            hydrocarbons, from hydrocarbon rich formations, such as reservoir cores.
+          mapping_priority: high_template_deployed
+        title: hydrocarbon resources-cores
+      HydrocarbonResourcesFluidsSwabs:
+        description: A collection of terms appropriate when collecting samples and
+          sequencing samples  obtained from environments pertaining to hydrocarbon
+          resources, specifically run-off liquids samples and swabs.
+        annotations:
+          use_cases: The microbial characterization of hydrocarbon occurrences,  defined
+            as the natural and artificial environmental features that are rich in
+            hydrocarbons, from hydrocarbon resource fluids.
+          mapping_priority: high_template_deployed
+        title: hydrocarbon resources-fluids/swabs
+      MicrobialMatBiofilm:
+        description: A collection of terms appropriate when collecting samples and
+          sequencing samples  obtained from biofilm environments including microbial
+          mats.
+        annotations:
+          use_cases: samples from microbial mats at cold seeps
+          mapping_priority: high_template_deployed
+        title: microbial mat/biofilm
+      MiscellaneousNaturalOrArtificialEnvironment:
+        description: A collection of generic terms appropriate when collecting and
+          sequencing samples  obtained from environments, where there is no specific
+          extension already available.
+        annotations:
+          mapping_priority: high_template_deployed
+        title: miscellaneous natural or artificial environment
+      PlantAssociated:
+        description: A collection of terms appropriate when collecting samples and
+          sequencing samples  obtained from a plant to examine it’s plant-associated
+          microbiome.
+        annotations:
+          use_cases: plant surface swabs, root soil or rhizosphere, cultivated plants,
+            plant phenotyping
+          mapping_priority: high_template_deployed
+        title: plant-associated
+      Sediment:
+        description: A collection of terms appropriate when collecting samples and
+          sequencing samples  obtained from the sedimentary area of aquatic environments.
+        annotations:
+          use_cases: river bed or sea floor.
+          mapping_priority: high_template_deployed
+        title: sediment
+      Soil:
+        description: A collection of terms appropriate when collecting samples and
+          sequencing samples  obtained from the uppermost layer of Earth's crust,
+          contributed by the Terragenome Consortium.
+        annotations:
+          use_cases: soil collection, island microbiome sampling, farm land or forest
+            floor.
+          mapping_priority: highest_priority
+        title: soil
+      SymbiontAssociated:
+        description: A collection of terms appropriate when collecting samples and
+          sequencing samples  obtained from an organism that lives in close association
+          with any other organism(s).
+        annotations:
+          use_cases: the microbiome sequence of a flea sampled from a farm animal
+          mapping_priority: lowest_priority
+        title: symbiont-associated
+      WastewaterSludge:
+        description: A collection of terms appropriate when collecting samples and
+          sequencing samples  obtained from any solid, semisolid or liquid waste.
+        annotations:
+          use_cases: sewerage or industrial wastewater
+          mapping_priority: lowest_priority
+        title: wastewater/sludge
+      Water:
+        description: A collection of terms appropriate when collecting samples and
+          sequencing water samples  obtained from any aquatic environment.
+        annotations:
+          use_cases: sea or river water, global ocean sampling day
+          mapping_priority: highest_priority
+        title: water
+  agent_enum:
+    description: The human, LLM, etc. who performed this mapping
+    permissible_values:
+      Mark Andrew Miller:
+        meaning: https://orcid.org/0000-0001-9076-6066
+      Montana Smith:
+        meaning: https://orcid.org/0000-0002-8683-0050
+      gpt-4-turbo-preview:
+        see_also:
+          - https://artificialanalysis.ai/models/gpt-4-turbo
+      gemini-1.5-pro-latest:
+        see_also:
+          - https://artificialanalysis.ai/models/gemini-1-5-pro
+      claude-3-opus-20240229:
+        see_also:
+          - https://artificialanalysis.ai/models/claude-3-opus
+slots:
+  mixs_context_label:
+    examples:
+      - value: env_broad_scale
+    range: mixs_context_label_enum
+    required: false
+  mixs_environment_label:
+    examples:
+      - value: BuiltEnvironment
+    range: mixs_environment_label_enum
+    required: false
+  ontology_class_slug:
+    examples:
+      - value: ENVO_01000219
+    range: string
+    required: true
+  ontology_class_label:
+    examples:
+      - value: anthropogenic terrestrial biome
+    range: string
+    required: true
+  confidence:
+    examples:
+      - value: '0.9'
+    range: float
+    required: true
+  comment:
+    examples:
+      - value: High confidence as built environments fall under anthropogenic influences,
+          but acknowledging the inclusion of non-built environments within this category.
+    multivalued: true
+    range: string
+    required: false
+  agent:
+    examples:
+      - value: gemini-1.5-pro-latest
+    range: agent_enum
+    required: false
+  timestamp:
+    examples:
+      - value: 2024-05-02T13:51
+    required: false
+  #    range: datetime
+  table_rows:
+    range: TableRow
+    multivalued: true
+    inlined_as_list: true
+classes:
+  LongTable:
+    tree_root: true
+    slots:
+      - table_rows
+  TableRow:
+    slots:
+      - mixs_context_label
+      - mixs_environment_label
+      - ontology_class_slug
+      - ontology_class_label
+      - confidence
+      - comment
+      - agent
+      - timestamp
+#    unique_keys:
+#      ontology_class_slug_key:
+#        unique_key_name: ontology_class_slug_key
+#        unique_key_slots:
+#          - ontology_class_slug
+#      ontology_class_label_key:
+#        unique_key_name: ontology_class_label_key
+#        unique_key_slots:
+#          - ontology_class_label
+#      comment_key:
+#        unique_key_name: comment_key
+#        unique_key_slots:
+#          - comment

@@ -1,0 +1,56 @@
+# This YAML-serialized data file is intended to help an LLM
+# understand how to perform subset mapping.
+# It is compliant with the context_collaboration_schema LinkML schema
+# If the LLM doesn't think that it has been provided with the corresponding schema file
+# or any other and other input data files then it should ask for them
+# The LLM must populate the following fields. confidence, mixs_context_label, mixs_environment_label, ontology_class_label, ontology_class_slug
+# The LLM may populate comment if it thinks that comment will help the human during curation
+# The LLM should not bother populating agent or timestamp. The human will take care of that.
+# this example is in YAML, but the LLM should emit its responses in an isomorphic JSON format
+table_rows:
+- ontology_class_slug: ENVO_01000179
+  ontology_class_label: desert biome
+  confidence: 1.0
+  mixs_context_label: env_broad_scale
+  mixs_environment_label: Soil
+  agent: gemini-1.5-pro-latest
+  timestamp: 2024-05-02T12:15
+- ontology_class_slug: ENVO_01000202
+  ontology_class_label: temperate broadleaf forest biome
+  confidence: 0.9
+  mixs_context_label: env_broad_scale
+  mixs_environment_label: Soil
+  comment:
+  - High confidence due to the typical presence of well-developed soil ecosystems,
+    but allowing for slight uncertainty due to potential variations in specific forest
+    types or environmental conditions.
+  agent: gemini-1.5-pro-latest
+  timestamp: 2024-05-02T12:15
+- ontology_class_slug: ENVO_01000246
+  ontology_class_label: village biome
+  confidence: 0.6
+  mixs_context_label: env_broad_scale
+  mixs_environment_label: Soil
+  comment:
+  - confidence:0.6|comment:Moderate confidence as village biomes involve soil interaction
+    due to human settlements and agricultural activities, but acknowledging variability
+    depending on land use practices and infrastructure.
+  agent: gemini-1.5-pro-latest
+  timestamp: 2024-05-02T12:15
+- ontology_class_slug: ENVO_00002030
+  ontology_class_label: aquatic biome
+  confidence: 1.0
+  mixs_context_label: env_broad_scale
+  mixs_environment_label: Water
+  agent: gemini-1.5-pro-latest
+  timestamp: 2024-05-02T13:51
+- ontology_class_slug: ENVO_01000219
+  ontology_class_label: anthropogenic terrestrial biome
+  confidence: 0.9
+  mixs_context_label: env_broad_scale
+  mixs_environment_label: BuiltEnvironment
+  comment:
+  - High confidence as built environments fall under anthropogenic influences, but
+    acknowledging the inclusion of non-built environments within this category.
+  agent: gemini-1.5-pro-latest
+  timestamp: 2024-05-02T13:51
