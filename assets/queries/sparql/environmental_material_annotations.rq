@@ -25,15 +25,9 @@ SELECT ?class
   (GROUP_CONCAT(DISTINCT ?in_subset;  SEPARATOR="; ") AS ?in_subsets)
   (GROUP_CONCAT(DISTINCT ?super_slug;  SEPARATOR="; ") AS ?superclasses)
 WHERE {
-    VALUES ?super_super {
-        obo:ENVO_00010483 # environmental material
-    }
-    VALUES ?minuses {
-        obo:FOODON_00002403 # food material
-    }
-    ?s rdfs:subClassOf+ ?super_super .
+    ?s rdfs:subClassOf+ obo:ENVO_00010483 # environmental material
     minus {
-        ?s rdfs:subClassOf* ?minuses
+        ?s rdfs:subClassOf* obo:FOODON_00002403 # food material
     }
     BIND(REPLACE(STR(?s), "http://purl.obolibrary.org/obo/", "") AS ?class)
     OPTIONAL {

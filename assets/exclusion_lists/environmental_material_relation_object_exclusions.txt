@@ -1,0 +1,637 @@
+
+1,4-dioxane
+1,4-dioxane contaminated sludge
+1-D extent
+1-hydroxyethyl group
+17-hydroxy steroid
+17beta-hydroxy steroid
+2-amino-3-hydroxybutanoic acid
+3-oxo steroid
+3-oxo-Delta(4) steroid
+3-oxo-Delta(4)-steroid group
+acidity
+actinoid atom
+actinoid molecular entity
+acyl group
+agricultural environmental material
+aliphatic alcohol
+alkali metal atom
+alkali metal cation
+alkali metal molecular entity
+alkali metal salt
+alkaline earth metal atom
+alkaline earth molecular entity
+alkyl alcohol
+alkylamines
+alkylbenzene
+aluminium atom
+aluminosilicate mineral
+anatomical cluster
+anatomical conduit
+anatomical entity
+anatomical space
+anatomical structure
+anatomical structure development
+anatomical structure formation involved in morphogenesis
+anatomical structure morphogenesis
+anatomical system
+anatomical wall
+angioblastic mesenchymal cell
+animal organ development
+anion
+anterior chamber of eyeball
+anterior segment of eyeball
+anthropogenic ecosystem conversion process
+anthropogenic environmental material
+application
+aquaculture process
+aqueous humor of eyeball
+argon atom
+aromatic carboxylate
+arsenic atom
+arsenic oxoanion
+asphalt concrete
+astrogeological gas
+astrogeological ice
+astronomical body
+astronomical body part
+astronomical object
+atom
+atomic nucleus
+barium atom
+baryon
+Bathymodiolinae
+Bathymodiolus
+Bathymodiolus gill tissue material
+benzenoid aromatic compound
+benzoates
+bicyclic compound
+biological attribute
+biological pigment
+biological process
+biological role
+biological waste material
+biological_process
+biomacromolecule
+biome
+biosphere
+blastula stage
+blood cell
+bodily fluid
+body of liquid
+boron group element atom
+boron group molecular entity
+brain
+brain ventricle
+brain ventricle/choroid plexus
+C-nitro compound
+calcium atom
+calcium cation
+calcium ion
+calcium salt
+calcium(2+)
+camera-type eye
+carbamoyl group
+carboacyl group
+carbobicyclic compound
+carbocyclic compound
+carbon atom
+carbon dioxide ice
+carbon dioxide-reducing sediment
+carbon group element atom
+carbon group molecular entity
+carbon monoxide
+carbon monoxide ice
+carbon nanostructure
+carbon oxoacid
+carbon oxoanion
+carbon-bearing gas emission process
+carbonyl compound
+carbonyl group
+carbopolycyclic compound
+carboxamide
+carboxy group
+carboxylic acid
+carboxylic acid anion
+casein derived peptide
+cation
+cell
+cell culture
+cell division
+cell periphery
+cellophane
+cellular anatomical entity
+cellular organism
+cellular organisms
+cellular process
+cellular_component
+central nervous system
+chalcogen
+chalcogen hydride
+chalcogen molecular entity
+chalcogen oxoacid
+chamber of eyeball
+characteristic
+chemical entity
+chemical entity attribute
+chemical precipitation process
+chemical substance
+chloride salt
+chromium atom
+chromium group element atom
+chromium group molecular entity
+chromium oxoanion
+circulatory system process
+cis-1,4-polyisoprene
+cleavage stage
+collection of organisms
+completely executed planned process
+composite particle
+composition
+compound astronomical body part
+concentrated
+concentration of
+connected anatomical structure
+connective tissue
+connective tissue cell
+continuant
+copper atom
+copper coordination entity
+copper group element atom
+copper group molecular entity
+copper tetrapyrrole
+copper(II) phthalocyanine
+crystal
+cyclic compound
+cyclic polypyrrole
+cyclitol carboxylic acid anion
+d-block element atom
+d-block molecular entity
+decreased object quality
+dense mesenchyme tissue
+developing anatomical structure
+developmental process
+deviation (from_normal)
+diatomaceous earth
+diatomite
+dicarboxylic acid
+dicarboxylic acids and O-substituted derivatives
+diol
+disconnected anatomical group
+disposition
+ecological community
+ecosystem
+ectoderm-derived structure
+electron
+elemental aluminium
+elemental calcium
+elemental carbon
+elemental chlorine
+elemental halogen
+elemental molecular entity
+elemental molecule
+elemental nitrogen
+elemental oxygen
+elemental pnictogen
+elemental sodium
+embryo stage
+embryonic structure
+embryonic tissue
+entire sense organ system
+entity
+environment associated with an animal part or small animal
+environmental condition
+environmental material
+environmental process
+environmental system
+environmental system determined by a quality
+environmental system process
+environmental zone
+erythroid lineage cell
+erythroid progenitor cell
+Eumetazoa
+exopolysaccharide
+external encapsulating structure
+extracellular matrix
+extracellular region
+extracellular space
+eye
+eye primordium
+eyeball of camera-type eye
+f-block element atom
+f-block molecular entity
+fermion
+fiat object part
+flue gas desulfurization material
+fluid astronomical body part
+fluid environmental material
+foamy environmental material
+forebrain
+formyl group
+function
+fundamental particle
+fused compound
+future brain
+future brain vesicle
+future central nervous system
+future forebrain
+future nervous system
+gas molecular entity
+gaseous environmental material
+gastrula stage
+geographic feature
+geophysical entity
+gill tissue material
+glycine derivative
+gold atom
+gross anatomical part
+group
+hadron
+halide
+halide anion
+halide salt
+halogen molecular entity
+hardness
+head connective tissue
+hematopoietic cell
+hematopoietic lineage restricted progenitor cell
+hematopoietic multipotent progenitor cell
+hematopoietic oligopotent progenitor cell
+hematopoietic precursor cell
+hematopoietic stem cell
+hematopoietic system
+heteroatomic molecular entity
+heterobicyclic compound
+heterocyclic compound
+heterocyclic organic fundamental parent
+heteromonocyclic compound
+heteroorganic entity
+heteropolycyclic compound
+homocyclic compound
+homopolycyclic compound
+homopolymer macromolecule
+homopolysaccharide
+hydrides
+hydrocarbon
+hydrocarbon-based environmental material
+hydrogen atom
+hydrogen molecular entity
+hydrological precipitation process
+hydrological process
+hydroxides
+hydroxy group
+hydroxy monocarboxylic acid anion
+hydroxy steroid
+hydroxybenzoate
+immaterial anatomical entity
+immature eye
+increased object quality
+increased quality
+independent continuant
+inorganic anion
+inorganic calcium salt
+inorganic cation
+inorganic chloride
+inorganic group
+inorganic hydride
+inorganic hydroxy compound
+inorganic ion
+inorganic molecular entity
+inorganic oxide
+inorganic peroxide
+inorganic salt
+inorganic sodium salt
+inorganic sulfate salt
+interface layer
+ion
+iron atom
+iron group element atom
+iron group molecular entity
+irregular connective tissue
+land
+landmass
+lateral structure
+layer
+lead atom
+lentic water body
+lepton
+life cycle
+life cycle stage
+liquid astronomical body part
+liquid environmental material
+loose connective tissue
+Lophotrochozoa
+lotic water body
+macromolecule
+main group element atom
+main group molecular entity
+manganese atom
+manganese group element atom
+mass of biological material
+mass of compounded environmental materials
+mass of environmental material
+mass of solid material
+material anatomical entity
+material congelation process
+material entity
+material extraction process
+material transformation process
+material transport process
+megakaryocyte-erythroid progenitor cell
+mesenchymal stem cell
+mesoderm-derived structure
+metal atom
+metal cation
+metal oxide
+metalloid atom
+Metazoa
+methyl cellulose
+methyl cellulose paste
+mineral
+mineral dust
+mineral material
+mineral nutrient
+molecular entity
+molecular quality
+molecule
+monoanion
+monoatomic anion
+monoatomic cation
+monoatomic chlorine
+monoatomic dication
+monoatomic entity
+monoatomic halogen
+monoatomic ion
+monoatomic monoanion
+monoatomic monocation
+monocarboxylic acid
+monocarboxylic acid amide
+monocarboxylic acid anion
+monocyclic arene
+monocyclic compound
+monocyclic hydrocarbon
+monohydroxybenzoate
+mononuclear parent hydride
+monounsaturated fatty acid
+monovalent inorganic anion
+monovalent inorganic cation
+morphology
+mucopolysaccharide
+multi fate stem cell
+multi-species collection of organisms
+multi-tissue plant structure
+multi-tissue structure
+multicellular anatomical structure
+multicellular organism
+multicellular organism development
+multicellular organismal process
+mussel gill tissue material
+myeloid cell
+myeloid lineage restricted progenitor cell
+N-alkylglycine
+nanostructure
+natural-based polymer
+nervous system
+nervous system development
+neurula stage
+nickel group element atom
+nickel group molecular entity
+nitro compound
+nitro group
+nitroarene
+nitrobenzene
+nitrobenzenes
+nitrogen atom
+nitrogen group
+nitrogen hydride
+nitrogen molecular entity
+nitrogen oxoacid
+nitrogen oxoanion
+nitrohydrocarbon
+noble gas atom
+noble gas molecular entity
+non-proteinogenic alpha-amino acid
+non-proteinogenic amino acid
+nonmetal atom
+nuclear particle
+nucleate cell
+nucleon
+object
+obsolete protein-containing material entity
+occurrent
+olefinic compound
+one-carbon compound
+open anatomical space
+organ component layer
+organ part
+organ subunit
+organ system subdivision
+organic amino compound
+organic anion
+organic cyclic compound
+organic divalent group
+organic fundamental parent
+organic group
+organic heterobicyclic compound
+organic heterocyclic compound
+organic heteromonocyclic compound
+organic heteropolycyclic compound
+organic hydride
+organic hydroxy compound
+organic ion
+organic material
+organic molecular entity
+organic molecule
+organic oxide
+organic oxo compound
+organic polycyclic compound
+organic sodium salt
+organic univalent group
+organism
+organism material
+organism or virus or viroid
+organism subdivision
+organism substance
+organismal entity
+organismal quality
+organochalcogen compound
+organodiyl group
+organogenesis stage
+organohalogen compound
+organonitrogen compound
+organonitrogen heterocyclic compound
+organooxygen compound
+organyl group
+ortho-fused compound
+ortho-fused polycyclic arene
+ortho-fused polycyclic hydrocarbon
+oxacycle
+oxide
+oxo group
+oxo steroid
+oxoacid
+oxoacid derivative
+oxoanion
+oxygen accumulating cell
+oxygen atom
+oxygen hydride
+oxygen molecular entity
+p-block element atom
+p-block molecular entity
+particle
+particle of clay
+particle of sand
+particle of silt
+particulate environmental material
+particulate organic nitrogen
+peptide
+peroxy group
+physical object quality
+physical quality
+physical quality of a process
+planet
+planetary landmass
+planetary subsurface zone
+planetary surface
+planned environmental usage process
+planned process
+plant anatomical entity
+platinum group metal atom
+pnictogen
+pnictogen molecular entity
+pnictogen oxoacid
+pnictogen oxoanion
+poly(alkylene vinylene) macromolecule
+poly(hydroxyalkanoate)
+poly(hydroxybutyrate)
+poly(isoprene) macromolecule
+poly-beta-hydroxybutyrate enriched soil
+polyatomic anion
+polyatomic entity
+polyatomic ion
+polychromatophilic erythroblast
+polycyclic arene
+polycyclic compound
+polycyclic heteroarene
+polyester macromolecule
+polymer
+polymetallic nodule
+polyol
+polypeptide
+polypyrrole
+polysaccharide derivative
+polyunsaturated fatty acid
+portion of meristem tissue
+portion of plant tissue
+posterior segment of eyeball
+precursor cell
+presumptive structure
+primary alcohol
+process
+process quality
+processual entity
+progenitor cell
+propane-1,2-diol
+propane-1,2-diols
+propanediol
+protein polypeptide chain
+protein-containing macromolecular complex
+proteinogenic amino acid derivative
+proteinogenic amino-acid residue
+proteinogenic amino-acid side-chain group
+qualitative
+quality
+quality of a gas
+quality of a liquid
+quality of a solid
+quality of a substance
+quinolinemonocarboxylate
+reactive nitrogen species
+realizable
+realizable entity
+refractory astrogeological material
+regional part of brain
+regional part of nervous system
+role
+root
+s-block element atom
+s-block molecular entity
+saturated organic heterocyclic parent
+saturated organic heteromonocyclic parent
+secretion of exocrine gland
+silicate mineral
+silicon atom
+silicon oxide
+simple eye
+single strain cell culture
+size
+sodium atom
+sodium molecular entity
+sodium salt
+sodium(1+)
+solid astronomical body part
+solid environmental material
+solid layer
+solid surface layer
+somatic stem cell
+specifically dependent continuant
+stem cell
+structure
+structure with developmental contribution from neural crest
+structured
+subatomic particle
+subdivision of organism along main body axis
+subsurface zone of an astronomical body
+sulfate salt
+sulfates
+sulfur atom
+sulfur oxide
+sulfur oxoacid
+sulfur oxoacid derivative
+surface layer
+surface of an astronomical body
+synthetic plastic
+system
+system process
+temperature
+terrestrial environmental zone
+texture
+tissue
+tissue development
+tissue morphogenesis
+titanium atom
+titanium group element atom
+titanium group molecular entity
+titanium oxides
+transition element atom
+transition element molecular entity
+transition element oxoanion
+triatomic oxygen
+uncharged atom
+univalent carboacyl group
+unstructured
+uranium atom
+vanadium atom
+vanadium group element atom
+vanadium group molecular entity
+vasculature of central nervous system
+vasculature of central nervous system plus retina
+ventricle of nervous system
+ventricular system of brain
+ventricular system of central nervous system
+vitreous chamber of eyeball
+volatile astrogeological material
+water
+water body
+water mass
+water-body-derived ice
+water-holding capacity
+water-holding capacity of soil
+watercourse
+wetness
+wholeness
+zinc atom
+zinc group element atom
+zinc group molecular entity
+zygote stage
+

@@ -302,7 +302,7 @@ slots:
     examples:
       - value: High confidence as built environments fall under anthropogenic influences,
           but acknowledging the inclusion of non-built environments within this category.
-    multivalued: true
+    multivalued: false
     range: string
     required: false
   agent:

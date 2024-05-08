@@ -1,0 +1,60 @@
+{
+  "table_rows": [
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Soil",
+      "ontology_class_slug": "ENVO_03501109",
+      "ontology_class_label": "subway train",
+      "confidence": 0.1,
+      "comment": "A subway train is not a reasonable local environmental context for soil samples, as it is an artificial, mobile environment that is not typically associated with soil ecosystems or processes."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Agriculture",
+      "ontology_class_slug": "ENVO:00002259",
+      "ontology_class_label": "agricultural soil",
+      "confidence": 0.2,
+      "comment": "The ENVO term 'ENVO:00002259' for 'agricultural soil' is not present in the provided input and cannot be used for mapping in this context."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "BuiltEnvironment",
+      "ontology_class_slug": "ENVO_00000081",
+      "ontology_class_label": "man-made tunnel",
+      "confidence": 0.1,
+      "comment": "The ENVO term 'ENVO_00000081' is associated with the label 'mountain' in the input, not 'man-made tunnel'. This mismatch between the term and its label makes the mapping invalid."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "WastewaterSludge",
+      "ontology_class_slug": "ENVO_01000419",
+      "ontology_class_label": "domestic garden",
+      "confidence": 0.1,
+      "comment": "A domestic garden is not a relevant local environmental context for wastewater sludge samples, as these samples are typically associated with wastewater treatment facilities or related infrastructure."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "MicrobialMatBiofilm",
+      "ontology_class_slug": "ENVO_01000254",
+      "ontology_class_label": "environmental system",
+      "confidence": 0.2,
+      "comment": "The ENVO term 'environmental system' is too broad and generic to provide a meaningful local environmental context for microbial mat and biofilm samples. More specific terms related to the particular habitats or conditions associated with these samples should be used."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Water",
+      "ontology_class_slug": "ENVO_00000020",
+      "ontology_class_label": "lake",
+      "confidence": 0.95,
+      "comment": "Lakes are a specific type of hydrographic feature that are highly relevant for providing local environmental context for water samples, as they represent more static, lentic water bodies."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Water",
+      "ontology_class_slug": "ENVO_00000548",
+      "ontology_class_label": "eutrophic lake",
+      "confidence": 0.3,
+      "comment": "While eutrophic lakes are a specific type of lake characterized by high nutrient content, using this term is redundant and unnecessarily specific, as its parent class 'lake' has already been mapped. The more general term 'lake' should be used to avoid inconsistency and maintain an appropriate level of specificity in the mapping."
+    }
+  ]
+}

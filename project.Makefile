@@ -1,6 +1,6 @@
 ## Add your own custom Makefile targets here
 RUN = poetry run
-ENVO = runoak -i sqlite:obo:envo
+ENVO_OAKLIB = runoak -i sqlite:obo:envo
 UBERGRAPH = https://ubergraph.apps.renci.org/sparql
 NMDC_GRAPHDB = http://35.173.42.85/repositories
 NMDC_GRAPHDB_ENVO = $(NMDC_GRAPHDB)/envo-2024-05-01
@@ -10,11 +10,11 @@ NMDC_GRAPHDB_ENVO = $(NMDC_GRAPHDB)/envo-2024-05-01
 
 assets/outputs/oaklib/biomes.txt:
 	#ENVO descendants 'biome'
-	$(RUN) $(ENVO) descendants 'biome' > $@
+	$(RUN) $(ENVO_OAKLIB) descendants 'biome' > $@
 
 assets/outputs/oaklib/environmental_materials.txt:
 	#ENVO descendants 'biome'
-	$(RUN) $(ENVO) descendants 'environmental material' > $@
+	$(RUN) $(ENVO_OAKLIB) descendants 'environmental material' > $@
 
 assets/outputs/sparql/envo_subset_non_host_non_food_env_local_scale_annotations.csv: assets/queries/sparql/envo_subset_non_host_non_food_env_local_scale_annotations.rq
 	$(RUN) sparql-query-cli \
@@ -36,15 +36,57 @@ assets/outputs/sparql/environmental_material_annotations.csv: assets/queries/spa
 		--endpoint $(NMDC_GRAPHDB_ENVO) \
 		--output-file $@
 
-assets/outputs/sparql/envo_selected_material_entity_relations_pivot_filtered.tsv:
-	$(RUN) python src/scripts/ubergraph_pivot.py \
+assets/outputs/sparql/environmental_material_relations_pivot_filtered.csv: assets/queries/sparql/environmental_material_relations_pivot.rq
+	$(RUN) ubergraph-pivot \
 		--endpoint "https://ubergraph.apps.renci.org/sparql" \
-		--max-object-usage 100 \
-		--min-col-sparsity 2 \
-		--output-basename "envo_selected_material_entity_relations_pivot" \
+		--min-object-usage 2 \
+		--min-pred-usage 2 \
+		--object-exclusion-list assets/exclusion_lists/environmental_material_relation_object_exclusions.txt \
+		--predicate-exclusion-list assets/exclusion_lists/environmental_material_relation_predicate_exclusions.txt \
+		--output-basename "environmental_material_relations" \
 		--output-dir "assets/outputs/sparql/" \
-		--query-file "assets/queries/sparql/envo_relations_pivot.rq"
+		--query-file $<
 
+
+#envo_selected_material_entity_relations_pivot_object_usage.csv envo_selected_material_entity_relations_pivot_predicate_usage.csv envo_selected_material_entity_relations_pivot_raw.csv: envo_selected_material_entity_relations_pivot_filtered.csv
+#
+#assets/outputs/sparql/envo_selected_material_entity_relations_pivot_filtered.csv:
+#	$(RUN) ubergraph-pivot \
+#		--endpoint "https://ubergraph.apps.renci.org/sparql" \
+#		--max-object-usage 100 \
+#		--min-col-sparsity 2 \
+#		--object-exclusion-list assets/queries/sparql/envo_relation_object_exclusions.txt \
+#		--output-basename "envo_selected_material_entity_relations_pivot" \
+#		--output-dir "assets/outputs/sparql/" \
+#		--query-file "assets/queries/sparql/envo_relations_pivot.rq"
+
+
+assets/outputs/sparql/biome_relations_object_usage.csv assets/outputs/sparql/biome_relations_predicate_usage.csv assets/outputs/sparql/biome_relations_raw.csv: assets/outputs/sparql/biome_relations_pivot_filtered.csv
+
+assets/outputs/sparql/biome_relations_pivot_filtered.csv: assets/queries/sparql/biome_relations_pivot.rq
+	$(RUN) ubergraph-pivot \
+		--endpoint "https://ubergraph.apps.renci.org/sparql" \
+		--min-object-usage 2 \
+		--min-pred-usage 2 \
+		--object-exclusion-list assets/exclusion_lists/biome_relation_object_exclusions.txt \
+		--predicate-exclusion-list assets/exclusion_lists/biome_relation_predicate_exclusions.txt \
+		--output-basename "biome_relations" \
+		--output-dir "assets/outputs/sparql/" \
+		--query-file $<
+
+assets/outputs/sparql/biome_merged.csv: assets/outputs/sparql/biome_annotations.csv \
+assets/outputs/sparql/biome_relations_pivot_filtered.csv
+	$(RUN) python src/scripts/csv_left_join_on_first_cols.py \
+		--left-csv $(word 1,$^) \
+		--right-csv $(word 2,$^) \
+		--output $@
+
+assets/outputs/sparql/environmental_material_merged.csv: assets/outputs/sparql/environmental_material_annotations.csv \
+assets/outputs/sparql/environmental_material_relations_pivot_filtered.csv
+	$(RUN) python src/scripts/csv_left_join_on_first_cols.py \
+		--left-csv $(word 1,$^) \
+		--right-csv $(word 2,$^) \
+		--output $@
 
 # which runoak
   #/home/mark/.cache/pypoetry/virtualenvs/context-collaboration-meDaFbyk-py3.10/bin/runoak
@@ -277,3 +319,27 @@ assets/large_outputs/mixs-extensions-schemasheets-template.csv: assets/large_out
 #	$(RUN) linkml-convert \
 #		--output $@ \
 #		--schema $^
+
+
+#assets/outputs/llm/claude-3-opus-20240229_2024-05-07T11_45_EDT/claude-3-opus-20240229_2024-05-07T11_45_EDT_combined.tsv: \
+#src/context_collaboration/schema/context_collaboration.yaml \
+#assets/outputs/llm/claude-3-opus-20240229_2024-05-07T11_45_EDT
+#	$(RUN) linkml-convert \
+#		--output $@ \
+#		--schema $^
+#
+#assets/outputs/llm/claude-3-opus-20240229_2024-05-07T11_45_EDT/claude-3-opus-20240229_2024-05-07T11_45_EDT_attributed.json: \
+#src/context_collaboration/schema/context_collaboration.yaml \
+#assets/outputs/llm/claude-3-opus-20240229_2024-05-07T11_45_EDT
+#	$(RUN) linkml-convert \
+#		--output $@ \
+#		--schema $^
+
+
+
+assets/outputs/llm/claude-3-opus-20240229_2024-05-08T09_30_EDT/claude-3-opus-20240229_2024-05-08T09_30_EDT_invalids_attributed.json: \
+src/context_collaboration/schema/context_collaboration.yaml \
+assets/outputs/llm/claude-3-opus-20240229_2024-05-08T09_30_EDT/claude-3-opus-20240229_2024-05-08T09_30_EDT_invalids_attributed.tsv
+	$(RUN) linkml-convert \
+		--output $@ \
+		--schema $^

@@ -1,0 +1,1926 @@
+ols,count
+material entity,8334
+entity,6411
+continuant,5915
+independent continuant,4167
+atom,4084
+subatomic particle,4068
+electron,4068
+atomic nucleus,4068
+quality,3259
+chemical entity,2834
+molecular entity,2813
+polyatomic entity,2786
+macromolecule,2714
+environmental material,2321
+uncharged atom,2042
+hadron,2034
+nucleon,2034
+group,2034
+lepton,2034
+fermion,2034
+nuclear particle,2034
+fundamental particle,2034
+baryon,2034
+composite particle,2034
+characteristic,1746
+specifically dependent continuant,1746
+physical object quality,1513
+p-block molecular entity,1474
+main group molecular entity,1474
+main group element atom,1175
+p-block element atom,1175
+nonmetal atom,1167
+solid environmental material,1050
+object,1028
+carbon group molecular entity,994
+process,992
+organic molecular entity,955
+fluid environmental material,896
+physical quality,895
+quality of a substance,843
+disposition,834
+carbon group element atom,831
+carbon atom,801
+heteroatomic molecular entity,796
+morphology,795
+particulate environmental material,775
+mass of environmental material,769
+mass of solid material,765
+astronomical body part,760
+geophysical entity,760
+particle,750
+structure,729
+inorganic molecular entity,725
+biomacromolecule,710
+s-block molecular entity,702
+chalcogen molecular entity,693
+oxygen molecular entity,683
+hydrogen molecular entity,657
+hydrides,628
+porous,587
+porosity,587
+astronomical object,545
+astronomical body,542
+chalcogen,540
+oxygen atom,534
+hydroxides,532
+s-block element atom,531
+mononuclear parent hydride,529
+hydrogen atom,522
+organic material,508
+inorganic hydride,508
+inorganic hydroxy compound,500
+water,500
+oxygen hydride,500
+chalcogen hydride,500
+occurrent,496
+organism,486
+realizable entity,480
+realizable,480
+environmental process,467
+environmental system process,467
+quality of a solid,462
+chemical substance,455
+mineral,448
+particle of sand,444
+inorganic group,438
+clay,436
+particle of clay,432
+sand,431
+hydroxy group,429
+silt,424
+mineral material,421
+particle of silt,420
+pedosphere,410
+water-holding capacity of soil,390
+water-holding capacity,390
+anatomical entity,345
+granular,303
+composition,303
+material anatomical entity,294
+liquid environmental material,275
+quality of a liquid,270
+qualitative,255
+deviation (from_normal),255
+increased object quality,234
+increased quality,234
+role,225
+organismal entity,219
+compound astronomical body part,192
+anatomical structure,190
+liquid water,182
+multicellular organism,174
+soil,169
+anthropogenic environmental process,166
+root,165
+heteroorganic entity,163
+organism or virus or viroid,162
+cellular organism,162
+cellular organisms,162
+layer,161
+gaseous environmental material,150
+ecosystem,148
+organochalcogen compound,148
+organooxygen compound,148
+molecule,143
+material transformation process,142
+oxide,137
+hard,135
+organic molecule,135
+hardness,135
+organism substance,135
+organic fundamental parent,126
+organic hydride,126
+pnictogen molecular entity,125
+hydrocarbon,121
+collection of organisms,120
+nitrogen molecular entity,120
+bodily fluid,117
+solid astronomical body part,115
+metal atom,111
+ice,110
+hydrological process,110
+sweat,108
+elemental molecular entity,108
+cerumen,108
+secretion of exocrine gland,108
+surface layer,105
+fluid astronomical body part,105
+interface layer,105
+water ice,105
+one-carbon compound,104
+pnictogen,104
+monoatomic ion,102
+gas molecular entity,98
+salt,97
+nitrogen atom,96
+connected anatomical structure,95
+gross anatomical part,93
+multicellular anatomical structure,93
+rock,92
+inorganic salt,90
+anion,90
+ion,90
+system,89
+material congelation process,88
+fuel,87
+application,87
+environmental system,86
+material transport process,85
+solid layer,82
+solid surface layer,81
+surface of an astronomical body,81
+liquid astronomical body part,78
+land,78
+halide,77
+halogen molecular entity,77
+chlorine molecular entity,77
+planned process,76
+quality of a gas,75
+air,73
+chloride salt,72
+alkali metal salt,72
+alkali metal molecular entity,72
+inorganic chloride,72
+sodium salt,72
+halide salt,72
+sodium molecular entity,72
+water mass,70
+water body,70
+body of liquid,70
+sodium chloride,69
+inorganic sodium salt,69
+concentration of,66
+molecular quality,66
+carbon oxide,65
+organic oxide,65
+combustibility,64
+Eukaryota,64
+dry,63
+wetness,63
+waste role,63
+anthropogenic environmental material,63
+inorganic ion,62
+carbon dioxide,61
+ecological community,60
+multi-species collection of organisms,60
+cation,60
+biosphere,57
+inorganic anion,56
+crystal,55
+temperature,54
+sedimentary rock,54
+sediment,54
+function,54
+environmental system determined by a quality,53
+terrestrial ecosystem,53
+biome,53
+Metazoa,52
+water ice crystal,52
+Opisthokonta,52
+Eumetazoa,52
+organonitrogen compound,51
+monoatomic entity,51
+monovalent inorganic anion,51
+terrestrial biome,50
+cyclic compound,49
+organic cyclic compound,49
+metal cation,48
+fossil fuel,48
+halogen,48
+chlorine atom,48
+fluid layer,48
+monoatomic cation,48
+inorganic cation,48
+hydrocarbon-based environmental material,47
+thermolysis,46
+aerosol formation process,46
+sodium(1+),45
+monoatomic anion,45
+elemental halogen,45
+alkali metal cation,45
+monoatomic monocation,45
+monoanion,45
+sodium atom,45
+elemental molecule,45
+amorphous,45
+monoatomic halogen,45
+elemental chlorine,45
+monovalent inorganic cation,45
+inorganic oxide,45
+monoatomic monoanion,45
+monoatomic chlorine,45
+alkali metal atom,45
+halide anion,45
+chloride,45
+elemental sodium,45
+tissue,43
+transition element atom,43
+water vapour,43
+atmosphere,42
+elemental pnictogen,41
+elemental oxygen,41
+diatomic nitrogen,41
+elemental nitrogen,41
+dinitrogen,41
+transition element molecular entity,41
+d-block element atom,40
+lentic water body,40
+combustion process,40
+planet,39
+polyatomic anion,39
+polyatomic ion,39
+oxoanion,39
+Bilateria,39
+landmass,39
+hydrosphere,39
+osmolarity,39
+increased osmolarity,39
+waste material,39
+completely executed planned process,38
+d-block molecular entity,38
+diatomic oxygen,37
+precipitation process,37
+dioxygen,37
+planetary landmass,36
+organic group,36
+planetary surface,36
+organic aromatic compound,35
+aliphatic compound,35
+aromatic compound,35
+metalloid atom,35
+alkane,35
+silicon dioxide,35
+silicon oxide,35
+silicon molecular entity,35
+texture,34
+landform,34
+saline water,34
+enriched soil,33
+manufacturing process,33
+noble gas molecular entity,33
+argon molecular entity,33
+argon atom,33
+anthropogenic environment,33
+organismal quality,33
+noble gas atom,33
+anthropised ecosystem,33
+desublimation of water vapour into ice,32
+desublimation process,32
+oil,32
+polycyclic compound,31
+cell,30
+plant anatomical entity,30
+anatomical system,30
+sensitivity to oxygen,30
+sensitivity toward,30
+anaerobic,30
+biological process,29
+bodily fluid material,29
+fresh water,29
+biological_process,29
+carbocyclic compound,28
+homocyclic compound,28
+carbonyl compound,27
+methane,27
+protein,27
+silicon atom,27
+Chordata,27
+hydrophobic,27
+water ice formation process,27
+obsolete protein-containing material entity,27
+Deuterostomia,27
+hydrophobicity,27
+increased temperature,27
+organic oxo compound,27
+object aggregate,27
+organic hydroxy compound,25
+volatile organic compound,25
+multicellular organismal process,25
+agricultural ecosystem,25
+organic amino compound,24
+benzenoid aromatic compound,24
+coal,24
+haemolymphatic fluid,24
+cyclic hydrocarbon,23
+organic anion,23
+organic ion,23
+dust,23
+manufactured product,23
+organic acid,22
+snow crystal,22
+petroleum,22
+carbon oxoacid,22
+carboxylic acid,22
+oxoacid,22
+volcanic eruption,22
+heterocyclic compound,22
+organism material,21
+life cycle,21
+mesoderm-derived structure,21
+acyl group,21
+germ layer / neural crest,21
+organic divalent group,21
+hydrological precipitation process,21
+carbonyl group,21
+embryo,21
+zygote stage,21
+univalent carboacyl group,21
+multicellular organism development,21
+embryonic structure,21
+oxo group,21
+embryonic tissue,21
+decreased quality,21
+presumptive structure,21
+embryo stage,21
+life cycle stage,21
+cleavage stage,21
+blastula stage,21
+animal material,21
+decreased object quality,21
+cleaving embryo,21
+developing anatomical structure,21
+epiblast (generic),21
+cell division,21
+developmental process,21
+animal substance,21
+organodiyl group,21
+embryonic cleavage,21
+processual entity,21
+freezing,21
+carboacyl group,21
+embryo development,21
+cellular process,21
+blastula,21
+freezing of water into water ice,21
+animal egg,21
+anatomical structure development,21
+germ layer,21
+carboxylic acid anion,20
+monocarboxylic acid anion,20
+sea water,20
+lipid,20
+manure,20
+biological waste material,19
+carboxamide,19
+primary amide,19
+Craniata <chordates>,19
+arene,19
+Vertebrata <vertebrates>,19
+marine water body,19
+amide,19
+aerosol,19
+sulfur molecular entity,19
+acidity,18
+organyl group,18
+structured,18
+optical quality,18
+snowfall,18
+frozen,18
+carbopolycyclic compound,18
+organic waste material,18
+organic univalent group,18
+polycyclic hydrocarbon,18
+mesenchyme,18
+chemical colorant,18
+material accumulation process,18
+homopolycyclic compound,18
+frozen land,18
+biological attribute,18
+sedimentation in a water body,18
+anthropogenic terrestrial biome,18
+lava,18
+chemical entity attribute,18
+carboxy group,18
+quality of interaction of a substance with electromagnetic radiation,18
+condensation process,18
+increased combustibility,18
+alcohol,17
+hemolymphoid system,17
+benzenes,16
+chemical precipitation process,16
+blood plasma,16
+carbonates,16
+excreta,16
+organic heterocyclic compound,16
+pressure,15
+organogenesis stage,15
+lateral plate mesoderm,15
+cellular_component,15
+increased pressure,15
+blood,15
+carbamoyl group,15
+mesoderm,15
+technosphere,15
+medium acidity,15
+animal organ development,15
+size,15
+presumptive mesoderm,15
+blood island,15
+dense mesenchyme tissue,15
+erosion,15
+presumptive blood,15
+alkaline earth molecular entity,15
+sulfur atom,15
+ammonia,14
+environmental zone,14
+azane,14
+nitrogen hydride,14
+fiat object part,14
+ash,14
+pnictogen hydride,14
+disconnected anatomical group,14
+olefinic compound,14
+water-body-derived ice,13
+glycan,13
+magma,13
+snow,13
+plant structure,13
+surface landform,13
+primordium,13
+geographic feature,13
+bicyclic compound,13
+cellular anatomical entity,13
+water flow process,13
+anthropogenic geographic feature,13
+carbohydrates and carbohydrate derivatives,13
+organ,13
+ectoderm-derived structure,13
+hematopoietic system,13
+calcium molecular entity,12
+iron group element atom,12
+mineral nutrient,12
+terrestrial environmental zone,12
+atmospheric aerosol,12
+transudate,12
+carbonate salt,12
+inorganic calcium salt,12
+condensed,12
+calcium salt,12
+alkaline earth salt,12
+human construction,12
+iron group molecular entity,12
+construction,12
+lake,12
+stream,12
+watercourse,12
+animal manure,12
+sea ice,12
+lotic water body,12
+field,12
+elevated landform,12
+soil texture,12
+agricultural field,12
+agricultural environmental material,12
+iron atom,12
+iron molecular entity,12
+calcium carbonate,12
+sludge,12
+mud,12
+acidic,12
+Viridiplantae,12
+new ice formation process,12
+garden,12
+frost,11
+aliphatic alcohol,11
+masonry cement,11
+heteroarene,11
+organonitrogen heterocyclic compound,11
+methylbenzene,11
+monocyclic arene,11
+alkylbenzene,11
+aerosolised liquids,11
+primary alcohol,11
+mixture,11
+pnictogen oxoanion,11
+alkyl alcohol,11
+new ice,11
+vegetated area,10
+alpha-amino acid,10
+carbon monoxide,10
+amino acid,10
+interstitial fluid,10
+mass of compounded environmental materials,10
+farm,10
+saline water body,10
+chemically enriched sediment,10
+monocarboxylic acid amide,10
+nitro compound,10
+C-nitro compound,10
+piece of rock,10
+amino acid chain,9
+ecto-epithelium,9
+loam,9
+amino-acid residue,9
+immaterial anatomical entity,9
+platinum,9
+proteinogenic amino-acid residue,9
+alpha-amino-acid residue,9
+information biomacromolecule,9
+fog,9
+presumptive neural plate,9
+polypeptide,9
+epithelium,9
+histosol,9
+cropland biome,9
+ester,9
+clastic sedimentary rock,9
+gastrula,9
+cropland ecosystem,9
+mount,9
+limestone,9
+plant organ,9
+coast,9
+lead atom,9
+glue,9
+pre-chordal neural plate,9
+multi-tissue plant structure,9
+protein polypeptide chain,9
+peptide,9
+decreased temperature,9
+lead molecular entity,9
+ectoderm,9
+polyester macromolecule,9
+presumptive ectoderm,9
+neurectoderm,9
+external encapsulating structure,9
+permafrost,9
+concentrated,9
+extracellular matrix,9
+increased size,9
+monocarboxylic acid,9
+future central nervous system,9
+metal allergen,9
+future nervous system,9
+gastrula stage,9
+increased thickness,9
+gastrulation,9
+thickness,9
+anatomical structure morphogenesis,9
+embryonic morphogenesis,9
+chemical role,9
+opaque,9
+copper group element atom,9
+copper group molecular entity,9
+opacity,9
+multi-tissue structure,9
+neural plate,9
+platinum molecular entity,9
+sea ice formation process,9
+paddy field,9
+nickel group molecular entity,9
+protein-containing molecular entity,9
+1-D extent,9
+nickel group element atom,9
+platinum group metal atom,9
+color,9
+fused compound,8
+polycyclic arene,8
+hydrocarbon gas,8
+collective plant structure,8
+elemental carbon,8
+coordination entity,8
+ortho-fused polycyclic hydrocarbon,8
+frazil,8
+naphthalene,8
+wax,8
+peat soil,8
+collective plant organ structure,8
+carbobicyclic compound,8
+ocular refractive media,8
+kerogen,8
+ortho-fused polycyclic arene,8
+arsenic atom,8
+transition element coordination entity,8
+reactive oxygen species,8
+ortho-fused compound,8
+ortho-fused bicyclic arene,8
+naphthalenes,8
+organic polycyclic compound,8
+ortho-fused bicyclic hydrocarbon,8
+steroid,8
+non-connected functional system,8
+metallic material,7
+biofilm material,7
+aluminium molecular entity,7
+portion of plant tissue,7
+compost,7
+contaminated soil,7
+organism subdivision,7
+craniocervical region,7
+lymph,7
+gas emission process,7
+portion of meristem tissue,7
+circulatory system,7
+anaerobic sediment,7
+organ system subdivision,7
+main body axis,7
+head,7
+organ part,7
+carbohydrate,7
+soil organic matter,7
+boron group molecular entity,7
+polysaccharide,7
+body proper,7
+anterior region of body,7
+plantation,7
+subdivision of organism along main body axis,7
+immature eye,6
+polysaccharide derivative,6
+silicate mineral,6
+periphytic biofilm,6
+igneous rock,6
+radioactive,6
+mucopolysaccharide,6
+immaterial entity,6
+unilaminar epithelium,6
+activity (of a radionuclide),6
+gill,6
+cell periphery,6
+glass,6
+decreased size,6
+recycling process,6
+forested area,6
+woodland area,6
+respiratory system,6
+aerosolised solids,6
+optic cup,6
+optic vesicle,6
+excreta material,6
+glycosaminoglycan,6
+nervous system,6
+humidity,6
+increased humidity,6
+paint,6
+anatomical cluster,6
+eye primordium,6
+ore,6
+fume,6
+forest soil,6
+pyrolysis,6
+frozen soil,6
+agricultural soil,6
+aminoglycan,6
+plant axis,6
+decreased concentration,6
+estuary,6
+butadiene,6
+protein-containing macromolecular complex,6
+sandy beach,6
+polypyrrole,6
+monocyclic hydrocarbon,6
+alkadiene,6
+toluenes,6
+complex of molecular entities,6
+dune,6
+olefin,6
+protein-containing complex,6
+iron oxide,6
+nitrate salt,6
+annulene,6
+zinc atom,6
+zinc molecular entity,6
+alkaline earth metal atom,6
+chalk,6
+humus,6
+beach,6
+pnictogen oxoacid,6
+hill,6
+depressed landform,6
+nitrate,6
+toluene,6
+acrolein,6
+sulfur oxoacid derivative,6
+sulfuric acid derivative,6
+copper molecular entity,6
+aromatic annulene,6
+plant matter,6
+leachate,6
+hydracid,6
+oxoacid derivative,6
+formaldehyde,6
+benzene,6
+hydrogen sulfide,6
+nitrogen oxoanion,6
+hematopoietic cell,6
+nitrogen group,6
+sulfur hydride,6
+nitrogen oxide,6
+glycol,6
+fibrinogen complex,6
+nitro group,6
+nitric acid,6
+aldehyde,6
+inorganic sulfate salt,6
+"buta-1,3-diene",6
+shore,6
+formyl group,6
+erythroid lineage cell,6
+enal,6
+carbohydrate derivative,6
+reactive nitrogen species,6
+tetrapyrrole,6
+mine,6
+aluminium atom,6
+formic acid,6
+pond,6
+nitrogen oxoacid,6
+acyclic olefin,6
+copper atom,6
+boron group element atom,6
+glacier,6
+inorganic nitrate salt,6
+sulfur oxide,6
+myeloid cell,6
+coal mine,6
+nitrous acid,6
+"alpha,beta-unsaturated aldehyde",6
+sulfate salt,6
+methanol,6
+diol,6
+polyol,6
+hydrogen cyanide,6
+sulfur dioxide,6
+sulfates,6
+zinc group molecular entity,6
+zinc group element atom,6
+planktonic material,5
+cyclitol carboxylic acid anion,5
+dioxanes,5
+2-amino-3-hydroxybutanoic acid,5
+transition element oxoanion,5
+arsenate(3-),5
+chromium group molecular entity,5
+saturated organic heteromonocyclic parent,5
+colorant fluid,5
+Sarcopterygii,5
+wood,5
+carbon nanotube,5
+non-proteinogenic amino acid,5
+nitrohydrocarbon,5
+arsenic oxoanion,5
+pantothenate,5
+hoar,5
+Dipnotetrapodomorpha,5
+skatole,5
+sarcosine,5
+poly(hydroxyalkanoate),5
+contaminated water,5
+nitroarene,5
+"alpha,beta-unsaturated ketone",5
+chromium coordination entity,5
+N-acylammonia,5
+chromium oxoanion,5
+rime,5
+quinolinemonocarboxylate,5
+aromatic carboxylate,5
+plastic,5
+indoles,5
+glycine derivative,5
+organic heterobicyclic compound,5
+coal ash,5
+tertiary amine,5
+smoke,5
+Amniota,5
+organically enriched sediment,5
+divalent inorganic anion,5
+proteinogenic amino acid derivative,5
+Tetrapoda,5
+amino acid derivative,5
+connective tissue,5
+"1,4-dioxane",5
+benzopyrrole,5
+organic heteropolycyclic compound,5
+saturated organic heterocyclic parent,5
+Euteleostomi,5
+trimethylamine,5
+heterocyclic organic fundamental parent,5
+heteromonocyclic compound,5
+monocyclic compound,5
+creosote,5
+chemical product,5
+methylindole,5
+enone,5
+tertiary amino compound,5
+non-proteinogenic alpha-amino acid,5
+N-methyl-amino acid,5
+arsenate ion,5
+hydroxy steroid,5
+polar amino acid,5
+ethanols,5
+methylamines,5
+Teleostomi,5
+chloropicrin,5
+kynurenate,5
+poly(hydroxybutyrate),5
+heterobicyclic compound,5
+N-alkylglycine,5
+17-hydroxy steroid,5
+Gnathostomata <vertebrates>,5
+quinate,5
+threonine,5
+alkylamines,5
+xylene,5
+organic heteromonocyclic compound,5
+N-methylglycines,5
+acetamide,5
+dioxane,5
+nanostructure,5
+nanotube,5
+nitrobenzenes,5
+organochlorine compound,5
+salicylate,5
+monohydroxybenzoate,5
+oxacycle,5
+17beta-hydroxy steroid,5
+hydroxybenzoate,5
+3-oxo steroid,5
+acetamides,5
+chromate(2-),5
+carbon nanostructure,5
+organohalogen compound,5
+C19-steroid,5
+3-oxo-Delta(4) steroid,5
+urea,5
+ketone,5
+testosterone,5
+colloidal sediment,5
+chromium molecular entity,5
+polycyclic heteroarene,5
+nitrobenzene,5
+shoot system,5
+amine,5
+silica-based glass,5
+benzoates,5
+animal waste material,5
+cyclic ketone,5
+ethanol,5
+androstanoid,5
+hydroxy monocarboxylic acid anion,5
+heteropolycyclic compound,5
+arsenic molecular entity,5
+oxo steroid,5
+bile,4
+Spiralia,4
+frazil ice,4
+Autobranchia,4
+soot,4
+lithification,4
+field soil,4
+plaster,4
+amniotic fluid,4
+Bivalvia,4
+biogenous sediment,4
+subdivision of head,4
+ozone,4
+Mollusca,4
+homopolysaccharide,4
+entire sense organ system,4
+oronasal secretion,4
+chamber of eyeball,4
+Mytilidae,4
+extracellular region,4
+mass of biological material,4
+hydrogen peroxide,4
+lateral structure,4
+Mytiloidea,4
+Lophotrochozoa,4
+feces,4
+glucan,4
+pleural effusion,4
+material extraction process,4
+Talc,4
+Pteriomorphia,4
+structure with developmental contribution from neural crest,4
+refined asphalt,4
+extracellular space,4
+Mytilida,4
+root anlagen,4
+elemental aluminium,4
+triatomic oxygen,4
+milk,4
+manganese atom,4
+metamorphic rock,4
+hydrological melting process,4
+melting,4
+heptane,4
+face,4
+lymphatic part of lymphoid system,4
+oxygen transport,4
+sebum,4
+saliva,4
+kaolin,4
+vitreous humor,4
+silage,4
+aqueous humor of eyeball,4
+simple eye,4
+peroxides,4
+synovial fluid,4
+hydrothermal fluid,4
+boulder,4
+orchard,4
+transport,4
+secretion of serous gland,4
+ingested food,4
+secretion of serous membrane,4
+system process,4
+circulatory system process,4
+organ subunit,4
+gas transport,4
+localization,4
+establishment of localization,4
+manganese group element atom,4
+cerebrospinal fluid,4
+blood circulation,4
+sense organ,4
+waste water,4
+lymphoid system,4
+visual system,4
+eyeball of camera-type eye,4
+methyl cellulose,4
+orbital region,4
+urine,4
+beta-D-glucan,4
+vomit,4
+root primordium,4
+inorganic peroxide,4
+regurgitated substance,4
+freshwater ice,4
+Protostomia,4
+amorphous solid,4
+aluminosilicate mineral,4
+grassland ecosystem,4
+pus,4
+mucus,4
+camera-type eye,4
+eye,4
+chyle,4
+sensory system,4
+chyme,4
+immune system,4
+mammary gland fluid/secretion,4
+soybean oil,4
+pleural fluid,4
+resin,4
+tissue morphogenesis,3
+animal-associated environment,3
+human settlement,3
+anatomical structure formation involved in morphogenesis,3
+rubber particle,3
+environment associated with an animal part or small animal,3
+sulfuric acid,3
+hypersaline water,3
+environmental system determined by an organism,3
+fecal material,3
+titanium group molecular entity,3
+titanium group element atom,3
+dicarboxylic acid,3
+carbon dioxide emission process,3
+sulfur oxoacid,3
+aeolian transport process,3
+powdery snow,3
+cholanoid,3
+copper(II) phthalocyanine,3
+"propane-1,2-diol",3
+shoot apical meristem,3
+shoot axis,3
+titanium atom,3
+upland soil,3
+liquefied hydrocarbon gas,3
+anatomical space,3
+brain,3
+organic salt,3
+stem cell,3
+barium molecular entity,3
+biladienes,3
+dicarboxylic acids and O-substituted derivatives,3
+titanium molecular entity,3
+bilirubin IXalpha,3
+cyclic tetrapyrrole,3
+grassland soil,3
+carbon-bearing gas emission process,3
+piece of gravel,3
+dust from plant parts,3
+central nervous system,3
+desert,3
+root system,3
+aquatic ecosystem,3
+slope,3
+continental shelf,3
+gasoline,3
+diesel fuel,3
+precursor cell,3
+progenitor cell,3
+hematopoietic precursor cell,3
+connective tissue cell,3
+nucleate cell,3
+hematopoietic oligopotent progenitor cell,3
+hematopoietic lineage restricted progenitor cell,3
+myeloid lineage restricted progenitor cell,3
+hematopoietic multipotent progenitor cell,3
+erythroblast,3
+somatic stem cell,3
+angioblastic mesenchymal cell,3
+reticulocyte,3
+orthochromatic erythroblast,3
+planetary erosion,3
+fuel oil,3
+industrial waste material,3
+marine ecosystem,3
+colloidal suspension,3
+mafic lava,3
+tropical environment,3
+stormwater,3
+lignite,3
+phyllome anlagen,3
+phyllome primordium,3
+apical meristem,3
+shoot system meristem,3
+cell culture,3
+gill tissue material,3
+contaminated sludge,3
+lake bed,3
+lake sediment,3
+peripheral zone,3
+shoot axis apex,3
+meadow ecosystem,3
+volatile astrogeological material,3
+rubber plantation,3
+regional part of nervous system,3
+anatomical wall,3
+aquatic biome,3
+clay loam,3
+marine environment,3
+marine biome,3
+desalination process,3
+wastewater treatment process,3
+submerged bed,3
+bitumous coal,3
+sub-bitumous coal,3
+plain,3
+soda-lime glass,3
+choroid plexus,3
+brain ventricle,3
+wetland ecosystem,3
+liquid layer,3
+vanadium group molecular entity,3
+f-block molecular entity,3
+anthropogenic ecosystem conversion process,3
+liquid surface layer,3
+fossilization of organic material,3
+fluid surface layer,3
+fluid interface layer,3
+shrimp pond,3
+explosive eruption,3
+atmospheric layer,3
+troposphere,3
+dacitic lava,3
+slate,3
+intermediate lava,3
+telencephalic ventricle,3
+vasculature,3
+blood cell,3
+erythrocyte,3
+oxygen accumulating cell,3
+viability,3
+laminar,3
+physical quality of a process,3
+forebrain,3
+epithelial tube,3
+cardiovascular system,3
+particulate organic matter,3
+vascular system,3
+marine sediment,3
+artificial channel,3
+freshwater congelation ice,3
+glacial erosion process,3
+swamp ecosystem,3
+system development,3
+alluvial soil,3
+garden soil,3
+abyssal plain,3
+animal litter,3
+river,3
+chordate embryonic development,3
+fibrous dust,3
+ditch,3
+mountain,3
+channel of a watercourse,3
+brackish estuary,3
+allotment garden,3
+aquatic layer,3
+water surface,3
+vascular plexus,3
+tela choroidea,3
+head mesenchyme,3
+future telencephalon,3
+brain ventricle/choroid plexus,3
+dye,3
+metallotetrapyrrole,3
+tube development,3
+unstructured,3
+increased concentration,3
+chalcogen oxoacid,3
+microbial community,3
+alpine,3
+altitudinal condition,3
+Haplorrhini,3
+Catarrhini,3
+calcium atom,3
+dead,3
+continuous,3
+alkaline,3
+broken,3
+calcium ion,3
+first year ice formation process,3
+second year ice formation,3
+multiyear ice formation process,3
+linear tetrapyrrole,3
+hydrocarbon gas emission process,3
+brown,3
+neural tube development,3
+electron donor,3
+chromium group element atom,3
+environmental contaminant,3
+environmental condition,3
+biophysical role,3
+uranium atom,3
+vanadium atom,3
+gold atom,3
+actinoid atom,3
+vanadium group element atom,3
+actinoid molecular entity,3
+blue,3
+f-block element atom,3
+homopolymer macromolecule,3
+metallophthalocyanines,3
+dense settlement biome,3
+urban biome,3
+phthalocyanines,3
+cyclic polypyrrole,3
+phyllome,3
+hematopoietic stem cell,3
+erythroid progenitor cell,3
+multi fate stem cell,3
+neurula stage,3
+tube,3
+telencephalon,3
+neural rod,3
+ventricular system of central nervous system,3
+neural keel,3
+propanediol,3
+embryonic epithelial tube formation,3
+monounsaturated fatty acid,3
+choroid plexus of lateral ventricle,3
+common myeloid progenitor,3
+regional part of brain,3
+anatomical conduit,3
+organ component layer,3
+future brain,3
+future forebrain,3
+vasculature of organ,3
+vasculature of central nervous system,3
+ventricular system of brain,3
+tube morphogenesis,3
+tube formation,3
+nervous system development,3
+neural tube,3
+megakaryocyte-erythroid progenitor cell,3
+mesenchymal stem cell,3
+proerythroblast,3
+basophilic erythroblast,3
+polychromatophilic erythroblast,3
+24G7 epitope,3
+organic sodium salt,3
+calcium cation,3
+dense settlement,3
+barium atom,3
+temporal distribution quality,3
+poly(isoprene) macromolecule,3
+poly(alkylene vinylene) macromolecule,3
+"cis-1,4-polyisoprene",3
+epithelium development,3
+epithelial tube morphogenesis,3
+epithelial tube formation,3
+greenhouse gas,3
+process quality,3
+early prosencephalic vesicle,3
+aluminium oxides,3
+multi-species collection of microbes,3
+isoprenoid,3
+terpene,3
+hyaluronic acid,3
+3-oxo-Delta(4)-steroid group,3
+exopolysaccharide,3
+uranium molecular entity,3
+squalene,3
+gold molecular entity,3
+monoatomic dication,3
+aluminium oxide,3
+proteolytic cleavage product,3
+zinc dichloride,3
+casein derived peptide,3
+biological role,3
+biological pigment,3
+vanadium molecular entity,3
+chromium atom,3
+carbon oxoanion,3
+calcium(2+),3
+long-chain fatty acid,3
+kaolinite,3
+copper coordination entity,3
+straight-chain saturated fatty acid,3
+metallophthalocyanine,3
+straight-chain fatty acid,3
+triterpene,3
+octadecenoic acid,3
+octadecadienoic acid,3
+linolenic acid,3
+divalent metal cation,3
+leaf,3
+octadecanoid,3
+olefinic fatty acid,3
+trienoic fatty acid,3
+titanium oxides,3
+fatty acid 18:1,3
+fatty acid 18:2,3
+copper tetrapyrrole,3
+divalent inorganic cation,3
+fatty acid,3
+titanium dioxide,3
+diatomaceous earth,3
+oleic acid,3
+octadecanoic acid,3
+metal oxide,3
+alpha-linolenic acid,3
+linoleic acid,3
+saline lake,3
+grassland area,3
+carbonate,3
+sea coast,3
+Mammalia,3
+bile acid salt,3
+omega-6 fatty acid,3
+Primates,3
+Homo sapiens,3
+polyunsaturated fatty acid,3
+essential fatty acid,3
+saturated fatty acid,3
+omega-3 fatty acid,3
+unsaturated fatty acid,3
+fatty acid 18:3,3
+hexadecanoic acid,3
+donor,3
+octadecatrienoic acid,3
+bile salt,3
+1-hydroxyethyl group,3
+elemental calcium,3
+alkaline earth cation,3
+proteinogenic amino-acid side-chain group,3
+Boreoeutheria,3
+Eutheria,3
+Homo,3
+Homininae,3
+Hominidae,3
+Euarchontoglires,3
+Simiiformes,3
+Hominoidea,3
+wholeness,3
+occurrence,3
+Theria <mammals>,3
+octadec-9-enoic acid,3
+ventricle of nervous system,3
+white,3
+entire embryonic mesenchyme,3
+anterior neural tube,3
+paraffin wax,3
+paddy field soil,3
+anthropisation,3
+farm soil,3
+early telencephalic vesicle,3
+peroxy group,3
+neural tube formation,3
+morphogenesis of an epithelium,3
+polymer,3
+"propane-1,2-diols",3
+tissue development,3
+open anatomical space,3
+future brain vesicle,3
+vasculature of central nervous system plus retina,3
+embryo development ending in birth or egg hatching,3
+morphogenesis of embryonic epithelium,3
+respirable suspended particulate matter,3
+glacial process,3
+shale,2
+detritus,2
+Bathymodiolinae,2
+poultry manure,2
+anthropised terrestrial environmental zone,2
+colloid suspended in a hydrosphere,2
+clathrate material,2
+gel,2
+brackish water,2
+anaerobic sludge,2
+biogas,2
+mussel gill tissue material,2
+foamy environmental material,2
+underground water,2
+planktonic kerogen,2
+stream sediment,2
+mineral dust,2
+irregular connective tissue,2
+loose connective tissue,2
+poultry litter,2
+humid air,2
+subsurface zone of an astronomical body,2
+andosol,2
+fine respirable suspended particulate matter,2
+treated wood,2
+compost soil,2
+grass silage,2
+organic matter fall,2
+plant matter fall,2
+microbial mat,2
+ice mass,2
+eutrophic water,2
+ice floe,2
+sea ice floe,2
+young ice,2
+cryoform,2
+radioactive sediment,2
+scum,2
+coal mine waste material,2
+glacial ice,2
+welding fume,2
+anterior chamber of eyeball,2
+erosionally enriched ice,2
+head connective tissue,2
+agricultural waste material,2
+vitreous chamber of eyeball,2
+volcanic ash,2
+brine,2
+planetary subsurface zone,2
+stream water,2
+Bathymodiolus,2
+beach sand,2
+straw,2
+salt material,2
+natural gas,2
+anterior segment of eyeball,2
+posterior segment of eyeball,2
+vitreous body,2
+charcoal,2
+asbestos,2
+concrete,2
+atmospheric carbon dioxide,2
+waterborne particulate matter,2
+synthetic plastic,2
+ultisol,2
+chemically contaminated sediment,2
+flame,2
+hydrogenous sediment,2
+metal contaminated soil,2
+dacite,1
+oxic water,1
+flue gas desulfurization material,1
+epilithon,1
+carbon dioxide emission,1
+erosionally enriched glacial ice,1
+blue ice,1
+hydrocarbon flame,1
+cloud water,1
+shallow marine sediment,1
+first year ice,1
+natural plastic,1
+hair ice,1
+compacted soil,1
+loamy sand,1
+second year ice,1
+bagasse,1
+adobe,1
+fine sand,1
+sandy clay,1
+silty clay,1
+sea,1
+multiyear ice,1
+marine mucilage,1
+pulp-bleaching waste water,1
+foamed plastic,1
+boiler slag,1
+oil shale,1
+lichen material,1
+quartz glass,1
+slurry,1
+pathogen-suppressive soil,1
+crustal fluid,1
+congelation sea ice,1
+depth hoar,1
+compressed natural gas,1
+hoarfrost,1
+glaze,1
+compressed biogas,1
+contaminated air,1
+aluminum welding fume,1
+epipelon,1
+sodium chloride salt,1
+surface hoar,1
+hoar crystal,1
+siliceous ooze,1
+meltwater,1
+red clay,1
+calcareous ooze,1
+hide,1
+thermoplastic material,1
+cave,1
+biochar,1
+methane clathrate,1
+atmospheric water vapour,1
+residual kerogen,1
+Bathymodiolus gill tissue material,1
+sulphate-reducing sediment,1
+microbialite,1
+vog,1
+carbon dioxide-reducing sediment,1
+humic kerogen,1
+sulfrous kerogen,1
+diatomite,1
+basalt,1
+recalcitrant kerogen,1
+chicken manure,1
+labile kerogen,1
+granite,1
+alkaline water,1
+sapropelic kerogen,1
+rural stormwater,1
+acidic volcanic ash,1
+carbon monoxide ice,1
+hypoxic water,1
+acidic water,1
+andesite,1
+abyssal clay,1
+iron-reducing sediment,1
+petroleum enriched sediment,1
+chromate contaminated soil,1
+arsenic-rich mud,1
+shuga,1
+biosolids,1
+secondary sludge,1
+ballast water,1
+raw primary sludge,1
+paraffin oil,1
+freezing fog,1
+borax leachate,1
+fissure water,1
+mine tailing,1
+manganese-reducing sediment,1
+pond water,1
+particulate matter in a hydrosphere,1
+drinking water,1
+savanna,1
+tap water,1
+steppe,1
+friable-frozen soil,1
+pasture,1
+hard-frozen soil,1
+nitrate-reducing sediment,1
+sewage,1
+xylene contaminated soil,1
+urban stormwater,1
+nitisol,1
+chloropicrin enriched soil,1
+alluvial paddy field soil,1
+alluvial swamp soil,1
+bacteria enriched soil,1
+urea enriched soil,1
+savanna soil,1
+allotment garden soil,1
+chalk soil,1
+poultry deep litter,1
+planosol,1
+plinthosol,1
+phaeozem,1
+luvisol,1
+ferralsol,1
+saline shrimp pond water,1
+gypsisol,1
+gleysol,1
+lixisol,1
+leptosol,1
+cryosol,1
+acrisol,1
+thermophilic granular sludge,1
+intertidal sediment,1
+hay compost,1
+fossil material,1
+estuarine mud,1
+anaerobic mud,1
+sea sand,1
+humus-rich acidic ash soil,1
+frozen compost soil,1
+mountain forest soil,1
+beech forest soil,1
+ear wax material,1
+blood plasma material,1
+chyme material,1
+sweat material,1
+aqueous humour material,1
+nesting material,1
+graupel,1
+fracking liquid,1
+hydrothermally-influenced sediment,1
+cultured organic material,1
+light fraction material,1
+heavy fraction material,1
+material primarily composed of biogenic carbonates,1
+frost-susceptible soil,1
+bare soil,1
+ice-bearing permafrost,1
+quicksand,1
+necromass,1
+alluvium,1
+algal material,1
+acidic soil,1
+refractory astrogeological material,1
+time crystal,1
+outer space,1
+emulsion,1
+steppe soil,1
+peaty paddy field soil,1
+urine material,1
+activated sludge,1
+volcanic rock,1
+particulate organic carbon,1
+spring water,1
+marine lake water,1
+haze,1
+liquefied natural gas,1
+liquefied petroleum gas,1
+oil contaminated soil,1
+self-heating coal mine waste material,1
+bituminous sand,1
+creosote contaminated soil,1
+bacon curing brine,1
+rye grass silage,1
+travertine,1
+siltstone,1
+claystone,1
+mudstone,1
+lime mudstone,1
+estuarine water,1
+flat glass,1
+container glass,1
+rainwater,1
+water vapour saturated air,1
+hypereutrophic water,1
+slightly saline water,1
+moderately saline water,1
+geological fracture,1
+highly saline water,1
+brown sea ice,1
+lake water,1
+particulate organic nitrogen,1
+sea foam,1
+runoff,1
+vomit material,1
+stable manure,1
+aviation fuel,1
+ultrafine respirable suspended particulate matter,1
+river water,1
+groundwater,1
+farmyard manure,1
+alluvial deposit,1
+alluvial sediment,1
+astrogeological gas,1
+sandstone,1
+methane ice,1
+astrogeological ice,1
+composted animal manure,1
+heat-treated animal manure,1
+bovine dairy liquid manure,1
+coastal sea water,1
+high-level radioactive sediment,1
+ditch water,1
+naphthalene enriched sediment,1
+nitrobenzene enriched sediment,1
+cis-dichloroethane contaminated sediment,1
+silty loam,1
+sandy loam,1
+desalinated water,1
+treated wastewater,1
+residual water in soil,1
+saprolite,1
+pliofilm,1
+formation fluid,1
+limed soil,1
+non-hydraulic cement,1
+thatch,1
+lake bottom mud,1
+marine mud,1
+water scum,1
+red soil,1
+pond soil,1
+deep marine sediment,1
+meadow soil,1
+burned soil,1
+lawn soil,1
+fertilized soil,1
+sawah soil,1
+jungle soil,1
+hydraulic cement,1
+carbon nanotube enriched soil,1
+ultramafic lava,1
+felsic lava,1
+anoxic water,1
+marine snow,1
+polymetallic nodule,1
+dolomite,1
+muddy water,1
+sterile water,1
+eucalyptus forest soil,1
+spruce forest soil,1
+leafy wood soil,1
+vegetable garden soil,1
+salt contaminated soil,1
+potato silage,1
+anaerobic digester sludge,1
+acetamide enriched soil,1
+area of developed space,1
+water cooling,1
+slush ice,1
+plutonic rock,1
+luminescent paint,1
+acrylic paint,1
+oil-based paint,1
+cotton dust,1
+grain dust,1
+asbestos dust,1
+fibrous glass dust,1
+kaolin dust,1
+smog,1
+asphalt,1
+distilled water,1
+oil sludge,1
+methane-laden permafrost,1
+neve,1
+forest ecosystem,1
+mangrove biome soil,1
+natural wax,1
+goat manure,1
+surface soil,1
+pus material,1
+sebum material,1
+saliva material,1
+oronasal secretion material,1
+tear material,1
+pleural effusion material,1
+vitreous humor material,1
+breast milk material,1
+chyle material,1
+cerebrospinal fluid material,1
+rice straw,1
+bulk soil,1
+ethanol enriched soil,1
+technosol,1
+ornithogenic soil,1
+heat stressed soil,1
+greenhouse soil,1
+tropical soil,1
+pasture soil,1
+orchard soil,1
+muddy soil,1
+orchid soil,1
+manured soil,1
+plasma,1
+marl,1
+industrial wastewater,1
+sarcosine enriched soil,1
+sediment permeated by saline water,1
+asphalt concrete,1
+bluegrass field soil,1
+brick material,1
+cement plaster,1
+lime plaster,1
+silica dust,1
+aluminium dust,1
+barium dust,1
+talc dust,1
+aquaculture process,1
+stagnosol,1
+fluvisol,1
+aqueous inkjet printer ink,1
+soy ink,1
+hay,1
+chicken breeding waste material,1
+rubber plantation soil,1
+marine sludge,1
+suspended sediment,1
+household waste material,1
+boulder sediment,1
+cobble sediment,1
+pebble sediment,1
+granular sediment,1
+sandy sediment,1
+silty sediment,1
+clay sediment,1
+mesophilic sediment,1
+thermophilic sediment,1
+hyperthermophilic sediment,1
+skatole enriched soil,1
+microbial mat material,1
+root matter,1
+autoclaved sand,1
+planned environmental usage process,1
+acid dune sand,1
+gypsum plaster,1
+trimethylamine enriched soil,1
+atmospheric ozone,1
+pumice,1
+scoria,1
+tuff,1
+tephra,1
+plant litter,1
+cosmogenous sediment,1
+bedrock,1
+terrigenous sediment,1
+gravel,1
+desert sand,1
+rocky sand,1
+surface water,1
+anaerobic stream sediment,1
+food waste,1
+sandy clay loam,1
+ice cave congelation ice,1
+plastic-frozen soil,1
+hydrogel,1
+kerosene oil,1
+suspended colloidal sediment,1
+volcanic soil,1
+synovial fluid material,1
+arsenate treated wood,1
+mucus material,1
+lymph material,1
+interstitial fluid material,1
+uranium ore,1
+iron ore,1
+gold ore,1
+silty clay loam,1
+congelation ice in a fresh water body,1
+permafrost congelation ice,1
+mist,1
+anthracite,1
+coke,1
+pig manure,1
+horse manure,1
+mushroom compost,1
+kynurenate enriched soil,1
+testosterone enriched soil,1
+clay soil,1
+pantothenate enriched soil,1
+gasoline exhaust,1
+primer (paint),1
+scree,1
+arenosol,1
+platinum ore,1
+copper ore,1
+paraffin wax fume,1
+mock community culture,1
+toxic waste,1
+latex,1
+ceramic,1
+mylar,1
+cellophane,1
+natural-based polymer,1
+litter,1
+gypsum,1
+slab snow,1
+epiphyton,1
+ammonia ice,1
+carbon dioxide ice,1
+forage material,1
+single strain cell culture,1
+epipsammon,1
+vanadium fume,1
+interstitial water,1
+cooling water,1
+stagnant water,1
+cork,1
+ice fog,1
+agricultural potting mixture,1
+cryoconite deposit,1
+firn,1
+bottom ash,1
+fly ash,1
+epixylon,1
+wood ash,1
+lead paint,1
+zinc chloride fume,1
+emissions from petroleum combustion,1
+gel ink,1
+pharmaceutical ink,1
+podzol,1
+roadside soil,1
+dry soil,1
+aquifer,1
+forest biome,1
+mangrove biome,1
+broadleaf forest biome,1
+broadleaf forest,1
+roadside,1
+animal aquaculture process,1
+crustacean farming process,1
+planetary structural layer,1
+rural area,1
+bore hole water,1
+dune soil,1
+regosol,1
+alpine soil,1
+solonetz,1
+vertisol,1
+umbrisol,1
+solonchak,1
+mesotrophic water,1
+oligotrophic water,1
+saline lake sediment,1
+inorganically enriched sediment,1
+ballast tank,1
+oil field production water,1
+"1,4-dioxane contaminated sludge",1
+drilling bore water,1
+coarse beach sand,1
+coal mine lake sediment,1
+arable soil,1
+quinate enriched soil,1
+permanent hair dye,1
+metallic dust,1
+methyl cellulose paste,1
+rubber cement,1
+volume of cyanoacrylate,1
+radioactive material,1
+rock dust,1
+shellac,1
+tragacanth,1
+xanthan gum,1
+diesel exhaust,1
+wood dust,1
+anthrosol,1
+alisol,1
+clay dust,1
+cement dust,1
+coal dust,1
+L-(+)-tartrate enriched soil,1
+albeluvisol,1
+bile material,1
+amniotic fluid material,1
+blood material,1
+slate dust,1
+fresh animal manure,1
+cambisol,1
+chernozem,1
+durisol,1
+calcisol,1
+kastanozem,1
+threonine enriched soil,1
+salicylate enriched soil,1
+poly-beta-hydroxybutyrate enriched soil,1
+sediment permeated by freshwater,1

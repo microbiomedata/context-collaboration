@@ -1,5 +1,14 @@
 # Contributing to context-collaboration
 
+_This document provides guidance for contributing to the context-collaboration schema._
+
+It's even more valuable to contribute to the data in this repository, 
+namely mappings of classes from ontologies (like EnvO) 
+to MIxS environmental context questions (like env_local_scale), 
+in combination with MIxS environmental extensions (like BuiltEnvironment)
+
+Documentation for that is provided in ADDING_MAPPINGS.md
+
 :+1: First of all: Thank you for taking the time to contribute!
 
 The following is a set of guidelines for contributing to

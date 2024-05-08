@@ -3,6 +3,8 @@
 # It specifically retrieves identifiers, textual annotations and superclass identifiers
 # that might be reasonable answers to the env_braod_scale question form the Minimal Information about any (X) Sequence (MIxS) standard
 # If the LLM doesn’t think that the CSV report has been provided, it should ask for it.
+# The CSV report may have also been merged with the output from other SPARQL queries.
+# The LLM should ask for the other SPARQL queries if it thinks they are missing.
 # The CSV report may be provided in chunks.
 # If that's the case, then only the first chunk will include the column header.
 # The LLM should report the first and last EnvO terms it has received after each cunk is submitted

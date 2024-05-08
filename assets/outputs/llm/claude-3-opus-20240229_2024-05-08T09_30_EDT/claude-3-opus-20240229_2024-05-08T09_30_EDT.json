@@ -1,0 +1,924 @@
+{
+  "table_rows": [
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Soil",
+      "ontology_class_slug": "ENVO_00000114",
+      "ontology_class_label": "agricultural field",
+      "confidence": 0.95,
+      "comment": "An agricultural field provides a highly relevant and specific local environmental context for soil samples, as soil properties are heavily influenced by agricultural practices."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Soil",
+      "ontology_class_slug": "ENVO_00000078",
+      "ontology_class_label": "farm",
+      "confidence": 0.9,
+      "comment": "A farm represents the localized environment where agricultural production occurs and is highly relevant for agricultural soil samples."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Soil",
+      "ontology_class_slug": "ENVO_00003041",
+      "ontology_class_label": "cow shed",
+      "confidence": 0.8,
+      "comment": "A cow shed is an agricultural structure used for housing cattle and can influence local soil properties through factors such as animal waste and concentrated activity."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Soil",
+      "ontology_class_slug": "ENVO_00000266",
+      "ontology_class_label": "pasture",
+      "confidence": 0.9,
+      "comment": "Pastures are localized agricultural environments used for livestock grazing and are important contexts for soil samples related to animal agriculture."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Soil",
+      "ontology_class_slug": "ENVO_00000115",
+      "ontology_class_label": "orchard",
+      "confidence": 0.85,
+      "comment": "Orchards are agricultural sites used for fruit production and can provide relevant local context for soil samples in terms of tree cultivation practices."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Soil",
+      "ontology_class_slug": "ENVO_00000116",
+      "ontology_class_label": "vineyard",
+      "confidence": 0.85,
+      "comment": "Vineyards are agricultural sites used for grape production and can provide relevant local context for soil samples in terms of vine cultivation practices."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Soil",
+      "ontology_class_slug": "ENVO_00000054",
+      "ontology_class_label": "saline marsh",
+      "confidence": 0.8,
+      "comment": "Saline marshes are wetland ecosystems with saline soils, providing important context for soil samples in terms of salt content and adapted vegetation."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Soil",
+      "ontology_class_slug": "ENVO_00000044",
+      "ontology_class_label": "peatland",
+      "confidence": 0.8,
+      "comment": "Peatlands are wetland ecosystems characterized by the accumulation of organic matter, providing important context for soil samples in terms of soil formation processes and carbon storage."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Soil",
+      "ontology_class_slug": "ENVO_00000111",
+      "ontology_class_label": "forested area",
+      "confidence": 0.9,
+      "comment": "Forested areas have unique soil properties influenced by the presence of trees, such as litter inputs and root dynamics, providing important context for soil samples collected in these environments."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Soil",
+      "ontology_class_slug": "ENVO_00000170",
+      "ontology_class_label": "dune",
+      "confidence": 0.8,
+      "comment": "Dunes are accumulations of sand formed by wind processes and can provide relevant context for soil samples in terms of soil texture and formation processes."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Soil",
+      "ontology_class_slug": "ENVO_00000087",
+      "ontology_class_label": "cliff",
+      "confidence": 0.7,
+      "comment": "Cliffs are steep rock faces that can influence local soil properties through factors such as limited soil development and erosion processes."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Soil",
+      "ontology_class_slug": "ENVO_00000100",
+      "ontology_class_label": "valley",
+      "confidence": 0.8,
+      "comment": "Valleys are low-lying areas between hills or mountains that can influence soil properties through factors such as alluvial deposition and local microclimate effects."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Soil",
+      "ontology_class_slug": "ENVO_00000083",
+      "ontology_class_label": "hill",
+      "confidence": 0.8,
+      "comment": "Hills are elevated landforms that can influence local soil properties through factors such as slope, aspect, and erosion processes."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Soil",
+      "ontology_class_slug": "ENVO_00000311",
+      "ontology_class_label": "kettle",
+      "confidence": 0.7,
+      "comment": "Kettles are glacially-formed depressions that can collect water and influence local soil properties through factors such as poor drainage and organic matter accumulation."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Soil",
+      "ontology_class_slug": "ENVO_00000062",
+      "ontology_class_label": "populated place",
+      "confidence": 0.7,
+      "comment": "Populated places, such as villages or towns, can influence local soil properties through factors such as land use, waste disposal, and anthropogenic inputs."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Soil",
+      "ontology_class_slug": "ENVO_00000073",
+      "ontology_class_label": "building",
+      "confidence": 0.6,
+      "comment": "Buildings and their immediate surroundings can influence local soil properties through factors such as construction, landscaping, and human activities."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Soil",
+      "ontology_class_slug": "ENVO_00000067",
+      "ontology_class_label": "cave",
+      "confidence": 0.7,
+      "comment": "Caves are natural underground voids that can contain unique soil environments influenced by factors such as limited weathering, organic inputs, and geochemical processes."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Soil",
+      "ontology_class_slug": "ENVO_00000097",
+      "ontology_class_label": "desert area",
+      "confidence": 0.8,
+      "comment": "Desert areas are characterized by low precipitation and can have distinct soil properties such as high salt content, low organic matter, and specialized microbial communities."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Soil",
+      "ontology_class_slug": "ENVO_00000108",
+      "ontology_class_label": "meadow ecosystem",
+      "confidence": 0.8,
+      "comment": "Meadow ecosystems are characterized by herbaceous vegetation and can have soil properties influenced by factors such as high organic matter content and diverse plant communities."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Water",
+      "ontology_class_slug": "ENVO_00000012",
+      "ontology_class_label": "hydrographic feature",
+      "confidence": 0.9,
+      "comment": "Hydrographic features, such as rivers, lakes, and wetlands, are highly relevant for providing local environmental context for water samples."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Water",
+      "ontology_class_slug": "ENVO_00000022",
+      "ontology_class_label": "river",
+      "confidence": 0.95,
+      "comment": "Rivers are a specific type of hydrographic feature that are highly relevant for providing local environmental context for water samples, as they represent dynamic, flowing water systems."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Water",
+      "ontology_class_slug": "ENVO_00000020",
+      "ontology_class_label": "lake",
+      "confidence": 0.95,
+      "comment": "Lakes are another specific type of hydrographic feature that are highly relevant for providing local environmental context for water samples, as they represent more static, lentic water bodies."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Water",
+      "ontology_class_slug": "ENVO_00000043",
+      "ontology_class_label": "wetland area",
+      "confidence": 0.9,
+      "comment": "Wetland areas are important hydrographic features that can provide valuable local environmental context for water samples, as they represent transitional zones between aquatic and terrestrial ecosystems."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Water",
+      "ontology_class_slug": "ENVO_00000054",
+      "ontology_class_label": "saline marsh",
+      "confidence": 0.8,
+      "comment": "Saline marshes are a specific type of wetland ecosystem characterized by saline water influence, providing important context for water samples in terms of salinity and adapted vegetation."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Water",
+      "ontology_class_slug": "ENVO_00000044",
+      "ontology_class_label": "peatland",
+      "confidence": 0.8,
+      "comment": "Peatlands are a specific type of wetland ecosystem characterized by the accumulation of organic matter, providing important context for water samples in terms of water chemistry and hydrologic conditions."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Water",
+      "ontology_class_slug": "ENVO_00000045",
+      "ontology_class_label": "estuary",
+      "confidence": 0.9,
+      "comment": "Estuaries are hydrographic features representing transitional zones where rivers meet the sea, providing important context for water samples in terms of mixing dynamics and salinity gradients."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Water",
+      "ontology_class_slug": "ENVO_00000029",
+      "ontology_class_label": "watercourse",
+      "confidence": 0.9,
+      "comment": "Watercourses, such as streams and canals, are relevant hydrographic features that can provide local environmental context for water samples in terms of flow characteristics and connectivity."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Water",
+      "ontology_class_slug": "ENVO_00000023",
+      "ontology_class_label": "stream",
+      "confidence": 0.9,
+      "comment": "Streams are a specific type of watercourse that can provide important local environmental context for water samples, particularly in relation to flow dynamics and upstream influences."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Water",
+      "ontology_class_slug": "ENVO_00000033",
+      "ontology_class_label": "pond",
+      "confidence": 0.8,
+      "comment": "Ponds are small, static water bodies that can provide relevant local environmental context for water samples, particularly in relation to surrounding land use and ecosystem dynamics."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Water",
+      "ontology_class_slug": "ENVO_00000027",
+      "ontology_class_label": "spring",
+      "confidence": 0.8,
+      "comment": "Springs are hydrographic features where groundwater emerges at the Earth's surface, providing important context for water samples in terms of groundwater influence and local hydrogeology."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Water",
+      "ontology_class_slug": "ENVO_00000051",
+      "ontology_class_label": "hot spring",
+      "confidence": 0.8,
+      "comment": "Hot springs are a specific type of spring characterized by geothermally heated water, providing unique local environmental context for water samples in terms of temperature and geochemistry."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Water",
+      "ontology_class_slug": "ENVO_00000055",
+      "ontology_class_label": "saline evaporation pond",
+      "confidence": 0.7,
+      "comment": "Saline evaporation ponds are artificial hydrographic features used for salt production, providing a specific local environmental context for water samples in terms of high salinity and anthropogenic influence."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Water",
+      "ontology_class_slug": "ENVO_00000073",
+      "ontology_class_label": "building",
+      "confidence": 0.6,
+      "comment": "Buildings and their associated infrastructure, such as drainage systems and pipes, can influence local water environments and provide relevant context for some water samples."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Water",
+      "ontology_class_slug": "ENVO_00000074",
+      "ontology_class_label": "dam",
+      "confidence": 0.7,
+      "comment": "Dams are artificial structures that can significantly influence local water environments by altering flow regimes, creating reservoirs, and modifying water chemistry and ecology."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Water",
+      "ontology_class_slug": "ENVO_00000075",
+      "ontology_class_label": "bridge",
+      "confidence": 0.6,
+      "comment": "Bridges and their associated infrastructure can influence local water environments through factors such as runoff, shading, and physical disturbance, providing relevant context for some water samples."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Water",
+      "ontology_class_slug": "ENVO_00000104",
+      "ontology_class_label": "undersea feature",
+      "confidence": 0.8,
+      "comment": "Undersea features, such as seamounts, hydrothermal vents, and submarine canyons, can provide important local environmental context for water samples collected in marine settings."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Water",
+      "ontology_class_slug": "ENVO_00000206",
+      "ontology_class_label": "marine neritic zone",
+      "confidence": 0.8,
+      "comment": "The marine neritic zone, representing the shallow, near-shore region of the ocean, can provide relevant local environmental context for water samples in terms of coastal influences and benthic-pelagic coupling."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Water",
+      "ontology_class_slug": "ENVO_00000207",
+      "ontology_class_label": "oceanic zone",
+      "confidence": 0.8,
+      "comment": "The oceanic zone, representing the vast, open region of the ocean beyond the continental shelf, can provide important local environmental context for water samples in terms of pelagic processes and large-scale circulation patterns."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Water",
+      "ontology_class_slug": "ENVO_00000215",
+      "ontology_class_label": "hydrothermal vent",
+      "confidence": 0.8,
+      "comment": "Hydrothermal vents are unique undersea features characterized by the discharge of geothermally heated water, providing important local environmental context for water samples in terms of extreme temperature, chemistry, and microbial communities."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "HydrocarbonResourcesCores",
+      "ontology_class_slug": "ENVO_00000667",
+      "ontology_class_label": "geological fracture",
+      "confidence": 0.9,
+      "comment": "Geological fractures, such as faults and joints, can provide important local environmental context for hydrocarbon resource cores, as they can influence fluid flow and hydrocarbon accumulation."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "HydrocarbonResourcesCores",
+      "ontology_class_slug": "ENVO_00002185",
+      "ontology_class_label": "oil reservoir",
+      "confidence": 0.95,
+      "comment": "Oil reservoirs are subsurface geological formations that contain accumulated hydrocarbons, providing highly relevant local environmental context for hydrocarbon resource cores."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "HydrocarbonResourcesCores",
+      "ontology_class_slug": "ENVO_01000255",
+      "ontology_class_label": "mineral deposit",
+      "confidence": 0.8,
+      "comment": "Mineral deposits, such as those associated with hydrocarbon-bearing formations, can provide important local environmental context for hydrocarbon resource cores in terms of the geological setting and potential mineral interactions."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "HydrocarbonResourcesCores",
+      "ontology_class_slug": "ENVO_01000275",
+      "ontology_class_label": "structural basin",
+      "confidence": 0.9,
+      "comment": "Structural basins are large-scale geological depressions that can be important sites of hydrocarbon accumulation, providing relevant local environmental context for hydrocarbon resource cores."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "HydrocarbonResourcesCores",
+      "ontology_class_slug": "ENVO_01000282",
+      "ontology_class_label": "sedimentary stratum",
+      "confidence": 0.9,
+      "comment": "Sedimentary strata, particularly those associated with hydrocarbon-bearing formations, can provide important local environmental context for hydrocarbon resource cores in terms of the depositional environment and potential hydrocarbon source rocks."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "HydrocarbonResourcesCores",
+      "ontology_class_slug": "ENVO_01000498",
+      "ontology_class_label": "volcanic dike",
+      "confidence": 0.7,
+      "comment": "Volcanic dikes, which are sheet-like intrusions of magma into pre-existing rock formations, can potentially influence local hydrocarbon accumulation and provide relevant context for some hydrocarbon resource cores."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "HydrocarbonResourcesCores",
+      "ontology_class_slug": "ENVO_01000521",
+      "ontology_class_label": "batholith",
+      "confidence": 0.6,
+      "comment": "Batholiths, which are large intrusive igneous rock formations, can potentially influence local geology and provide relevant context for some hydrocarbon resource cores, particularly in terms of regional geological setting."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "HydrocarbonResourcesCores",
+      "ontology_class_slug": "ENVO_01000638",
+      "ontology_class_label": "planetary crust",
+      "confidence": 0.8,
+      "comment": "The planetary crust, particularly the upper crust where most hydrocarbon resources are found, provides important regional context for hydrocarbon resource cores in terms of the broader geological setting."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "HydrocarbonResourcesCores",
+      "ontology_class_slug": "ENVO_01000748",
+      "ontology_class_label": "continental crust",
+      "confidence": 0.8,
+      "comment": "The continental crust, which is typically thicker and less dense than oceanic crust, provides important regional context for hydrocarbon resource cores in terms of the geological setting and potential hydrocarbon-bearing formations."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "HydrocarbonResourcesCores",
+      "ontology_class_slug": "ENVO_01001104",
+      "ontology_class_label": "rift zone",
+      "confidence": 0.7,
+      "comment": "Rift zones, which are areas of extensional tectonics and thinning of the Earth's crust, can be important sites of hydrocarbon accumulation and provide relevant local environmental context for some hydrocarbon resource cores."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "HydrocarbonResourcesFluidsSwabs",
+      "ontology_class_slug": "ENVO_00000026",
+      "ontology_class_label": "well",
+      "confidence": 0.95,
+      "comment": "Wells, particularly those associated with hydrocarbon extraction, provide highly relevant local environmental context for hydrocarbon resource fluids and swabs, as they represent the immediate sampling environment."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "HydrocarbonResourcesFluidsSwabs",
+      "ontology_class_slug": "ENVO_01000003",
+      "ontology_class_label": "oil well",
+      "confidence": 0.95,
+      "comment": "Oil wells are specifically designed for the extraction of crude oil, providing a highly relevant local environmental context for hydrocarbon resource fluids and swabs collected from these environments."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "HydrocarbonResourcesFluidsSwabs",
+      "ontology_class_slug": "ENVO_01001870",
+      "ontology_class_label": "gas well",
+      "confidence": 0.95,
+      "comment": "Gas wells are specifically designed for the extraction of natural gas, providing a highly relevant local environmental context for hydrocarbon resource fluids and swabs collected from these environments."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "HydrocarbonResourcesFluidsSwabs",
+      "ontology_class_slug": "ENVO_00002185",
+      "ontology_class_label": "oil reservoir",
+      "confidence": 0.9,
+      "comment": "Oil reservoirs are subsurface geological formations that contain accumulated crude oil, providing important local environmental context for hydrocarbon resource fluids and swabs in terms of the source environment."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "HydrocarbonResourcesFluidsSwabs",
+      "ontology_class_slug": "ENVO_00000667",
+      "ontology_class_label": "geological fracture",
+      "confidence": 0.8,
+      "comment": "Geological fractures, such as faults and joints, can influence fluid flow and hydrocarbon accumulation, providing relevant local environmental context for hydrocarbon resource fluids and swabs."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "HydrocarbonResourcesFluidsSwabs",
+      "ontology_class_slug": "ENVO_01000282",
+      "ontology_class_label": "sedimentary stratum",
+      "confidence": 0.8,
+      "comment": "Sedimentary strata, particularly those associated with hydrocarbon-bearing formations, can provide important local environmental context for hydrocarbon resource fluids and swabs in terms of the depositional environment and potential hydrocarbon source rocks."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "HydrocarbonResourcesFluidsSwabs",
+      "ontology_class_slug": "ENVO_01000275",
+      "ontology_class_label": "structural basin",
+      "confidence": 0.7,
+      "comment": "Structural basins are large-scale geological depressions that can be important sites of hydrocarbon accumulation, providing relevant local environmental context for hydrocarbon resource fluids and swabs."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "HydrocarbonResourcesFluidsSwabs",
+      "ontology_class_slug": "ENVO_01000255",
+      "ontology_class_label": "mineral deposit",
+      "confidence": 0.6,
+      "comment": "Mineral deposits, such as those associated with hydrocarbon-bearing formations, can provide local environmental context for hydrocarbon resource fluids and swabs in terms of the geological setting and potential mineral interactions."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "HydrocarbonResourcesFluidsSwabs",
+      "ontology_class_slug": "ENVO_01000638",
+      "ontology_class_label": "planetary crust",
+      "confidence": 0.7,
+      "comment": "The planetary crust, particularly the upper crust where most hydrocarbon resources are found, provides regional context for hydrocarbon resource fluids and swabs in terms of the broader geological setting."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "HydrocarbonResourcesFluidsSwabs",
+      "ontology_class_slug": "ENVO_01000748",
+      "ontology_class_label": "continental crust",
+      "confidence": 0.7,
+      "comment": "The continental crust, which is typically thicker and less dense than oceanic crust, provides regional context for hydrocarbon resource fluids and swabs in terms of the geological setting and potential hydrocarbon-bearing formations."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "MicrobialMatBiofilm",
+      "ontology_class_slug": "ENVO_00000030",
+      "ontology_class_label": "dead cave",
+      "confidence": 0.7,
+      "comment": "Dead caves, which are characterized by the absence of active water flow or drips, can provide a suitable environment for the development of microbial mats and biofilms on cave surfaces."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "MicrobialMatBiofilm",
+      "ontology_class_slug": "ENVO_00000067",
+      "ontology_class_label": "cave",
+      "confidence": 0.8,
+      "comment": "Caves in general can provide a wide range of environments suitable for the growth of microbial mats and biofilms, with various substrate types and environmental conditions."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "MicrobialMatBiofilm",
+      "ontology_class_slug": "ENVO_00000051",
+      "ontology_class_label": "hot spring",
+      "confidence": 0.9,
+      "comment": "Hot springs provide unique environments characterized by high temperatures and mineral-rich waters, which can support the growth of specialized microbial mats and biofilms."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "MicrobialMatBiofilm",
+      "ontology_class_slug": "ENVO_00002120",
+      "ontology_class_label": "acidic hot spring",
+      "confidence": 0.9,
+      "comment": "Acidic hot springs, with their low pH and high temperature conditions, provide a specific niche for the development of microbial mats and biofilms adapted to these extreme environments."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "MicrobialMatBiofilm",
+      "ontology_class_slug": "ENVO_00002119",
+      "ontology_class_label": "alkaline hot spring",
+      "confidence": 0.9,
+      "comment": "Alkaline hot springs, with their high pH and high temperature conditions, provide another specific niche for the development of microbial mats and biofilms adapted to these extreme environments."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "MicrobialMatBiofilm",
+      "ontology_class_slug": "ENVO_00000215",
+      "ontology_class_label": "hydrothermal vent",
+      "confidence": 0.9,
+      "comment": "Hydrothermal vents, with their unique combination of high pressure, high temperature, and mineral-rich fluids, can support the growth of specialized microbial mats and biofilms."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "MicrobialMatBiofilm",
+      "ontology_class_slug": "ENVO_01000218",
+      "ontology_class_label": "black smoker",
+      "confidence": 0.9,
+      "comment": "Black smokers, a specific type of hydrothermal vent characterized by the emission of high-temperature, mineral-rich fluids, can support unique microbial mat and biofilm communities."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "MicrobialMatBiofilm",
+      "ontology_class_slug": "ENVO_00000263",
+      "ontology_class_label": "fissure cave",
+      "confidence": 0.7,
+      "comment": "Fissure caves, formed along joints or fractures in the bedrock, can provide surfaces and environmental conditions suitable for the development of microbial mats and biofilms."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "MicrobialMatBiofilm",
+      "ontology_class_slug": "ENVO_00000322",
+      "ontology_class_label": "volcanic cave",
+      "confidence": 0.8,
+      "comment": "Volcanic caves, formed by volcanic processes such as lava flows, can provide unique substrates and environmental conditions for the growth of microbial mats and biofilms."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "MicrobialMatBiofilm",
+      "ontology_class_slug": "ENVO_00000359",
+      "ontology_class_label": "limestone cave",
+      "confidence": 0.8,
+      "comment": "Limestone caves, formed by the dissolution of limestone bedrock, can provide surfaces and environmental conditions favorable for the development of microbial mats and biofilms."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "MicrobialMatBiofilm",
+      "ontology_class_slug": "ENVO_01000360",
+      "ontology_class_label": "solutional cave",
+      "confidence": 0.8,
+      "comment": "Solutional caves, formed by the dissolution of soluble rocks such as limestone, gypsum, and dolomite, can provide surfaces and environmental conditions suitable for microbial mat and biofilm growth."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "MicrobialMatBiofilm",
+      "ontology_class_slug": "ENVO_01000369",
+      "ontology_class_label": "anchialine cave",
+      "confidence": 0.8,
+      "comment": "Anchialine caves, which contain bodies of saline or brackish water with subterranean connections to the ocean, can provide unique environments for the development of microbial mats and biofilms adapted to these conditions."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "MiscellaneousNaturalOrArtificialEnvironment",
+      "ontology_class_slug": "ENVO_00000097",
+      "ontology_class_label": "desert area",
+      "confidence": 0.9,
+      "comment": "Desert areas are characterized by low precipitation and can have distinct soil properties, microbial communities, and ecological dynamics, providing important local environmental context for samples collected in these environments."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "MiscellaneousNaturalOrArtificialEnvironment",
+      "ontology_class_slug": "ENVO_00000106",
+      "ontology_class_label": "grassland area",
+      "confidence": 0.9,
+      "comment": "Grassland areas, characterized by the dominance of grasses and herbaceous vegetation, have distinct soil properties, biodiversity patterns, and ecological processes that provide important context for samples collected in these environments."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "MiscellaneousNaturalOrArtificialEnvironment",
+      "ontology_class_slug": "ENVO_00000109",
+      "ontology_class_label": "woodland area",
+      "confidence": 0.9,
+      "comment": "Woodland areas, characterized by open canopies and a mixture of trees and grasslands, provide a distinct set of environmental conditions and ecological processes that are important for contextualizing samples collected in these environments."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "MiscellaneousNaturalOrArtificialEnvironment",
+      "ontology_class_slug": "ENVO_00000111",
+      "ontology_class_label": "forested area",
+      "confidence": 0.9,
+      "comment": "Forested areas, characterized by dense tree cover and complex ecological interactions, provide a unique set of environmental conditions and processes that are important for contextualizing samples collected in these environments."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "MiscellaneousNaturalOrArtificialEnvironment",
+      "ontology_class_slug": "ENVO_00000112",
+      "ontology_class_label": "area of tundra",
+      "confidence": 0.9,
+      "comment": "Tundra areas, characterized by low temperatures, permafrost, and low-growing vegetation, have distinct soil properties, microbial communities, and ecological processes that provide important context for samples collected in these environments."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "MiscellaneousNaturalOrArtificialEnvironment",
+      "ontology_class_slug": "ENVO_00000473",
+      "ontology_class_label": "gravel pit",
+      "confidence": 0.8,
+      "comment": "Gravel pits, as artificial environments created by mining activities, can have distinct geological, hydrological, and ecological characteristics that provide important context for samples collected in these environments."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "MiscellaneousNaturalOrArtificialEnvironment",
+      "ontology_class_slug": "ENVO_00000562",
+      "ontology_class_label": "park",
+      "confidence": 0.7,
+      "comment": "Parks, as managed natural or semi-natural environments, can have a range of environmental conditions and ecological processes depending on their specific management and context, providing relevant information for samples collected in these environments."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "MiscellaneousNaturalOrArtificialEnvironment",
+      "ontology_class_slug": "ENVO_00000564",
+      "ontology_class_label": "archeological site",
+      "confidence": 0.7,
+      "comment": "Archaeological sites, as environments shaped by past human activities, can have distinct soil properties, geochemical signatures, and ecological characteristics that provide important context for samples collected in these environments."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "MiscellaneousNaturalOrArtificialEnvironment",
+      "ontology_class_slug": "ENVO_00002156",
+      "ontology_class_label": "Superfund site",
+      "confidence": 0.8,
+      "comment": "Superfund sites, as heavily contaminated environments designated for cleanup under the U.S. Superfund program, can have distinct geochemical, microbiological, and ecological characteristics that provide important context for samples collected in these environments."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "MiscellaneousNaturalOrArtificialEnvironment",
+      "ontology_class_slug": "ENVO_00000559",
+      "ontology_class_label": "weapons test site",
+      "confidence": 0.7,
+      "comment": "Weapons test sites, as environments impacted by the testing of military weapons, can have distinct geochemical, radiological, and ecological characteristics that provide important context for samples collected in these environments."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "MiscellaneousNaturalOrArtificialEnvironment",
+      "ontology_class_slug": "ENVO_00000561",
+      "ontology_class_label": "military training area",
+      "confidence": 0.7,
+      "comment": "Military training areas, as environments used for military training activities, can have distinct soil properties, vegetation patterns, and ecological characteristics that provide important context for samples collected in these environments."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "MiscellaneousNaturalOrArtificialEnvironment",
+      "ontology_class_slug": "ENVO_01001293",
+      "ontology_class_label": "area of scrub",
+      "confidence": 0.8,
+      "comment": "Areas of scrub, characterized by low-growing, often shrubby vegetation, can have distinct soil properties, microclimatic conditions, and ecological processes that provide important context for samples collected in these environments."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "PlantAssociated",
+      "ontology_class_slug": "ENVO_00000011",
+      "ontology_class_label": "garden",
+      "confidence": 0.9,
+      "comment": "Gardens, as managed plant environments, can have distinct soil properties, microclimatic conditions, and plant-associated microbial communities that provide important context for samples collected in these environments."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "PlantAssociated",
+      "ontology_class_slug": "ENVO_00000046",
+      "ontology_class_label": "hedge",
+      "confidence": 0.7,
+      "comment": "Hedges, as linear arrangements of closely spaced shrubs or trees, can provide distinct microhabitats and environmental conditions for plant-associated organisms and processes."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "PlantAssociated",
+      "ontology_class_slug": "ENVO_00000077",
+      "ontology_class_label": "agricultural ecosystem",
+      "confidence": 0.9,
+      "comment": "Agricultural ecosystems, characterized by the cultivation of crops and the management of soil and water resources, provide a distinct set of environmental conditions and plant-associated processes that are important for contextualizing samples collected in these environments."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "PlantAssociated",
+      "ontology_class_slug": "ENVO_00000114",
+      "ontology_class_label": "agricultural field",
+      "confidence": 0.9,
+      "comment": "Agricultural fields, as areas used for the cultivation of crops, have distinct soil properties, management practices, and plant-associated microbial communities that provide important context for samples collected in these environments."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "PlantAssociated",
+      "ontology_class_slug": "ENVO_00000115",
+      "ontology_class_label": "orchard",
+      "confidence": 0.8,
+      "comment": "Orchards, as areas used for the cultivation of fruit trees, have distinct soil properties, management practices, and plant-associated microbial communities that provide important context for samples collected in these environments."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "PlantAssociated",
+      "ontology_class_slug": "ENVO_00000116",
+      "ontology_class_label": "vineyard",
+      "confidence": 0.8,
+      "comment": "Vineyards, as areas used for the cultivation of grapevines, have distinct soil properties, management practices, and plant-associated microbial communities that provide important context for samples collected in these environments."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "PlantAssociated",
+      "ontology_class_slug": "ENVO_00000117",
+      "ontology_class_label": "plantation",
+      "confidence": 0.8,
+      "comment": "Plantations, as large-scale agricultural areas used for the cultivation of crops such as coffee, rubber, or palm oil, have distinct soil properties, management practices, and plant-associated microbial communities that provide important context for samples collected in these environments."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "PlantAssociated",
+      "ontology_class_slug": "ENVO_00000335",
+      "ontology_class_label": "marsh",
+      "confidence": 0.7,
+      "comment": "Marshes, as wetland ecosystems dominated by herbaceous vegetation, have distinct hydrological conditions, soil properties, and plant-associated microbial communities that provide important context for samples collected in these environments."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "PlantAssociated",
+      "ontology_class_slug": "ENVO_00000444",
+      "ontology_class_label": "woodland clearing",
+      "confidence": 0.7,
+      "comment": "Woodland clearings, as areas within woodlands that have reduced tree cover, can have distinct microclimatic conditions, soil properties, and plant-associated microbial communities that provide important context for samples collected in these environments."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "PlantAssociated",
+      "ontology_class_slug": "ENVO_00005803",
+      "ontology_class_label": "animal habitation",
+      "confidence": 0.6,
+      "comment": "Animal habitations, such as nests or burrows, can influence the local soil properties and plant-associated microbial communities through the concentration of nutrients and organic matter, providing relevant context for some plant-associated samples."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "PlantAssociated",
+      "ontology_class_slug": "ENVO_01000848",
+      "ontology_class_label": "flower strip",
+      "confidence": 0.8,
+      "comment": "Flower strips, as areas of flowering plants within or adjacent to agricultural fields, can provide distinct microclimatic conditions, nutrient sources, and plant-associated microbial communities that are relevant for contextualizing plant-associated samples."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "PlantAssociated",
+      "ontology_class_slug": "ENVO_01001207",
+      "ontology_class_label": "ranch",
+      "confidence": 0.7,
+      "comment": "Ranches, as areas used for grazing livestock, can have distinct soil properties, vegetation patterns, and plant-associated microbial communities that provide important context for samples collected in these environments."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Sediment",
+      "ontology_class_slug": "ENVO_00002000",
+      "ontology_class_label": "slope",
+      "confidence": 0.8,
+      "comment": "Slopes can influence sediment transport, deposition, and composition, providing important context for sediment samples collected in these environments."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Sediment",
+      "ontology_class_slug": "ENVO_00000386",
+      "ontology_class_label": "river mouth",
+      "confidence": 0.9,
+      "comment": "River mouths are areas where rivers deposit sediment as they flow into larger water bodies, creating distinct sedimentary environments that are important for contextualizing sediment samples."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Sediment",
+      "ontology_class_slug": "ENVO_00000101",
+      "ontology_class_label": "delta",
+      "confidence": 0.9,
+      "comment": "Deltas are sedimentary environments formed by the deposition of sediment at the mouth of a river, characterized by distinct sediment composition, grain size, and depositional patterns that provide important context for sediment samples."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Sediment",
+      "ontology_class_slug": "ENVO_00000091",
+      "ontology_class_label": "beach",
+      "confidence": 0.9,
+      "comment": "Beaches are coastal sedimentary environments characterized by the accumulation of sediment along the shoreline, with distinct sediment composition, grain size, and depositional patterns that provide important context for sediment samples."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Sediment",
+      "ontology_class_slug": "ENVO_00000304",
+      "ontology_class_label": "shore",
+      "confidence": 0.8,
+      "comment": "Shores are transitional environments between terrestrial and aquatic systems, characterized by distinct sediment composition, moisture content, and biogeochemical processes that provide important context for sediment samples."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Sediment",
+      "ontology_class_slug": "ENVO_00000316",
+      "ontology_class_label": "intertidal zone",
+      "confidence": 0.9,
+      "comment": "Intertidal zones are coastal environments characterized by the alternation of exposure and submersion due to tidal action, with distinct sediment composition, moisture content, and biogeochemical processes that provide important context for sediment samples."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Sediment",
+      "ontology_class_slug": "ENVO_00000485",
+      "ontology_class_label": "sea shore",
+      "confidence": 0.9,
+      "comment": "Sea shores are coastal environments characterized by the accumulation of sediment along the marine shoreline, with distinct sediment composition, grain size, and depositional patterns that provide important context for sediment samples."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Sediment",
+      "ontology_class_slug": "ENVO_00000382",
+      "ontology_class_label": "lake shore",
+      "confidence": 0.9,
+      "comment": "Lake shores are transitional environments between lacustrine and terrestrial systems, characterized by distinct sediment composition, moisture content, and biogeochemical processes that provide important context for sediment samples."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Sediment",
+      "ontology_class_slug": "ENVO_00000383",
+      "ontology_class_label": "stream bed",
+      "confidence": 0.9,
+      "comment": "Stream beds are the bottom substrates of streams, characterized by distinct sediment composition, grain size, and hydrological conditions that provide important context for sediment samples collected in these environments."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Sediment",
+      "ontology_class_slug": "ENVO_00000384",
+      "ontology_class_label": "river bed",
+      "confidence": 0.9,
+      "comment": "River beds are the bottom substrates of rivers, characterized by distinct sediment composition, grain size, and hydrological conditions that provide important context for sediment samples collected in these environments."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Sediment",
+      "ontology_class_slug": "ENVO_00000501",
+      "ontology_class_label": "submerged bed",
+      "confidence": 0.8,
+      "comment": "Submerged beds are the bottom substrates of aquatic environments, characterized by distinct sediment composition, redox conditions, and biogeochemical processes that provide important context for sediment samples collected in these environments."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Sediment",
+      "ontology_class_slug": "ENVO_00000268",
+      "ontology_class_label": "lake bed",
+      "confidence": 0.9,
+      "comment": "Lake beds are the bottom substrates of lakes, characterized by distinct sediment composition, redox conditions, and depositional patterns that provide important context for sediment samples collected in these environments."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "FoodFarmEnvironment",
+      "ontology_class_slug": "ENVO_00000057",
+      "ontology_class_label": "mangrove swamp",
+      "confidence": 0.6,
+      "comment": "Mangrove swamps, as coastal wetland ecosystems, can provide a distinct local environmental context for food farm environments, particularly in tropical and subtropical regions where they may be adjacent to or integrated with agricultural systems."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "FoodFarmEnvironment",
+      "ontology_class_slug": "ENVO_00000296",
+      "ontology_class_label": "rice field",
+      "confidence": 0.9,
+      "comment": "Rice fields, as flooded agricultural environments used for rice cultivation, provide a specific local environmental context for food farm environments, with distinct water management, soil properties, and microbial communities."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "FoodFarmEnvironment",
+      "ontology_class_slug": "ENVO_00000297",
+      "ontology_class_label": "paddy field",
+      "confidence": 0.9,
+      "comment": "Paddy fields, as flooded parcel agricultural environments used for rice and other semiaquatic crop cultivation, provide a specific local environmental context for food farm environments, with distinct water management, soil properties, and microbial communities."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Soil",
+      "ontology_class_slug": "ENVO_03501109",
+      "ontology_class_label": "subway train",
+      "confidence": 0.1,
+      "comment": "A subway train is not a reasonable local environmental context for soil samples, as it is an artificial, mobile environment that is not typically associated with soil ecosystems or processes."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Agriculture",
+      "ontology_class_slug": "ENVO:00002259",
+      "ontology_class_label": "agricultural soil",
+      "confidence": 0.2,
+      "comment": "The ENVO term 'ENVO:00002259' for 'agricultural soil' is not present in the provided input and cannot be used for mapping in this context."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "BuiltEnvironment",
+      "ontology_class_slug": "ENVO_00000081",
+      "ontology_class_label": "man-made tunnel",
+      "confidence": 0.1,
+      "comment": "The ENVO term 'ENVO_00000081' is associated with the label 'mountain' in the input, not 'man-made tunnel'. This mismatch between the term and its label makes the mapping invalid."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "WastewaterSludge",
+      "ontology_class_slug": "ENVO_01000419",
+      "ontology_class_label": "domestic garden",
+      "confidence": 0.1,
+      "comment": "A domestic garden is not a relevant local environmental context for wastewater sludge samples, as these samples are typically associated with wastewater treatment facilities or related infrastructure."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "MicrobialMatBiofilm",
+      "ontology_class_slug": "ENVO_01000254",
+      "ontology_class_label": "environmental system",
+      "confidence": 0.2,
+      "comment": "The ENVO term 'environmental system' is too broad and generic to provide a meaningful local environmental context for microbial mat and biofilm samples. More specific terms related to the particular habitats or conditions associated with these samples should be used."
+    }
+  ]
+}

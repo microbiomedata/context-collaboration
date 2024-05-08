@@ -1,0 +1,220 @@
+{
+  "table_rows": [
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "BuiltEnvironment",
+      "ontology_class_slug": "ENVO_00000073",
+      "ontology_class_label": "building",
+      "confidence": 0.95,
+      "comment": "A building is a highly relevant local environmental context for built environment samples, providing the immediate surroundings and conditions."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "BuiltEnvironment",
+      "ontology_class_slug": "ENVO_01000426",
+      "ontology_class_label": "room",
+      "confidence": 0.95,
+      "comment": "Rooms provide specific, localized environmental contexts within buildings that are highly relevant for built environment samples."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "BuiltEnvironment",
+      "ontology_class_slug": "ENVO_01000486",
+      "ontology_class_label": "building floor",
+      "confidence": 0.9,
+      "comment": "Building floors can define distinct local environments within a building, especially relevant for interior built environment samples."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "BuiltEnvironment",
+      "ontology_class_slug": "ENVO_01000472",
+      "ontology_class_label": "building roof",
+      "confidence": 0.85,
+      "comment": "Building roofs can significantly influence the local environment, particularly for exterior built environment samples or those near the top of a building."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "BuiltEnvironment",
+      "ontology_class_slug": "ENVO_01000465",
+      "ontology_class_label": "building wall",
+      "confidence": 0.9,
+      "comment": "Walls define and compartmentalize local environments within buildings and are highly relevant for interior built environment samples."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "BuiltEnvironment",
+      "ontology_class_slug": "ENVO_03501123",
+      "ontology_class_label": "airport terminal",
+      "confidence": 0.8,
+      "comment": "Airport terminals represent distinct local environments within the built environment with unique characteristics and potential influences on samples."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "BuiltEnvironment",
+      "ontology_class_slug": "ENVO_01000421",
+      "ontology_class_label": "indoor kitchen",
+      "confidence": 0.95,
+      "comment": "Kitchens are specialized local environments within buildings with distinct characteristics that are highly relevant for built environment samples."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "BuiltEnvironment",
+      "ontology_class_slug": "ENVO_01000422",
+      "ontology_class_label": "bathroom",
+      "confidence": 0.95,
+      "comment": "Bathrooms represent unique local environments within buildings with specific environmental conditions that are important for built environment samples."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "BuiltEnvironment",
+      "ontology_class_slug": "ENVO_01000425",
+      "ontology_class_label": "indoor toilet",
+      "confidence": 0.95,
+      "comment": "Toilets are distinct local environments within buildings that provide highly specific contexts for built environment samples."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "BuiltEnvironment",
+      "ontology_class_slug": "ENVO_00000010",
+      "ontology_class_label": "transport feature",
+      "confidence": 0.7,
+      "comment": "Transport features like roads or railways can provide relevant local environmental context for exterior built environment samples or those near transportation infrastructure."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Agriculture",
+      "ontology_class_slug": "ENVO_00000114",
+      "ontology_class_label": "agricultural field",
+      "confidence": 0.95,
+      "comment": "An agricultural field is a highly relevant and specific local environmental context for agriculture-related samples."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Agriculture",
+      "ontology_class_slug": "ENVO_00000077",
+      "ontology_class_label": "agricultural ecosystem",
+      "confidence": 0.9,
+      "comment": "Agricultural ecosystems encompass the local environment and conditions in which agricultural activities take place."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Agriculture",
+      "ontology_class_slug": "ENVO_00000078",
+      "ontology_class_label": "farm",
+      "confidence": 0.9,
+      "comment": "A farm represents the localized environment where agricultural production occurs and is highly relevant for agricultural samples."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Agriculture",
+      "ontology_class_slug": "ENVO_00000115",
+      "ontology_class_label": "orchard",
+      "confidence": 0.95,
+      "comment": "Orchards are specific localized agricultural environments focused on fruit production and are highly relevant for agricultural samples from these sites."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Agriculture",
+      "ontology_class_slug": "ENVO_00000116",
+      "ontology_class_label": "vineyard",
+      "confidence": 0.95,
+      "comment": "Vineyards are distinct localized agricultural environments dedicated to grape production for wine making and are important contexts for related agricultural samples."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Agriculture",
+      "ontology_class_slug": "ENVO_00000117",
+      "ontology_class_label": "plantation",
+      "confidence": 0.8,
+      "comment": "Plantations are large-scale agricultural sites that can provide relevant local environmental context for agricultural samples, but may require more specificity."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Agriculture",
+      "ontology_class_slug": "ENVO_00000296",
+      "ontology_class_label": "rice field",
+      "confidence": 0.95,
+      "comment": "Rice fields are specific local environments used for rice cultivation and are highly relevant for agricultural samples from these sites."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Agriculture",
+      "ontology_class_slug": "ENVO_00000297",
+      "ontology_class_label": "paddy field",
+      "confidence": 0.95,
+      "comment": "Paddy fields are flooded parcel agricultural environments used for rice and other semi-aquatic crop cultivation and provide important context for related samples."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Agriculture",
+      "ontology_class_slug": "ENVO_00000266",
+      "ontology_class_label": "pasture",
+      "confidence": 0.9,
+      "comment": "Pastures are localized agricultural environments used for livestock grazing and are important contexts for samples related to animal agriculture."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Air",
+      "ontology_class_slug": "ENVO_00002044",
+      "ontology_class_label": "clean room",
+      "confidence": 0.9,
+      "comment": "A clean room provides a highly controlled localized environment relevant for air samples taken in specialized settings like laboratories or manufacturing facilities."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Air",
+      "ontology_class_slug": "ENVO_01000422",
+      "ontology_class_label": "bathroom",
+      "confidence": 0.8,
+      "comment": "Bathrooms can have distinct air quality characteristics compared to other indoor environments due to moisture, ventilation, and other factors."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Air",
+      "ontology_class_slug": "ENVO_01000421",
+      "ontology_class_label": "indoor kitchen",
+      "confidence": 0.8,
+      "comment": "Kitchens can have unique airborne particles and compounds related to cooking activities that provide relevant context for indoor air samples."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Air",
+      "ontology_class_slug": "ENVO_01000426",
+      "ontology_class_label": "room",
+      "confidence": 0.9,
+      "comment": "Individual rooms within buildings can have distinct air quality conditions based on factors like ventilation, occupancy, and activities."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Air",
+      "ontology_class_slug": "ENVO_00000073",
+      "ontology_class_label": "building",
+      "confidence": 0.8,
+      "comment": "Buildings create semi-contained local atmospheres that are relevant context for air samples, but may require more specificity."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Air",
+      "ontology_class_slug": "ENVO_01000486",
+      "ontology_class_label": "building floor",
+      "confidence": 0.7,
+      "comment": "Different building floors may have somewhat varying airflow and contaminant profiles, providing relevant context for some air samples."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Air",
+      "ontology_class_slug": "ENVO_02000001",
+      "ontology_class_label": "textile",
+      "confidence": 0.6,
+      "comment": "Textiles and fabrics in an environment can influence the composition of air samples by acting as sources or sinks for airborne particles and compounds."
+    },
+    {
+      "mixs_context_label": "env_local_scale",
+      "mixs_environment_label": "Air",
+      "ontology_class_slug": "ENVO_00000064",
+      "ontology_class_label": "road",
+      "confidence": 0.7,
+      "comment": "Roads can influence the local air environment through vehicle emissions, dust generation, and effects on airflow, potentially impacting nearby air samples."
+    }
+  ]
+}

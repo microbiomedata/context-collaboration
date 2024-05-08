@@ -1,0 +1,1052 @@
+{
+  "table_rows": [
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Agriculture",
+      "ontology_class_slug": "ENVO_00001998",
+      "ontology_class_label": "soil",
+      "confidence": 1,
+      "comment": "Soil is a highly relevant environmental medium in agricultural settings."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Agriculture",
+      "ontology_class_slug": "ENVO_00002007",
+      "ontology_class_label": "sediment",
+      "confidence": 0.8,
+      "comment": "Sediment can be a relevant environmental medium in some agricultural contexts, such as in rice paddies or aquaculture."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Agriculture",
+      "ontology_class_slug": "ENVO_00002006",
+      "ontology_class_label": "liquid water",
+      "confidence": 0.9,
+      "comment": "Water is a crucial environmental medium in agriculture, used for irrigation and livestock."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Agriculture",
+      "ontology_class_slug": "ENVO_00002003",
+      "ontology_class_label": "fecal material",
+      "confidence": 0.7,
+      "comment": "Fecal material can be a relevant environmental medium in livestock farming and manure management."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Agriculture",
+      "ontology_class_slug": "ENVO_00002170",
+      "ontology_class_label": "compost",
+      "confidence": 0.8,
+      "comment": "Compost is a common environmental medium used as a soil amendment in agriculture."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Agriculture",
+      "ontology_class_slug": "ENVO_00002259",
+      "ontology_class_label": "agricultural soil",
+      "confidence": 1,
+      "comment": "Agricultural soil is a specific type of soil highly relevant to the agriculture environmental extension."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Agriculture",
+      "ontology_class_slug": "ENVO_00002264",
+      "ontology_class_label": "waste material",
+      "confidence": 0.6,
+      "comment": "Agricultural waste material might be a relevant environmental medium in some contexts, but it is a broad category."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Agriculture",
+      "ontology_class_slug": "ENVO_00003031",
+      "ontology_class_label": "animal manure",
+      "confidence": 0.9,
+      "comment": "Animal manure is a common environmental medium in livestock farming and is often used as a fertilizer."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Agriculture",
+      "ontology_class_slug": "ENVO_00003869",
+      "ontology_class_label": "straw",
+      "confidence": 0.7,
+      "comment": "Straw can be a relevant environmental medium in agriculture, such as in animal bedding or as a soil amendment."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Agriculture",
+      "ontology_class_slug": "ENVO_00005749",
+      "ontology_class_label": "farm soil",
+      "confidence": 1,
+      "comment": "Farm soil is a specific type of soil highly relevant to the agriculture environmental extension."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Agriculture",
+      "ontology_class_slug": "ENVO_00005755",
+      "ontology_class_label": "field soil",
+      "confidence": 1,
+      "comment": "Field soil is a specific type of soil highly relevant to the agriculture environmental extension."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Agriculture",
+      "ontology_class_slug": "ENVO_00005767",
+      "ontology_class_label": "manured soil",
+      "confidence": 0.9,
+      "comment": "Manured soil is a type of soil amended with manure, which is common in agricultural practices."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Agriculture",
+      "ontology_class_slug": "ENVO_03501300",
+      "ontology_class_label": "manure",
+      "confidence": 0.9,
+      "comment": "Manure is a common environmental medium in livestock farming and is often used as a fertilizer."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "BuiltEnvironment",
+      "ontology_class_slug": "ENVO_00002006",
+      "ontology_class_label": "liquid water",
+      "confidence": 0.8,
+      "comment": "Liquid water can be found in various built environment settings, such as tap water, drinking water, or water in heating and cooling systems."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "BuiltEnvironment",
+      "ontology_class_slug": "ENVO_00002005",
+      "ontology_class_label": "air",
+      "confidence": 1,
+      "comment": "Air is a ubiquitous environmental medium in the built environment, both indoors and outdoors."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "BuiltEnvironment",
+      "ontology_class_slug": "ENVO_00002018",
+      "ontology_class_label": "sewage",
+      "confidence": 0.9,
+      "comment": "Sewage is a relevant environmental medium in built environments, particularly in wastewater infrastructure."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "BuiltEnvironment",
+      "ontology_class_slug": "ENVO_00002044",
+      "ontology_class_label": "sludge",
+      "confidence": 0.8,
+      "comment": "Sludge can be found in various built environment contexts, such as in wastewater treatment or in some industrial settings."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "BuiltEnvironment",
+      "ontology_class_slug": "ENVO_00002046",
+      "ontology_class_label": "activated sludge",
+      "confidence": 0.8,
+      "comment": "Activated sludge is a specific type of sludge used in wastewater treatment, which is a common process in built environments."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "BuiltEnvironment",
+      "ontology_class_slug": "ENVO_00002186",
+      "ontology_class_label": "contaminated water",
+      "confidence": 0.7,
+      "comment": "Contaminated water can be found in various built environment settings, such as in industrial effluents or polluted urban waterways."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "BuiltEnvironment",
+      "ontology_class_slug": "ENVO_00003064",
+      "ontology_class_label": "drinking water",
+      "confidence": 0.9,
+      "comment": "Drinking water is a common environmental medium in built environments, supplied through municipal water systems or other sources."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "BuiltEnvironment",
+      "ontology_class_slug": "ENVO_00003096",
+      "ontology_class_label": "tap water",
+      "confidence": 0.9,
+      "comment": "Tap water is a specific type of drinking water supplied through indoor plumbing systems in built environments."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "BuiltEnvironment",
+      "ontology_class_slug": "ENVO_00005791",
+      "ontology_class_label": "sterile water",
+      "confidence": 0.6,
+      "comment": "Sterile water may be used in some specific built environment contexts, such as in healthcare or laboratory settings, but it is not a common general-purpose medium."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "BuiltEnvironment",
+      "ontology_class_slug": "ENVO_01000676",
+      "ontology_class_label": "contaminated air",
+      "confidence": 0.8,
+      "comment": "Contaminated air can be found in various built environments, particularly in industrial or urban settings with high levels of air pollution."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Air",
+      "ontology_class_slug": "ENVO_00002005",
+      "ontology_class_label": "air",
+      "confidence": 1.0,
+      "comment": "Air is the primary environmental medium for the Air environmental package."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Air",
+      "ontology_class_slug": "ENVO_00002006",
+      "ontology_class_label": "liquid water",
+      "confidence": 0.6,
+      "comment": "Liquid water may be relevant in some air sampling contexts, such as in clouds or fog, but it is not the primary medium."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Air",
+      "ontology_class_slug": "ENVO_01000844",
+      "ontology_class_label": "fog",
+      "confidence": 0.8,
+      "comment": "Fog is a specific form of air containing suspended liquid water droplets, which may be relevant in some air sampling contexts."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Air",
+      "ontology_class_slug": "ENVO_01000828",
+      "ontology_class_label": "humid air",
+      "confidence": 0.9,
+      "comment": "Humid air is a specific type of air with high water vapor content, which may be relevant in some air sampling contexts."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Air",
+      "ontology_class_slug": "ENVO_01000829",
+      "ontology_class_label": "water vapour saturated air",
+      "confidence": 0.8,
+      "comment": "Water vapor saturated air is a specific type of air that is fully saturated with water vapor, which may be relevant in some air sampling contexts."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Air",
+      "ontology_class_slug": "ENVO_01000676",
+      "ontology_class_label": "contaminated air",
+      "confidence": 0.9,
+      "comment": "Contaminated air is a specific type of air that contains pollutants or contaminants, which may be relevant in some air sampling contexts, particularly in urban or industrial settings."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Air",
+      "ontology_class_slug": "ENVO_01001402",
+      "ontology_class_label": "haze",
+      "confidence": 0.8,
+      "comment": "Haze is a specific atmospheric condition where air contains suspended particulate matter, which may be relevant in some air sampling contexts."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Air",
+      "ontology_class_slug": "ENVO_03000137",
+      "ontology_class_label": "freezing fog",
+      "confidence": 0.7,
+      "comment": "Freezing fog is a specific type of fog where the suspended water droplets freeze upon contact with surfaces, which may be relevant in some cold-weather air sampling contexts."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Air",
+      "ontology_class_slug": "ENVO_03000139",
+      "ontology_class_label": "ice fog",
+      "confidence": 0.7,
+      "comment": "Ice fog is a type of fog that forms in very cold air, where the suspended water droplets freeze into ice crystals, which may be relevant in some polar or high-altitude air sampling contexts."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Air",
+      "ontology_class_slug": "ENVO_01000266",
+      "ontology_class_label": "water vapour",
+      "confidence": 0.8,
+      "comment": "Water vapor is the gaseous form of water that is present in air, which may be relevant in some air sampling contexts, particularly in relation to humidity or cloud formation."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "HydrocarbonResourcesCores",
+      "ontology_class_slug": "ENVO_00002007",
+      "ontology_class_label": "sediment",
+      "confidence": 0.9,
+      "comment": "Sediment is a common environmental medium in hydrocarbon resource cores, as many hydrocarbon deposits are found in sedimentary rock formations."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "HydrocarbonResourcesCores",
+      "ontology_class_slug": "ENVO_00001995",
+      "ontology_class_label": "rock",
+      "confidence": 1.0,
+      "comment": "Rock is the primary environmental medium in hydrocarbon resource cores, as cores are typically extracted from solid rock formations."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "HydrocarbonResourcesCores",
+      "ontology_class_slug": "ENVO_00002016",
+      "ontology_class_label": "sedimentary rock",
+      "confidence": 0.9,
+      "comment": "Sedimentary rock is a specific type of rock that is commonly associated with hydrocarbon resources, as many oil and gas deposits are found in sedimentary basins."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "HydrocarbonResourcesCores",
+      "ontology_class_slug": "ENVO_00002053",
+      "ontology_class_label": "limestone",
+      "confidence": 0.8,
+      "comment": "Limestone is a specific type of sedimentary rock that may be present in some hydrocarbon resource cores, particularly in carbonate reservoir systems."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "HydrocarbonResourcesCores",
+      "ontology_class_slug": "ENVO_00002055",
+      "ontology_class_label": "sandstone",
+      "confidence": 0.8,
+      "comment": "Sandstone is another type of sedimentary rock that may be present in some hydrocarbon resource cores, particularly in clastic reservoir systems."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "HydrocarbonResourcesCores",
+      "ontology_class_slug": "ENVO_02000119",
+      "ontology_class_label": "oil shale",
+      "confidence": 0.8,
+      "comment": "Oil shale is a specific type of sedimentary rock that is rich in kerogen and can be a source of hydrocarbons, which may be present in some hydrocarbon resource cores."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "HydrocarbonResourcesCores",
+      "ontology_class_slug": "ENVO_01001231",
+      "ontology_class_label": "kerogen",
+      "confidence": 0.8,
+      "comment": "Kerogen is a solid, insoluble organic matter that is a precursor to oil and gas, and it may be present in some hydrocarbon resource cores, particularly in source rock formations."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "HydrocarbonResourcesCores",
+      "ontology_class_slug": "ENVO_00002985",
+      "ontology_class_label": "oil",
+      "confidence": 0.9,
+      "comment": "Oil is a liquid hydrocarbon resource that may be present in some cores, particularly in reservoir rock formations or in cores from oil-bearing strata."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "HydrocarbonResourcesCores",
+      "ontology_class_slug": "ENVO_00002984",
+      "ontology_class_label": "petroleum",
+      "confidence": 0.9,
+      "comment": "Petroleum is a broad term that encompasses both oil and gas, and it may be present in various forms in hydrocarbon resource cores."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "HydrocarbonResourcesCores",
+      "ontology_class_slug": "ENVO_03600007",
+      "ontology_class_label": "formation fluid",
+      "confidence": 0.8,
+      "comment": "Formation fluids, which can include water, oil, and gas, may be present in the pore spaces of rocks in hydrocarbon resource cores."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "HydrocarbonResourcesFluidsSwabs",
+      "ontology_class_slug": "ENVO_00002006",
+      "ontology_class_label": "liquid water",
+      "confidence": 0.9,
+      "comment": "Liquid water is a common environmental medium in hydrocarbon resource fluids, as water is often co-produced with oil and gas."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "HydrocarbonResourcesFluidsSwabs",
+      "ontology_class_slug": "ENVO_00002985",
+      "ontology_class_label": "oil",
+      "confidence": 1.0,
+      "comment": "Oil is a primary environmental medium in hydrocarbon resource fluids, as it is the main product extracted from many hydrocarbon reservoirs."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "HydrocarbonResourcesFluidsSwabs",
+      "ontology_class_slug": "ENVO_00002984",
+      "ontology_class_label": "petroleum",
+      "confidence": 1.0,
+      "comment": "Petroleum, which includes both oil and gas, is the primary environmental medium in hydrocarbon resource fluids."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "HydrocarbonResourcesFluidsSwabs",
+      "ontology_class_slug": "ENVO_01000552",
+      "ontology_class_label": "natural gas",
+      "confidence": 1.0,
+      "comment": "Natural gas is another primary environmental medium in hydrocarbon resource fluids, as it is often co-produced with oil and can also be the main product in some reservoirs."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "HydrocarbonResourcesFluidsSwabs",
+      "ontology_class_slug": "ENVO_03600007",
+      "ontology_class_label": "formation fluid",
+      "confidence": 1.0,
+      "comment": "Formation fluids, which include water, oil, and gas in various proportions, are the primary environmental media in hydrocarbon resource fluids and swabs."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "HydrocarbonResourcesFluidsSwabs",
+      "ontology_class_slug": "ENVO_03600009",
+      "ontology_class_label": "interstitial water",
+      "confidence": 0.8,
+      "comment": "Interstitial water, which is the water trapped in the pore spaces of rocks, may be sampled in hydrocarbon resource fluids and swabs."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "HydrocarbonResourcesFluidsSwabs",
+      "ontology_class_slug": "ENVO_00002010",
+      "ontology_class_label": "saline water",
+      "confidence": 0.8,
+      "comment": "Saline water, which is water with high concentrations of dissolved salts, is often co-produced with oil and gas and may be sampled in hydrocarbon resource fluids."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "HydrocarbonResourcesFluidsSwabs",
+      "ontology_class_slug": "ENVO_00002012",
+      "ontology_class_label": "hypersaline water",
+      "confidence": 0.7,
+      "comment": "Hypersaline water, which has even higher salt concentrations than saline water, may be encountered in some hydrocarbon resource fluids, particularly in deep, high-temperature, high-pressure reservoirs."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "HydrocarbonResourcesFluidsSwabs",
+      "ontology_class_slug": "ENVO_01001134",
+      "ontology_class_label": "hydrothermal fluid",
+      "confidence": 0.7,
+      "comment": "Hydrothermal fluids, which are hot, mineral-rich fluids associated with volcanic activity or deep crustal processes, may be encountered in some high-temperature, high-pressure hydrocarbon reservoirs."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "HydrocarbonResourcesFluidsSwabs",
+      "ontology_class_slug": "ENVO_03600082",
+      "ontology_class_label": "crustal fluid",
+      "confidence": 0.7,
+      "comment": "Crustal fluids, which are fluids that circulate in the Earth's crust, may be encountered in some deep hydrocarbon reservoirs and could be sampled in fluids or swabs."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Soil",
+      "ontology_class_slug": "ENVO_00001998",
+      "ontology_class_label": "soil",
+      "confidence": 1.0,
+      "comment": "Soil is the primary environmental medium for the Soil environment package."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Soil",
+      "ontology_class_slug": "ENVO_00002007",
+      "ontology_class_label": "sediment",
+      "confidence": 0.7,
+      "comment": "Sediment may be considered as a potential environmental medium in some soil contexts, particularly in alluvial or wetland soils."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Soil",
+      "ontology_class_slug": "ENVO_00005802",
+      "ontology_class_label": "bulk soil",
+      "confidence": 0.9,
+      "comment": "Bulk soil refers to the soil mass as a whole, including solid, liquid, and gaseous components, which is a relevant concept in many soil studies."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Soil",
+      "ontology_class_slug": "ENVO_00002259",
+      "ontology_class_label": "agricultural soil",
+      "confidence": 0.9,
+      "comment": "Agricultural soil is a specific type of soil that is managed for crop production and is thus a relevant environmental medium in many soil studies."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Soil",
+      "ontology_class_slug": "ENVO_00005749",
+      "ontology_class_label": "farm soil",
+      "confidence": 0.9,
+      "comment": "Farm soil is another term for agricultural soil, referring to soils managed for crop or livestock production."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Soil",
+      "ontology_class_slug": "ENVO_00002261",
+      "ontology_class_label": "forest soil",
+      "confidence": 0.9,
+      "comment": "Forest soil is a type of soil that develops under forest vegetation and is thus a relevant environmental medium in many soil ecology studies."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Soil",
+      "ontology_class_slug": "ENVO_00002262",
+      "ontology_class_label": "clay soil",
+      "confidence": 0.8,
+      "comment": "Clay soil is a type of soil characterized by a high proportion of clay particles, which can have distinct physical and chemical properties relevant to some soil studies."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Soil",
+      "ontology_class_slug": "ENVO_00005748",
+      "ontology_class_label": "dry soil",
+      "confidence": 0.8,
+      "comment": "Dry soil refers to soil with low moisture content, which can be a relevant condition in some soil environments, particularly in arid regions or during dry seasons."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Soil",
+      "ontology_class_slug": "ENVO_03600036",
+      "ontology_class_label": "pathogen-suppressive soil",
+      "confidence": 0.7,
+      "comment": "Pathogen-suppressive soil is a type of soil that has properties inhibiting the growth or activity of plant pathogens, which may be of interest in some agricultural soil studies."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Soil",
+      "ontology_class_slug": "ENVO_00005771",
+      "ontology_class_label": "muddy soil",
+      "confidence": 0.7,
+      "comment": "Muddy soil is a type of soil with a high proportion of fine particles and high water content, resulting in a mud-like consistency, which may be relevant in some wetland or floodplain soil contexts."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Water",
+      "ontology_class_slug": "ENVO_00002006",
+      "ontology_class_label": "liquid water",
+      "confidence": 1.0,
+      "comment": "Liquid water is the primary environmental medium for the Water environment package."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Water",
+      "ontology_class_slug": "ENVO_00002011",
+      "ontology_class_label": "fresh water",
+      "confidence": 0.9,
+      "comment": "Fresh water, which has low concentrations of dissolved salts and other solutes, is a major category of liquid water and is a common environmental medium in many aquatic studies."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Water",
+      "ontology_class_slug": "ENVO_00002010",
+      "ontology_class_label": "saline water",
+      "confidence": 0.9,
+      "comment": "Saline water, which has higher concentrations of dissolved salts compared to fresh water, is another major category of liquid water and is a common environmental medium in marine and some inland aquatic environments."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Water",
+      "ontology_class_slug": "ENVO_00002012",
+      "ontology_class_label": "hypersaline water",
+      "confidence": 0.8,
+      "comment": "Hypersaline water, which has even higher salt concentrations than typical saline water, can be found in some extreme aquatic environments and may be a relevant environmental medium in some specialized studies."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Water",
+      "ontology_class_slug": "ENVO_00002149",
+      "ontology_class_label": "sea water",
+      "confidence": 0.9,
+      "comment": "Sea water refers specifically to saline water in marine environments and is a common environmental medium in ocean-related studies."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Water",
+      "ontology_class_slug": "ENVO_00002150",
+      "ontology_class_label": "coastal sea water",
+      "confidence": 0.8,
+      "comment": "Coastal sea water refers to the saline water in the coastal zone, which may have distinct properties compared to open ocean water due to terrestrial influences and is a relevant environmental medium in coastal ecology studies."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Water",
+      "ontology_class_slug": "ENVO_01000301",
+      "ontology_class_label": "estuarine water",
+      "confidence": 0.8,
+      "comment": "Estuarine water is a type of brackish water found in estuaries, where rivers meet the sea, and is characterized by variable salinity and unique ecological conditions."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Water",
+      "ontology_class_slug": "ENVO_03600002",
+      "ontology_class_label": "cooling water",
+      "confidence": 0.7,
+      "comment": "Cooling water is water used for cooling purposes in industrial processes or power plants and may be a relevant environmental medium in some applied water quality studies."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Water",
+      "ontology_class_slug": "ENVO_00002001",
+      "ontology_class_label": "waste water",
+      "confidence": 0.8,
+      "comment": "Waste water is water that has been adversely affected by anthropogenic processes and is a relevant environmental medium in pollution and water treatment studies."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Water",
+      "ontology_class_slug": "ENVO_00003064",
+      "ontology_class_label": "drinking water",
+      "confidence": 0.8,
+      "comment": "Drinking water is water that is safe for human consumption and is a relevant environmental medium in water quality and public health studies."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "HostAssociated",
+      "ontology_class_slug": "ENVO_02000020",
+      "ontology_class_label": "blood material",
+      "confidence": 0.9,
+      "comment": "Blood is a common environmental medium sampled in host-associated microbiome studies, particularly in animal or non-human hosts."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "HostAssociated",
+      "ontology_class_slug": "ENVO_02000019",
+      "ontology_class_label": "bodily fluid material",
+      "confidence": 1.0,
+      "comment": "Bodily fluids, such as blood, saliva, or other secretions, are primary environmental media in host-associated microbiome studies."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "HostAssociated",
+      "ontology_class_slug": "ENVO_02000035",
+      "ontology_class_label": "oronasal secretion material",
+      "confidence": 0.8,
+      "comment": "Oronasal secretions, such as saliva or nasal mucus, can be relevant environmental media in host-associated microbiome studies, particularly for oral or respiratory microbiomes."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "HostAssociated",
+      "ontology_class_slug": "ENVO_02000036",
+      "ontology_class_label": "saliva material",
+      "confidence": 0.8,
+      "comment": "Saliva is a specific oronasal secretion that is commonly sampled in oral microbiome studies."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "HostAssociated",
+      "ontology_class_slug": "ENVO_02000040",
+      "ontology_class_label": "mucus material",
+      "confidence": 0.8,
+      "comment": "Mucus, which lines many host body cavities and surfaces, can be a relevant environmental medium in host-associated microbiome studies."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "HostAssociated",
+      "ontology_class_slug": "ENVO_02000038",
+      "ontology_class_label": "pus material",
+      "confidence": 0.7,
+      "comment": "Pus, which is formed during infection or inflammation, may be a relevant environmental medium in some host-associated microbiome studies, particularly those related to disease states."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "HostAssociated",
+      "ontology_class_slug": "ENVO_02000003",
+      "ontology_class_label": "fecal material",
+      "confidence": 0.9,
+      "comment": "Fecal material is a common environmental medium in gut microbiome studies across various host species."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "HostAssociated",
+      "ontology_class_slug": "ENVO_00002007",
+      "ontology_class_label": "sediment",
+      "confidence": 0.6,
+      "comment": "Sediment may be a relevant environmental medium in some host-associated contexts, such as in aquatic host species or in studies of host-associated built environments (e.g., aquaculture)."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "HostAssociated",
+      "ontology_class_slug": "ENVO_00002016",
+      "ontology_class_label": "sedimentary rock",
+      "confidence": 0.5,
+      "comment": "Sedimentary rock is not typically a direct environmental medium in host-associated microbiome studies, but it may be relevant in some specialized contexts, such as in studies of host-associated microbial communities over geological timescales (e.g., fossil records)."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "HostAssociated",
+      "ontology_class_slug": "ENVO_00003031",
+      "ontology_class_label": "animal manure",
+      "confidence": 0.8,
+      "comment": "Animal manure, which is a mixture of fecal material and other animal waste products, can be a relevant environmental medium in some host-associated studies, particularly in agricultural or veterinary contexts."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "MicrobialMatBiofilm",
+      "ontology_class_slug": "ENVO_01000156",
+      "ontology_class_label": "biofilm material",
+      "confidence": 1.0,
+      "comment": "Biofilm material is the primary environmental medium for the MicrobialMatBiofilm environment package, as it encompasses the extracellular polymeric substances and microbial cells that make up biofilms."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "MicrobialMatBiofilm",
+      "ontology_class_slug": "ENVO_01000157",
+      "ontology_class_label": "microbial mat material",
+      "confidence": 1.0,
+      "comment": "Microbial mat material is another primary environmental medium for this package, as it specifically refers to the layered, cohesive structures formed by microbial communities in certain environments."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "MicrobialMatBiofilm",
+      "ontology_class_slug": "ENVO_02000007",
+      "ontology_class_label": "sediment",
+      "confidence": 0.9,
+      "comment": "Sediment is often closely associated with microbial mats and biofilms, as these structures can form on or within sediment layers, making it a highly relevant environmental medium for this package."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "MicrobialMatBiofilm",
+      "ontology_class_slug": "ENVO_00002006",
+      "ontology_class_label": "liquid water",
+      "confidence": 0.8,
+      "comment": "Liquid water is a common component of the environments where microbial mats and biofilms form, and it can be an important medium for nutrient transport and diffusion within these structures."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "MicrobialMatBiofilm",
+      "ontology_class_slug": "ENVO_03605000",
+      "ontology_class_label": "periphytic biofilm",
+      "confidence": 0.9,
+      "comment": "Periphytic biofilm refers specifically to biofilms that form on submerged surfaces in aquatic environments, making it a relevant sub-category of biofilm material for this package."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "MicrobialMatBiofilm",
+      "ontology_class_slug": "ENVO_00002045",
+      "ontology_class_label": "anaerobic sediment",
+      "confidence": 0.7,
+      "comment": "Anaerobic sediment can be a specific environment where certain types of microbial mats and biofilms form, particularly those dominated by anaerobic microbial communities."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "MicrobialMatBiofilm",
+      "ontology_class_slug": "ENVO_01001821",
+      "ontology_class_label": "hydrothermally-influenced sediment",
+      "confidence": 0.7,
+      "comment": "Hydrothermally-influenced sediment can be another specific environment where microbial mats and biofilms form, often supporting unique chemosynthetic microbial communities."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "MicrobialMatBiofilm",
+      "ontology_class_slug": "ENVO_01000063",
+      "ontology_class_label": "planktonic material",
+      "confidence": 0.6,
+      "comment": "While planktonic material is not typically a direct component of microbial mats or biofilms, it can be a relevant associated medium, as some biofilm-forming microbes may have planktonic life stages or interact with planktonic communities."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "MicrobialMatBiofilm",
+      "ontology_class_slug": "ENVO_00003930",
+      "ontology_class_label": "scum",
+      "confidence": 0.6,
+      "comment": "Scum, which can form on the surface of liquid media due to the accumulation of microbial cells and other organic matter, may be a relevant associated medium for some microbial mat or biofilm communities."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "MicrobialMatBiofilm",
+      "ontology_class_slug": "ENVO_00002149",
+      "ontology_class_label": "sea water",
+      "confidence": 0.7,
+      "comment": "Sea water can be a relevant environmental medium for microbial mats and biofilms that form in marine environments, such as hypersaline microbial mats or deep-sea hydrothermal vent biofilms."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "MiscellaneousNaturalOrArtificialEnvironment",
+      "ontology_class_slug": "ENVO_00002006",
+      "ontology_class_label": "liquid water",
+      "confidence": 0.9,
+      "comment": "Liquid water is a broad category that can encompass many miscellaneous natural or artificial aqueous environments."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "MiscellaneousNaturalOrArtificialEnvironment",
+      "ontology_class_slug": "ENVO_00002005",
+      "ontology_class_label": "air",
+      "confidence": 0.9,
+      "comment": "Air is another broad category relevant to many miscellaneous natural or artificial gaseous environments."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "MiscellaneousNaturalOrArtificialEnvironment",
+      "ontology_class_slug": "ENVO_00001998",
+      "ontology_class_label": "soil",
+      "confidence": 0.8,
+      "comment": "Soil can be found in various miscellaneous natural terrestrial environments and some artificial ones (e.g., greenhouses, gardens)."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "MiscellaneousNaturalOrArtificialEnvironment",
+      "ontology_class_slug": "ENVO_00002007",
+      "ontology_class_label": "sediment",
+      "confidence": 0.8,
+      "comment": "Sediment can be found in various miscellaneous natural aquatic environments and some artificial ones (e.g., reservoirs, canals)."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "MiscellaneousNaturalOrArtificialEnvironment",
+      "ontology_class_slug": "ENVO_00002008",
+      "ontology_class_label": "dust",
+      "confidence": 0.7,
+      "comment": "Dust can be found in various miscellaneous natural and artificial environments, both indoor and outdoor."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "MiscellaneousNaturalOrArtificialEnvironment",
+      "ontology_class_slug": "ENVO_0010001",
+      "ontology_class_label": "anthropogenic environmental material",
+      "confidence": 0.8,
+      "comment": "Anthropogenic environmental materials, which are created or strongly influenced by human activities, are highly relevant to miscellaneous artificial environments."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "MiscellaneousNaturalOrArtificialEnvironment",
+      "ontology_class_slug": "ENVO_01000256",
+      "ontology_class_label": "mineral material",
+      "confidence": 0.7,
+      "comment": "Mineral materials can be found in various miscellaneous natural environments and some artificial ones (e.g., mines, quarries)."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "MiscellaneousNaturalOrArtificialEnvironment",
+      "ontology_class_slug": "ENVO_01001069",
+      "ontology_class_label": "metallic material",
+      "confidence": 0.7,
+      "comment": "Metallic materials can be found in some miscellaneous natural environments (e.g., ore deposits) and various artificial ones (e.g., industrial settings, urban infrastructure)."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "MiscellaneousNaturalOrArtificialEnvironment",
+      "ontology_class_slug": "ENVO_00003064",
+      "ontology_class_label": "drinking water",
+      "confidence": 0.8,
+      "comment": "Drinking water is a specific category of liquid water that is relevant to various miscellaneous artificial environments where humans consume water."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "MiscellaneousNaturalOrArtificialEnvironment",
+      "ontology_class_slug": "ENVO_00002044",
+      "ontology_class_label": "sludge",
+      "confidence": 0.7,
+      "comment": "Sludge can be found in some miscellaneous artificial environments, particularly those related to wastewater treatment or industrial processes."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "PlantAssociated",
+      "ontology_class_slug": "ENVO_00001998",
+      "ontology_class_label": "soil",
+      "confidence": 0.9,
+      "comment": "Soil is a common environmental medium for plant-associated studies, as it is the substrate in which most plants grow and interact with microbial communities."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "PlantAssociated",
+      "ontology_class_slug": "ENVO_00005748",
+      "ontology_class_label": "rhizosphere soil",
+      "confidence": 0.95,
+      "comment": "Rhizosphere soil, which is the soil directly influenced by plant root secretions and associated microorganisms, is a key environmental medium in plant-microbe interaction studies."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "PlantAssociated",
+      "ontology_class_slug": "ENVO_00002043",
+      "ontology_class_label": "phyllosphere",
+      "confidence": 0.95,
+      "comment": "The phyllosphere, which refers to the above-ground portions of plants as a habitat for microorganisms, is another key environmental medium in plant-associated microbial studies."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "PlantAssociated",
+      "ontology_class_slug": "ENVO_00002018",
+      "ontology_class_label": "endosphere",
+      "confidence": 0.9,
+      "comment": "The endosphere, which refers to the interior tissues of plants as a habitat for endophytic microorganisms, is a relevant environmental medium for studies of plant-microbe symbioses and interactions."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "PlantAssociated",
+      "ontology_class_slug": "ENVO_00002010",
+      "ontology_class_label": "phylloplane",
+      "confidence": 0.9,
+      "comment": "The phylloplane, which refers specifically to the surface of plant leaves as a microbial habitat, is a relevant sub-category of the phyllosphere for plant-associated microbial studies."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "PlantAssociated",
+      "ontology_class_slug": "ENVO_00002015",
+      "ontology_class_label": "rhizoplane",
+      "confidence": 0.9,
+      "comment": "The rhizoplane, which refers specifically to the surface of plant roots as a microbial habitat, is a relevant sub-category of the rhizosphere for plant-associated microbial studies."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "PlantAssociated",
+      "ontology_class_slug": "ENVO_00012017",
+      "ontology_class_label": "plant litter",
+      "confidence": 0.8,
+      "comment": "Plant litter, which refers to dead plant material that has fallen to the ground, can be a relevant environmental medium for studies of decomposition and nutrient cycling in plant-associated environments."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "PlantAssociated",
+      "ontology_class_slug": "ENVO_00001019",
+      "ontology_class_label": "necromass",
+      "confidence": 0.7,
+      "comment": "Necromass, which refers to dead or decaying organic matter, can be a relevant environmental medium in plant-associated studies, particularly in the context of plant debris decomposition and soil organic matter formation."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "PlantAssociated",
+      "ontology_class_slug": "ENVO_00005756",
+      "ontology_class_label": "mycorrhizosphere",
+      "confidence": 0.8,
+      "comment": "The mycorrhizosphere, which refers to the zone of soil influenced by plant roots and their associated mycorrhizal fungi, can be a relevant environmental medium for studies of plant-fungal symbioses and nutrient exchange."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "PlantAssociated",
+      "ontology_class_slug": "ENVO_2000007",
+      "ontology_class_label": "biochar",
+      "confidence": 0.6,
+      "comment": "Biochar, which is a carbon-rich material produced by pyrolysis of biomass and used as a soil amendment, can be a relevant environmental medium in some plant-associated studies, particularly in the context of soil carbon sequestration and plant growth promotion."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Sediment",
+      "ontology_class_slug": "ENVO_00002007",
+      "ontology_class_label": "sediment",
+      "confidence": 1.0,
+      "comment": "Sediment is the primary environmental medium for the Sediment environment package."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Sediment",
+      "ontology_class_slug": "ENVO_00002113",
+      "ontology_class_label": "deep marine sediment",
+      "confidence": 0.95,
+      "comment": "Deep marine sediment is a specific type of sediment that is highly relevant to studies of ocean floor environments and biogeochemical processes."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Sediment",
+      "ontology_class_slug": "ENVO_00002114",
+      "ontology_class_label": "chemically enriched sediment",
+      "confidence": 0.9,
+      "comment": "Chemically enriched sediment, which has elevated levels of specific chemical compounds, is a relevant category for studies of anthropogenic impacts, pollution, or specialized microbial processes in sediments."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Sediment",
+      "ontology_class_slug": "ENVO_00002202",
+      "ontology_class_label": "organically enriched sediment",
+      "confidence": 0.9,
+      "comment": "Organically enriched sediment, which has elevated levels of organic compounds, is a relevant category for studies of nutrient cycling, carbon sequestration, or specialized microbial communities in sediments."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Sediment",
+      "ontology_class_slug": "ENVO_00002203",
+      "ontology_class_label": "inorganically enriched sediment",
+      "confidence": 0.9,
+      "comment": "Inorganically enriched sediment, which has elevated levels of inorganic compounds, is a relevant category for studies of mineral cycling, weathering processes, or specialized microbial communities in sediments."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Sediment",
+      "ontology_class_slug": "ENVO_00002045",
+      "ontology_class_label": "anaerobic sediment",
+      "confidence": 0.95,
+      "comment": "Anaerobic sediment, which is characterized by the absence of oxygen, is a key environmental medium for studies of anaerobic microbial processes and biogeochemical cycles in sediments."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Sediment",
+      "ontology_class_slug": "ENVO_00005797",
+      "ontology_class_label": "lake bottom mud",
+      "confidence": 0.8,
+      "comment": "Lake bottom mud, which is a specific type of fine-grained, organic-rich sediment found in lake beds, can be a relevant environmental medium for studies of freshwater sediment biogeochemistry and ecology."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Sediment",
+      "ontology_class_slug": "ENVO_00005795",
+      "ontology_class_label": "marine mud",
+      "confidence": 0.8,
+      "comment": "Marine mud, which is a specific type of fine-grained, organic-rich sediment found in marine environments, can be a relevant environmental medium for studies of marine sediment biogeochemistry and ecology."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Sediment",
+      "ontology_class_slug": "ENVO_03000033",
+      "ontology_class_label": "marine sediment",
+      "confidence": 0.95,
+      "comment": "Marine sediment, which encompasses all sediments found in marine environments, is a broad and highly relevant category for studies of ocean biogeochemistry, microbial ecology, and Earth system processes."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "Sediment",
+      "ontology_class_slug": "ENVO_01000821",
+      "ontology_class_label": "hydrothermally-influenced sediment",
+      "confidence": 0.8,
+      "comment": "Hydrothermally-influenced sediment, which is sediment affected by the flow of hot, chemically-altered fluids from hydrothermal vents or seeps, can be a relevant environmental medium for studies of extreme microbial communities and unique biogeochemical processes in sediments."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "SymbiontAssociated",
+      "ontology_class_slug": "ENVO_02000019",
+      "ontology_class_label": "bodily fluid material",
+      "confidence": 0.8,
+      "comment": "Bodily fluids of host organisms can be relevant environmental media for studying symbiotic relationships, particularly in the case of endosymbionts."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "SymbiontAssociated",
+      "ontology_class_slug": "ENVO_00002167",
+      "ontology_class_label": "mucus",
+      "confidence": 0.8,
+      "comment": "Mucus secretions of host organisms can be important environmental media for studying symbiotic relationships, as they often serve as attachment sites or nutrient sources for symbionts."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "SymbiontAssociated",
+      "ontology_class_slug": "ENVO_01001395",
+      "ontology_class_label": "necromass",
+      "confidence": 0.7,
+      "comment": "Necromass of host organisms can be a relevant environmental medium for studying certain types of symbiotic relationships, such as those involving saprophytic or decomposer symbionts."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "WastewaterSludge",
+      "ontology_class_slug": "ENVO_00002044",
+      "ontology_class_label": "sludge",
+      "confidence": 1.0,
+      "comment": "Sludge is the primary environmental medium for the WastewaterSludge environment package."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "WastewaterSludge",
+      "ontology_class_slug": "ENVO_00002046",
+      "ontology_class_label": "activated sludge",
+      "confidence": 0.95,
+      "comment": "Activated sludge is a specific type of sludge that is highly relevant to studies of wastewater treatment processes and the associated microbial communities."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "WastewaterSludge",
+      "ontology_class_slug": "ENVO_00002057",
+      "ontology_class_label": "raw primary sludge",
+      "confidence": 0.9,
+      "comment": "Raw primary sludge is a specific type of sludge that is produced during the primary treatment stage of wastewater treatment and can be a relevant environmental medium for studying the initial stages of the process."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "WastewaterSludge",
+      "ontology_class_slug": "ENVO_00002058",
+      "ontology_class_label": "secondary sludge",
+      "confidence": 0.9,
+      "comment": "Secondary sludge is a specific type of sludge that is produced during the secondary treatment stage of wastewater treatment and can be a relevant environmental medium for studying the biological processes involved."
+    },
+    {
+      "mixs_context_label": "env_medium",
+      "mixs_environment_label": "WastewaterSludge",
+      "ontology_class_slug": "ENVO_03500016",
+      "ontology_class_label": "scum",
+      "confidence": 0.7,
+      "comment": "Scum, which is a layer of impurities that can form on the surface of wastewater or sludge, may be a relevant environmental medium in some wastewater sludge studies, particularly those investigating surface-associated processes or contaminants."
+    }
+  ]
+}

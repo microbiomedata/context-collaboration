@@ -1,0 +1,492 @@
+{
+  "table_rows": [
+    {
+      "ontology_class_slug": "ENVO_01000219",
+      "ontology_class_label": "anthropogenic terrestrial biome",
+      "confidence": 0.8,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "Agriculture",
+      "comment": "High confidence as agricultural environments are heavily influenced by human activities, but acknowledging the inclusion of non-agricultural anthropogenic biomes."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000245",
+      "ontology_class_label": "cropland biome",
+      "confidence": 1,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "Agriculture",
+      "comment": "Exact match between cropland biomes and agricultural environments."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000247",
+      "ontology_class_label": "rangeland biome",
+      "confidence": 0.9,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "Agriculture",
+      "comment": "High confidence as rangelands are primarily used for livestock grazing, a key component of agriculture, but acknowledging potential non-agricultural rangeland uses."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000246",
+      "ontology_class_label": "village biome",
+      "confidence": 0.7,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "Agriculture",
+      "comment": "Moderate to high confidence as villages are often associated with agricultural activities, but acknowledging the presence of non-agricultural aspects within villages."
+    },
+    {
+      "ontology_class_slug": "ENVO_00000446",
+      "ontology_class_label": "terrestrial biome",
+      "confidence": 0.9,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "Air",
+      "comment": "High confidence as the air within and above terrestrial biomes is a key component of the atmospheric environment and can harbor diverse microbial communities influenced by the biome below."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000174",
+      "ontology_class_label": "forest biome",
+      "confidence": 0.8,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "Air",
+      "comment": "High confidence as forest biomes can significantly influence the composition of the air microbiome through the release of plant-associated microbes, spores, and other biological particles."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000177",
+      "ontology_class_label": "grassland biome",
+      "confidence": 0.8,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "Air",
+      "comment": "High confidence as grassland biomes can influence the composition of the air microbiome through the release of plant-associated microbes, spores, and other biological particles, but may have a lower impact compared to forest biomes due to lower biomass and structural complexity."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000219",
+      "ontology_class_label": "anthropogenic terrestrial biome",
+      "confidence": 0.9,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "Air",
+      "comment": "High confidence as anthropogenic terrestrial biomes, such as urban and agricultural areas, can significantly influence the composition of the air microbiome through human activities, land use patterns, and the release of pollutants and other particles."
+    },
+    {
+      "ontology_class_slug": "ENVO_00002030",
+      "ontology_class_label": "aquatic biome",
+      "confidence": 0.7,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "Air",
+      "comment": "High confidence as the air above aquatic biomes can be influenced by the release of marine aerosols, water vapor, and other biological particles, but acknowledging that the influence of aquatic biomes on the air microbiome may be less pronounced than that of terrestrial biomes."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000219",
+      "ontology_class_label": "anthropogenic terrestrial biome",
+      "confidence": 0.9,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "BuiltEnvironment",
+      "comment": "High confidence as built environments fall under anthropogenic influences, but acknowledging the inclusion of non-built environments within this category."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000248",
+      "ontology_class_label": "dense settlement biome",
+      "confidence": 0.95,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "BuiltEnvironment",
+      "comment": "High confidence due to the strong association between dense settlements and built environments, with a small allowance for potential edge cases."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000249",
+      "ontology_class_label": "urban biome",
+      "confidence": 1,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "BuiltEnvironment",
+      "comment": "Exact match between urban biomes and built environments."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000246",
+      "ontology_class_label": "village biome",
+      "confidence": 0.8,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "BuiltEnvironment",
+      "comment": "High confidence as villages typically include built structures, but acknowledging potential variations in rural or less developed areas."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000174",
+      "ontology_class_label": "forest biome",
+      "confidence": 0.6,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "HostAssociated",
+      "comment": "Moderate confidence as forest biomes can host a variety of host-associated microbiomes, such as those associated with forest-dwelling animals, but acknowledging that this is not the primary focus of the HostAssociated package."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000177",
+      "ontology_class_label": "grassland biome",
+      "confidence": 0.6,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "HostAssociated",
+      "comment": "Moderate confidence as grassland biomes can host a variety of host-associated microbiomes, such as those associated with grazing animals, but acknowledging that this is not the primary focus of the HostAssociated package."
+    },
+    {
+      "ontology_class_slug": "ENVO_00000446",
+      "ontology_class_label": "terrestrial biome",
+      "confidence": 0.7,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "HostAssociated",
+      "comment": "High confidence as terrestrial biomes encompass a wide range of potential hosts for host-associated microbiomes, but acknowledging that the HostAssociated package may also include aquatic hosts."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000219",
+      "ontology_class_label": "anthropogenic terrestrial biome",
+      "confidence": 0.8,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "HostAssociated",
+      "comment": "High confidence as anthropogenic terrestrial biomes, such as urban and agricultural areas, can host a variety of human and animal-associated microbiomes, which are a key focus of the HostAssociated package."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000179",
+      "ontology_class_label": "desert biome",
+      "confidence": 0.6,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "HydrocarbonResourcesCores",
+      "comment": "Moderate confidence as some hydrocarbon resources, such as oil sands, can be found in desert environments, but acknowledging that this is not the most common setting."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000174",
+      "ontology_class_label": "forest biome",
+      "confidence": 0.5,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "HydrocarbonResourcesCores",
+      "comment": "Moderate confidence as some hydrocarbon resources, such as coal seams, can be found beneath forest biomes, but acknowledging that this is not the most common setting."
+    },
+    {
+      "ontology_class_slug": "ENVO_00000446",
+      "ontology_class_label": "terrestrial biome",
+      "confidence": 0.8,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "HydrocarbonResourcesCores",
+      "comment": "High confidence as most hydrocarbon resource cores are extracted from terrestrial environments, but acknowledging potential offshore resources."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000339",
+      "ontology_class_label": "polar biome",
+      "confidence": 0.5,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "HydrocarbonResourcesCores",
+      "comment": "Moderate confidence as some hydrocarbon resources, such as Arctic oil and gas, can be found in polar biomes, but acknowledging that this is not the most common setting."
+    },
+    {
+      "ontology_class_slug": "ENVO_00002030",
+      "ontology_class_label": "aquatic biome",
+      "confidence": 0.8,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "HydrocarbonResourcesFluidsSwabs",
+      "comment": "High confidence as many hydrocarbon resource fluids, such as offshore oil and gas, are extracted from aquatic environments, but acknowledging potential terrestrial resources."
+    },
+    {
+      "ontology_class_slug": "ENVO_00000447",
+      "ontology_class_label": "marine biome",
+      "confidence": 0.8,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "HydrocarbonResourcesFluidsSwabs",
+      "comment": "High confidence as many hydrocarbon resource fluids, such as offshore oil and gas, are extracted from marine environments, but acknowledging potential terrestrial and freshwater resources."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000048",
+      "ontology_class_label": "ocean biome",
+      "confidence": 0.8,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "HydrocarbonResourcesFluidsSwabs",
+      "comment": "High confidence as many hydrocarbon resource fluids, such as offshore oil and gas, are extracted from ocean environments, but acknowledging potential terrestrial and freshwater resources."
+    },
+    {
+      "ontology_class_slug": "ENVO_00000446",
+      "ontology_class_label": "terrestrial biome",
+      "confidence": 0.6,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "HydrocarbonResourcesFluidsSwabs",
+      "comment": "Moderate confidence as some hydrocarbon resource fluids, such as onshore oil and gas, are extracted from terrestrial environments, but acknowledging that offshore resources are more common for fluids and swabs."
+    },
+    {
+      "ontology_class_slug": "ENVO_00000873",
+      "ontology_class_label": "freshwater biome",
+      "confidence": 0.9,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "MicrobialMatBiofilm",
+      "comment": "High confidence as microbial mats and biofilms are common in various freshwater environments, such as lakes, rivers, and streams."
+    },
+    {
+      "ontology_class_slug": "ENVO_00000447",
+      "ontology_class_label": "marine biome",
+      "confidence": 0.9,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "MicrobialMatBiofilm",
+      "comment": "High confidence as microbial mats and biofilms are common in various marine environments, such as coastal areas, intertidal zones, and deep-sea habitats."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000020",
+      "ontology_class_label": "estuarine biome",
+      "confidence": 0.9,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "MicrobialMatBiofilm",
+      "comment": "High confidence as microbial mats and biofilms are common in estuarine environments, which are characterized by the mixing of freshwater and saltwater."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000127",
+      "ontology_class_label": "marine cold seep biome",
+      "confidence": 0.95,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "MicrobialMatBiofilm",
+      "comment": "Very high confidence as microbial mats and biofilms are key components of marine cold seep ecosystems, thriving on the unique chemical conditions found in these environments."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000030",
+      "ontology_class_label": "marine hydrothermal vent biome",
+      "confidence": 0.95,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "MicrobialMatBiofilm",
+      "comment": "Very high confidence as microbial mats and biofilms are crucial components of marine hydrothermal vent ecosystems, adapted to the extreme conditions and unique energy sources found in these environments."
+    },
+    {
+      "ontology_class_slug": "ENVO_00002030",
+      "ontology_class_label": "aquatic biome",
+      "confidence": 0.8,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "MiscellaneousNaturalOrArtificialEnvironment",
+      "comment": "High confidence as the MiscellaneousNaturalOrArtificialEnvironment package can include a wide range of aquatic environments that do not fit into other specific packages."
+    },
+    {
+      "ontology_class_slug": "ENVO_00000446",
+      "ontology_class_label": "terrestrial biome",
+      "confidence": 0.8,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "MiscellaneousNaturalOrArtificialEnvironment",
+      "comment": "High confidence as the MiscellaneousNaturalOrArtificialEnvironment package can include a wide range of terrestrial environments that do not fit into other specific packages."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000219",
+      "ontology_class_label": "anthropogenic terrestrial biome",
+      "confidence": 0.9,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "MiscellaneousNaturalOrArtificialEnvironment",
+      "comment": "Very high confidence as the MiscellaneousNaturalOrArtificialEnvironment package is likely to include many artificial or heavily modified environments associated with human activities."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000174",
+      "ontology_class_label": "forest biome",
+      "confidence": 0.7,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "MiscellaneousNaturalOrArtificialEnvironment",
+      "comment": "High confidence as forest biomes could be included in the MiscellaneousNaturalOrArtificialEnvironment package if they do not fit into other more specific packages, but acknowledging that forest biomes are often covered by other packages."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000177",
+      "ontology_class_label": "grassland biome",
+      "confidence": 0.7,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "MiscellaneousNaturalOrArtificialEnvironment",
+      "comment": "High confidence as grassland biomes could be included in the MiscellaneousNaturalOrArtificialEnvironment package if they do not fit into other more specific packages, but acknowledging that grassland biomes are often covered by other packages."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000174",
+      "ontology_class_label": "forest biome",
+      "confidence": 0.95,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "PlantAssociated",
+      "comment": "Very high confidence as forest biomes are characterized by a high diversity and abundance of plants, which host a wide range of plant-associated microbiomes."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000177",
+      "ontology_class_label": "grassland biome",
+      "confidence": 0.95,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "PlantAssociated",
+      "comment": "Very high confidence as grassland biomes are dominated by grass species and often include a variety of other herbaceous plants, which host diverse plant-associated microbiomes."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000181",
+      "ontology_class_label": "mangrove biome",
+      "confidence": 0.95,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "PlantAssociated",
+      "comment": "Very high confidence as mangrove biomes are characterized by the presence of mangrove trees, which host unique plant-associated microbiomes adapted to the specific conditions of these environments."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000175",
+      "ontology_class_label": "woodland biome",
+      "confidence": 0.9,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "PlantAssociated",
+      "comment": "High confidence as woodland biomes are characterized by the presence of widely spaced trees and shrubs, which host plant-associated microbiomes, but may have lower plant diversity compared to dense forest biomes."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000180",
+      "ontology_class_label": "tundra biome",
+      "confidence": 0.8,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "PlantAssociated",
+      "comment": "High confidence as tundra biomes, despite having lower plant diversity and biomass compared to other biomes, still host unique plant-associated microbiomes adapted to the harsh conditions of these environments."
+    },
+    {
+      "ontology_class_slug": "ENVO_00000447",
+      "ontology_class_label": "marine biome",
+      "confidence": 0.95,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "Sediment",
+      "comment": "Very high confidence as marine biomes, particularly in benthic zones, are characterized by the presence of sediments that host diverse microbial communities."
+    },
+    {
+      "ontology_class_slug": "ENVO_00000873",
+      "ontology_class_label": "freshwater biome",
+      "confidence": 0.95,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "Sediment",
+      "comment": "Very high confidence as freshwater biomes, such as lakes and rivers, often have sediments that host distinct microbial communities."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000020",
+      "ontology_class_label": "estuarine biome",
+      "confidence": 0.95,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "Sediment",
+      "comment": "Very high confidence as estuarine biomes are characterized by the deposition of sediments from both rivers and the sea, creating unique habitats for microbial communities."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000252",
+      "ontology_class_label": "freshwater lake biome",
+      "confidence": 0.9,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "Sediment",
+      "comment": "High confidence as freshwater lake biomes often have well-developed sediment layers that host diverse microbial communities, but acknowledging that the Sediment package may be more focused on marine and estuarine sediments."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000253",
+      "ontology_class_label": "freshwater river biome",
+      "confidence": 0.8,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "Sediment",
+      "comment": "High confidence as freshwater river biomes often have sediment deposits that host microbial communities, but acknowledging that the Sediment package may be more focused on marine and estuarine sediments, and that river sediments may be more transient than those in lakes or marine environments."
+    },
+    {
+      "ontology_class_slug": "ENVO_00000446",
+      "ontology_class_label": "terrestrial biome",
+      "confidence": 0.9,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "Soil",
+      "comment": "High confidence as soil is a key component of terrestrial biomes, but acknowledging the existence of soil-less terrestrial systems."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000177",
+      "ontology_class_label": "grassland biome",
+      "confidence": 0.95,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "Soil",
+      "comment": "Very high confidence due to the strong association between grasslands and well-developed soil ecosystems."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000174",
+      "ontology_class_label": "forest biome",
+      "confidence": 0.95,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "Soil",
+      "comment": "Very high confidence due to the prevalence of soil ecosystems in forest biomes, with a small allowance for soil-less forest types."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000181",
+      "ontology_class_label": "mangrove biome",
+      "confidence": 0.9,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "Soil",
+      "comment": "High confidence as mangrove biomes typically develop on sediment-rich soils, but acknowledging variations in substrate composition."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000180",
+      "ontology_class_label": "tundra biome",
+      "confidence": 0.8,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "Soil",
+      "comment": "High confidence due to the presence of soil ecosystems in tundra biomes, but acknowledging the influence of permafrost and soil-less areas."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000179",
+      "ontology_class_label": "desert biome",
+      "confidence": 0.6,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "Soil",
+      "comment": "Moderate confidence as desert soils are often less developed and more patchy compared to other terrestrial biomes."
+    },
+    {
+      "ontology_class_slug": "ENVO_00002030",
+      "ontology_class_label": "aquatic biome",
+      "confidence": 1,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "Water",
+      "comment": "Exact match between aquatic biomes and water environments."
+    },
+    {
+      "ontology_class_slug": "ENVO_00000447",
+      "ontology_class_label": "marine biome",
+      "confidence": 1,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "Water",
+      "comment": "Exact match between marine biomes and water environments."
+    },
+    {
+      "ontology_class_slug": "ENVO_00000873",
+      "ontology_class_label": "freshwater biome",
+      "confidence": 1,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "Water",
+      "comment": "Exact match between freshwater biomes and water environments."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000048",
+      "ontology_class_label": "ocean biome",
+      "confidence": 1,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "Water",
+      "comment": "Exact match between ocean biomes and water environments."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000252",
+      "ontology_class_label": "freshwater lake biome",
+      "confidence": 1,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "Water",
+      "comment": "Exact match between freshwater lake biomes and water environments."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000253",
+      "ontology_class_label": "freshwater river biome",
+      "confidence": 1,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "Water",
+      "comment": "Exact match between freshwater river biomes and water environments."
+    },
+    {
+      "ontology_class_slug": "ENVO_03605008",
+      "ontology_class_label": "freshwater stream biome",
+      "confidence": 1,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "Water",
+      "comment": "Exact match between freshwater stream biomes and water environments."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000020",
+      "ontology_class_label": "estuarine biome",
+      "confidence": 0.9,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "WastewaterSludge",
+      "comment": "High confidence as estuarine biomes can be impacted by wastewater and sludge discharge from human activities, potentially influencing the microbial communities in these environments."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000178",
+      "ontology_class_label": "savanna biome",
+      "confidence": 0.8,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "SymbiontAssociated",
+      "comment": "High confidence as savanna biomes can host a variety of symbiotic relationships between plants, animals, and microorganisms, potentially serving as a relevant environment for the SymbiontAssociated package."
+    },
+    {
+      "ontology_class_slug": "ENVO_01000020",
+      "ontology_class_label": "estuarine biome",
+      "confidence": 0.8,
+      "mixs_context_label": "env_broad_scale",
+      "mixs_environment_label": "FoodFarmEnvironment",
+      "comment": "High confidence as estuarine biomes can be impacted by agricultural runoff and other food farm-related activities, potentially influencing the microbial communities in these environments."
+    }
+  ]
+}

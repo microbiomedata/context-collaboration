@@ -1,0 +1,54 @@
+
+altitudinal condition
+anthropogenic ecosystem conversion process
+anthropogenic environmental process
+astronomical body
+astronomical body part
+astronomical object
+biome
+biosphere
+body of liquid
+compound astronomical body part
+construction
+ecosystem
+ecosystem process
+environmental condition
+environmental material
+environmental system
+environmental system determined by a quality
+environmental system process
+environmental zone
+fluid astronomical body part
+fluid environmental material
+geographic feature
+hydroform
+hydrographic feature
+hydrological process
+hydrosphere
+interface layer
+interface layer
+land
+landform
+landmass
+layer
+lentic water body
+liquid astronomical body part
+lotic water body
+mass fluid flow
+mass liquid flow
+mass of environmental material
+mass of solid material
+planet
+planetary landmass
+planetary surface
+solid astronomical body part
+solid environmental material
+solid layer
+solid surface layer
+surface landform
+surface layer
+surface of an astronomical body
+technosphere
+vegetation layer
+water body
+water mass
