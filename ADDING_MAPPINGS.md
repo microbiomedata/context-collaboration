@@ -15,8 +15,8 @@ This repo provides
 
 Who can contribute to the subset mappings? Just LLMs? No! This repo is designed to drive a consensus building process.
 
-Anyone can contribute subset mappings by adding to the designated files (which haven't been specified yet). 
-There are supported YAML, JSON and long table formats.
+Anyone can contribute subset mappings by adding to cumulative_attributed_subset_mapping_including_invalids.tsv. 
+That in a long table formats, but the data can also be expressed in YAML or JSON.
 
 We are in the process of developing a wide table format. It will require combining some fields together, 
 like agent plus timestamp to form per-batch columns, and confidence plus comment to form cell values.

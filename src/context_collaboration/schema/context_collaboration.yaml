@@ -27,6 +27,7 @@ imports:
 prefixes:
   linkml: https://w3id.org/linkml/
   context_collaboration_schema: https://w3id.org/context_collaboration_schema
+  orcid: https://orcid.org/
 default_prefix: context_collaboration_schema
 enums:
   mixs_context_label_enum:
@@ -260,9 +261,9 @@ enums:
     description: The human, LLM, etc. who performed this mapping
     permissible_values:
       Mark Andrew Miller:
-        meaning: https://orcid.org/0000-0001-9076-6066
+        meaning: orcid:0000-0001-9076-6066
       Montana Smith:
-        meaning: https://orcid.org/0000-0002-8683-0050
+        meaning: orcid:0000-0002-8683-0050
       gpt-4-turbo-preview:
         see_also:
           - https://artificialanalysis.ai/models/gpt-4-turbo
@@ -310,10 +311,15 @@ slots:
       - value: gemini-1.5-pro-latest
     range: agent_enum
     required: false
+    comments:
+      - LLMs are not required to identify themselves as an agent but human curators are. New curators will have to add themselves to the agent_enum and include their ORCID in the meaning slot
   timestamp:
     examples:
       - value: 2024-05-02T13:51
     required: false
+    pattern: ^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$
+    comments:
+      - LLMs are not required to emit a timestamp but human curators are expected to provide on that matches the provided pattern
   #    range: datetime
   table_rows:
     range: TableRow
