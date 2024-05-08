@@ -1,5 +1,9 @@
-This probably seems like a very complicated software repository, but it has one clear mission: 
+# Purpose: 
 
+This document focuses solely on the process of adding or updating subset mappings. 
+It provides guidelines for contributors who wish to contribute data to our subset mappings table, 
+specifying the formats and tools to be used. This guide does not cover schema modifications; 
+it is strictly about contributing data that aligns with the existing schema constraints
 Identifying subsets of classes (from ontologies like EnvO) that can be used to fill in MIxS'
 environmental context questions (env_broad_scale, env_local_scale, env_medium) 
 within the constraints of a MIxS environmental extension (like Soil, Water, BuiltEnvironment, etc.).

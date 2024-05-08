@@ -1,13 +1,14 @@
-# Contributing to context-collaboration
+# Contributing to the context-collaboration schema
 
-_This document provides guidance for contributing to the context-collaboration schema._
+## Scope: 
 
-It's even more valuable to contribute to the data in this repository, 
-namely mappings of classes from ontologies (like EnvO) 
-to MIxS environmental context questions (like env_local_scale), 
-in combination with MIxS environmental extensions (like BuiltEnvironment)
+This document provides guidelines for contributing to the development of the context_collaboration.yaml schema, 
+which underpins our subset mapping process. The schema is designed to constrain acceptable values in  
+cumulative_attributed_subset_mapping_including_invalids.tsv. 
+Here, you'll find how to contribute to the schema's development 
+to support mapping needs and enhance data integration. 
+For instructions specific to adding or updating mapping data itself, refer to the ADDING_MAPPINGS.md file.
 
-Documentation for that is provided in ADDING_MAPPINGS.md
 
 :+1: First of all: Thank you for taking the time to contribute!
 

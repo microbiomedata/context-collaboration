@@ -343,3 +343,17 @@ assets/outputs/llm/claude-3-opus-20240229_2024-05-08T09_30_EDT/claude-3-opus-202
 	$(RUN) linkml-convert \
 		--output $@ \
 		--schema $^
+
+
+#.PHONY: validation
+#validation: src/context_collaboration/schema/context_collaboration.yaml cumulative_attributed_subset_mapping_including_invalids.tsv
+#	$(RUN) linkml-validate \
+#	--target-class LongTable \
+#	--schema  $^
+
+cumulative_attributed_subset_mapping_including_invalids.json: src/context_collaboration/schema/context_collaboration.yaml \
+cumulative_attributed_subset_mapping_including_invalids.tsv
+	$(RUN) linkml-convert \
+		--validate \
+		--output $@ \
+		--schema $^
