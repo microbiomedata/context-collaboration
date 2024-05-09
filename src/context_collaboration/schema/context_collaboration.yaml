@@ -322,6 +322,8 @@ slots:
     comments:
       - LLMs are not required to emit a timestamp but human curators are expected to provide on that matches the provided pattern
   #    range: datetime
+  agent_timestamp:
+#    equals_expression: "{agent}+{timestamp}"
   table_rows:
     range: TableRow
     multivalued: true
@@ -341,16 +343,12 @@ classes:
       - comment
       - agent
       - timestamp
-#    unique_keys:
-#      ontology_class_slug_key:
-#        unique_key_name: ontology_class_slug_key
-#        unique_key_slots:
-#          - ontology_class_slug
-#      ontology_class_label_key:
-#        unique_key_name: ontology_class_label_key
-#        unique_key_slots:
-#          - ontology_class_label
-#      comment_key:
-#        unique_key_name: comment_key
-#        unique_key_slots:
-#          - comment
+      - agent_timestamp
+    unique_keys:
+      agent_cant_remap_in_same_session:
+        unique_key_slots:
+          - mixs_context_label
+          - mixs_environment_label
+          - ontology_class_slug
+          - agent
+          - timestamp

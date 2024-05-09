@@ -37,3 +37,5 @@ schemasheets-template-mixs-extensions-filter = "scripts.schemasheets_template_mi
 sparql-query-cli = "scripts.sparql_query_cli:main"
 ubergraph-pivot = "scripts.ubergraph_pivot:run_sparql_query"
 expand-subset = 'scripts.expand_subset:process_tsv'
+concatenate-tsvs = 'scripts.concatenate_tsvs:concatenate_tsv'
+pivot-mappings-to-wide = 'scripts.pivot_mappings_to_wide:process_data'

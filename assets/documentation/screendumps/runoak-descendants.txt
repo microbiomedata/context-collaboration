@@ -1,0 +1,34 @@
+runoak descendants --help
+
+Usage: runoak descendants [OPTIONS] [TERMS]...
+
+  List all descendants of a term
+
+  Example:
+
+      runoak -i sqlite:obo:obi descendants assay -p i
+
+  Example:
+
+      runoak -i sqlite:obo:uberon descendants heart -p i,p
+
+  This is the inverse of the 'ancestors' command; see the documentation for
+  that command. But note that 'descendants' commands have the potential to be
+  more "explosive" than ancestors commands, especially for high level terms,
+  and for when predicates are not specified
+
+  Python API:
+
+     https://incatools.github.io/ontology-access-kit/interfaces/obograph
+
+Options:
+  -p, --predicates TEXT           A comma-separated list of predicates. This
+                                  may be a shorthand (i, p) or CURIE
+  -M, --graph-traversal-method [HOP|ENTAILMENT]
+                                  Whether formal entailment or graph walking
+                                  should be used.
+  -D, --display TEXT              A comma-separated list of display options.
+                                  Use 'all' for all
+  -O, --output-type TEXT          Desired output type
+  -o, --output FILENAME           Output file, e.g. obo file
+  --help                          Show this message and exit.
