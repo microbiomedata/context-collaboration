@@ -1,0 +1,55 @@
+what is the best place for browsing oaklib commands?
+
+how can we determine what output formats are allowed for the subcommands?
+
+--display
+
+how to get a tree with all paths from biome to 'tropical woodland biome'
+
+runoak -i sqlite:obo:envo tree -p i  --root biome biome "tropical woodland biome" ??
+
+runoak -i sqlite:obo:envo relationships  "tropical woodland biome"
+subject subject_label   predicate       predicate_label object  object_label
+ENVO:01000220   tropical woodland biome rdfs:subClassOf None    ENVO:01000175   woodland biome
+ENVO:01000220   tropical woodland biome rdfs:subClassOf None    ENVO:01001830   tropical biome
+
+npm install -g obographviz
+
+runoak -i sqlite:obo:envo viz  -p i --output twb.png "tropical woodland biome"
+
+#https://github.com/search?q=org%3Amicrobiomedata+%22woodland+biome%22&type=code
+https://github.com/microbiomedata/DataHarmonizer/blob/9a6c01397efbf76e5ad5d9c925515ffa8ce781f4/docs/template/dev/data.js
+https://github.com/microbiomedata/DataHarmonizer/blob/9a6c01397efbf76e5ad5d9c925515ffa8ce781f4/docs/template/dev/data.tsv
+https://github.com/microbiomedata/DataHarmonizer/blob/9a6c01397efbf76e5ad5d9c925515ffa8ce781f4/docs/template/soil_emsl_jgi_mg/data.js
+https://github.com/microbiomedata/DataHarmonizer/blob/9a6c01397efbf76e5ad5d9c925515ffa8ce781f4/docs/template/soil_emsl_jgi_mg/data.tsv
+https://github.com/microbiomedata/DataHarmonizer/blob/9a6c01397efbf76e5ad5d9c925515ffa8ce781f4/template/dev/data.js
+https://github.com/microbiomedata/DataHarmonizer/blob/9a6c01397efbf76e5ad5d9c925515ffa8ce781f4/template/dev/data.tsv
+https://github.com/microbiomedata/DataHarmonizer/blob/9a6c01397efbf76e5ad5d9c925515ffa8ce781f4/template/soil_emsl_jgi_mg/data.js
+https://github.com/microbiomedata/DataHarmonizer/blob/9a6c01397efbf76e5ad5d9c925515ffa8ce781f4/template/soil_emsl_jgi_mg/data.tsv
+https://github.com/microbiomedata/nmdc-ontology/blob/5952aea63ad4e02f61765e7bf32adbd3f6a9fd5d/assets/biome_subsets_accepted.yaml
+https://github.com/microbiomedata/nmdc-ontology/blob/5952aea63ad4e02f61765e7bf32adbd3f6a9fd5d/assets/report_envo_biome_annotations.yaml
+https://github.com/microbiomedata/nmdc-ontology/blob/5952aea63ad4e02f61765e7bf32adbd3f6a9fd5d/qc-reports/envo-all-classes.txt
+https://github.com/microbiomedata/nmdc-ontology/blob/5952aea63ad4e02f61765e7bf32adbd3f6a9fd5d/qc-reports/envo-biomes.txt
+https://github.com/microbiomedata/nmdc-ontology/blob/5952aea63ad4e02f61765e7bf32adbd3f6a9fd5d/qc-reports/nmdco-envo-classes-with-id-owner.tsv
+https://github.com/microbiomedata/nmdc-ontology/blob/5952aea63ad4e02f61765e7bf32adbd3f6a9fd5d/qc-reports/report-class-ids.tsv
+https://github.com/microbiomedata/nmdc-ontology/blob/5952aea63ad4e02f61765e7bf32adbd3f6a9fd5d/src/ontology/subsets/astronomical-body-parts.tsv
+https://github.com/microbiomedata/nmdc-ontology/blob/5952aea63ad4e02f61765e7bf32adbd3f6a9fd5d/src/ontology/subsets/terrestrial-biomes.tsv
+https://github.com/microbiomedata/nmdc-ontology/blob/5952aea63ad4e02f61765e7bf32adbd3f6a9fd5d/subsets/astronomical-body-parts.tsv
+https://github.com/microbiomedata/nmdc-ontology/blob/5952aea63ad4e02f61765e7bf32adbd3f6a9fd5d/subsets/terrestrial-biomes.tsv
+https://github.com/microbiomedata/sample-annotator/blob/ee481a659b0c016c6fd8addff69ed5d99cd89c8d/tests/output/gold_nmdc.json
+https://github.com/microbiomedata/sample-annotator/blob/ee481a659b0c016c6fd8addff69ed5d99cd89c8d/tests/output/gold_nmdc.json#L1603
+https://github.com/microbiomedata/submission-schema/blob/c7b1aebe8407454dca3b2e98a4381efb5dfdd5d4/schemasheets/tsv_in/enums.tsv
+
+
+# https://drive.google.com/drive/search?q=%22woodland%20biome%22 ?
+# https://drive.google.com/drive/search?q=alpine%20anthropogenic%20arid%20basaltic%20biome%20broadleaf%20coniferous%20cropland%20dense%20desert%20dry%20forest%20grassland%20mangrove%20mediterranean%20microlayer%20mixed%20moist%20montane%20polar%20rangeland%20rocky%20savanna%20settlement%20shrubland%20subalpine%20subpolar%20subtropical%20surface%20temperate%20terrestrial%20tropical%20tundra%20urban%20village%20woodland%20xeric   ?
+
+https://docs.google.com/document/d/13juYOBoapHsAp7Wn1g4NBb7chzCmhEEidR5vPlUv6QE/edit#heading=h.siwivi3kat9n Biome mapping notes
+https://docs.google.com/spreadsheets/d/1UEWYtpQT4s7QI2LPcWY_IN3_yhWqGgbLuR2hC36QzlM/edit#gid=95491620   DH_and_v2_ESS-DIVE_Samples_RF
+https://docs.google.com/document/d/15gp6RyMZrYskRSDonB7y8kkw9E3a8wHuqcdRDt_blhU/edit    Biome vs Ecosystem
+https://docs.google.com/spreadsheets/d/1kQ7GpeThSqDOOQnJ1WlctdW_2FfPrU1UbTOQNRqdDRI/edit#gid=868679790  soil_broad_scales_annotated_cosine
+https://docs.google.com/spreadsheets/d/10TU3E-TAbtzeo-_S8rYfSq8Xvp6wm1RMpo0LYtR4t9w/edit#gid=0
+https://docs.google.com/spreadsheets/d/1scmOkunN9tptoibdwxIgM-gh57AE6lC2f9FSJjnU0cc/edit#gid=993240342  nmdc-dh-sheets-mmsp-slot-groups-etc envo_terms_for_mixs_env_triad
+
+runoak -i sqlite:obo:envo info -D all -O csv  biome
+

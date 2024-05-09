@@ -357,3 +357,27 @@ cumulative_attributed_subset_mapping_including_invalids.tsv
 		--validate \
 		--output $@ \
 		--schema $^
+
+#inferences_from_cumulative.tsv:
+#	$(RUN) expand-subset \
+#		--min-confidence 0.9 \
+#		--mixs-context-label env_broad_scale \
+#		--mixs-context-label env_medium \
+#		--mixs-environment-label Soil \
+#		--mixs-environment-label Water \
+#		--timezone EDT \
+#		--tsv-input cumulative_attributed_subset_mapping_including_invalids.tsv \
+#		--tsv-output $@
+
+inferences_from_cumulative.tsv:
+	$(RUN) expand-subset \
+		--min-confidence 0.5 \
+		--timezone EDT \
+		--tsv-input cumulative_attributed_subset_mapping_including_invalids.tsv \
+		--tsv-output $@
+
+inferences_from_cumulative.json: src/context_collaboration/schema/context_collaboration.yaml inferences_from_cumulative.tsv
+	$(RUN) linkml-convert \
+		--output $@ \
+		--schema $^ \
+		--validate

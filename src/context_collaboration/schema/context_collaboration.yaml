@@ -273,6 +273,7 @@ enums:
       claude-3-opus-20240229:
         see_also:
           - https://artificialanalysis.ai/models/claude-3-opus
+      expand-subset: { }
 slots:
   mixs_context_label:
     examples:

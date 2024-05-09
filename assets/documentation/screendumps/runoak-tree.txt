@@ -1,0 +1,88 @@
+(context-collaboration-py3.10) mark@mark-NUC10i7FNH:~/gitrepos/context-collaboration$ runoak -i sqlite:obo:envo tree --help
+Usage: runoak tree [OPTIONS] [TERMS]...
+
+  Display an ancestor graph as an ascii/markdown tree.
+
+  For general instructions, see the viz command, which this is analogous too.
+
+  Example:
+
+      runoak -i envo.db tree ENVO:00000372 -p i,p
+
+  This produces output like:
+
+  .packages::
+
+                      * [i] ENVO:00000094 ! volcanic feature
+                      * [i] ENVO:00000247 ! volcano
+                      * [i] ENVO:00000403 ! shield volcano
+                      * [i] **ENVO:00000372 ! pyroclastic shield volcano**
+
+  Note: for many ontologies the tree view will explode, especially if no
+  predicates are specified. You may wish to start with the is-a tree (-p i).
+
+  You can use the --gap-fill option to create a minimal tree:
+
+  Example:
+
+      runoak -i envo.db tree --gap-fill 'pyroclastic shield volcano'
+      'subglacial volcano' volcano -p i
+
+  This will show the tree containing only these terms, and the most direct
+  inferred relationships between them.
+
+  You can also give a list of leaf terms and specify --add-mrcas alongside
+  --gap-fill to fill in the most informative intermediate classes:
+
+  Example:
+
+      runoak -i envo.db tree --add-mrcas --gap-fill 'pyroclastic shield
+      volcano'            'subglacial volcano' 'mud volcano' -p i
+
+  This will fill in the term "volcano", as it is the most recent common
+  ancestor of the specified terms
+
+  The --max-hops option can control the distance
+
+      runoak -i envo.db tree 'pyroclastic shield volcano' 'subglacial volcano'
+      --max-hops 1 -p i
+
+  This will generate:
+
+      * [] ENVO:00000247 ! volcano        * [i] ENVO:00000403 ! shield volcano
+      * [i] **ENVO:00000372 ! pyroclastic shield volcano**        * [i]
+      **ENVO:00000407 ! subglacial volcano**
+
+  Note that 'volcano' is the root, even though it is 2 hops from one of the
+  terms, it can be connected to at least one of the seeds (highlighted with
+  asterisks) by a path of length 1.
+
+  Python API:
+
+     https://incatools.github.io/ontology-access-kit/interfaces/obograph
+
+  Data model:
+
+     https://w3id.org/oak/obograph
+
+Options:
+  --down / --no-down            traverse down  [default: no-down]
+  --gap-fill / --no-gap-fill    If set then find the minimal graph that spans
+                                all input curies  [default: no-gap-fill]
+  --add-mrcas / --no-add-mrcas  If set then extend input seed list to include
+                                all pairwise MRCAs  [default: no-add-mrcas]
+  -S, --stylemap TEXT           a json file to configure visualization. See
+                                https://berkeleybop.github.io/kgviz-model/
+  -C, --configure TEXT          overrides for stylemap, specified as yaml.
+                                E.g. `-C "styles: [filled, rounded]" `
+  --max-hops INTEGER            Trim nodes that are equal to or greater than
+                                this distance from terms
+  --skip TEXT                   Exclude paths that contain this node
+  --root TEXT                   Use this node or nodes as roots
+  -D, --display TEXT            A comma-separated list of display options. Use
+                                'all' for all
+  -p, --predicates TEXT         A comma-separated list of predicates. This may
+                                be a shorthand (i, p) or CURIE
+  -O, --output-type TEXT        Desired output type
+  -o, --output FILENAME         Output file, e.g. obo file
+  --help                        Show this message and exit.

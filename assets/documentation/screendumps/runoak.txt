@@ -1,0 +1,129 @@
+(context-collaboration-py3.10) mark@mark-NUC10i7FNH:~/gitrepos/context-collaboration$ runoak --help
+Usage: runoak [OPTIONS] COMMAND [ARGS]...
+
+  Run the oaklib Command Line.
+
+  A subcommand must be passed - for example: ancestors, terms, ...
+
+  Most commands require an input ontology to be specified:
+
+      runoak -i <INPUT SPECIFICATION> SUBCOMMAND <SUBCOMMAND OPTIONS AND
+      ARGUMENTS>
+
+  Get help on any command, e.g:
+
+      runoak viz -h
+
+Options:
+  -v, --verbose
+  -q, --quiet / --no-quiet
+  --stacktrace / --no-stacktrace  If set then show full stacktrace on error
+                                  [default: no-stacktrace]
+  --save-as TEXT                  For commands that mutate the ontology, this
+                                  specifies where changes are saved to
+  --autosave / --no-autosave      For commands that mutate the ontology, this
+                                  determines if these are automatically saved
+                                  in place  [default: no-autosave]
+  --named-prefix-map TEXT         the name of a prefix map, e.g. obo, prefixcc
+  --prefix TEXT                   prefix=expansion pair
+  --metamodel-mappings TEXT       overrides for metamodel properties such as
+                                  rdfs:label
+  --import-depth INTEGER          Maximum depth in the import tree to
+                                  traverse. Currently this is only used by the
+                                  pronto adapter
+  -g, --associations TEXT         Location of ontology associations
+  -G, --associations-type TEXT    Syntax of associations input
+  -l, --preferred-language TEXT   Preferred language for labels and lexical
+                                  elements
+  --other-languages TEXT          Additional languages for labels and lexical
+                                  elements
+  --requests-cache-db TEXT        If specified, all http requests will be
+                                  cached to this sqlite file
+  -W, --wrap-adapter TEXT         Wrap the input adapter using another adapter
+                                  (e.g. llm or semsimian).
+  -i, --input TEXT                input implementation specification. This is
+                                  either a path to a file, or an ontology
+                                  selector
+  -I, --input-type TEXT           Input format. Permissible values vary
+                                  depending on the context
+  -a, --add TEXT                  additional implementation specification.
+  --merge / --no-merge            Merge all inputs specified using --add
+                                  [default: no-merge]
+  --profile / --no-profile        If set, will profile the command  [default:
+                                  no-profile]
+  --help                          Show this message and exit.
+
+Commands:
+  aliases                        List aliases for a term or set of terms.
+  ancestors                      List all ancestors of a given term or...
+  annotate                       Annotate a piece of text using a Named...
+  apply                          Applies a patch to an ontology.
+  apply-obsolete                 Sets an ontology element to be obsolete
+  apply-taxon-constraints        Test candidate taxon constraints
+  associations                   Lookup associations from or to entities.
+  associations-counts            Count associations, grouped by subject...
+  associations-matrix            Co-annotation matrix query.
+  axioms                         Filters axioms
+  cache-clear                    Clear the contents of the pystow oaklib...
+  cache-ls                       List the contents of the pystow oaklib...
+  definitions                    Show textual definitions for term or set...
+  descendants                    List all descendants of a term
+  diff                           Compute difference between two ontologies.
+  diff-associations              Diffs two association sources.
+  diff-terms                     Compares a pair of terms in two ontologies
+  diff-via-mappings              Calculates cross-ontology diff using...
+  disjoints                      Show all disjoints for a set of terms,...
+  dump                           Exports (dumps) the entire contents of...
+  enrichment                     Run class enrichment analysis.
+  expand-subsets                 For each subset provide a mapping of...
+  extract                        Extracts a sub-ontology.
+  fill-table                     Fills missing values in a table of...
+  generate-definitions           Generate definitions for a term or terms.
+  generate-disjoints             Generate candidate disjointness axioms.
+  generate-lexical-replacements  Generate lexical replacements based on a...
+  generate-logical-definitions   Generate logical definitions based on...
+  generate-synonyms              Generate synonyms based on a set of...
+  info                           Show information on term or set of terms
+  information-content            Show information content for term or...
+  labels                         Show labels for term or list of terms
+  languages                      Show available languages
+  leafs                          List all leaf nodes in the ontology
+  lexmatch                       Performs lexical matching between pairs...
+  lint                           Lints an ontology, applying changes in...
+  logical-definitions            Show all logical definitions for a term...
+  mappings                       List all mappings encoded in the ontology
+  migrate-curies                 Rewires an ontology replacing all...
+  normalize                      Normalize all input identifiers.
+  obsoletes                      Shows all obsolete entities.
+  ontologies                     Shows all ontologies
+  ontology-metadata              Shows ontology metadata
+  ontology-versions              Shows ontology versions
+  paths                          List all paths between one or more start...
+  prefixes                       Shows prefix declarations.
+  query                          Execute an arbitrary query.
+  relationships                  Show all relationships for a term or terms
+  rollup                         Produce an association rollup report.
+  roots                          List all root nodes in the ontology
+  search                         Searches ontology for entities that have...
+  set-apikey                     Sets an API key
+  siblings                       List all siblings of a specified term or...
+  similarity                     All by all similarity.
+  similarity-pair                Determine pairwise similarity between...
+  singletons                     List all singleton nodes in the ontology
+  statistics                     Shows all descriptive/summary statistics
+  subsets                        Shows information on subsets
+  synonymize                     Deprecated: use generate-synonyms
+  taxon-constraints              Compute all taxon constraints for a term...
+  term-categories                List categories for a term or set of terms.
+  term-metadata                  Shows term metadata.
+  term-subsets                   List subsets for a term or set of terms.
+  terms                          List all terms in the ontology
+  termset-similarity             Termset similarity.
+  transform                      Transforms an ontology
+  tree                           Display an ancestor graph as an...
+  validate                       Validate an ontology against ontology...
+  validate-definitions           Checks presence and structure of text...
+  validate-mappings              Validates mappings in ontology using...
+  validate-multiple              Validate multiple ontologies against...
+  validate-synonyms              Validates synonyms in ontology using...
+  viz                            Visualize an ancestor graph using...
