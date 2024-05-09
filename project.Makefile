@@ -189,6 +189,27 @@ asserted_and_inferred_mappings_wide.tsv: asserted_and_inferred_mappings.tsv
 		--output-file $@
 
 .PHONY: inference-all inference-cleanup
-inference-all: inference-cleanup asserted_and_inferred_mappings.json asserted_and_inferred_mappings_wide.tsv
+inference-all: inference-cleanup long_from_wide.json
 inference-cleanup:
-	rm -f asserted_and_inferred_mappings.json asserted_and_inferred_mappings.tsv inferences_from_cumulative.tsv asserted_and_inferred_mappings_wide.tsv
+	rm -f \
+		asserted_and_inferred_mappings.json  \
+		asserted_and_inferred_mappings.tsv \
+		asserted_and_inferred_mappings_wide.tsv \
+		inferences_from_cumulative.tsv \
+		long_from_wide.json \
+		long_from_wide.tsv \
+
+
+long_from_wide.tsv: asserted_and_inferred_mappings_wide.tsv
+	$(RUN) pivot-mappings-to-long \
+		--input-file $< \
+		--output-file $@
+
+
+long_from_wide.json: src/context_collaboration/schema/context_collaboration.yaml long_from_wide.tsv
+	$(RUN) linkml-convert \
+		--infer \
+		--output $@ \
+		--schema $^ \
+		--validate
+

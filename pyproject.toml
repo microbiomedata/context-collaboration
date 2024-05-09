@@ -41,3 +41,5 @@ ubergraph-pivot = "scripts.ubergraph_pivot:run_sparql_query"
 expand-subset = 'scripts.expand_subset:process_tsv'
 concatenate-tsvs = 'scripts.concatenate_tsvs:concatenate_tsv'
 pivot-mappings-to-wide = 'scripts.pivot_mappings_to_wide:process_data'
+pivot-mappings-to-long = 'scripts.pivot_mappings_to_long:process_data'
+
