@@ -12,6 +12,8 @@ include = ["README.md", "src/scripts", "src/context_collaboration/schema", "proj
 [tool.poetry.dependencies]
 python = "^3.9"
 linkml-runtime = "^1.1.24"
+pandas = "^2.2.2"
+oaklib = "^0.6.5"
 
 [tool.poetry-dynamic-versioning]
 enable = true
