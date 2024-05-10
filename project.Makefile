@@ -89,6 +89,23 @@ downloads/mixs.yaml:
 	     --url 'https://raw.githubusercontent.com/GenomicsStandardsConsortium/mixs/main/src/mixs/schema/mixs.yaml'\
 	     --output $@
 
+local/mixs_environmental_extensions.yaml: downloads/mixs.yaml
+	yq eval '.classes | with_entries(select(.value.is_a == "Extension"))' $< | cat > $@
+
+local/mixs_environmental_extensions_keys.txt: local/mixs_environmental_extensions.yaml
+	yq eval '. | keys | .[]' -r $< | cat > $@
+
+downloads/obo_context.jsonld:
+	curl --request GET -sL \
+	     --url 'https://raw.githubusercontent.com/OBOFoundry/OBOFoundry.github.io/master/registry/obo_context.jsonld'\
+	     --output $@
+
+local/obo_context.yaml: downloads/obo_context.jsonld
+	yq -P -o=yaml $<  | cat > $@
+
+local/obo_context_keys.txt: local/obo_context.yaml
+	yq eval '.["@context"] | keys | .[]' -r $< | cat > $@
+
 assets/large_outputs/mixs-schemasheets-template.tsv: downloads/mixs.yaml # first four lines are headers
 	$(RUN) linkml2schemasheets-template \
 		--source-path $< \
@@ -213,3 +230,20 @@ long_from_wide.json: src/context_collaboration/schema/context_collaboration.yaml
 		--schema $^ \
 		--validate
 
+non-food-non-org-selected-mat-ents-info.tsv:
+	date && time $(RUN) runoak -i sqlite:obo:envo info \
+		--output-type csv --output $@ --display all \
+		[ .desc//p=i ENVO:01000813 .or .desc//p=i ENVO:01001813  .or .desc//p=i BFO:0000024  .or .desc//p=i ENVO:01000281  .or .desc//p=i ENVO:00003074   .or .desc//p=i RO:0002577 ] \
+		.not [ .desc//p=i FOODON:00002403  ] # 11 minutes # may also want to exclude NCBITaxon:1 snd or some chemical entities from similar searches
+
+
+examples/varied-training-minimal-comments.yaml: src/context_collaboration/schema/context_collaboration.yaml examples/varied-training-minimal-comments.tsv
+	$(RUN) linkml-convert \
+		--infer \
+		--output $@ \
+		--schema $^ \
+		--validate
+
+
+biome-labels.tsv:
+	date && time $(RUN) runoak -i sqlite:obo:envo info --output-type csv --output $@ .desc//p=i 'biome'

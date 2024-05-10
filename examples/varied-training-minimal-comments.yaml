@@ -1,0 +1,449 @@
+# This YAML-serialized data file is intended to help an LLM
+# understand how to perform subset mapping.
+# It is compliant with the context_collaboration_schema LinkML schema
+# If the LLM doesn't think that it has been provided with the corresponding schema file
+# or any other and other input data files then it should ask for them
+# this example is in YAML, but the LLM should emit its responses in an isomorphic JSON format
+
+table_rows:
+- ontology_class_slug: ENVO_00002005
+  ontology_class_label: air
+  confidence: 0.6
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T17:00 EDT
+  mixs_context_label: env_medium
+  mixs_environment_label: HostAssociated
+  comment: 'Review required: Air relevance to HostAssociated?'
+- ontology_class_slug: ENVO_00002150
+  ontology_class_label: coastal sea water
+  confidence: 0.8
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T17:00 EDT
+  mixs_context_label: env_medium
+  mixs_environment_label: Water
+- ontology_class_slug: ENVO_00002018
+  ontology_class_label: sewage
+  confidence: 0.9
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T17:00 EDT
+  mixs_context_label: env_medium
+  mixs_environment_label: BuiltEnvironment
+- ontology_class_slug: ENVO_00002007
+  ontology_class_label: sediment
+  confidence: 0.6
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T17:00 EDT
+  mixs_context_label: env_medium
+  mixs_environment_label: HostAssociated
+  comment: 'Review required: Sediment relevance to HostAssociated?'
+- ontology_class_slug: ENVO_00002119
+  ontology_class_label: alkaline hot spring
+  confidence: 0.9
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T17:00 EDT
+  mixs_context_label: env_local_scale
+  mixs_environment_label: MicrobialMatBiofilm
+- ontology_class_slug: ENVO_00000384
+  ontology_class_label: river bed
+  confidence: 0.9
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-08T09:30 EDT
+  mixs_context_label: env_local_scale
+  mixs_environment_label: Sediment
+- ontology_class_slug: ENVO_00002055
+  ontology_class_label: sandstone
+  confidence: 0.8
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T17:00 EDT
+  mixs_context_label: env_medium
+  mixs_environment_label: HydrocarbonResourcesCores
+- ontology_class_slug: ENVO_00000073
+  ontology_class_label: building
+  confidence: 0.6
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-08T09:30 EDT
+  mixs_context_label: env_local_scale
+  mixs_environment_label: Water
+  comment: 'Review required: Building impact on water?'
+- ontology_class_slug: ENVO_00002003
+  ontology_class_label: fecal material
+  confidence: 0.7
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T17:00 EDT
+  mixs_context_label: env_medium
+  mixs_environment_label: Agriculture
+- ontology_class_slug: ENVO_00002044
+  ontology_class_label: sludge
+  confidence: 0.7
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T17:00 EDT
+  mixs_context_label: env_medium
+  mixs_environment_label: MiscellaneousNaturalOrArtificialEnvironment
+- ontology_class_slug: ENVO_01000486
+  ontology_class_label: building floor
+  confidence: 0.9
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T18:40 EDT
+  mixs_context_label: env_local_scale
+  mixs_environment_label: BuiltEnvironment
+- ontology_class_slug: ENVO_00002005
+  ontology_class_label: air
+  confidence: 1.0
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T17:00 EDT
+  mixs_context_label: env_medium
+  mixs_environment_label: BuiltEnvironment
+- ontology_class_slug: ENVO_03600002
+  ontology_class_label: cooling water
+  confidence: 0.7
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T17:00 EDT
+  mixs_context_label: env_medium
+  mixs_environment_label: Water
+- ontology_class_slug: ENVO_00000030
+  ontology_class_label: dead cave
+  confidence: 0.7
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-08T09:30 EDT
+  mixs_context_label: env_local_scale
+  mixs_environment_label: MicrobialMatBiofilm
+- ontology_class_slug: ENVO_00000027
+  ontology_class_label: spring
+  confidence: 0.8
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-08T09:30 EDT
+  mixs_context_label: env_local_scale
+  mixs_environment_label: Water
+- ontology_class_slug: ENVO_00002006
+  ontology_class_label: liquid water
+  confidence: 0.8
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T17:00 EDT
+  mixs_context_label: env_medium
+  mixs_environment_label: Air
+- ontology_class_slug: ENVO_00000077
+  ontology_class_label: agricultural ecosystem
+  confidence: 0.9
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T18:40 EDT
+  mixs_context_label: env_local_scale
+  mixs_environment_label: Agriculture
+- ontology_class_slug: ENVO_01000253
+  ontology_class_label: freshwater river biome
+  confidence: 0.8
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T11:45 EDT
+  mixs_context_label: env_broad_scale
+  mixs_environment_label: Sediment
+- ontology_class_slug: ENVO_03501109
+  ontology_class_label: subway train
+  confidence: 0.1
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-08T09:30 EDT
+  mixs_context_label: env_local_scale
+  mixs_environment_label: Soil
+- ontology_class_slug: ENVO_01000179
+  ontology_class_label: desert biome
+  confidence: 0.6
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T11:45 EDT
+  mixs_context_label: env_broad_scale
+  mixs_environment_label: HydrocarbonResourcesCores
+- ontology_class_slug: ENVO_01000339
+  ontology_class_label: polar biome
+  confidence: 0.5
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T11:45 EDT
+  mixs_context_label: env_broad_scale
+  mixs_environment_label: HydrocarbonResourcesCores
+- ontology_class_slug: ENVO_00002007
+  ontology_class_label: sediment
+  confidence: 1.0
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T17:00 EDT
+  mixs_context_label: env_medium
+  mixs_environment_label: MiscellaneousNaturalOrArtificialEnvironment
+- ontology_class_slug: ENVO_01000246
+  ontology_class_label: village biome
+  confidence: 0.8
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T11:45 EDT
+  mixs_context_label: env_broad_scale
+  mixs_environment_label: BuiltEnvironment
+- ontology_class_slug: ENVO_00002045
+  ontology_class_label: anaerobic sediment
+  confidence: 0.95
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T17:00 EDT
+  mixs_context_label: env_medium
+  mixs_environment_label: Sediment
+- ontology_class_slug: ENVO_03600007
+  ontology_class_label: formation fluid
+  confidence: 1.0
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T17:00 EDT
+  mixs_context_label: env_medium
+  mixs_environment_label: HydrocarbonResourcesCores
+- ontology_class_slug: ENVO_00002043
+  ontology_class_label: phyllosphere
+  confidence: 0.95
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T17:00 EDT
+  mixs_context_label: env_medium
+  mixs_environment_label: PlantAssociated
+- ontology_class_slug: ENVO_00000115
+  ontology_class_label: orchard
+  confidence: 0.8
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-08T09:30 EDT
+  mixs_context_label: env_local_scale
+  mixs_environment_label: PlantAssociated
+- ontology_class_slug: ENVO_00000054
+  ontology_class_label: saline marsh
+  confidence: 0.8
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-08T09:30 EDT
+  mixs_context_label: env_local_scale
+  mixs_environment_label: Water
+- ontology_class_slug: ENVO_01000177
+  ontology_class_label: grassland biome
+  confidence: 0.7
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T11:45 EDT
+  mixs_context_label: env_broad_scale
+  mixs_environment_label: MiscellaneousNaturalOrArtificialEnvironment
+- ontology_class_slug: ENVO_00000117
+  ontology_class_label: plantation
+  confidence: 0.8
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T18:40 EDT
+  mixs_context_label: env_local_scale
+  mixs_environment_label: Agriculture
+- ontology_class_slug: ENVO_00000222
+  ontology_class_label: river
+  confidence: 0.95
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-08T09:30 EDT
+  mixs_context_label: env_local_scale
+  mixs_environment_label: Water
+- ontology_class_slug: ENVO_00000263
+  ontology_class_label: fissure cave
+  confidence: 0.7
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-08T09:30 EDT
+  mixs_context_label: env_local_scale
+  mixs_environment_label: MicrobialMatBiofilm
+- ontology_class_slug: ENVO_00001998
+  ontology_class_label: soil
+  confidence: 1.0
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T17:00 EDT
+  mixs_context_label: env_medium
+  mixs_environment_label: Soil
+- ontology_class_slug: ENVO_00002016
+  ontology_class_label: sedimentary rock
+  confidence: 0.9
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T17:00 EDT
+  mixs_context_label: env_medium
+  mixs_environment_label: HydrocarbonResourcesCores
+- ontology_class_slug: ENVO_00000087
+  ontology_class_label: cliff
+  confidence: 0.7
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-08T09:30 EDT
+  mixs_context_label: env_local_scale
+  mixs_environment_label: Soil
+- ontology_class_slug: ENVO_00000322
+  ontology_class_label: volcanic cave
+  confidence: 0.8
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-08T09:30 EDT
+  mixs_context_label: env_local_scale
+  mixs_environment_label: MicrobialMatBiofilm
+- ontology_class_slug: ENVO_00002006
+  ontology_class_label: liquid water
+  confidence: 1.0
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T17:00 EDT
+  mixs_context_label: env_medium
+  mixs_environment_label: Water
+- ontology_class_slug: ENVO_01000275
+  ontology_class_label: structural basin
+  confidence: 0.7
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-08T09:30 EDT
+  mixs_context_label: env_local_scale
+  mixs_environment_label: HydrocarbonResourcesFluidsSwabs
+  comment: 'Review required: Structural basin relevance to HydrocarbonResourcesFluidsSwabs?'
+- ontology_class_slug: ENVO_03600007
+  ontology_class_label: formation fluid
+  confidence: 0.8
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T17:00 EDT
+  mixs_context_label: env_medium
+  mixs_environment_label: HydrocarbonResourcesCores
+- ontology_class_slug: ENVO_00000051
+  ontology_class_label: hot spring
+  confidence: 0.8
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-08T09:30 EDT
+  mixs_context_label: env_local_scale
+  mixs_environment_label: Water
+- ontology_class_slug: ENVO_00000114
+  ontology_class_label: agricultural field
+  confidence: 0.95
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T18:40 EDT
+  mixs_context_label: env_local_scale
+  mixs_environment_label: Agriculture
+- ontology_class_slug: ENVO_01001870
+  ontology_class_label: gas well
+  confidence: 0.95
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T18:40 EDT
+  mixs_context_label: env_local_scale
+  mixs_environment_label: HydrocarbonResourcesFluidsSwabs
+- ontology_class_slug: ENVO_02000007
+  ontology_class_label: sediment
+  confidence: 0.9
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T17:00 EDT
+  mixs_context_label: env_medium
+  mixs_environment_label: MicrobialMatBiofilm
+- ontology_class_slug: ENVO_00000447
+  ontology_class_label: marine biome
+  confidence: 0.9
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T11:45 EDT
+  mixs_context_label: env_broad_scale
+  mixs_environment_label: MicrobialMatBiofilm
+- ontology_class_slug: ENVO_03000137
+  ontology_class_label: freezing fog
+  confidence: 0.7
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T17:00 EDT
+  mixs_context_label: env_medium
+  mixs_environment_label: Air
+- ontology_class_slug: ENVO_01000020
+  ontology_class_label: estuarine biome
+  confidence: 0.8
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T11:45 EDT
+  mixs_context_label: env_broad_scale
+  mixs_environment_label: FoodFarmEnvironment
+  comment: 'Review required: Estuarine biome relevance to FoodFarmEnvironment?'
+- ontology_class_slug: ENVO_00002167
+  ontology_class_label: mucus
+  confidence: 0.8
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T17:00 EDT
+  mixs_context_label: env_medium
+  mixs_environment_label: SymbiontAssociated
+- ontology_class_slug: ENVO_01000177
+  ontology_class_label: grassland biome
+  confidence: 0.8
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T11:45 EDT
+  mixs_context_label: env_broad_scale
+  mixs_environment_label: Air
+- ontology_class_slug: ENVO_00000022
+  ontology_class_label: river
+  confidence: 0.95
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-08T09:30 EDT
+  mixs_context_label: env_local_scale
+  mixs_environment_label: Water
+- ontology_class_slug: ENVO_00000044
+  ontology_class_label: peatland
+  confidence: 0.8
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-08T09:30 EDT
+  mixs_context_label: env_local_scale
+  mixs_environment_label: Water
+- ontology_class_slug: ENVO_02000003
+  ontology_class_label: fecal material
+  confidence: 0.9
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T17:00 EDT
+  mixs_context_label: env_medium
+  mixs_environment_label: HostAssociated
+- ontology_class_slug: ENVO_00000297
+  ontology_class_label: paddy field
+  confidence: 0.9
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-08T09:30 EDT
+  mixs_context_label: env_local_scale
+  mixs_environment_label: FoodFarmEnvironment
+- ontology_class_slug: ENVO_01000421
+  ontology_class_label: indoor kitchen
+  confidence: 0.8
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T18:40 EDT
+  mixs_context_label: env_local_scale
+  mixs_environment_label: Air
+- ontology_class_slug: ENVO_01000425
+  ontology_class_label: indoor toilet
+  confidence: 0.95
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T18:40 EDT
+  mixs_context_label: env_local_scale
+  mixs_environment_label: BuiltEnvironment
+- ontology_class_slug: ENVO_00000078
+  ontology_class_label: farm
+  confidence: 0.9
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T18:40 EDT
+  mixs_context_label: env_local_scale
+  mixs_environment_label: Agriculture
+- ontology_class_slug: ENVO_00000108
+  ontology_class_label: meadow ecosystem
+  confidence: 0.8
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-08T09:30 EDT
+  mixs_context_label: env_local_scale
+  mixs_environment_label: Soil
+- ontology_class_slug: ENVO_00002984
+  ontology_class_label: petroleum
+  confidence: 1.0
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T17:00 EDT
+  mixs_context_label: env_medium
+  mixs_environment_label: HydrocarbonResourcesFluidsSwabs
+- ontology_class_slug: ENVO_01000472
+  ontology_class_label: building roof
+  confidence: 0.85
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T18:40 EDT
+  mixs_context_label: env_local_scale
+  mixs_environment_label: BuiltEnvironment
+- ontology_class_slug: ENVO_00002012
+  ontology_class_label: hypersaline water
+  confidence: 0.7
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T17:00 EDT
+  mixs_context_label: env_medium
+  mixs_environment_label: HydrocarbonResourcesFluidsSwabs
+  comment: 'Review required: Hypersaline water relevance to HydrocarbonResourcesFluidsSwabs?'
+- ontology_class_slug: ENVO_01000247
+  ontology_class_label: rangeland biome
+  confidence: 0.9
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-07T11:45 EDT
+  mixs_context_label: env_broad_scale
+  mixs_environment_label: Agriculture
+  comment: 'Review required: Rangeland biome relevance to agriculture?'
+- ontology_class_slug: ENVO_00000562
+  ontology_class_label: park
+  confidence: 0.7
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-08T09:30 EDT
+  mixs_context_label: env_local_scale
+  mixs_environment_label: MiscellaneousNaturalOrArtificialEnvironment
+- ontology_class_slug: ENVO_00000311
+  ontology_class_label: kettle
+  confidence: 0.7
+  agent: claude-3-opus-20240229
+  timestamp: 2024-05-08T09:30 EDT
+  mixs_context_label: env_local_scale
+  mixs_environment_label: Soil

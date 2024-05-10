@@ -4,23 +4,24 @@ id: https://w3id.org/context_collaboration_schema
 
 comments:
   - This LinkML schema defines the structural aspects of performing subset mappings between environmental extensions in the Minimal Information about any (X) Sequence standard (MIxS) and class terms from ontologies like the Environment Ontology (ENVO)
-  - It can be provided as context for a large language model. Additional files, like the definitions of the EnvO terms and some example mappings will need to be provided too. The LLM should ask for those files if it doesn't think they have been provided.
+  - It can be provided as context for a large language model. Additional files, like the definitions of the EnvO classes and some example mappings will need to be provided too. The LLM should ask for those files if it doesn't think they have been provided.
   - As the additional files are provided, the LLM should not provide any analytical summary. It should only acknowledge receipt of the data and ask whether there are any more data inputs or whether the first subset mapping should begin.
-  - The MIxS standard defines environmental context questions (fields, parameters) about nucleic acid sequences and the samples they come from. The international sequence databases require submitters to provide answers to those questions. There are some core questions and some questions that are dependent on the environmental extension that the submitter has chosen.
+  - The MIxS standard defines environmental context questions (fields, parameters) about nucleic acid sequences and the samples they come from. The international sequence databases require submitters to provide answers to those questions, but the submitter can choose what environmental extension they will be constrained by. There are some core questions and some questions that are dependent on the environmental extension that the submitter has chosen.
   - The MIxS environmental extensions are defined in the permissible_values of the mixs_environment_label_enum
   - Three environmental context questions are defined in the permissible_values of mixs_context_label_enum
-  - Subset mapping is an alignment process of pre-determining sets of ontology terms that are reasonable choices for answering the MIxS environmental context questions, within the scope of a given MIxS environmental extension. The subsets are required because there are so many terms in EnvO and other applicable ontologies that it is difficult for people to choose the right ones unless they are already experts in both environmental science and formal ontology.
-  - LLMs have technical limitation on the amount of contextual input they can accept (in terms of word-like tokens), the maximum number of text tokens that they can emit in a whole conversation, and the maximum number of tokens they can emit in a single response. There may be additional constrains like maximum number of tokens per minute or per day. Because of these limitations, it is essential that the LLM and the human user communicate in an efficient and clearly defined manner. In general, the human user will be responsible for asking questions like "What are all of the EnvO biome terms that could be used to answer the env_broad_scale question in combination in the MIxS Soil environment? The LLM is then responsible for answering that question with the best sensitivity, specificity and relevance possible. The LLM must provide its responses in a format that follows this schema exactly. However, the human user may be responsible for aggregating the responses into a document by copying and pasting output from a webpage or the command line.
-  - The terms that can be used to answer the environmental context questions will come from OWL ontologies, generally from the Open Biological and Biomedical Ontologies Foundry (OBO). The ontology files can be quite large relative to the input token limit, so they should be summarized with files in a tabular format like CSV. The CSV files will inherently loose some of the structural knowledge in the ontology, so it may be useful to show the LLM the SPARQL questions that are used to generate the tables. In general, each row in the tables represents one ontolgy term that might be relevant for some combination of an environmental context question and a environmental extension. Most columns contain textual annotations of the terms that should be used to guide the subset mapping process. There will also be a column for the term's identifiers (usually on the far left) and for a concatenated list of the term's direct superclasses, usually on the far right. The LLM is responsible for inferring the subclass relationships from the provided superclass relationships.
-  - IN this project, we identify ontology terms by the right-hand portion of their IRIs, after the last slash (/) character. We use an underscore (_) as a separator between the prefix and the local identifier, not a colon (:).
-  - The LLM is expected to optimize the relevance of its responses. If there were no output token limit, then the LLM could report all ontology terms that are acceptable answers to some combination of a environmental context question and a environmental extension. On the other hand, the LLM might decide to be very succinct and just list a small number of terms from high in the ontological hierarchy. To obtain the best result, the LLM should descend the hierarchy until it gets to a seed terms from which all subclasses are acceptable responses to the environmental context question/environmental extension constraint. The LLM should then report that seed term
-  - The LLM should not apply any lexical or semantic reasoning of its own about the relatedness of the terms. The superclass assertions in the input should be considered the only knowledge of hierarchy.
-  - The LLM's responses must always include the mapped ontology term's identifier and the term's label, and those pairing must match the pairing in the input data exactly.
-  - This schema provides a comment field for each mapping. The LLM is responsible for filling in a comment if it would show a human user what kind of followup curation they should do. The LLM should not provide any any general background knowledge in the comments.
-  - The schema also provides a required confidence slot (ie field) for all mappings. No formula or ruleset has been determined for confidence scoring yet. The scores should be stepped in 0.1 increments. The LLM should not report mappings for which the score is less than 0.5, ie the LLM is less than 50% sure that the mapping is valid.
-  - The LLM must populate the following fields. confidence, mixs_context_label, mixs_environment_label, ontology_class_label, ontology_class_slug
-  - The LLM may populate comment if it thinks that comment will help the human during curation
-  - The LLM should not bother populating agent or timestamp. The human will take care of that.
+  - Subset mapping is an alignment process of pre-determining sets of ontology classes that are reasonable choices for answering the MIxS environmental context questions, within the scope of a given MIxS environmental extension. The subsets are required because there are so many classes in EnvO and other applicable ontologies that it is difficult for people to choose the right ones unless they are already experts in both environmental science and formal ontology.
+  - It is essential that the LLM and the human user communicate in an efficient and clearly defined manner. In general, the human user will be responsible for asking questions like "What are all of the EnvO biome classes that could be used to answer the env_broad_scale question in combination in the MIxS Soil environment? The LLM is then responsible for answering that question with the best sensitivity, specificity and relevance possible. The LLM should provide as many mappings it can for each question, given the guidance above. The LLM must provide its responses in a format that follows this schema exactly. However, the human user may be responsible for aggregating the responses into a document by copying and pasting output from a webpage or the command line.
+  - The classes that can be used to answer the environmental context questions will come from OWL ontologies, generally from the Open Biological and Biomedical Ontologies Foundry (OBO). The ontology files can be quite large relative to the input token limit, so the human will provide summary files in a tabular format like CSV.
+  - The CSV files may loose some of the structural knowledge in the ontology. One mechanism for generating them is with SPARQL queries. When that is the case, it may be useful to show the LLM the SPARQL questions that are used to generate the tables.
+  - To obtain the best result, the LLM should descend the hierarchy until it gets to some key classes from which all subclasses are acceptable responses to the environmental context question/environmental extension constraint. The LLM should then report that key class.
+  - The LLM should not apply any lexical or semantic reasoning of its own about the relatedness of the classes. The superclass assertions in the input should be considered the only knowledge of hierarchy.
+  - The LLM's responses must always include both the mapped ontology class's identifier and the class' label, and those pairing must match the pairing in the input data exactly.
+  - In this project, the human may identify ontology classes with slugs or CURIes. Slugs usw an underscore as teh delimiter between teh namespace and the local identifiers. CURIes use a colon. The LLM must always refer to the classes with their slug format identifiers.
+  - This schema provides a comment field for each mapping. The LLM is allowed to provide a comment if some followup curation may be required. The LLM should assume that all humans involved are near-experts in this domain. Definitions and background knowledge should not be provided in the comments.
+  - The schema also provides a required confidence slot (ie field) for all mappings. No formula or ruleset has been determined for confidence scoring yet. The scores should be stepped in 0.1 increments. The confidences in teh examples mappings are a good guide for future confidence determination. The LLM should not report mappings for which the score is less than 0.5, ie the LLM is less than 50% sure that the mapping is valid.
+  - The LLM must provide values for following fields... confidence, mixs_context_label, mixs_environment_label, ontology_class_label, ontology_class_slug
+  - The LLM must populate agent or timestamp. The LLM should ask the human for those values.
+  - This schema also describes a mechanism for tracking the importance and completion status of the different environmental extensions. The LLM is responsible for keeping track of that information, but it should only be provided when the human asks for a categorical status report. Categorical status information should never be intermingled with the subset mappings. The LLM should start out by placing all environmental extensions in the skipped category if their status annotation is not "highest-advertised", "high-advertised" or "medium-unacknowledged". All others should start out as "pending"
 
 imports:
   - linkml:types
@@ -30,6 +31,21 @@ prefixes:
   orcid: https://orcid.org/
 default_prefix: context_collaboration_schema
 enums:
+  status_category_enum:
+    description: The status of the mapping some target (generally a MIxS environmental extension)
+    permissible_values:
+      pending: { }
+      skipped: { }
+      failed: { }
+      complete: { }
+  project_importance_enum:
+    description: The importance, within some project like NMDC, of providing mappings to the target (generally a MIxS environmental extension)
+    permissible_values:
+      highest-advertised: { }
+      high-advertised: { }
+      medium-unacknowledged: { }
+      low-under-development: { }
+      lowest-unacknowledged: { }
   mixs_context_label_enum:
     description: Definitions of environmental context questions from the MIxS environmental context labels
     comments:
@@ -75,14 +91,14 @@ enums:
             and plant systems focused on agricultural plant and soil microbe; microbiome
             studies in agricultural sites; long-term ecological research in croplands;
             eDNA in manure samples; describing agricultural microbiome studies
-          mapping_priority: medium_despite_no_template
+          mapping_priority: medium-unacknowledged
         title: agriculture
       Air:
         description: A collection of terms appropriate when collecting and sequencing
           samples obtained from a gaseous environment.
         annotations:
           use_cases: bioaerosol samples, pathogen load in urban air, aerosols
-          mapping_priority: high_template_deployed
+          mapping_priority: high-advertised
         title: air
       BuiltEnvironment:
         description: A collection of terms appropriate when collecting samples and
@@ -93,14 +109,14 @@ enums:
         annotations:
           use_cases: microbiology studies of the built environment, NASA space station
             sampling, MetaSUB transit system sampling, home, hospitals, office buildings
-          mapping_priority: high_template_deployed
+          mapping_priority: high-advertised
         title: built environment
       FoodAnimalAndAnimalFeed:
         description: A collection of terms appropriate when collecting samples and
           performing sequencing of samples  obtained from farm animals and their feed.
         annotations:
           use_cases: Microbiome of farm animals, their feed, and pet food.
-          mapping_priority: lowest_priority
+          mapping_priority: lowest-unacknowledged
         title: food-animal and animal feed
       FoodFarmEnvironment:
         description: A collection of terms appropriate when collecting samples and
@@ -108,21 +124,21 @@ enums:
         annotations:
           use_cases: Microbiome of farm and field crops as well as environmental samples
             including irrigation, soil amendments, and farm equipment.
-          mapping_priority: lowest_priority
+          mapping_priority: lowest-unacknowledged
         title: food-farm environment
       FoodFoodProductionFacility:
         description: A collection of terms appropriate when collecting samples and
           performing sequencing of samples  obtained from food production facilities.
         annotations:
           use_cases: Microbiome of food production facilities/factories
-          mapping_priority: lowest_priority
+          mapping_priority: lowest-unacknowledged
         title: food-food production facility
       FoodHumanFoods:
         description: A collection of terms appropriate when collecting samples and
           performing sequencing of samples  obtained from human food products.
         annotations:
           use_cases: Microbiome of foods intended for human consumption.
-          mapping_priority: lowest_priority
+          mapping_priority: lowest-unacknowledged
         title: food-human foods
       HostAssociated:
         description: A collection of terms appropriate when collecting samples and
@@ -130,7 +146,7 @@ enums:
           microbiome or genome.
         annotations:
           use_cases: elephant fecal matter or cat oral cavity
-          mapping_priority: high_template_deployed
+          mapping_priority: high-advertised
         title: host-associated
       HumanAssociated:
         description: A collection of terms appropriate when collecting samples and
@@ -139,7 +155,7 @@ enums:
           gut, vaginal).
         annotations:
           use_cases: blood samples or biopsy samples.
-          mapping_priority: low_template_pending
+          mapping_priority: low-under-development
         title: human-associated
       HumanGut:
         description: A collection of terms appropriate when collecting samples and
@@ -148,7 +164,7 @@ enums:
         annotations:
           use_cases: human stool or fecal samples, or samples collected directly from
             the gut.
-          mapping_priority: low_template_pending
+          mapping_priority: low-under-development
         title: human-gut
       HumanOral:
         description: A collection of terms appropriate when collecting samples and
@@ -157,7 +173,7 @@ enums:
         annotations:
           use_cases: mouth swab sampling, dental microbiome samples, microbiome of oral
             swabs, nasal, mouth, throat, teeth, tongue microbiome studies
-          mapping_priority: low_template_pending
+          mapping_priority: low-under-development
         title: human-oral
       HumanSkin:
         description: A collection of terms appropriate when collecting samples and
@@ -165,7 +181,7 @@ enums:
           microbiome.
         annotations:
           use_cases: swab samples taken on a person’s skin surface.
-          mapping_priority: low_template_pending
+          mapping_priority: low-under-development
         title: human-skin
       HumanVaginal:
         description: A collection of terms appropriate when collecting samples and
@@ -173,7 +189,7 @@ enums:
           microbiome.
         annotations:
           use_cases: vaginal swabbing
-          mapping_priority: low_template_pending
+          mapping_priority: low-under-development
         title: human-vaginal
       HydrocarbonResourcesCores:
         description: A collection of terms appropriate when collecting samples and
@@ -183,7 +199,7 @@ enums:
           use_cases: The microbial characterization of hydrocarbon occurrences, defined
             as the natural and artificial environmental features that are rich in
             hydrocarbons, from hydrocarbon rich formations, such as reservoir cores.
-          mapping_priority: high_template_deployed
+          mapping_priority: high-advertised
         title: hydrocarbon resources-cores
       HydrocarbonResourcesFluidsSwabs:
         description: A collection of terms appropriate when collecting samples and
@@ -193,7 +209,7 @@ enums:
           use_cases: The microbial characterization of hydrocarbon occurrences,  defined
             as the natural and artificial environmental features that are rich in
             hydrocarbons, from hydrocarbon resource fluids.
-          mapping_priority: high_template_deployed
+          mapping_priority: high-advertised
         title: hydrocarbon resources-fluids/swabs
       MicrobialMatBiofilm:
         description: A collection of terms appropriate when collecting samples and
@@ -201,14 +217,14 @@ enums:
           mats.
         annotations:
           use_cases: samples from microbial mats at cold seeps
-          mapping_priority: high_template_deployed
+          mapping_priority: high-advertised
         title: microbial mat/biofilm
       MiscellaneousNaturalOrArtificialEnvironment:
         description: A collection of generic terms appropriate when collecting and
           sequencing samples  obtained from environments, where there is no specific
           extension already available.
         annotations:
-          mapping_priority: high_template_deployed
+          mapping_priority: high-advertised
         title: miscellaneous natural or artificial environment
       PlantAssociated:
         description: A collection of terms appropriate when collecting samples and
@@ -217,14 +233,14 @@ enums:
         annotations:
           use_cases: plant surface swabs, root soil or rhizosphere, cultivated plants,
             plant phenotyping
-          mapping_priority: high_template_deployed
+          mapping_priority: high-advertised
         title: plant-associated
       Sediment:
         description: A collection of terms appropriate when collecting samples and
           sequencing samples  obtained from the sedimentary area of aquatic environments.
         annotations:
           use_cases: river bed or sea floor.
-          mapping_priority: high_template_deployed
+          mapping_priority: high-advertised
         title: sediment
       Soil:
         description: A collection of terms appropriate when collecting samples and
@@ -233,7 +249,7 @@ enums:
         annotations:
           use_cases: soil collection, island microbiome sampling, farm land or forest
             floor.
-          mapping_priority: highest_priority
+          mapping_priority: highest-advertised
         title: soil
       SymbiontAssociated:
         description: A collection of terms appropriate when collecting samples and
@@ -241,21 +257,21 @@ enums:
           with any other organism(s).
         annotations:
           use_cases: the microbiome sequence of a flea sampled from a farm animal
-          mapping_priority: lowest_priority
+          mapping_priority: lowest-unacknowledged
         title: symbiont-associated
       WastewaterSludge:
         description: A collection of terms appropriate when collecting samples and
           sequencing samples  obtained from any solid, semisolid or liquid waste.
         annotations:
           use_cases: sewerage or industrial wastewater
-          mapping_priority: lowest_priority
+          mapping_priority: medium-unacknowledged
         title: wastewater/sludge
       Water:
         description: A collection of terms appropriate when collecting samples and
           sequencing water samples  obtained from any aquatic environment.
         annotations:
           use_cases: sea or river water, global ocean sampling day
-          mapping_priority: highest_priority
+          mapping_priority: highest-advertised
         title: water
   agent_enum:
     description: The human, LLM, etc. who performed this mapping
@@ -290,6 +306,9 @@ slots:
       - value: ENVO_01000219
     range: string
     required: true
+    pattern: ^[A-Za-z_]{2,9}[:_]?[0-9]{2,9}$ # prefix part includes almost all OBO Foundry prefixes, but NCBITaxon and ChEBI have shorter local ids
+    see_also:
+      - https://github.com/OBOFoundry/OBOFoundry.github.io/blob/master/registry/obo_context.jsonld
   ontology_class_label:
     examples:
       - value: anthropogenic terrestrial biome
@@ -301,9 +320,6 @@ slots:
     range: float
     required: true
   comment:
-    examples:
-      - value: High confidence as built environments fall under anthropogenic influences,
-          but acknowledging the inclusion of non-built environments within this category.
     multivalued: false
     range: string
     required: false
@@ -311,25 +327,37 @@ slots:
     examples:
       - value: gemini-1.5-pro-latest
     range: agent_enum
-    required: false
+    required: true
     comments:
       - LLMs are not required to identify themselves as an agent but human curators are. New curators will have to add themselves to the agent_enum and include their ORCID in the meaning slot
   timestamp:
     examples:
       - value: 2024-05-02T13:51 EDT
-    required: false
+    required: true
     pattern: ^\d{4}\-\d{2}\-\d{2}T\d{2}\:\d{2} [A-Z]{3}$
     comments:
       - LLMs are not required to emit a timestamp but human curators are expected to provide on that matches the provided pattern
   #    range: datetime
   agent_timestamp:
-#    equals_expression: "{agent}+{timestamp}"
+  #    equals_expression: "{agent}+{timestamp}"
   table_rows:
     range: TableRow
     multivalued: true
     inlined_as_list: true
+  environmental_extension_statuses:
+    range: EnvironmentalExtensionStatus
+    multivalued: true
+    inlined_as_list: true
+  importance_to_project:
+    range: project_importance_enum
+    required: true
+  status_category:
+    range: status_category_enum
+    required: true
 classes:
   LongTable:
+    aliases:
+      - subset mappings
     tree_root: true
     slots:
       - table_rows
@@ -352,3 +380,14 @@ classes:
           - ontology_class_slug
           - agent
           - timestamp
+  CategoricalStatusReport:
+    aliases:
+      - categorical status report
+    slots:
+      - environmental_extension_statuses
+  EnvironmentalExtensionStatus:
+    aliases:
+    slots:
+      - mixs_environment_label
+      - importance_to_project
+      - status_category

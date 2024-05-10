@@ -1,0 +1,55 @@
+Usage: runoak info [OPTIONS] [TERMS]...
+
+  Show information on term or set of terms
+
+  Example:
+
+      runoak -i sqlite:obo:cl info CL:4023094
+
+  The default output is minimal, showing only ID and label
+
+  The --output-type (-O) option can be used to specify other formats for the
+  output.
+
+  Currently there are only a few output types are supported. More will be
+  provided in future.
+
+  In OBO format:
+
+      runoak -i cl.owl info CL:4023094 -O obo
+
+  As CSV:
+
+      runoak -i cl.obo info CL:4023094 -O csv
+
+  The info output format can be parameterized with --display (-D)
+
+  With xrefs and definitions:
+
+      runoak -i cl.owl info CL:4023094 -D x,d
+
+  With all information:
+
+      runoak -i cl.owl info CL:4023094 -D all
+
+  Like all OAK commands, input term lists can be multivalued, a mixture of IDs
+  and labels, as well as queries that can be combined using boolean logic
+
+  Info on two STATO terms:
+
+      runoak -i ontobee:stato info STATO:0000286 STATO:0000287 -O obo
+
+  All terms in ENVO with the string "forest" in them:
+
+      runoak -i sqlite:obo:envo info l~forest
+
+  Info on all subtypes of "statistical hypothesis test" in STATO:
+
+      runoak -i sqlite:obo:stato info .desc//p=i 'statistical hypothesis test'
+
+Options:
+  -o, --output FILENAME   Output file, e.g. obo file
+  -D, --display TEXT      A comma-separated list of display options. Use 'all'
+                          for all
+  -O, --output-type TEXT  Desired output type
+  --help                  Show this message and exit.

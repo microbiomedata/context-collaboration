@@ -1,0 +1,84 @@
+runoak relationships --help
+Usage: runoak relationships [OPTIONS] [TERMS]...
+
+  Show all relationships for a term or terms
+
+  By default, this shows all relationships where the input term(s) are the
+  *subjects*
+
+  Example:
+
+      runoak -i cl.db relationships CL:4023094
+
+  Like all OAK commands, a label can be passed instead of a CURIE
+
+  Example:
+
+      runoak -i cl.db relationships neuron
+
+  To reverse the direction, and query where the search term(s) are *objects*,
+  use the --direction flag:
+
+  Example:
+
+      runoak -i cl.db relationships --direction down neuron
+
+  Multiple terms can be passed
+
+  Example:
+
+      runoak -i uberon.db relationships heart liver lung
+
+  And like all OAK commands, a query can be passed rather than an explicit
+  term list
+
+  The following query lists all arteries in the limb together which what
+  structures they supply
+
+  Query:
+
+      runoak -i uberon.db relationships -p RO:0002178 .desc//p=i "artery" .and
+      .desc//p=i,p "limb"
+
+  More examples:
+
+     https://github.com/INCATools/ontology-access-
+     kit/blob/main/notebooks/Commands/Relationships.ipynb
+
+  Python API:
+
+     https://incatools.github.io/ontology-access-kit/interfaces/basic
+
+Options:
+  -p, --predicates TEXT           A comma-separated list of predicates. This
+                                  may be a shorthand (i, p) or CURIE
+  --direction [up|down|both]      direction of traversal over edges, which up
+                                  is subject to object, down is object to
+                                  subject.
+  --autolabel / --no-autolabel    If set, results will automatically have
+                                  labels assigned  [default: autolabel]
+  -O, --output-type TEXT          Desired output type
+  -o, --output FILENAME           Output file, e.g. obo file
+  --if-absent [absent-only|present-only]
+                                  determines behavior when the value is not
+                                  present or is empty.
+  -S, --set-value TEXT            the value to set for all terms for the given
+                                  property.
+  --include-entailed / --no-include-entailed
+                                  Include entailed indirect relationships
+                                  [default: no-include-entailed]
+  --non-redundant-entailed / --no-non-redundant-entailed
+                                  Include entailed but exclude entailed
+                                  redundant relationships  [default: no-non-
+                                  redundant-entailed]
+  --include-tbox / --no-include-tbox
+                                  Include class-class relationships (subclass
+                                  and existentials)  [default: include-tbox]
+  --include-abox / --no-include-abox
+                                  Include instance relationships (class and
+                                  object property assertions)  [default:
+                                  include-abox]
+  --include-metadata / --no-include-metadata
+                                  Include metadata (axiom annotations)
+                                  [default: no-include-metadata]
+  --help                          Show this message and exit.

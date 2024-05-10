@@ -51,7 +51,38 @@ https://docs.google.com/spreadsheets/d/1kQ7GpeThSqDOOQnJ1WlctdW_2FfPrU1UbTOQNRqd
 https://docs.google.com/spreadsheets/d/10TU3E-TAbtzeo-_S8rYfSq8Xvp6wm1RMpo0LYtR4t9w/edit#gid=0
 https://docs.google.com/spreadsheets/d/1scmOkunN9tptoibdwxIgM-gh57AE6lC2f9FSJjnU0cc/edit#gid=993240342  nmdc-dh-sheets-mmsp-slot-groups-etc envo_terms_for_mixs_env_triad
 
-runoak -i sqlite:obo:envo info -D all -O csv  biome
+
+runoak -i sqlite:obo:envo info --output-type csv --output x.tsv --display all  .desc//p=i biome .not .desc//p=i "aquatic biome"
 
 
+DONE
+new pure export
+context collaboration
+    where to save and how to present
+    feed in legacy documents?
+    pattern for slugs or just go back to CURIES
+    input and output formats... dense, easy to parse
+    documentation generation failing
+
+ACTIVE
+can runoak info replace annotation sparql? relations sparql?
+    info vs relationships (for axioms?)
+    runoak -i sqlite:obo:envo info --output-type csv --output non-aq-biome-info.tsv --display all  .desc//p=i biome .not .desc//p=i "aquatic biome"
+        -D x,d
+    runoak -i sqlite:obo:envo relationships --output-type csv --output non-aq-biome-rels.tsv .desc//p=i biome .not .desc//p=i "aquatic biome"
+        long format
+any use for associations?
+
+LEARN
+oak CLI documentation
+oak output formats
+text/NLP/LLM?
+IC (or jaccard) semantic similarity
+owl reasoning plugin
+viz starting at specified root
+----
+string concatenation/splitting linkml expressions
+
+TO DO
+synthetic database for berkeley-schema-fy24
 
