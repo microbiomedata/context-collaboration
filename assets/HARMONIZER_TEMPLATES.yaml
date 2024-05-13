@@ -1,0 +1,113 @@
+# LLM extracted from
+#   https://raw.githubusercontent.com/microbiomedata/nmdc-server/main/web/src/views/SubmissionPortal/harmonizerApi.ts
+# which is probably derived from
+#   https://raw.githubusercontent.com/microbiomedata/submission-schema/main/schemasheets/tsv_in/classes.tsv
+air:
+  displayName: air
+  schemaClass: AirInterface
+  sampleDataSlot: air_data
+  status: published
+
+built environment:
+  displayName: built environment
+  schemaClass: BuiltEnvInterface
+  sampleDataSlot: built_env_data
+  status: published
+
+host-associated:
+  displayName: host-associated
+  schemaClass: HostAssociatedInterface
+  sampleDataSlot: host_associated_data
+  status: published
+
+human-associated:
+  displayName: human-associated
+  status: disabled
+
+human-gut:
+  displayName: human - gut
+  status: disabled
+
+human-oral:
+  displayName: human - oral
+  status: disabled
+
+human-skin:
+  displayName: human - skin
+  status: disabled
+
+human-vaginal:
+  displayName: human - vaginal
+  status: disabled
+
+hydrocarbon resources-cores:
+  displayName: hydrocarbon resources - cores
+  schemaClass: HcrCoresInterface
+  sampleDataSlot: hcr_cores_data
+  status: published
+
+hydrocarbon resources-fluids_swabs:
+  displayName: hydrocarbon resources - fluids swabs
+  schemaClass: HcrFluidsSwabsInterface
+  sampleDataSlot: hcr_fluids_swabs_data
+  status: published
+
+microbial mat_biofilm:
+  displayName: microbial mat_biofilm
+  schemaClass: BiofilmInterface
+  sampleDataSlot: biofilm_data
+  status: published
+
+miscellaneous natural or artificial environment:
+  displayName: miscellaneous natural or artificial environment
+  schemaClass: MiscEnvsInterface
+  sampleDataSlot: misc_envs_data
+  status: published
+
+plant-associated:
+  displayName: plant-associated
+  schemaClass: PlantAssociatedInterface
+  sampleDataSlot: plant_associated_data
+  status: published
+
+sediment:
+  displayName: sediment
+  schemaClass: SedimentInterface
+  sampleDataSlot: sediment_data
+  status: published
+
+soil:
+  displayName: soil
+  schemaClass: SoilInterface
+  sampleDataSlot: soil_data
+  status: published
+
+water:
+  displayName: water
+  schemaClass: WaterInterface
+  sampleDataSlot: water_data
+  status: published
+
+EMSL:
+  displayName: EMSL
+  schemaClass: EmslInterface
+  sampleDataSlot: emsl_data
+  status: mixin
+
+JGI_MG:
+  displayName: JGI MG
+  schemaClass: JgiMgInterface
+  sampleDataSlot: jgi_mg_data
+  status: mixin
+
+JGI_MG_LR:
+  displayName: JGI MG (Long Read)
+  schemaClass: JgiMgLrInterface
+  sampleDataSlot: jgi_mg_lr_data
+  status: mixin
+
+JGT_MT:
+  displayName: JGI MT
+  schemaClass: JgiMtInterface
+  sampleDataSlot: jgi_mt_data
+  status: mixin

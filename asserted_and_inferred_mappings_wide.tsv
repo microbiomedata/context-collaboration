@@ -1,4 +1,4 @@
-ontology_class_slug	ontology_class_label	mixs_context_label	mixs_environment_label	claude-3-opus-20240229|2024-05-07T11:45 EDT	claude-3-opus-20240229|2024-05-07T17:00 EDT	claude-3-opus-20240229|2024-05-07T18:40 EDT	claude-3-opus-20240229|2024-05-08T09:30 EDT	expand-subset|2024-05-09T16:48 EDT
+ontology_class_slug	ontology_class_label	mixs_context_label	mixs_environment_label	claude-3-opus-20240229|2024-05-07T11:45 EDT	claude-3-opus-20240229|2024-05-07T17:00 EDT	claude-3-opus-20240229|2024-05-07T18:40 EDT	claude-3-opus-20240229|2024-05-08T09:30 EDT	expand-subset|2024-05-10T17:12 EDT
 ENVO:00002259	agricultural soil	env_local_scale	Agriculture				0.2|The ENVO term 'ENVO:00002259' for 'agricultural soil' is not present in the provided input and cannot be used for mapping in this context.	
 ENVO_00000001	bedding-plane cave	env_local_scale	MicrobialMatBiofilm					0.5|Inferred from claude-3-opus-20240229 2024-05-08T09:30 EDT: ENVO_00000067/cave @ 0.8
 ENVO_00000001	bedding-plane cave	env_local_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-08T09:30 EDT: ENVO_00000067/cave @ 0.7
@@ -366,7 +366,6 @@ ENVO_00000564	archeological site	env_local_scale	MiscellaneousNaturalOrArtificia
 ENVO_00000567	calanque	env_local_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-08T09:30 EDT: ENVO_00000100/valley @ 0.8
 ENVO_00000667	geological fracture	env_local_scale	HydrocarbonResourcesCores				0.9|Geological fractures, such as faults and joints, can provide important local environmental context for hydrocarbon resource cores, as they can influence fluid flow and hydrocarbon accumulation.	
 ENVO_00000667	geological fracture	env_local_scale	HydrocarbonResourcesFluidsSwabs				0.8|Geological fractures, such as faults and joints, can influence fluid flow and hydrocarbon accumulation, providing relevant local environmental context for hydrocarbon resource fluids and swabs.	
-ENVO_00000856	city	env_local_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-08T09:30 EDT: ENVO_00000062/populated place @ 0.7
 ENVO_00000873	freshwater biome	env_broad_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00002030/aquatic biome @ 0.7
 ENVO_00000873	freshwater biome	env_broad_scale	HydrocarbonResourcesFluidsSwabs					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00002030/aquatic biome @ 0.8
 ENVO_00000873	freshwater biome	env_broad_scale	MicrobialMatBiofilm	0.9|High confidence as microbial mats and biofilms are common in various freshwater environments, such as lakes, rivers, and streams.				
@@ -582,9 +581,9 @@ ENVO_00002117	creosote contaminated soil	env_medium	Agriculture					0.5|Inferred
 ENVO_00002117	creosote contaminated soil	env_medium	MiscellaneousNaturalOrArtificialEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00001998/soil @ 0.8
 ENVO_00002117	creosote contaminated soil	env_medium	PlantAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00001998/soil @ 0.9
 ENVO_00002117	creosote contaminated soil	env_medium	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00001998/soil @ 1.0
-ENVO_00002119	alkaline hot spring	env_local_scale	MicrobialMatBiofilm				0.9|Alkaline hot springs, with their high pH and high temperature conditions, provide another specific niche for the development of microbial mats and biofilms adapted to these extreme environments.	
+ENVO_00002119	alkaline hot spring	env_local_scale	MicrobialMatBiofilm				0.9|Alkaline hot springs, with their high pH and high temperature conditions, provide another specific niche for the development of microbial mats and biofilms adapted to these extreme environments.	0.5|Inferred from claude-3-opus-20240229 2024-05-08T09:30 EDT: ENVO_00000051/hot spring @ 0.9
 ENVO_00002119	alkaline hot spring	env_local_scale	Water					0.5|Inferred from claude-3-opus-20240229 2024-05-08T09:30 EDT: ENVO_00000027/spring @ 0.8
-ENVO_00002120	acidic hot spring	env_local_scale	MicrobialMatBiofilm				0.9|Acidic hot springs, with their low pH and high temperature conditions, provide a specific niche for the development of microbial mats and biofilms adapted to these extreme environments.	
+ENVO_00002120	acidic hot spring	env_local_scale	MicrobialMatBiofilm				0.9|Acidic hot springs, with their low pH and high temperature conditions, provide a specific niche for the development of microbial mats and biofilms adapted to these extreme environments.	0.5|Inferred from claude-3-opus-20240229 2024-05-08T09:30 EDT: ENVO_00000051/hot spring @ 0.9
 ENVO_00002120	acidic hot spring	env_local_scale	Water					0.5|Inferred from claude-3-opus-20240229 2024-05-08T09:30 EDT: ENVO_00000027/spring @ 0.8
 ENVO_00002121	alkaline salt lake	env_local_scale	Water					0.5|Inferred from claude-3-opus-20240229 2024-05-08T09:30 EDT: ENVO_00000020/lake @ 0.95
 ENVO_00002127	stream sediment	env_medium	Agriculture					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00002007/sediment @ 0.8
@@ -701,6 +700,7 @@ ENVO_00002180	naphthalene enriched sediment	env_medium	HydrocarbonResourcesCores
 ENVO_00002180	naphthalene enriched sediment	env_medium	MiscellaneousNaturalOrArtificialEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00002007/sediment @ 0.8
 ENVO_00002180	naphthalene enriched sediment	env_medium	Sediment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00002202/organically enriched sediment @ 0.9
 ENVO_00002180	naphthalene enriched sediment	env_medium	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00002007/sediment @ 0.7
+ENVO_00002181	neutral hot spring	env_local_scale	MicrobialMatBiofilm					0.5|Inferred from claude-3-opus-20240229 2024-05-08T09:30 EDT: ENVO_00000051/hot spring @ 0.9
 ENVO_00002181	neutral hot spring	env_local_scale	Water					0.5|Inferred from claude-3-opus-20240229 2024-05-08T09:30 EDT: ENVO_00000027/spring @ 0.8
 ENVO_00002182	nitrobenzene enriched sediment	env_medium	Agriculture					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00002007/sediment @ 0.8
 ENVO_00002182	nitrobenzene enriched sediment	env_medium	HostAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00002007/sediment @ 0.6
@@ -1823,12 +1823,13 @@ ENVO_01000173	anoxic water	env_medium	HydrocarbonResourcesFluidsSwabs					0.5|In
 ENVO_01000173	anoxic water	env_medium	MicrobialMatBiofilm					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00002006/liquid water @ 0.8
 ENVO_01000173	anoxic water	env_medium	MiscellaneousNaturalOrArtificialEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00002006/liquid water @ 0.9
 ENVO_01000173	anoxic water	env_medium	Water					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00002006/liquid water @ 1.0
-ENVO_01000174	forest biome	env_broad_scale	Air	0.8|High confidence as forest biomes can significantly influence the composition of the air microbiome through the release of plant-associated microbes, spores, and other biological particles.				
-ENVO_01000174	forest biome	env_broad_scale	HostAssociated	0.6|Moderate confidence as forest biomes can host a variety of host-associated microbiomes, such as those associated with forest-dwelling animals, but acknowledging that this is not the primary focus of the HostAssociated package.				
-ENVO_01000174	forest biome	env_broad_scale	HydrocarbonResourcesCores	0.5|Moderate confidence as some hydrocarbon resources, such as coal seams, can be found beneath forest biomes, but acknowledging that this is not the most common setting.				
-ENVO_01000174	forest biome	env_broad_scale	MiscellaneousNaturalOrArtificialEnvironment	0.7|High confidence as forest biomes could be included in the MiscellaneousNaturalOrArtificialEnvironment package if they do not fit into other more specific packages, but acknowledging that forest biomes are often covered by other packages.				
+ENVO_01000174	forest biome	env_broad_scale	Air	0.8|High confidence as forest biomes can significantly influence the composition of the air microbiome through the release of plant-associated microbes, spores, and other biological particles.				0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
+ENVO_01000174	forest biome	env_broad_scale	HostAssociated	0.6|Moderate confidence as forest biomes can host a variety of host-associated microbiomes, such as those associated with forest-dwelling animals, but acknowledging that this is not the primary focus of the HostAssociated package.				0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.7
+ENVO_01000174	forest biome	env_broad_scale	HydrocarbonResourcesCores	0.5|Moderate confidence as some hydrocarbon resources, such as coal seams, can be found beneath forest biomes, but acknowledging that this is not the most common setting.				0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.8
+ENVO_01000174	forest biome	env_broad_scale	HydrocarbonResourcesFluidsSwabs					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.6
+ENVO_01000174	forest biome	env_broad_scale	MiscellaneousNaturalOrArtificialEnvironment	0.7|High confidence as forest biomes could be included in the MiscellaneousNaturalOrArtificialEnvironment package if they do not fit into other more specific packages, but acknowledging that forest biomes are often covered by other packages.				0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.8
 ENVO_01000174	forest biome	env_broad_scale	PlantAssociated	0.95|Very high confidence as forest biomes are characterized by a high diversity and abundance of plants, which host a wide range of plant-associated microbiomes.				
-ENVO_01000174	forest biome	env_broad_scale	Soil	0.95|Very high confidence due to the prevalence of soil ecosystems in forest biomes, with a small allowance for soil-less forest types.				
+ENVO_01000174	forest biome	env_broad_scale	Soil	0.95|Very high confidence due to the prevalence of soil ecosystems in forest biomes, with a small allowance for soil-less forest types.				0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
 ENVO_01000175	woodland biome	env_broad_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
 ENVO_01000175	woodland biome	env_broad_scale	HostAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.7
 ENVO_01000175	woodland biome	env_broad_scale	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.8
@@ -1842,11 +1843,13 @@ ENVO_01000176	shrubland biome	env_broad_scale	HydrocarbonResourcesCores					0.5|
 ENVO_01000176	shrubland biome	env_broad_scale	HydrocarbonResourcesFluidsSwabs					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.6
 ENVO_01000176	shrubland biome	env_broad_scale	MiscellaneousNaturalOrArtificialEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.8
 ENVO_01000176	shrubland biome	env_broad_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
-ENVO_01000177	grassland biome	env_broad_scale	Air	0.8|High confidence as grassland biomes can influence the composition of the air microbiome through the release of plant-associated microbes, spores, and other biological particles, but may have a lower impact compared to forest biomes due to lower biomass and structural complexity.				
-ENVO_01000177	grassland biome	env_broad_scale	HostAssociated	0.6|Moderate confidence as grassland biomes can host a variety of host-associated microbiomes, such as those associated with grazing animals, but acknowledging that this is not the primary focus of the HostAssociated package.				
-ENVO_01000177	grassland biome	env_broad_scale	MiscellaneousNaturalOrArtificialEnvironment	0.7|High confidence as grassland biomes could be included in the MiscellaneousNaturalOrArtificialEnvironment package if they do not fit into other more specific packages, but acknowledging that grassland biomes are often covered by other packages.				
+ENVO_01000177	grassland biome	env_broad_scale	Air	0.8|High confidence as grassland biomes can influence the composition of the air microbiome through the release of plant-associated microbes, spores, and other biological particles, but may have a lower impact compared to forest biomes due to lower biomass and structural complexity.				0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
+ENVO_01000177	grassland biome	env_broad_scale	HostAssociated	0.6|Moderate confidence as grassland biomes can host a variety of host-associated microbiomes, such as those associated with grazing animals, but acknowledging that this is not the primary focus of the HostAssociated package.				0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.7
+ENVO_01000177	grassland biome	env_broad_scale	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.8
+ENVO_01000177	grassland biome	env_broad_scale	HydrocarbonResourcesFluidsSwabs					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.6
+ENVO_01000177	grassland biome	env_broad_scale	MiscellaneousNaturalOrArtificialEnvironment	0.7|High confidence as grassland biomes could be included in the MiscellaneousNaturalOrArtificialEnvironment package if they do not fit into other more specific packages, but acknowledging that grassland biomes are often covered by other packages.				0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.8
 ENVO_01000177	grassland biome	env_broad_scale	PlantAssociated	0.95|Very high confidence as grassland biomes are dominated by grass species and often include a variety of other herbaceous plants, which host diverse plant-associated microbiomes.				
-ENVO_01000177	grassland biome	env_broad_scale	Soil	0.95|Very high confidence due to the strong association between grasslands and well-developed soil ecosystems.				
+ENVO_01000177	grassland biome	env_broad_scale	Soil	0.95|Very high confidence due to the strong association between grasslands and well-developed soil ecosystems.				0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
 ENVO_01000178	savanna biome	env_broad_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
 ENVO_01000178	savanna biome	env_broad_scale	HostAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.7
 ENVO_01000178	savanna biome	env_broad_scale	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.8
@@ -1879,7 +1882,7 @@ ENVO_01000184	subtropical desert biome	env_broad_scale	HydrocarbonResourcesCores
 ENVO_01000184	subtropical desert biome	env_broad_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000179/desert biome @ 0.6
 ENVO_01000185	montane desert biome	env_broad_scale	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000179/desert biome @ 0.6
 ENVO_01000185	montane desert biome	env_broad_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000179/desert biome @ 0.6
-ENVO_01000186	polar desert biome	env_broad_scale	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000179/desert biome @ 0.6
+ENVO_01000186	polar desert biome	env_broad_scale	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000339/polar biome @ 0.5
 ENVO_01000186	polar desert biome	env_broad_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000179/desert biome @ 0.6
 ENVO_01000187	subtropical savanna biome	env_broad_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
 ENVO_01000187	subtropical savanna biome	env_broad_scale	HostAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.7
@@ -1913,6 +1916,90 @@ ENVO_01000190	flooded savanna biome	env_broad_scale	MiscellaneousNaturalOrArtifi
 ENVO_01000190	flooded savanna biome	env_broad_scale	PlantAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000175/woodland biome @ 0.9
 ENVO_01000190	flooded savanna biome	env_broad_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
 ENVO_01000190	flooded savanna biome	env_broad_scale	SymbiontAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000178/savanna biome @ 0.8
+ENVO_01000191	subtropical grassland biome	env_broad_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000177/grassland biome @ 0.8
+ENVO_01000191	subtropical grassland biome	env_broad_scale	HostAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000177/grassland biome @ 0.6
+ENVO_01000191	subtropical grassland biome	env_broad_scale	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.8
+ENVO_01000191	subtropical grassland biome	env_broad_scale	HydrocarbonResourcesFluidsSwabs					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.6
+ENVO_01000191	subtropical grassland biome	env_broad_scale	MiscellaneousNaturalOrArtificialEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000177/grassland biome @ 0.7
+ENVO_01000191	subtropical grassland biome	env_broad_scale	PlantAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000177/grassland biome @ 0.95
+ENVO_01000191	subtropical grassland biome	env_broad_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
+ENVO_01000192	tropical grassland biome	env_broad_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000177/grassland biome @ 0.8
+ENVO_01000192	tropical grassland biome	env_broad_scale	HostAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000177/grassland biome @ 0.6
+ENVO_01000192	tropical grassland biome	env_broad_scale	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.8
+ENVO_01000192	tropical grassland biome	env_broad_scale	HydrocarbonResourcesFluidsSwabs					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.6
+ENVO_01000192	tropical grassland biome	env_broad_scale	MiscellaneousNaturalOrArtificialEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000177/grassland biome @ 0.7
+ENVO_01000192	tropical grassland biome	env_broad_scale	PlantAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000177/grassland biome @ 0.95
+ENVO_01000192	tropical grassland biome	env_broad_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
+ENVO_01000193	temperate grassland biome	env_broad_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000177/grassland biome @ 0.8
+ENVO_01000193	temperate grassland biome	env_broad_scale	HostAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000177/grassland biome @ 0.6
+ENVO_01000193	temperate grassland biome	env_broad_scale	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.8
+ENVO_01000193	temperate grassland biome	env_broad_scale	HydrocarbonResourcesFluidsSwabs					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.6
+ENVO_01000193	temperate grassland biome	env_broad_scale	MiscellaneousNaturalOrArtificialEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000177/grassland biome @ 0.7
+ENVO_01000193	temperate grassland biome	env_broad_scale	PlantAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000177/grassland biome @ 0.95
+ENVO_01000193	temperate grassland biome	env_broad_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
+ENVO_01000194	montane grassland biome	env_broad_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000177/grassland biome @ 0.8
+ENVO_01000194	montane grassland biome	env_broad_scale	HostAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000177/grassland biome @ 0.6
+ENVO_01000194	montane grassland biome	env_broad_scale	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.8
+ENVO_01000194	montane grassland biome	env_broad_scale	HydrocarbonResourcesFluidsSwabs					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.6
+ENVO_01000194	montane grassland biome	env_broad_scale	MiscellaneousNaturalOrArtificialEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000177/grassland biome @ 0.7
+ENVO_01000194	montane grassland biome	env_broad_scale	PlantAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000177/grassland biome @ 0.95
+ENVO_01000194	montane grassland biome	env_broad_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
+ENVO_01000195	flooded grassland biome	env_broad_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000177/grassland biome @ 0.8
+ENVO_01000195	flooded grassland biome	env_broad_scale	HostAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000177/grassland biome @ 0.6
+ENVO_01000195	flooded grassland biome	env_broad_scale	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.8
+ENVO_01000195	flooded grassland biome	env_broad_scale	HydrocarbonResourcesFluidsSwabs					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.6
+ENVO_01000195	flooded grassland biome	env_broad_scale	MiscellaneousNaturalOrArtificialEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000177/grassland biome @ 0.7
+ENVO_01000195	flooded grassland biome	env_broad_scale	PlantAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000177/grassland biome @ 0.95
+ENVO_01000195	flooded grassland biome	env_broad_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
+ENVO_01000196	coniferous forest biome	env_broad_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.8
+ENVO_01000196	coniferous forest biome	env_broad_scale	HostAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.6
+ENVO_01000196	coniferous forest biome	env_broad_scale	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.5
+ENVO_01000196	coniferous forest biome	env_broad_scale	HydrocarbonResourcesFluidsSwabs					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.6
+ENVO_01000196	coniferous forest biome	env_broad_scale	MiscellaneousNaturalOrArtificialEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.7
+ENVO_01000196	coniferous forest biome	env_broad_scale	PlantAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.95
+ENVO_01000196	coniferous forest biome	env_broad_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
+ENVO_01000197	broadleaf forest biome	env_broad_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.8
+ENVO_01000197	broadleaf forest biome	env_broad_scale	HostAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.6
+ENVO_01000197	broadleaf forest biome	env_broad_scale	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.5
+ENVO_01000197	broadleaf forest biome	env_broad_scale	HydrocarbonResourcesFluidsSwabs					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.6
+ENVO_01000197	broadleaf forest biome	env_broad_scale	MiscellaneousNaturalOrArtificialEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.7
+ENVO_01000197	broadleaf forest biome	env_broad_scale	PlantAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.95
+ENVO_01000197	broadleaf forest biome	env_broad_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
+ENVO_01000198	mixed forest biome	env_broad_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.8
+ENVO_01000198	mixed forest biome	env_broad_scale	HostAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.6
+ENVO_01000198	mixed forest biome	env_broad_scale	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.5
+ENVO_01000198	mixed forest biome	env_broad_scale	HydrocarbonResourcesFluidsSwabs					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.6
+ENVO_01000198	mixed forest biome	env_broad_scale	MiscellaneousNaturalOrArtificialEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.7
+ENVO_01000198	mixed forest biome	env_broad_scale	PlantAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.95
+ENVO_01000198	mixed forest biome	env_broad_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
+ENVO_01000199	mediterranean forest biome	env_broad_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.8
+ENVO_01000199	mediterranean forest biome	env_broad_scale	HostAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.6
+ENVO_01000199	mediterranean forest biome	env_broad_scale	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.5
+ENVO_01000199	mediterranean forest biome	env_broad_scale	HydrocarbonResourcesFluidsSwabs					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.6
+ENVO_01000199	mediterranean forest biome	env_broad_scale	MiscellaneousNaturalOrArtificialEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.7
+ENVO_01000199	mediterranean forest biome	env_broad_scale	PlantAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.95
+ENVO_01000199	mediterranean forest biome	env_broad_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
+ENVO_01000200	tropical broadleaf forest biome	env_broad_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.8
+ENVO_01000200	tropical broadleaf forest biome	env_broad_scale	HostAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.6
+ENVO_01000200	tropical broadleaf forest biome	env_broad_scale	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.5
+ENVO_01000200	tropical broadleaf forest biome	env_broad_scale	HydrocarbonResourcesFluidsSwabs					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.6
+ENVO_01000200	tropical broadleaf forest biome	env_broad_scale	MiscellaneousNaturalOrArtificialEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.7
+ENVO_01000200	tropical broadleaf forest biome	env_broad_scale	PlantAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.95
+ENVO_01000200	tropical broadleaf forest biome	env_broad_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
+ENVO_01000201	subtropical broadleaf forest biome	env_broad_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.8
+ENVO_01000201	subtropical broadleaf forest biome	env_broad_scale	HostAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.6
+ENVO_01000201	subtropical broadleaf forest biome	env_broad_scale	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.5
+ENVO_01000201	subtropical broadleaf forest biome	env_broad_scale	HydrocarbonResourcesFluidsSwabs					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.6
+ENVO_01000201	subtropical broadleaf forest biome	env_broad_scale	MiscellaneousNaturalOrArtificialEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.7
+ENVO_01000201	subtropical broadleaf forest biome	env_broad_scale	PlantAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.95
+ENVO_01000201	subtropical broadleaf forest biome	env_broad_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
+ENVO_01000202	temperate broadleaf forest biome	env_broad_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.8
+ENVO_01000202	temperate broadleaf forest biome	env_broad_scale	HostAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.6
+ENVO_01000202	temperate broadleaf forest biome	env_broad_scale	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.5
+ENVO_01000202	temperate broadleaf forest biome	env_broad_scale	HydrocarbonResourcesFluidsSwabs					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.6
+ENVO_01000202	temperate broadleaf forest biome	env_broad_scale	MiscellaneousNaturalOrArtificialEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.7
+ENVO_01000202	temperate broadleaf forest biome	env_broad_scale	PlantAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.95
+ENVO_01000202	temperate broadleaf forest biome	env_broad_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
 ENVO_01000208	mediterranean woodland biome	env_broad_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
 ENVO_01000208	mediterranean woodland biome	env_broad_scale	HostAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.7
 ENVO_01000208	mediterranean woodland biome	env_broad_scale	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.8
@@ -1920,6 +2007,34 @@ ENVO_01000208	mediterranean woodland biome	env_broad_scale	HydrocarbonResourcesF
 ENVO_01000208	mediterranean woodland biome	env_broad_scale	MiscellaneousNaturalOrArtificialEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.8
 ENVO_01000208	mediterranean woodland biome	env_broad_scale	PlantAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000175/woodland biome @ 0.9
 ENVO_01000208	mediterranean woodland biome	env_broad_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
+ENVO_01000209	subtropical coniferous forest biome	env_broad_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.8
+ENVO_01000209	subtropical coniferous forest biome	env_broad_scale	HostAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.6
+ENVO_01000209	subtropical coniferous forest biome	env_broad_scale	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.5
+ENVO_01000209	subtropical coniferous forest biome	env_broad_scale	HydrocarbonResourcesFluidsSwabs					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.6
+ENVO_01000209	subtropical coniferous forest biome	env_broad_scale	MiscellaneousNaturalOrArtificialEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.7
+ENVO_01000209	subtropical coniferous forest biome	env_broad_scale	PlantAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.95
+ENVO_01000209	subtropical coniferous forest biome	env_broad_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
+ENVO_01000210	tropical coniferous forest biome	env_broad_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.8
+ENVO_01000210	tropical coniferous forest biome	env_broad_scale	HostAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.6
+ENVO_01000210	tropical coniferous forest biome	env_broad_scale	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.5
+ENVO_01000210	tropical coniferous forest biome	env_broad_scale	HydrocarbonResourcesFluidsSwabs					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.6
+ENVO_01000210	tropical coniferous forest biome	env_broad_scale	MiscellaneousNaturalOrArtificialEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.7
+ENVO_01000210	tropical coniferous forest biome	env_broad_scale	PlantAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.95
+ENVO_01000210	tropical coniferous forest biome	env_broad_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
+ENVO_01000211	temperate coniferous forest biome	env_broad_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.8
+ENVO_01000211	temperate coniferous forest biome	env_broad_scale	HostAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.6
+ENVO_01000211	temperate coniferous forest biome	env_broad_scale	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.5
+ENVO_01000211	temperate coniferous forest biome	env_broad_scale	HydrocarbonResourcesFluidsSwabs					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.6
+ENVO_01000211	temperate coniferous forest biome	env_broad_scale	MiscellaneousNaturalOrArtificialEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.7
+ENVO_01000211	temperate coniferous forest biome	env_broad_scale	PlantAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.95
+ENVO_01000211	temperate coniferous forest biome	env_broad_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
+ENVO_01000212	temperate mixed forest biome	env_broad_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.8
+ENVO_01000212	temperate mixed forest biome	env_broad_scale	HostAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.6
+ENVO_01000212	temperate mixed forest biome	env_broad_scale	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.5
+ENVO_01000212	temperate mixed forest biome	env_broad_scale	HydrocarbonResourcesFluidsSwabs					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.6
+ENVO_01000212	temperate mixed forest biome	env_broad_scale	MiscellaneousNaturalOrArtificialEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.7
+ENVO_01000212	temperate mixed forest biome	env_broad_scale	PlantAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.95
+ENVO_01000212	temperate mixed forest biome	env_broad_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
 ENVO_01000213	subtropical shrubland biome	env_broad_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
 ENVO_01000213	subtropical shrubland biome	env_broad_scale	HostAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.7
 ENVO_01000213	subtropical shrubland biome	env_broad_scale	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.8
@@ -1994,6 +2109,41 @@ ENVO_01000223	montane savanna biome	env_broad_scale	MiscellaneousNaturalOrArtifi
 ENVO_01000223	montane savanna biome	env_broad_scale	PlantAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000175/woodland biome @ 0.9
 ENVO_01000223	montane savanna biome	env_broad_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
 ENVO_01000223	montane savanna biome	env_broad_scale	SymbiontAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000178/savanna biome @ 0.8
+ENVO_01000224	mediterranean grassland biome	env_broad_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000177/grassland biome @ 0.8
+ENVO_01000224	mediterranean grassland biome	env_broad_scale	HostAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000177/grassland biome @ 0.6
+ENVO_01000224	mediterranean grassland biome	env_broad_scale	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.8
+ENVO_01000224	mediterranean grassland biome	env_broad_scale	HydrocarbonResourcesFluidsSwabs					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.6
+ENVO_01000224	mediterranean grassland biome	env_broad_scale	MiscellaneousNaturalOrArtificialEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000177/grassland biome @ 0.7
+ENVO_01000224	mediterranean grassland biome	env_broad_scale	PlantAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000177/grassland biome @ 0.95
+ENVO_01000224	mediterranean grassland biome	env_broad_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
+ENVO_01000225	subtropical dry broadleaf forest biome	env_broad_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.8
+ENVO_01000225	subtropical dry broadleaf forest biome	env_broad_scale	HostAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.6
+ENVO_01000225	subtropical dry broadleaf forest biome	env_broad_scale	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.5
+ENVO_01000225	subtropical dry broadleaf forest biome	env_broad_scale	HydrocarbonResourcesFluidsSwabs					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.6
+ENVO_01000225	subtropical dry broadleaf forest biome	env_broad_scale	MiscellaneousNaturalOrArtificialEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.7
+ENVO_01000225	subtropical dry broadleaf forest biome	env_broad_scale	PlantAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.95
+ENVO_01000225	subtropical dry broadleaf forest biome	env_broad_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
+ENVO_01000226	subtropical moist broadleaf forest biome	env_broad_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.8
+ENVO_01000226	subtropical moist broadleaf forest biome	env_broad_scale	HostAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.6
+ENVO_01000226	subtropical moist broadleaf forest biome	env_broad_scale	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.5
+ENVO_01000226	subtropical moist broadleaf forest biome	env_broad_scale	HydrocarbonResourcesFluidsSwabs					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.6
+ENVO_01000226	subtropical moist broadleaf forest biome	env_broad_scale	MiscellaneousNaturalOrArtificialEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.7
+ENVO_01000226	subtropical moist broadleaf forest biome	env_broad_scale	PlantAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.95
+ENVO_01000226	subtropical moist broadleaf forest biome	env_broad_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
+ENVO_01000227	tropical dry broadleaf forest biome	env_broad_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.8
+ENVO_01000227	tropical dry broadleaf forest biome	env_broad_scale	HostAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.6
+ENVO_01000227	tropical dry broadleaf forest biome	env_broad_scale	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.5
+ENVO_01000227	tropical dry broadleaf forest biome	env_broad_scale	HydrocarbonResourcesFluidsSwabs					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.6
+ENVO_01000227	tropical dry broadleaf forest biome	env_broad_scale	MiscellaneousNaturalOrArtificialEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.7
+ENVO_01000227	tropical dry broadleaf forest biome	env_broad_scale	PlantAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.95
+ENVO_01000227	tropical dry broadleaf forest biome	env_broad_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
+ENVO_01000228	tropical moist broadleaf forest biome	env_broad_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.8
+ENVO_01000228	tropical moist broadleaf forest biome	env_broad_scale	HostAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.6
+ENVO_01000228	tropical moist broadleaf forest biome	env_broad_scale	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.5
+ENVO_01000228	tropical moist broadleaf forest biome	env_broad_scale	HydrocarbonResourcesFluidsSwabs					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.6
+ENVO_01000228	tropical moist broadleaf forest biome	env_broad_scale	MiscellaneousNaturalOrArtificialEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.7
+ENVO_01000228	tropical moist broadleaf forest biome	env_broad_scale	PlantAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.95
+ENVO_01000228	tropical moist broadleaf forest biome	env_broad_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
 ENVO_01000229	mediterranean savanna biome	env_broad_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
 ENVO_01000229	mediterranean savanna biome	env_broad_scale	HostAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.7
 ENVO_01000229	mediterranean savanna biome	env_broad_scale	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.8
@@ -2003,15 +2153,16 @@ ENVO_01000229	mediterranean savanna biome	env_broad_scale	PlantAssociated					0.
 ENVO_01000229	mediterranean savanna biome	env_broad_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
 ENVO_01000229	mediterranean savanna biome	env_broad_scale	SymbiontAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000178/savanna biome @ 0.8
 ENVO_01000236	basalt	env_medium	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00001995/rock @ 1.0
-ENVO_01000245	cropland biome	env_broad_scale	Agriculture	1.0|Exact match between cropland biomes and agricultural environments.				
-ENVO_01000246	village biome	env_broad_scale	Agriculture	0.7|Moderate to high confidence as villages are often associated with agricultural activities, but acknowledging the presence of non-agricultural aspects within villages.				0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000219/anthropogenic terrestrial biome @ 0.8
-ENVO_01000246	village biome	env_broad_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000219/anthropogenic terrestrial biome @ 0.9
-ENVO_01000246	village biome	env_broad_scale	BuiltEnvironment	0.8|High confidence as villages typically include built structures, but acknowledging potential variations in rural or less developed areas.				0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000219/anthropogenic terrestrial biome @ 0.9
-ENVO_01000246	village biome	env_broad_scale	HostAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.7
-ENVO_01000246	village biome	env_broad_scale	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.8
-ENVO_01000246	village biome	env_broad_scale	HydrocarbonResourcesFluidsSwabs					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.6
-ENVO_01000246	village biome	env_broad_scale	MiscellaneousNaturalOrArtificialEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.8
-ENVO_01000246	village biome	env_broad_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
+ENVO_01000245	cropland biome	env_broad_scale	Agriculture	1.0|Exact match between cropland biomes and agricultural environments.				0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000219/anthropogenic terrestrial biome @ 0.8
+ENVO_01000245	cropland biome	env_broad_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000219/anthropogenic terrestrial biome @ 0.9
+ENVO_01000245	cropland biome	env_broad_scale	BuiltEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000219/anthropogenic terrestrial biome @ 0.9
+ENVO_01000245	cropland biome	env_broad_scale	HostAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.7
+ENVO_01000245	cropland biome	env_broad_scale	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.8
+ENVO_01000245	cropland biome	env_broad_scale	HydrocarbonResourcesFluidsSwabs					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.6
+ENVO_01000245	cropland biome	env_broad_scale	MiscellaneousNaturalOrArtificialEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.8
+ENVO_01000245	cropland biome	env_broad_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
+ENVO_01000246	village biome	env_broad_scale	Agriculture	0.7|Moderate to high confidence as villages are often associated with agricultural activities, but acknowledging the presence of non-agricultural aspects within villages.				
+ENVO_01000246	village biome	env_broad_scale	BuiltEnvironment	0.8|High confidence as villages typically include built structures, but acknowledging potential variations in rural or less developed areas.				
 ENVO_01000247	rangeland biome	env_broad_scale	Agriculture	0.9|High confidence as rangelands are primarily used for livestock grazing, a key component of agriculture, but acknowledging potential non-agricultural rangeland uses.				0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000219/anthropogenic terrestrial biome @ 0.8
 ENVO_01000247	rangeland biome	env_broad_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000219/anthropogenic terrestrial biome @ 0.9
 ENVO_01000247	rangeland biome	env_broad_scale	BuiltEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000219/anthropogenic terrestrial biome @ 0.9
@@ -2020,22 +2171,15 @@ ENVO_01000247	rangeland biome	env_broad_scale	HydrocarbonResourcesCores					0.5|
 ENVO_01000247	rangeland biome	env_broad_scale	HydrocarbonResourcesFluidsSwabs					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.6
 ENVO_01000247	rangeland biome	env_broad_scale	MiscellaneousNaturalOrArtificialEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.8
 ENVO_01000247	rangeland biome	env_broad_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
-ENVO_01000248	dense settlement biome	env_broad_scale	Agriculture					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000219/anthropogenic terrestrial biome @ 0.8
-ENVO_01000248	dense settlement biome	env_broad_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000219/anthropogenic terrestrial biome @ 0.9
-ENVO_01000248	dense settlement biome	env_broad_scale	BuiltEnvironment	0.95|High confidence due to the strong association between dense settlements and built environments, with a small allowance for potential edge cases.				0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000219/anthropogenic terrestrial biome @ 0.9
-ENVO_01000248	dense settlement biome	env_broad_scale	HostAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.7
-ENVO_01000248	dense settlement biome	env_broad_scale	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.8
-ENVO_01000248	dense settlement biome	env_broad_scale	HydrocarbonResourcesFluidsSwabs					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.6
-ENVO_01000248	dense settlement biome	env_broad_scale	MiscellaneousNaturalOrArtificialEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.8
-ENVO_01000248	dense settlement biome	env_broad_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
-ENVO_01000249	urban biome	env_broad_scale	Agriculture					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000219/anthropogenic terrestrial biome @ 0.8
-ENVO_01000249	urban biome	env_broad_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000219/anthropogenic terrestrial biome @ 0.9
-ENVO_01000249	urban biome	env_broad_scale	BuiltEnvironment	1.0|Exact match between urban biomes and built environments.				0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000219/anthropogenic terrestrial biome @ 0.9
-ENVO_01000249	urban biome	env_broad_scale	HostAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.7
-ENVO_01000249	urban biome	env_broad_scale	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.8
-ENVO_01000249	urban biome	env_broad_scale	HydrocarbonResourcesFluidsSwabs					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.6
-ENVO_01000249	urban biome	env_broad_scale	MiscellaneousNaturalOrArtificialEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.8
-ENVO_01000249	urban biome	env_broad_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
+ENVO_01000248	dense settlement biome	env_broad_scale	BuiltEnvironment	0.95|High confidence due to the strong association between dense settlements and built environments, with a small allowance for potential edge cases.				
+ENVO_01000249	urban biome	env_broad_scale	BuiltEnvironment	1.0|Exact match between urban biomes and built environments.				0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000248/dense settlement biome @ 0.95
+ENVO_01000250	subpolar coniferous forest biome	env_broad_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.8
+ENVO_01000250	subpolar coniferous forest biome	env_broad_scale	HostAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.6
+ENVO_01000250	subpolar coniferous forest biome	env_broad_scale	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.5
+ENVO_01000250	subpolar coniferous forest biome	env_broad_scale	HydrocarbonResourcesFluidsSwabs					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.6
+ENVO_01000250	subpolar coniferous forest biome	env_broad_scale	MiscellaneousNaturalOrArtificialEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.7
+ENVO_01000250	subpolar coniferous forest biome	env_broad_scale	PlantAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.95
+ENVO_01000250	subpolar coniferous forest biome	env_broad_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
 ENVO_01000252	freshwater lake biome	env_broad_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00002030/aquatic biome @ 0.7
 ENVO_01000252	freshwater lake biome	env_broad_scale	HydrocarbonResourcesFluidsSwabs					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00002030/aquatic biome @ 0.8
 ENVO_01000252	freshwater lake biome	env_broad_scale	MicrobialMatBiofilm					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000873/freshwater biome @ 0.9
@@ -2271,8 +2415,6 @@ ENVO_01000627	feedlot	env_local_scale	Agriculture					0.5|Inferred from claude-3
 ENVO_01000627	feedlot	env_local_scale	PlantAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-08T09:30 EDT: ENVO_00000077/agricultural ecosystem @ 0.9
 ENVO_01000638	planetary crust	env_local_scale	HydrocarbonResourcesCores				0.8|The planetary crust, particularly the upper crust where most hydrocarbon resources are found, provides important regional context for hydrocarbon resource cores in terms of the broader geological setting.	
 ENVO_01000638	planetary crust	env_local_scale	HydrocarbonResourcesFluidsSwabs				0.7|The planetary crust, particularly the upper crust where most hydrocarbon resources are found, provides regional context for hydrocarbon resource fluids and swabs in terms of the broader geological setting.	
-ENVO_01000653	slum	env_local_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-08T09:30 EDT: ENVO_00000062/populated place @ 0.7
-ENVO_01000658	dense settlement	env_local_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-08T09:30 EDT: ENVO_00000062/populated place @ 0.7
 ENVO_01000661	tuff	env_medium	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00001995/rock @ 1.0
 ENVO_01000662	scoria	env_medium	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00001995/rock @ 1.0
 ENVO_01000663	pumice	env_medium	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00001995/rock @ 1.0
@@ -2295,15 +2437,8 @@ ENVO_01000744	human dwelling	env_local_scale	Water					0.5|Inferred from claude-
 ENVO_01000748	continental crust	env_local_scale	HydrocarbonResourcesCores				0.8|The continental crust, which is typically thicker and less dense than oceanic crust, provides important regional context for hydrocarbon resource cores in terms of the geological setting and potential hydrocarbon-bearing formations.	
 ENVO_01000748	continental crust	env_local_scale	HydrocarbonResourcesFluidsSwabs				0.7|The continental crust, which is typically thicker and less dense than oceanic crust, provides regional context for hydrocarbon resource fluids and swabs in terms of the geological setting and potential hydrocarbon-bearing formations.	
 ENVO_01000751	bedrock	env_medium	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00001995/rock @ 1.0
-ENVO_01000762	sparsely populated settlement	env_local_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-08T09:30 EDT: ENVO_00000062/populated place @ 0.7
-ENVO_01000763	rural settlement	env_local_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-08T09:30 EDT: ENVO_00000062/populated place @ 0.7
-ENVO_01000764	formal settlement	env_local_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-08T09:30 EDT: ENVO_00000062/populated place @ 0.7
-ENVO_01000765	informal settlement	env_local_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-08T09:30 EDT: ENVO_00000062/populated place @ 0.7
-ENVO_01000766	legal settlement	env_local_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-08T09:30 EDT: ENVO_00000062/populated place @ 0.7
-ENVO_01000767	illegal settlement	env_local_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-08T09:30 EDT: ENVO_00000062/populated place @ 0.7
 ENVO_01000771	all season road	env_local_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T18:40 EDT: ENVO_00000064/road @ 0.7
 ENVO_01000771	all season road	env_local_scale	BuiltEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T18:40 EDT: ENVO_00000010/transport feature @ 0.7
-ENVO_01000773	village	env_local_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-08T09:30 EDT: ENVO_00000062/populated place @ 0.7
 ENVO_01000774	oligotrophic lake	env_local_scale	Water					0.5|Inferred from claude-3-opus-20240229 2024-05-08T09:30 EDT: ENVO_00000020/lake @ 0.95
 ENVO_01000775	mesotrophic lake	env_local_scale	Water					0.5|Inferred from claude-3-opus-20240229 2024-05-08T09:30 EDT: ENVO_00000020/lake @ 0.95
 ENVO_01000780	public road	env_local_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T18:40 EDT: ENVO_00000064/road @ 0.7
@@ -2312,7 +2447,6 @@ ENVO_01000781	public building	env_local_scale	Air					0.5|Inferred from claude-3
 ENVO_01000781	public building	env_local_scale	BuiltEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T18:40 EDT: ENVO_00000073/building @ 0.95
 ENVO_01000781	public building	env_local_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-08T09:30 EDT: ENVO_00000073/building @ 0.6
 ENVO_01000781	public building	env_local_scale	Water					0.5|Inferred from claude-3-opus-20240229 2024-05-08T09:30 EDT: ENVO_00000073/building @ 0.6
-ENVO_01000784	illegal informal settlement	env_local_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-08T09:30 EDT: ENVO_00000062/populated place @ 0.7
 ENVO_01000821	hydrothermally-influenced sediment	env_medium	Sediment		0.8|Hydrothermally-influenced sediment, which is sediment affected by the flow of hot, chemically-altered fluids from hydrothermal vents or seeps, can be a relevant environmental medium for studies of extreme microbial communities and unique biogeochemical processes in sediments.			
 ENVO_01000824	exorheic lake	env_local_scale	Water					0.5|Inferred from claude-3-opus-20240229 2024-05-08T09:30 EDT: ENVO_00000020/lake @ 0.95
 ENVO_01000828	humid air	env_medium	Air		0.9|Humid air is a specific type of air with high water vapor content, which may be relevant in some air sampling contexts.			0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00002005/air @ 1.0
@@ -2698,6 +2832,13 @@ ENVO_01001638	frost-susceptible soil	env_medium	MiscellaneousNaturalOrArtificial
 ENVO_01001638	frost-susceptible soil	env_medium	PlantAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00001998/soil @ 0.9
 ENVO_01001638	frost-susceptible soil	env_medium	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00001998/soil @ 1.0
 ENVO_01001653	well-mixed estuary	env_local_scale	Water					0.5|Inferred from claude-3-opus-20240229 2024-05-08T09:30 EDT: ENVO_00000045/estuary @ 0.9
+ENVO_01001798	tropical mixed forest biome	env_broad_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.8
+ENVO_01001798	tropical mixed forest biome	env_broad_scale	HostAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.6
+ENVO_01001798	tropical mixed forest biome	env_broad_scale	HydrocarbonResourcesCores					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.5
+ENVO_01001798	tropical mixed forest biome	env_broad_scale	HydrocarbonResourcesFluidsSwabs					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.6
+ENVO_01001798	tropical mixed forest biome	env_broad_scale	MiscellaneousNaturalOrArtificialEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.7
+ENVO_01001798	tropical mixed forest biome	env_broad_scale	PlantAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_01000174/forest biome @ 0.95
+ENVO_01001798	tropical mixed forest biome	env_broad_scale	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000446/terrestrial biome @ 0.9
 ENVO_01001815	cell culturing	env_medium	MicrobialMatBiofilm					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_02000007/sediment @ 0.9
 ENVO_01001821	hydrothermally-influenced sediment	env_medium	Agriculture					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00002007/sediment @ 0.8
 ENVO_01001821	hydrothermally-influenced sediment	env_medium	HostAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00002007/sediment @ 0.6
@@ -3233,8 +3374,27 @@ ENVO_03600081	cloud water	env_medium	MicrobialMatBiofilm					0.5|Inferred from c
 ENVO_03600081	cloud water	env_medium	MiscellaneousNaturalOrArtificialEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00002006/liquid water @ 0.9
 ENVO_03600081	cloud water	env_medium	Water					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00002011/fresh water @ 0.9
 ENVO_03600082	crustal fluid	env_medium	HydrocarbonResourcesFluidsSwabs		0.7|Crustal fluids, which are fluids that circulate in the Earth's crust, may be encountered in some deep hydrocarbon reservoirs and could be sampled in fluids or swabs.			
-ENVO_03605000	periphytic biofilm	env_medium	MicrobialMatBiofilm		0.9|Periphytic biofilm refers specifically to biofilms that form on submerged surfaces in aquatic environments, making it a relevant sub-category of biofilm material for this package.			
-ENVO_03605008	freshwater stream biome	env_broad_scale	Water	1.0|Exact match between freshwater stream biomes and water environments.				
+ENVO_03600092	artificial pond	env_local_scale	Water					0.5|Inferred from claude-3-opus-20240229 2024-05-08T09:30 EDT: ENVO_00000033/pond @ 0.8
+ENVO_03605000	periphytic biofilm	env_medium	MicrobialMatBiofilm		0.9|Periphytic biofilm refers specifically to biofilms that form on submerged surfaces in aquatic environments, making it a relevant sub-category of biofilm material for this package.			0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_01000156/biofilm material @ 1.0
+ENVO_03605001	epilithon	env_medium	MicrobialMatBiofilm					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_03605000/periphytic biofilm @ 0.9
+ENVO_03605002	epipelon	env_medium	MicrobialMatBiofilm					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_03605000/periphytic biofilm @ 0.9
+ENVO_03605003	epiphyton	env_medium	MicrobialMatBiofilm					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_03605000/periphytic biofilm @ 0.9
+ENVO_03605004	epipsammon	env_medium	MicrobialMatBiofilm					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_03605000/periphytic biofilm @ 0.9
+ENVO_03605005	epixylon	env_medium	MicrobialMatBiofilm					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_03605000/periphytic biofilm @ 0.9
+ENVO_03605006	stream water	env_medium	Agriculture					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00002006/liquid water @ 0.9
+ENVO_03605006	stream water	env_medium	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00002006/liquid water @ 0.6
+ENVO_03605006	stream water	env_medium	BuiltEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00002006/liquid water @ 0.8
+ENVO_03605006	stream water	env_medium	HydrocarbonResourcesFluidsSwabs					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00002006/liquid water @ 0.9
+ENVO_03605006	stream water	env_medium	MicrobialMatBiofilm					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00002006/liquid water @ 0.8
+ENVO_03605006	stream water	env_medium	MiscellaneousNaturalOrArtificialEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00002006/liquid water @ 0.9
+ENVO_03605006	stream water	env_medium	Water					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00002006/liquid water @ 1.0
+ENVO_03605007	freshwater stream	env_local_scale	Water					0.5|Inferred from claude-3-opus-20240229 2024-05-08T09:30 EDT: ENVO_00000029/watercourse @ 0.9
+ENVO_03605008	freshwater stream biome	env_broad_scale	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00002030/aquatic biome @ 0.7
+ENVO_03605008	freshwater stream biome	env_broad_scale	HydrocarbonResourcesFluidsSwabs					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00002030/aquatic biome @ 0.8
+ENVO_03605008	freshwater stream biome	env_broad_scale	MicrobialMatBiofilm					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000873/freshwater biome @ 0.9
+ENVO_03605008	freshwater stream biome	env_broad_scale	MiscellaneousNaturalOrArtificialEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00002030/aquatic biome @ 0.8
+ENVO_03605008	freshwater stream biome	env_broad_scale	Sediment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00000873/freshwater biome @ 0.95
+ENVO_03605008	freshwater stream biome	env_broad_scale	Water	1.0|Exact match between freshwater stream biomes and water environments.				0.5|Inferred from claude-3-opus-20240229 2024-05-07T11:45 EDT: ENVO_00002030/aquatic biome @ 1.0
 ENVO_04000007	lake water	env_medium	Agriculture					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00002006/liquid water @ 0.9
 ENVO_04000007	lake water	env_medium	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00002006/liquid water @ 0.6
 ENVO_04000007	lake water	env_medium	BuiltEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00002006/liquid water @ 0.8
@@ -3242,6 +3402,10 @@ ENVO_04000007	lake water	env_medium	HydrocarbonResourcesFluidsSwabs					0.5|Infe
 ENVO_04000007	lake water	env_medium	MicrobialMatBiofilm					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00002006/liquid water @ 0.8
 ENVO_04000007	lake water	env_medium	MiscellaneousNaturalOrArtificialEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00002006/liquid water @ 0.9
 ENVO_04000007	lake water	env_medium	Water					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00002006/liquid water @ 1.0
+ENVO_06105205	compacted soil	env_medium	Agriculture					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00001998/soil @ 1.0
+ENVO_06105205	compacted soil	env_medium	MiscellaneousNaturalOrArtificialEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00001998/soil @ 0.8
+ENVO_06105205	compacted soil	env_medium	PlantAssociated					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00001998/soil @ 0.9
+ENVO_06105205	compacted soil	env_medium	Soil					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00001998/soil @ 1.0
 ENVO_06105211	runoff	env_medium	Agriculture					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00002006/liquid water @ 0.9
 ENVO_06105211	runoff	env_medium	Air					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00002006/liquid water @ 0.6
 ENVO_06105211	runoff	env_medium	BuiltEnvironment					0.5|Inferred from claude-3-opus-20240229 2024-05-07T17:00 EDT: ENVO_00002006/liquid water @ 0.8

@@ -247,3 +247,20 @@ examples/varied-training-minimal-comments.yaml: src/context_collaboration/schema
 
 biome-labels.tsv:
 	date && time $(RUN) runoak -i sqlite:obo:envo info --output-type csv --output $@ .desc//p=i 'biome'
+
+
+
+terrestrial-biome.txt:
+	$(RUN) runoak -i sqlite:obo:envo info .desc//p=i "terrestrial biome" | sort -t'!' -k2 > $@
+
+non-aquatic-biome.txt:
+	$(RUN) runoak -i sqlite:obo:envo info .desc//p=i biome .not .desc//p=i "aquatic biome" | sort -t'!' -k2 > $@
+
+non-aquatic-non-terrestrial-biome.txt:
+	$(RUN) runoak -i sqlite:obo:envo info .desc//p=i biome .not [ .desc//p=i "aquatic biome" .or .desc//p=i "terrestrial biome" ]  | sort -t'!' -k2 > $@
+
+non-aquatic-biome-tree.txt:
+	$(RUN) runoak -i sqlite:obo:envo tree -p i .desc//p=i biome .not [ .desc//p=i "aquatic biome" ] > $@
+
+#built-environment-mrca.txt:
+#	$(RUN) runoak -i sqlite:obo:envo info .mrca//p=i  "dense settlement biome" .and .mrca//p=i "village biome"
